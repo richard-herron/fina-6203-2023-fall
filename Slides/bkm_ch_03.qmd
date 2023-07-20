@@ -1,0 +1,229 @@
+---
+title: Chapter 3 - How Securities Are Traded
+---
+
+## How Firms Issue Securities
+
+### Firms raise funds by borrowing money or selling ownership shares
+
+- Primary market: First offers new securities to the public, and funds flow from buyers to firms
+- Secondary market: Trades existing securities, and funds flow from buyers to sellers
+
+### Privately held firms: A small number of managers and investors hold all shares, which do not trade in public markets
+
+- Pros
+	- Firms have weaker obligations to disclose information to the public than do public firms
+	- Less disclosure saves money, avoids revealing secrets to competitors, and may help private firms pursue long-term goals without the pressure of quarterly earnings announcements
+	- Security and Exchange (SEC) Rule 144A private placements avoid lengthy and costly registration statements
+- Cons
+	- Private placements do not trade in public markets, reducing their liquidity and valuations
+	- Previously limited to 499 shareholders, but the JOBS Act of 2012 increased this limit to 1999 shareholders
+
+### Liquidity is the ability to trade an asset at a fair price in the desired quantity and time
+
+- Liquid stocks can be traded in large volumes on short notice without substantially changing their prices
+- Illiquid stocks may be difficult to buy or sell without causing price volatility
+
+### Publicly-traded companies: Shares continually trade in public markets among diverse investors
+
+- Initial public offering (IPO): First sale of shares to the general public
+- Seasoned equity offering (SEO): Sale of additional shares in an already-publicly-traded firm 
+- Syndicates of investment bankers, in their roles as underwriters, typically market public offerings of stocks and bonds
+	- Advise firms on the terms of the offering
+	- Register the offering with the SEC; the final, accepted registration is called a prospectus
+	- In firm-commitment underwriting, investment bankers purchase all securities at a discount, which compensates the underwriters and eliminates the risk for the firm
+
+### "Shelf registrations" let public firms issue securities on short notice with little additional paperwork
+
+- SEC Rule 415 for seasoned offerings lets already publicly traded firms register securities and gradually sell them to the public over the next three years
+- These securities are "on the shelf" and ready for issue
+- Shelf registrations let public firms sell securities in small amounts on short notice with little additional paperwork and low flotation costs
+
+### IPOs are a lengthy process for underwriters, who typically bear the risk
+
+- Register security with SEC, and distribute preliminary prospectus to potential investors
+- Travel the country to visit potential investors, generating interest and providing information
+- Estimate investor demand (i.e., price and quantity) by "book building"
+- Allocate security to investors, in part based on their expressed interest
+
+### IPOs are often underpriced compared to their market prices
+
+- However, some IPO prices are too high and do not fully sell
+- Underwriters bear this risk in firm commitment underwriting
+
+## How Securities Are Traded
+
+### There are four broad types of markets: Direct-search, brokered, dealer, and auction
+
+- Direct search markets: Buyers and sellers search for each other directly
+	- Characterized by sporadic participation and non-standard goods
+	- Examples: Craiglist and newspaper ads
+- Brokered markets: Brokers offer search services to connect buyers and sellers
+	- Examples: Real estate and interdealer markets
+- Dealer markets: Buyers and sellers trade with dealers
+	- Dealers maintain inventories and profit from the spread between buy and sell prices
+	- Examples: Bond and foreign exchange markets
+- Auction markets: Buyers and sellers trade with each other directly
+	- Designated market makers (DMM) maintain orderly markets
+	- Examples: New York Stock Exchange (NYSE)
+
+### There are two broad types of orders: Market and price-contingent
+
+- Market orders execute immediately at the best available price
+	- Buys execute at the lowest ask price
+	- Sells execute at the highest bid price
+- Price-contingent orders specify the price at which they execute
+	- Limit orders specify the desired execution price
+		- Buy limit orders specify the maximum price the buyer is willing to pay
+		- Sell limit orders specify the minimum price the seller is willing to accept
+		- Limit orders may not immediately execute
+	- Stop orders become market orders when the price reaches a specified price
+		- Buy stop orders become market orders when the price rises to or exceeds the specified price
+		- Sell stop orders become market orders when the price falls to or below the specified price
+
+### Limit order books are collections of limit orders waiting to execute
+
+![A portion of the limit order book for MSFT on th CBOE Gloval Markets, August 4, 2021 [@bodie_investments_2023, Figure 3.4]](./Figures/bod12665_0304.png){height=50%}
+
+### Investors buy and sell shares via brokers, who execute trades on one of several market types
+
+- Over-the-counter (OTC) dealer markets
+	- Security dealers quote prices to buy or sell securities
+	- Brokers contact dealers to facilitate trades between buyers and sellers
+- Electronic communication networks (ECNs)
+	- Participants electronically submit market and limit orders
+	- Orders match automatically without broker intervention
+	- Offers speed, anonymity, and cost advantages
+- Specialist markets (largely replaced by ECNs)
+	- Exchanges assign specialists to manage each security
+	- Specialists maintain the limit order book, execute trades, provide liquidity, and maintain a fair and orderly market
+
+## The Rise of Electronic Trading
+
+### ECNs are the dominant market type...
+
+- New regulations allowed brokers to compete, broke the hold of dealers on price information, forced market integration, and allowed smaller price increments (tick sizes)
+- Technology enabled rapid price comparison and directed trades to markets with the best prices, leading to competition between markets and lower trade execution costs
+- The SEC's Regulation National Market System (NMS) facilitated the electronic linkage of exchanges, creating an integrated electronic market
+- Trading today is predominantly electronic, especially for stocks, with the share of electronic trading increasing significantly
+
+<!-- ## U.S. Markets
+
+### NYSE and NASDAQ remain the two largest U.S. stock markets...
+
+- New York Stock Exchange (NYSE)
+	- Largest U.S. stock exchange by value of listed stocks
+	- Merged with Archipelago Exchange, Euronext, and American Stock Exchange (AMEX)
+- National Association of Securities Dealers Automated Quotation System (NASDAQ)
+	- Largest U.S. stock exchange by number of listed stocks
+	- Merged with OMX Group, maintaining NASDAQ Stock Market and other stock markets in Europe
+- Electronic Communication Networks (ECNs)
+	- Direct Edge, BATS, and NYSE Arca are major ECNs
+	- ECNs offer fully automated trading, matching orders immediately
+	- Cross-market links allow high-frequency traders to exploit price discrepancies
+	- Latency times are crucial, with speed being a competitive factor -->
+
+### ...and have steadily increased their share in the U.S.
+
+![Market share of trading in NYSE-listed shares [@bodie_investments_2023, Figure 3.6]](./Figures/bod12665_0306.png){height=50%}
+
+## New Trading Strategies
+
+### Electronic trading allows unique strategies
+
+- Algorithmic trading uses computer programs to make trading decisions
+	- Exploits small price discrepancies
+	- Strategies include short-term trend trading and pairs trading
+- High-frequency trading is a subset of algorithmic trading based on rapid decision-making
+	- Trade-execution times measured in milli- or micro-seconds
+	- Strategies include market-making and cross-market arbitrage
+- Dark pools are trading venues that provide anonymity
+	- Execute large trades without revealing intentions or reporting details
+	- Controversial due to market fragmentation and liquidity impact
+- Bond trading still occurs primarily in the OTC market among bond dealers
+
+## Globalization of Stock Markets
+
+### U.S. stock markets have about half of the worldwide stock market capitalization, but many markets are international allegiances
+
+![The biggest stock markets in the world by domestic market capitalization [@bodie_investments_2023, Figure 3.7]](./Figures/bod12665_0307.png){height=50%}
+
+## Trading Costs
+
+### Trading costs are both explicit and implicit
+
+- Explicit costs include fees and commissions
+	- Full-service brokers provide a wide range of services and advice
+	- Discount brokers provide "no-frills" services at lower costs
+- Implicit costs include bid-ask spreads and price concessions for large orders
+	- Bid-ask spreads compensate for providing liquidity and facing adverse selection
+	- Spreads are wider for stocks with smaller market capitalization, lower liquidity, and limited analyst coverage 
+	- To trade large orders, buyers and sellers may need to accept less attractive prices
+
+## Buying on Margin
+
+### Investors can access debt financing with "broker’s call loans"
+
+- "Buying on margin" is borrowing part of the purchase price of the stock
+- The *margin* is the portion of the purchase price contributed by the investor, where 
+$$
+\text{Margin} = \frac{\text{Equity in account}}{\text{Value of stock}}
+$$
+- The *initial margin* requirement is 50%, set by the Board of Governors of the Federal Reserve System
+- The *maintenance margin* is the minimum equity that investors must keep in the margin account
+- A *margin call* occurs if the margin falls below the maintenance level
+
+<!-- TODO Add several margin problems -->
+
+## Short Sales
+
+### Short sales let an investor profit from security price declines by selling high and *then* buying low 
+
+- Investor borrows a stock from a broker then sells it, expecting to repurchase it at a lower price
+- Short sale proceeds must be kept on account with the broker, per exchange rules
+- Investor "covers the short position" by purchasing a share and returning it (plus any dividends paid during the short sale)
+
+### Comparison of cash flows from long and short positions
+
+![Cash flows from purchasing versus short-selling shares of stock [@bodie_investments_2023, Table 3.2]](./Figures/table_0302.png){height=50%}
+
+<!-- TODO Add several short sale problems -->
+
+## Regulation of Securities Markets
+
+### A handful of laws and organizations regulate U.S. securities markets {.allowframebreaks}
+
+- The Securities Act of 1933 mandates disclosure for new issues
+- The Securities and Exchange Act of 1934
+	- Establishes the SEC to administer the 1933 act
+	- Extends the disclosure mandate to existing issues
+	- Empowers the SEC to register and regulate
+- The Securities Investor Protection Act of 1970 protects investors from brokerage failures
+- State laws known as *blue sky laws* give investors clearer views of investments
+- The Sarbanes-Oxley Act responds to accounting scandals that occurred from 2000 to 2002
+	- Public Company Accounting Oversight Board
+	- Independent financial experts must serve on audit committees
+	- CEOs and CFOs must personally certify financial reports
+	- Auditors cannot provide several other services to clients
+	- Boards must have independent directors
+- Organizations that *self* regulate
+	- Financial Industry Regulatory Authority (FINRA)
+	- Chartered Financial Analyst (CFA) Institute
+
+### Regulations prohibit trading on inside information
+
+- Officers, directors, and major stockholders must report all transactions in their firm’s stock
+- Still, we have evidence that insiders exploit their knowledge
+	- Well-publicized convictions of principals in insider trading schemes
+	- Considerable evidence of leakage
+	- Insider trades earn abnormal returns
+
+## Appendix
+
+### Summary from @bodie_investments_2023
+
+![](./Figures/summary_03.png){height=75%}
+
+<!-- ## Key equations from @bodie_investments_2023
+
+![](./Figures/key_eq_03.png){height=75%} -->

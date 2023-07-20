@@ -1,0 +1,3 @@
+# Preface {.unnumbered}
+
+This book combines the slides for FINA 6203 Investment Analysis for 2023 Fall at the D'Amore-McKim School of Business, Northeastern University.

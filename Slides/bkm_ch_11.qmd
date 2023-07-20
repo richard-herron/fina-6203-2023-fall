@@ -1,0 +1,301 @@
+---
+title: Chapter 11 - The Efficient Market Hypothesis
+---
+
+## Random Walks and Efficient Markets
+
+### @kendall_analysis_1953 found no predictable pattern in stock price changes!
+
+- Prices were as likely to go up as to go down on any particular day, regardless of past performance
+- At first, this finding was shocking!
+- But, Eugene Fama's Ph.D. dissertation highlighted that any information that could predict stock prices should already be reflected in stock prices
+- For example, as soon as any information indicates that a stock is underpriced, investors flock to buy the stock and immediately bid up its price to a fair level
+- From this fair level, we only expect ordinary rates of return that compensate for the risk of the stock
+
+### Stock prices should follow a *random walk*
+
+- If stock prices are bid immediately to fair levels that incorporate all available information
+- Then stock prices must only respond to *new* information
+- By definition, new information is unpredictable
+- Therefore, stock prices that change in response to new information must also move unpredictability and follow a *random walk*^[Strictly speaking, stock prices follow a submartingale, and the expected price change can be positive to compensate for the time value of money and systematic risk. A random walk is more restrictive—successive stock returns are independent and identically distributed.]
+
+
+### The efficient markets hypothesis (EMH) is the notion that stock prices already reflect all available information
+
+- If stock price changes were predictable
+- Then that would be evidence that stock prices do not reflect all available information
+- Note that here *efficient* has a different meaning than in Chapter 7
+  - Here, in Chapter 11, an informationally efficient market is one where prices quickly reflect new information
+  - In Chapter 7, an efficient portfolio is one with the highest expected return for a given level of risk
+- There is ample empirical evidence that U.S. equity markets are informationally efficient
+
+### In most takeover attempts, the acquiring firm offers a large premium to the market price of the target firm, and target firm price jumps on the announcement
+
+![Cumulative abnormal returns before takeover attempts [@bodie_investments_2023, Figure 11.1]](./Figures/bod12665_1101.png){height=75%}
+
+### Intraday price changes provide more evidence of market efficiency
+
+![Stock price reaction to CNBC reports. The figure shows the reach of stock prices to on-air stock reports during the "Midday Call" segment on CNBC. The chart plots cumulative returns beginning 15 minutes before the stock report [@bodie_investments_2023, Figure 11.2]](./Figures/bod12665_1102.png){height=75%}
+
+
+### Competition is the source of market efficiency
+
+- Information is the most valuable financial commodity
+- Higher returns motivate information-gathering
+- Competition among investors assures prices reflect all available information
+- However, recall that @grossman_impossibility_1980 paradox that perfectly efficient markets are impossible
+  - Diminishing marginal returns on research activity suggest only managers of the largest portfolios will find it useful
+  - Eventually, the cost of more information exceeds its benefit, and this new information will not be collected and incorporated into prices
+
+### We typically distinguish three versions of the EMH
+
+- *Weak-form* asserts that stock prices already reflect all information contained in the history of past prices, implying that technical analysis is not useful
+- *Semistrong-form* asserts that stock prices already reflect all publicly available information, implying that fundamental analysis is not useful
+- *Strong-form* asserts that stock prices reflect all relevant information, including insider information, implying that insider trading is not profitable
+- All three versions assert that prices should reflect _available_ information
+- Under the EMH, prices are correct on average but can be too high or too low in *hindsight*
+
+## Implications of the EMH
+
+### Technical analysis is the search for predictable patterns in stock prices
+
+- Key to success is a sluggish response of stock prices to fundamental supply-and-demand factors
+- Weak-form EMH implies technical analysis should be fruitless
+- If there were profitable patterns, traders would exploit them until they no longer work, so we expect profitable patterns to be *self-destructing*
+
+
+### Fundamental analysis uses the prospects of the firm to determine proper stock prices
+
+- Focuses on such determinants as earnings and dividends prospects, expectations for future interest rates, and risk evaluation
+- Seeks to find firms that are *mispriced*
+- Semistrong-form EMH predicts that *most* fundamental analysis should be fruitless and only *unique* insights will be rewarded
+- The trick is not to identify *good* firms but firms that are *better* than everyone else's estimates because market prices already reflect commonly known information
+
+
+### EMH proponents believe active management is largely a wasted effort and unlikely to justify its expense; They advocate for passive investment, instead
+
+- Active management
+  - Attempts to beat the market by timing the market or through superior security selection
+  - An expensive strategy
+  - Suitable for very large portfolios
+- Passive management
+  - No attempt to outsmart the market
+  - Accept EMH
+  - Index Funds and ETFs
+  - Low-cost strategy
+
+### Still, portfolio management has a role in an efficient market!
+
+- Portfolio management still provides:
+  - Diversified portfolios with the desired amount of systematic risk
+  - Portfolios that consider taxes (e.g., high-tax-brack investors may prefer tax-exempt municipal bonds, capital gains instead of dividends, and real estate investments)
+  - Portfolios that consider risk tolerance (e.g., older investors may want to conserve principal, and younger investors may want inflation-indexed bonds)
+- Portfolio management can still provide value when all securities are perfectly priced
+
+### Capital market prices guide the allocation of real resources
+
+- Inefficient markets result in systematic resource misallocation
+  - Corporations with overvalued securities could raise capital too cheaply
+  - Corporations with undervalued securities may pass on profitable opportunities because the cost of raising capital is too high
+- For example, in the U.S., the dot-com run-up of the late 1990s led to overinvestment in technology and telecommunication firms
+- However, an efficient market does not have perfect foresight because "all available information" is still incomplete information, and the future is not perfectly predictable
+
+## Event Studies
+
+### An event study is a technique to measure the impact of an event on stock returns
+
+- For example, we might want to understand the impact of dividend changes on stock returns
+- It is not trivial to isolate the impact of an event on stock returns because stock prices respond to a wide range of economic news
+- First, we need a benchmark for what the stock return would have been in the absence of the event
+- The *abnormal return* is the difference between the actual return and this benchmark
+- There are several benchmarks
+  - A broad market index, so the abnormal return is the difference between the stock and broad market index returns
+  - An asset-pricing model, such as the CAPM or Fama-French three-factor model, so the abnormal return is the difference between the stock returns and the *expected return* from the model
+
+
+### BKM use the "market model" to estimate abnormal returns
+
+- Under the market model, the stock return is
+$$
+r_t = a + br_{Mt} + e_t
+$$
+which we can rearrange to isolate the residual or abnormal return $e_t$ as
+$$
+e_t = r_t - (a + b r_{Mt})
+$$
+- This approach is flexible and can include additional factors
+- It is important to estimate $a$ and $b$ using data not influenced by the event (i.e., use data separated in time)
+- Often, there is "leakage" where some investors are aware of the event in advance and profit from it
+- We can see this leakage above in Figure 11.1
+- To avoid these concerns, some researchers use a size-matched benchmark instead of estimating $a$ and $b$
+- A cumulative abnormal return (CAR) sums abnormal returns over a period to capture the total firm-specific price change, reducing concerns about leakage and averaging out noise
+
+
+### Let us revisit Figure 11.1 with our new understanding of event studies
+
+![Cumulative abnormal returns before takeover attempts [@bodie_investments_2023, Figure 11.1]](./Figures/bod12665_1101.png){height=75%}
+
+
+## Are Markets Efficient?
+
+### Three issues that keep alive the debate over the EMH
+
+- Magnitude issue
+  - Only managers of large portfolios earn enough trading profits to make exploiting minor mispricing worth the effort
+  - Still, the increases in performance from their efforts are likely swamped by market volatility
+  - "How efficient are markets?" is a better question than "are markets efficient?"
+- Selection bias issue
+  - Only unsuccessful (or partially successful) investment schemes are made public; good schemes remain private
+- Lucky event issue
+  - For every big winner, there may be many big losers, but we never hear of these managers
+  - There is also the coin toss analogy
+    - With 10,000 people flipping a fair coin 50 times each, about 2 investors will flip heads at least 75% of the time
+    - It takes a very long time to distinguish skill from luck
+
+
+### Weak-form tests of EMH
+
+- Returns over *short*  horizons
+  - The *momentum effect* is the tendency of poorly performing stocks and well-performing stocks in one period to continue that abnormal performance in the following periods
+  - Observed for portfolios for 3-month to 12-month holding periods, but not for single stocks
+- Returns over *long*  horizons
+  - The *reversal effect* is the tendency of poorly performing stocks and well-performing stocks in one period to experience *reversals* in the following periods
+  - Overreaction followed by correction causes prices to fluctuate around fair value, making market values more volatile than intrinsic values
+
+![Real (inflation-adjusted) value of the S&P 500 and two estimates of intrinsic value obtained by discounting future dividends plus terminal value in 2013 based on a constant-growth dividend discount model. Discount rate equals 7.6%, the historical average of real market return since 1871 [@bodie_investments_2023, Figure 11.3]](./Figures/bod12665_1103.png)
+
+- An alternative interpretation of Figure 11.3 is that the market risk premium varies over time
+- Therefore, overshooting and correction are rational responses to changes in discount rates
+- *Bottom line: there is evidence of short-run momentum and long-run reversal for the market as a whole and across portfolios and sectors*
+
+
+### There are predictors of broad market returns
+
+- @fama_dividend_1988 show that the return on the aggregate stock market tends to be higher when the dividend yield is high
+- @campbell_stock_1988 show that earnings yield can predict market returns
+- @keim_predicting_1986 show that bond spreads can help predict broad market returns
+- *Bottom line: we can interpret these findings as evidence of predictable abnormal returns or market risk premiums that vary over time*
+
+
+### Semistrong-form tests of EMH
+
+- Fundamental analysis uses a wider range of information to create portfolios than does technical analysis
+- Several easily available pieces of information seem to predict abnormal or risk-adjusted returns
+- These findings seem to contradict the EMH and are often called "anomalies"
+
+
+### The small-firm effect [@banz_relationship_1981]
+
+![Average annual return for 10 size-based portfolios, 1926--2021 [@bodie_investments_2023, Figure 11.4]](./Figures/bod12665_1104.png){height=75%}
+
+
+### The value-effect [@fama_cross_1992]
+
+![Average return as a fucntion of book-to-market ratio, 1926--2021 [@bodie_investments_2023, Figure 11.5]](./Figures/bod12665_1105.png){height=75%}
+
+
+### Post-earnings announcement drift [@ball_empirical_1968]
+
+![Cumulative abnormal returns in response to earnings announcements [@bodie_investments_2023, Figure 11.6]](./Figures/bod12665_1106.png){height=75%}
+
+
+### Other anomalies
+
+- P/E effect: Portfolios of low-P/E ratio stocks have provided higher returns than high P/E portfolios
+- Neglected-firm effect: Investments in stock of less well-known firms have generated abnormal returns
+- Liquidity effect: Illiquid stocks have a strong tendency to exhibit abnormally high returns
+- Volatility: Negatively associated with returns
+- Accruals and earnings quality: High accruals have predicted low future returns
+- Growth: More rapidly growing firms (with high capital investments, sales growth, asset growth, or high share issuance) tend to have lower future returns
+- Profitability: Gross profitability seems to predict higher stock returns
+- *q*-factor: Tobin’s *q* is a good predictor of average stock returns
+
+
+### Strong-form tests of EMH
+
+- We regulate and limit trades based on inside information and do not expect markets to be strong-form efficient
+- We have empirical evidence that insiders trade profitability in their stock
+- The Security and Exchange Commission (SEC) requires insiders to disclose their trades, making them public information
+- However, following these disclosures does not generate abnormal returns large enough to cover transaction costs
+
+
+### How should we interpret these anomalies?
+
+- The size, value, momentum, and long-term reversal are among the most puzzling empirical findings in finance
+- Note that they may all be related because small, value, and loser firms have all had large negative returns recently and may be distressed firms
+- These empirical findings have two interpretations:
+  - Fama and French argue that time-varying risk premiums explain these findings
+  - Lakonishok, Shleifer, and Vishny argue that these findings are evidence of inefficient markets
+- Ignoring their interpretation, are these anomalies *real* or data mining?
+  - Size, value, and momentum may be real anomalies, as they exist around the world and across asset classes
+  - Other anomalies have been less persistent *out-of-sample*, and some senior researchers have called for a higher statistical significance threshold to accept new anomalies
+- Over time, anomalies should be self-destructing
+  - @mclean_does_2016 find exactly this!
+  - They test 97 anomalies and find that
+    - Returns are 28% lower out-of-sample, suggesting at least some anomalies are data snooping
+    - Returns are 58% lower after publication, suggesting investors learn from academic research and profit from exploiting mispricings
+    - Anomalies are more persistent for stocks that are difficult to arbitrage (i.e., small, illiquid, and risky stocks)
+
+
+### Are tulip mania, the South Sea Bubble, and the dot-com boom and bust show that prices are arbitrary?
+
+- Probably not, and obvious trading opportunities are not abundant
+- Most bubbles are obvious only in retrospect, and price run-ups typically have reasonable explanations
+- Security valuation is difficult, and intrinsic value estimates are imprecise
+- Even if prices are "wrong", taking advantage of mispricings can be difficult
+  - Short-selling is expensive
+  - You may not get the securities you want to sell short
+  - Prices can move against you in the short term, wiping out your capital
+
+
+## Mutual Fund and Analyst Performance
+
+
+### Can skilled investors make consistent abnormal trading profits?
+
+- This is the definition of market efficiency we care about!
+- We will consider the evidence of
+  - Stock market analyst recommendations
+  - Mutual fund managers
+
+
+### Stock market analysts are overwhelmingly positive in their assessments of firms
+
+- Stock market analysts typically work for brokerage firms, so they may be conflicted
+- On a scale of 1 (strong buy) to 5 (strong sell), the average recommendation in 1996 was 2.04
+- So, we typically focus on *changes* in recommendations instead of levels, and some researchers find that positive changes are associated with price increases and negative changes are associated with price decreases
+- However, other researchers find that trading strategies based on recommendations trade heavily and have associated trading costs that wipe out potential profits 
+
+
+### There is little evidence that professionally managed portfolios can consistently beat the market
+
+
+![Consistency of Investments Results [@bodie_investments_2023, Table 11.1]](./Figures/table_1101.png){height=75%}
+
+![Mutual fund alphas computer using a four-factor model of expected return, 1993--2007. (The best and worst 2.5% of observations are excluded from this distribution.) [@bodie_investments_2023, Figure 11.8]](./Figures/bod12665_1108.png){height=75%}
+
+![Risk-adjusted performance in ranking quarter and following quarter [@bodie_investments_2023, Figure 11.9]](./Figures/bod12665_1109.png){height=75%}
+
+- However, @berk_mutual_2004 provide important nuance to the findings above
+- They argue that skilled mutual fund managers with abnormal returns attract new investors until the costs and challenges of managing a larger mutual fund drive alpha to zero
+- So, skill appears as large assets under management (AUM) instead of large abnormal returns
+- Therefore, alphas are short-lived, even if managers have skill
+
+
+### So, Are Markets Efficient?
+
+- Enough anomalies exist in the empirical evidence to justify the search for underpriced securities that takes place
+- However, the market is competitive enough that only differentially superior information or insight will earn money
+- Margin of superiority that any professional manager can add is so slight that the statistician will not easily be able to detect it
+
+
+## Appendix
+
+### Summary from @bodie_investments_2023
+
+![](./Figures/summary_11.png){height=75%}
+
+
+### Key equations from @bodie_investments_2023
+
+![](./Figures/key_eq_11.png){height=75%}

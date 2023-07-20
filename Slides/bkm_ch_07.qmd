@@ -1,0 +1,250 @@
+---
+title: Chapter 7 - Efficient Diversification
+---
+
+## Diversification and Portfolio Risk
+
+### There are two broad sources of uncertainty: Market risk and firm-specific risk
+
+- Market risk
+  - Attributable to market-wide risk factors
+  - Remains after diversification
+  - Also called non-diversifiable risk or systematic risk
+- Firm-specific risk
+  - Eliminated by diversification
+  - Also called idiosyncratic risk, diversifiable risk, or nonsystematic risk
+
+### Portfolio risk decreases as we increase the number of (diversified) stocks in the portfolio
+
+![Portfolio risk as a function of the number of stocks in the portfolio. *Panel A:* All risk is firm-specific. *Panel B:* Some risk is systematic of marketwide [@bodie_investments_2023, Figure 7.1]](./Figures/bod12665_0701.png){height=50%}
+
+### The *insurance principle* reduces risk by spreading exposure across many independent risk sources
+
+- "An insurance company depends on such diversification when it writes many policies insuring against many uncorrelated sources of risk, each policy being a small part of the company's overall portfolio."
+- We will revisit this concept later
+
+## Portfolios of Two Risky Assets
+
+### Consider a portfolio of two risky assets
+
+- The return on a portfolio is the weighted average return on its risky assets
+$$
+r_P = w_D r_D + w_E r_E
+$$
+where $w$s are weights, $r$s are returns, and subscripts $D$ and $E$ indicate debt and equity
+- This portfolio's expected return is
+$$
+E(r_P) = w_D E(r_D) + w_E E(r_E)
+$$
+and its variance is
+$$
+\sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
+$$
+
+### We can rewrite $\sigma_P^2$ as a *border-multiplied* covariance matrix
+
+- $\text{Cov}(r_D, r_D)= \sigma_D^2$
+- So we can rewrite
+$$
+\sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
+$$
+as
+$$
+\sigma_P^2 = w_D^2 \text{Cov}(r_D, r_D) + w_E^2 \text{Cov}(r_E, r_E) + 2 w_D w_E \text{Cov}(r_D, r_E)
+$$
+which is a *border-multiplied* covariance matrix
+
+### The *border-multiplied* covariance matrix version is easily applied to three or more assets
+
+![Computation of portfolio variance from the covariance matrix [@bodie_investments_2023, Table 7.2]](./Figures/table_0702.png){height=75%}
+
+### We can rewrite $\sigma_P^2$ in terms of correlations
+
+- $\rho_{D,E} = \frac{\text{Cov}(r_D, r_E)}{\sigma_D \sigma_E} \Rightarrow \text{Cov}(r_D, r_E) = \rho_{D,E} \sigma_D \sigma_E$
+- So we can rewrite
+$$
+\sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
+$$
+as
+$$
+\sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \rho_{D,E} \sigma_D \sigma_E
+$$
+
+### Correlations fall between -1 and +1 (inclusive), making them easier to interpret than covariances
+
+- When $\rho = 1$
+$$
+\sigma_P^2 = (w_D \sigma_D + w_E \sigma_E)^2
+$$
+so $\sigma_P = \text{Absolute value}(w_D \sigma_D + w_E \sigma_E)$
+- When $\rho < 1$, we reduce risk through *diversification*
+- When $\rho < 0$, we *substantially* reduce risk through *hedging*
+- When $\rho = -1$
+$$
+\sigma_P^2 = (w_D \sigma_D - w_E \sigma_E)^2
+$$
+so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
+
+
+### Portfolio expected return is the weighted average of asset expected returns, but the same is *not* true of portfolio standard deviation {.allowframebreaks}
+
+![Portfolio expected return as a function of investment proportions [@bodie_investments_2023, Figure 7.3]](./Figures/bod12665_0703.png){height=50%}
+
+![Portfolio standard deviation as a function of investment proportions [@bodie_investments_2023, Figure 7.4]](./Figures/bod12665_0704.png){height=50%}
+
+![Portfolio expected return as a function of standard deviation [@bodie_investments_2023, Figure 7.5]](./Figures/bod12665_0705.png){height=50%}
+
+## Asset Allocation with Stocks, Bonds, and Bills
+
+### When allocating capital between risky and risk-free portfolios, investors want the risky portfolio with the highest Sharpe ratio {.allowframebreaks}
+
+- The higher the Sharpe ratio, the higher the expected return corresponding to any level of volatility
+- Recall the Sharpe ratio is the slope of the capital allocation line (CAL)
+- The steepest CAL intersects that optimal risky portfolio
+
+![The opportunity set of the debt and equity funds and two feasible CALs [@bodie_investments_2023, Figure 7.6]](./Figures/bod12665_0706.png){height=50%}
+
+![The opportunity set of the debt and equity funds with the optimial CAL and the optimal risky portfolio [@bodie_investments_2023, Figure 7.7]](./Figures/bod12665_0707.png){height=50%}
+
+- With two risky assets
+$$
+E(r_P) = w_D E(r_D) + w_E E(r_E)
+$$
+and
+$$
+\sigma_P = \sqrt{w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)}
+$$
+- The investor solves
+$$
+\max_{w} S_P = \frac{r_P - r_f}{\sigma_P}\
+$$
+subject to
+$$
+w_D + w_E = 1
+$$
+- The solution to this maximization problem is
+$$
+w_D = \frac{E(R_D)\sigma_E^2 - E(R_E)\text{Cov}(R_D,R_E)}{E(R_D)\sigma_E^2 + E(R_E)\sigma_D^2 - [E(R_D) + E(R_E)]\text{Cov}(R_D,R_E)}
+$$
+where $R$s indicate *excess* returns and $w_E=1-w_D$
+
+
+### The optimal *complete* portfolio, given the optimal *risky* portfolio and its CAL, depends on investor risk aversion
+
+![Determination of the optimal complete portfolio [@bodie_investments_2023, Figure 7.9]](./Figures/bod12665_0708.png){height=50%}
+
+### Putting it all together: How to find the complete portfolio
+
+1. Specify the return characteristics of all securities
+2. Establish the risky portfolio (asset allocation)
+  - Calculate the optimal risky portfolio $P$
+  - Calculate its properties
+3. Allocate funds between the risky portfolio and the risk-free asset (capital allocation)
+  - Calculate the fraction of the complete portfolio allocated to $P$
+  - Calculate the share of the complete portfolio invested in each risky and risk-free asset
+
+## The Markowitz Portfolio Optimization Model
+
+### Markowitz provides a more general solution to finding the complete portfolio
+
+1. Find the risk-return combinations of the risky assets
+1. Find the optimal risky portfolio, which has the steepest CAL
+1. Find the appropriate complete portfolio by mixing the risk-free asset with the optimal risky portfolio
+
+### The *minimum-variance frontier* of risky assets plots the portfolio with the lowest variance for a given expected return {.allowframebreaks}
+
+![The minimum-variance frontier of risky-assets [@bodie_investments_2023, Figure 7.10]](./Figures/bod12665_0710.png){height=50%}
+
+- All individual risky assets plot inside the minimum-variance frontier (if we allow short sales)
+- Therefore, portfolios of one risky asset are inefficient because diversification lets us build portfolios with lower standard deviations
+- The bottom portion of the minimum-variance frontier is inefficient because the portfolios directly above it have the same standard deviations but higher expected returns
+- The *efficient frontier* of risky assets is the portion of the minimum-variance frontier above the *global minimum-variance portfolio*
+- We can find the portfolio expected return as
+$$
+E(r_P) = \sum_{i=1}^n w_i E(r_i)
+$$
+and portfolio variance as
+$$
+\sigma_p^2 = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \text{Cov}(r_i, r_j)
+$$
+- Therefore, to find the minimum-variance frontier of $n$ risky assets, we need 
+  - $n$ forecasts of $E(r_i)$
+  - $n$ forecasts of $\text{Var}(r_i)$
+  - $\frac{n^2 - n}{2}$ forecasts of $\text{Cov}(r_i, r_j)$
+
+### The CAL with the optimal portfolio *P* is tangent to the efficient frontier {.allowframebreaks}
+
+![The efficient frontier of risky assets with the optimal CAL [@bodie_investments_2023, Figure 7.11]](/Figures/bod12665_0711.png){height=50%}
+
+
+### All investors choose their appropriate complete portfolios as before
+
+- Recall
+$$
+y^* = \frac{E(r_P) - r_f}{A \sigma_P^2}
+$$
+- Here $y^*$ is the optimal weight on the optimal risky portfolio and $A$ is the risk aversion index
+
+### All investors choose the same optimal risky portfolio, *P*, regardless of their risk aversion
+
+- Risk aversion affects capital allocation, which is choosing $y$
+- Risk aversion *does not* affect finding the optimal risky portfolio, which is choosing $w_i$s
+- This result is a *separation property*, which separates the portfolio choice into two *independent* tasks
+  1. Find the optimal risky portfolio, which is the same, regardless of risk aversion
+  1. Allocate capital, which depends on risk aversion
+
+### The risk of a highly diversified portfolio depends on the covariance of asset returns {.allowframebreaks}
+
+- Portfolio variance is
+$$
+\sigma_p^2 = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \text{Cov}(r_i, r_j)
+$$
+- For an equally-weighted portfolio, portfolio variance is
+$$
+\sigma_p^2 = \sum_{i=1}^n \frac{1}{n^2} \sigma_i^2 + \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \frac{1}{n^2} \text{Cov}(r_i, r_j)
+$$
+- We can simplify the variance term as 
+$$\overline{\sigma}^2 = \frac{1}{n} \sum_{i=1}^n \sigma_i^2$$
+and the covariance term as
+$$\overline{\text{Cov}} = \frac{1}{n(n-1)} \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \text{Cov}(r_i, r_j)$$
+- So, for an equally-weighted portfolio, portfolio variance is
+$$
+\sigma_p^2 = \frac{1}{n} \overline{\sigma}^2 + \frac{n-1}{n} \overline{\text{Cov}}
+$$
+- These simplifications highlight the importance of the covariance of asset returns
+  - If $\overline{\text{Cov}} = 0$, $\sigma_p^2 \rightarrow 0$ as $n \rightarrow \infty$
+  - If $\overline{\text{Cov}} > 0$, $\frac{1}{n} \overline{\sigma}^2 \rightarrow 0$ but $\frac{n-1}{n} \overline{\text{Cov}} \rightarrow \overline{\text{Cov}}$ as $n \rightarrow 0$
+  - If all assets have standard deviation $\sigma$ and all asset-pairs have correlation $\rho$, we can express portfolio variance as 
+  $$
+  \sigma_p^2 = \frac{1}{n} \sigma^2 + \frac{n-1}{n} \rho \sigma^2
+  $$
+  and draw the same conclusions
+
+## Risk Pooling, Risk Sharing, and Time Diversification
+
+### Risk sharing complements risk pooling
+
+- An insurance company that sells $n$ identical fire insurance policies, each with random payoff $x$ with variance $\sigma^2$, has total payoff of $n$ policies is $\sum_{i=1}^n x_i$
+- The variance of total payoff increases as $n$ increases because 
+$$
+\text{Var}\left( \sum_{i=1}^n x_i \right) = n \sigma^2
+$$
+- However, the variance of the *average* payoff decreases as $n$ increases because 
+$$
+\text{Var}\left( \frac{1}{n} \sum_{i=1}^n x_i \right) = \frac{1}{n^2} n \sigma^2 = \frac{\sigma^2}{n}
+$$
+- Therefore, true diversification requires allocating a given investment budget across a large number of different assets, limiting exposure to any one asset
+
+### Longer horizons alone do not reduce risk
+
+![Investment risk for different horizons [@bodie_investments_2023, Table 7.5]](/Figures/table_0705.png){height=50%}
+
+## Appendix
+
+### Summary from @bodie_investments_2023
+
+![](./Figures/summary_07.png){height=75%}
+
+### Key equations from @bodie_investments_2023
+
+![](./Figures/key_eq_07.png){height=75%}

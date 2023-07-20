@@ -1,0 +1,272 @@
+---
+title: Chapter 15 - The Term Structure of Interest Rates
+---
+
+### Chapter Overview
+
+* Explore pattern of interest rates for different-term assets
+  * Identify factors that account for pattern and determine what information may be gleaned from an analysis of the  __term structure of interest rates__
+* Demonstrate how prices of Treasury bonds may be derived from prices and yields of stripped zero-coupon Treasury securities
+* Examine extent to which term structure reveals market-consensus forecasts of future interest rates
+
+### The Yield Curve
+
+* Relationship between yield and maturity may be shown graphically in a  __yield curve __
+  * Yield curve is a plot of yield to maturity as a function of time to maturity
+* Key concern of fixed-income investors
+* Central to bond valuation
+  * Allows investors to gauge their expectations for future interest rates against those of the market
+
+### Figure 15.1 Treasury Yield Curves
+
+[Access the text alternative for slide images.](slide30.xml)
+
+### Yield Curve: Bond Pricing
+
+Yields on different maturity bonds are not equal
+
+Consider cash flow of each bond as a stand-alone zero-coupon bond
+
+__Bond stripping __ and  __bond reconstitution __ offer opportunities for arbitrage
+
+The value of the bond should be the sum of the values of its parts
+
+### Table 15.1 Prices and Yields to Maturities on Zero-Coupon Bonds ($1,000 Face Value)
+
+### Valuing Coupon Bonds
+
+  * Value a 3-year, 10% coupon bond using discount rates from Table 15.1:
+
+  * Price = $1,082.17 and YTM = 6.88%
+  * 6.88% is less than the 3-year rate of 7%
+
+### Bond Pricing: Two Types of Yield Curves
+
+__On-the-Run Yield Curve__
+
+Refers to the plot of yield as a function of maturity for recently issued coupon bonds selling at or near par value
+
+Typically published by the financial press
+
+__Pure Yield Curve__
+
+Refers to the curve for stripped, or zero-coupon, Treasuries
+
+May differ significantly from the on-the-run yield curve
+
+### The Yield Curve under Certainty
+
+* Consider two 2-year bond strategies:
+  * Buy the 2-year zero offering a 2-year YTM of 6% and hold it until maturity
+    * Face value is $1,000, so it is purchased today for $1,000/(1.06)2 = $890 and matures in two years to $1,000
+    * Total 2-year growth factor is $1,000/$890 = 1.1236
+  * Invest the same $890 in a 1-year zero-coupon bond with a YTM of 5% and upon maturity reinvest the proceeds in another 1-year bond
+
+### Figure 15.2 Two 2-Year Investment Programs
+
+[Access the text alternative for slide images.](slide31.xml)
+
+### Spot Rates and Short Rates
+
+* __Spot rate__
+  * The rate that prevails  _today_  for a time period corresponding to the zero’s maturity
+* __Short rate__
+  * Applies for a given time interval (for example, one year)
+  * Refers to the interest rate for that interval available at different points in time
+
+### Holding-Period Returns
+
+* Multiyear cumulative returns on all competing bonds should be equal
+  * What about HPRs over shorter periods, such as one year?
+* In a world of certainty, all bonds must offer identical returns, or investors will flock to the higher-return securities, bidding up their prices, and reducing their returns
+
+### Figure 15.3 Short Rates versus Spot Rates
+
+[Access the text alternative for slide images.](slide32.xml)
+
+### Forward Rates 1
+
+  * _f_  _n_  = short rate in year  _n_
+  * _y_  _n_  = YTM of a zero-coupon bond with an  _n-_ period       	      maturity
+
+The  __forward interest rate __ is a forecast of a future short rate
+
+Rate for 4-year maturity = 8%
+
+Rate for 3-year maturity = 7%
+
+### Interest Rate Uncertainty and Forward Rates 1
+
+* Move from unrealistic certainty to more realistic uncertainty.
+* The investor wants to invest for 1 year:
+  * Buy the 2-year bond today and sell it at the end of the first year for $1000/1.06 = $943.40
+  * _or_
+  * Buy the 1-year bond today and hold to maturity
+* What if next year’s interest rate differs from 6%?
+  * The actual return on the 2-year bond is uncertain!
+
+Investors require a risk premium to hold a longer-term bond
+
+This  __liquidity premium __ compensates short-term investors for the uncertainty about future prices
+
+### Theories of Term Structure
+
+* __Liquidity Preference Theory__
+* Long-term bonds are more risky
+  * _f_  _2_  >  _E_ ( _r_  _2_ )
+* The excess of  _f_  _2_  over  _E_ ( _r_  _2_ ) _ _ is the  _liquidity premium_
+  * Predicted to be positive
+* Yield curve has an upward bias built into the long-term rates because of the liquidity premium
+
+__Expectations Hypothesis Theory__
+
+Simplest theory of the term structure
+
+States forward rate equals market consensus expectation of future short interest rate
+
+_f_  _2_  _ = E_ ( _r_  _2_ ) _ _ and liquidity premiums are zero
+
+### Yield Curve Examples 1
+
+Panel A:
+
+Constant Expected Short Rate.
+
+Liquidity Premium of 1%.
+
+Panel B:
+
+Declining Expected Short Rates.
+
+Increasing Liquidity Premiums.
+
+[Access the text alternative for slide images.](slide33.xml)
+
+Panel C:
+
+Declining Expected Short Rates.
+
+Constant Liquidity Premiums.
+
+Panel D:
+
+Increasing Expected Short Rates.
+
+Increasing Liquidity Premiums.
+
+[Access the text alternative for slide images.](slide34.xml)
+
+### Alternative Explanation for the Term Structure of Interest Rates
+
+The  __market segmentation theory __ holds that long- and short-maturity bonds trade in distinct and unconnected markets.
+
+Each market finds its own equilibrium independently
+
+The term structure is determined by the rates set in these segmented markets.
+
+This view of the market is less common today; investors must compare long and short rates as well as expectations of future rates before deciding where to invest.
+
+### Interpreting the Term Structure 1
+
+* Yield curve reflects expectations of future short rates, but also reflects other factors such as liquidity premiums
+* An upward sloping curve could indicate:
+  * Rates are expected to rise
+  * _and/or_
+  * Investors require large liquidity premiums to hold long term bonds
+
+* The yield curve is a good predictor of the business cycle
+  * Long-term rates tend to rise in anticipation of economic expansion
+  * Inverted yield curve may indicate that interest rates are expected to fall and signal a recession
+
+### Figure 15.5 Price Volatility of Long-Term Treasury Bonds
+
+[Access the text alternative for slide images.](slide35.xml)
+
+### Figure 15.6 Term Spread: Yields on 10-year versus 90-day Treasury Securities
+
+[Access the text alternative for slide images.](slide36.xml)
+
+### Forward Rates as Forward Contracts
+
+* Forward rates may be derived from the yield curve
+* In general, forward rates will not equal the eventually realized short rate
+  * Still an important consideration when making decisions, such as locking in loan rates
+
+### Figure 15.7 Engineering a Synthetic Forward Loan
+
+[Access the text alternative for slide images.](slide31.xml)
+
+### End of Main Content
+
+© McGraw Hill LLC. All rights reserved. No reproduction or distribution without the prior written consent of McGraw Hill LLC.
+
+### Accessibility Content: Text Alternatives for Images
+
+### Treasury Yield Curves - Text Alternative
+
+[Return to parent-slide containing images.](slide4.xml)
+
+All four graphs are labeled as Treasury yield curve yields as of 4:30 p.m. Eastern time and have percent on the vertical and months years maturities on the horizontal axes. Graph A, (January 2006) flat yield curve, has a line from 4.2 at one month to 4.5 at six months, down to 4.3 at 5 years, and then 4.5 at maturity (30 years). Graph B, (December 2012) Rising Yield Curve, rises from 0 at one month to 0.4 at six years, before climbing to 3.0 at maturity. Graph C, (September 11, 2000) Inverted Yield Curve, starts 6.1 at 3 months, climbs to 6.25 at 6 months, drops to 5.9 by 10 years, and ends at 5.8 at maturity. Graph D, D. (October 4, 1989) Hump-Shaped Yield Curve, starts at 8.05 at 3 months and rises unevenly to 8.4 at year 2, and drops unevenly to end at 8.2 at maturity. All values are approximations.
+
+[Return to parent-slide containing images.](slide4.xml)
+
+### Two 2-Year Investment Programs - Text Alternative
+
+[Return to parent-slide containing images.](slide10.xml)
+
+At the top is a simple timeline with 0, 1, and 2 indicated. In the middle, Alternative 1: Buy and hold 2-year zero, the timeline shows $890 at time 0, a right pointing arrow labeled 2-year investment, and the equation $890 times 1.06 squared equals $1000 at time 2. Alternative 2: Buy a 1-year zero, and reinvest proceeds in another 1-year zero is at the bottom. The time line as $890 at time 0, a right arrow labeled 1-year investment to time 1, which has the equation $890 times 1.05 equals $934.50. Another right arrow labeled 1-year investment points from time 1 to time 2. At time 2 is the equation $934.50 times (1 plus r sub 2).
+
+[Return to parent-slide containing images.](slide10.xml)
+
+### Short Rates versus Spot Rates - Text Alternative
+
+[Return to parent-slide containing images.](slide13.xml)
+
+The diagram illustrates the relationship between short rates and spot rates.  In a one-year investment, the spot rate is 5 percent and the corresponding short rate is also 5 percent. In a two-year investment the spot rate is at 6 percent and the corresponding short rate is at 7 point 01 percent.  For a three-year and four-year investment, the corresponding rates are respectively: Spot rate at 7 percent and short rate at 9 point 025 percent and spot rate at 8 percent and short rate at 11 point 06.
+
+[Return to parent-slide containing images.](slide13.xml)
+
+### Yield Curve Examples - Text Alternative 1
+
+[Return to parent-slide containing images.](slide19.xml)
+
+Graphs A through D have interest rate (percent) on the vertical axis and maturity on the horizontal.
+
+Top Graph: E(r) is horizontal at 5.0. Yield to maturity slopes upward from (0, 5.0) to become parallel to forward rate, which is horizontal at 6.0. The distance between the two horizontal lines is the constant liquidity premium.
+
+Bottom Graph: In graph B, E(r) slopes down from (0, 5) to (10, 4.5). Forward rate slopes upward from (0.5, 5.6) to (10, 6.5). Yield to maturity follows the same upward curve from the previous graph, but does not become parallel to the forward rate and ends at (10, 6.0). The distance between E(r) and the forward rate is labeled, “Liquidity premium increases with maturity.” Some values are approximations.
+
+[Return to parent-slide containing images.](slide19.xml)
+
+[Return to parent-slide containing images.](slide20.xml)
+
+Top Graph: In graph c, E(r) slopes down from (0, 5.5) to (10, 4.3). Forward rate slopes down from (0.5, 6.0) to (10, 5.0). The lines appear to be parallel. Yield to maturity follows the same upward curve from graph A, but starts at (0, 5.5) and slopes down after crossing the forward rate at (1.5, 5.8) to end at (10, 5.5). The distance between E(r) and the forward rate is labeled, “constant liquidity premium.” Some values are approximations.
+
+Bottom Graph: In graph D, E(r) slopes up from (0, 4.3) to (10, 5.0). Forward rate slopes upward from (0.5, 4.8) to (10, 7.0). Yield to maturity follows the same upward curve from the previous graph, but starts at (0, 4.3) ends at (10, 5.8). The distance between E(r) and the forward rate is labeled, “Liquidity premium increases with maturity.” Some values are approximations.
+
+[Return to parent-slide containing images.](slide20.xml)
+
+### Price Volatility of Long-Term Treasury Bonds - Text Alternative
+
+[Return to parent-slide containing images.](slide24.xml)
+
+Standard deviation of monthly returns (percent) is on the vertical axis and 1971 to 2019 are on the horizontal. The trend is between 1.0 and 3.0 over most of the period, except between 1980 and 1983, where it is between 2.5 and 5, and in 2010 when it rises briefly to 3.5.
+
+  * [Return to parent-slide containing images.](slide24.xml)
+
+### Term Spread: Yields on 10-year versus 90-day Treasury Securities - Text Alternative
+
+[Return to parent-slide containing images.](slide25.xml)
+
+Interest Rate (percent) is on the vertical axis and 1970 to 2020 is on the horizontal. 10-year Treasury trends from 8 in 1970 to 15 in 1982 then down to 3 in 2015. 90-day T-bills follows the same pattern until 2009 except the trend range is larger; in 2009, the line drops to zero and stays right above zero until 2016. The different line trends between 0 and 4 over most of the period, except in the early 1980s where it drops to negative 3. All values are approximations.
+
+[Return to parent-slide containing images.](slide25.xml)
+
+### Engineering a Synthetic Forward Loan - Text Alternative
+
+[Return to parent-slide containing images.](slide27.xml)
+
+A: Forward rate equals 7.01 percent shows a timeline with $1,000 at time 1 and negative $1,070.10 at time 2. B reads: [[For a General Forward Rate. The short rates in the two periods are r sub 1 (which is observable today) and r sub 2 (which is not). The rate that can be locked in for a one-period-ahead loan is f sub 2.]] The timeline notes the distance from time 0 to time 1 is r sub 1 and from time 1 to time 2 is r sub 1. At time 1 is $1,000. At time 2 is negative $1,000 (1 plus f sub 2).
+
+[Return to parent-slide containing images.](slide27.xml)
+

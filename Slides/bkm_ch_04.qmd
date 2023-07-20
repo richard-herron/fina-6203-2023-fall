@@ -1,0 +1,215 @@
+---
+title: Chapter 4 - Mutual Funds and Other Investment Companies
+---
+
+## Investment Companies
+
+### Investment companies are financial intermediaries that collect funds from individual investors
+
+- Investment companies perform several important functions
+	1. Record keeping and administration
+	1. Diversification and divisibility
+	1. Professional management
+	1. Lower transaction costs
+- The value of each share in an investment company is called the *net asset value* (NAV) where
+$$
+\text{Net asset value} = \frac{\text{Market value of assets} - \text{Liabilities}}{\text{Shares outstanding}}
+$$
+
+## Types of Investment Companies
+
+### Unit investment trusts are pools of money invested in a portfolio that is fixed for the life of the fund
+
+- Sponsor buys securities, deposits them into a trust, then sells shares in the trust called *redeemable trust certificates*
+- The fund's trustees pay out all income to shareholders
+- Portfolio composition is fixed, so there is little active management, and these trusts are often called *unmanaged*
+- Sponsors earn profits by selling shares at a premium to NAV
+- Investors may sell their shares back to the trust at NAV
+- Unmanaged funds have steadily lost market share to managed funds over the past few decades
+
+### There are two types of managed funds: Closed-end and open-end
+
+- Shareholders elect a board of directors, who then hire a management company
+- Management fees range from 0.2% to 1.25% of assets
+- For example, Fidelity Management and Research Corporation sponsors many Fidelity mutual funds and is responsible for managing the portfolios
+
+### Open-end and closed-end funds have different structures
+
+- Open-end funds are ready to redeem or issue shares at NAV
+- In contrast, closed-end funds do not redeem or issue shares
+- Instead, investors trade shares on stock exchanges like any other stock
+
+### Closed-end fund prices may trade at a premium or discount to NAV
+
+![Closed-end mutual funds [@bodie_investments_2023, Figure 4.1]](Figures/bod12665_0401.png){height=50%}
+
+### Exchange-traded funds (ETFs) combine features of open-end and closed-end funds
+
+- Like open-end funds, ETFs issue and redeem shares NAV
+- Like closed-end funds, ETFs trade on stock exchanges and may trade at a premium or discount to NAV
+- Since 1993, unmanaged ETFs have tracked indexes, providing exposure to particular markets or sectors
+- Since 2008, managed ETFs have been available
+- ETFs have gained popularity due to their low costs and flexibility for investors
+
+### Other investment companies include commingled funds, real estate investment trusts (REITs), and hedge funds
+
+- Commingled funds are partnerships of investors that pool funds, similar to open-end funds
+- REITs
+	- Similar to closed-end funds and invest in real estate or loans secured by real estate
+	- Most are highly levered, with typical debt-to-assets ratios of 70%
+	- *Equity trusts* invest in real estate directly
+	- *Mortgage trusts* invest in mortgages and construction loans
+- Hedge funds
+	- Private investment partnerships that are typically open only to accredited investors
+	- Hedge funds have more flexibility in investment strategies and can use leverage and derivatives
+	- Hedge funds often charge a performance fee based on the fund's returns
+
+## Mutual Funds
+
+### Mutual funds are the common name for open-end funds and account for about 80% of investment company assets
+
+- Each mutual fund has a specified investment policy
+- Management companies often manage a family of mutual funds, making it easy for investors to allocate across market sectors and move assets across funds while benefiting from centralized record keeping
+
+### Mutual funds are commonly classified by investment policy
+
+- Money market funds
+- Equity funds
+- Sector funds
+- Bond funds
+- International funds
+- Balanced funds,
+- Asset allocation and flexible funds
+- Index funds
+
+### Money market funds invest in money market securities, such as Treasury bills, commercial paper, repurchase agreements, and CDs
+
+- Average maturity of these investments is about one month
+- These funds usually offer check-writing features and fix NAV at one dollar per share, removing tax implications of redemptions
+- Money market funds are classified as *prime* versus *government*
+	- Prime funds hold commercial paper or bank CDs
+	- Government funds hold short-term U.S. Treasury or agency securities
+
+### Equity funds invest primarily in stock but may also hold fixed-income or other types of securities
+
+- For example, equity funds typically hold a small fraction of assets in money market securities to provide liquidity to meet share redemptions
+- Stock funds are traditionally classified by their emphasis on *capital appreciation* versus *current income*
+	- *Income funds* hold shares of firms with consistently high dividend yields
+	- *Growth funds* focus on prospects for capital gains and are typically riskier than income funds
+
+### *Sector funds* focus on an industry or country
+
+- For example, Fidelity has many "select funds" that invest in a specific industry, such as biotechnology, utilities, energy, or telecommunications
+
+### Bonds funds specialize in the fixed-income sector
+
+- The fixed-income sector offers room for further specialization!
+- Specialization includes corporate bonds, Treasury bonds, mortgage-backed securities, and (tax-free) municipal bonds
+- Some municipal bond funds invest only in bonds of a particular state or city!
+- Other funds specialize by maturity or credit risk
+
+### International funds invest outside the U.S.
+
+- Global funds invest in securities worldwide, including the U.S.
+- International funds invest in securities of firms located outside the U.S.
+- Regional funds invest in a particular part of the world
+- Emerging market funds invest in companies of developing nations
+
+### Balanced funds are designed to be an individual’s entire investment portfolio
+
+- Balanced funds hold equities and fixed-income securities in stable proportions
+- Life-cycle funds are balanced funds in which the asset mix can range from aggressive (primarily marketed to younger investors) to conservative
+(directed at older investors)
+	- Static allocation life-cycle funds maintain a stable mix across stocks and bonds
+	- Targeted-maturity funds gradually become more conservative as the investor ages
+- Many balanced funds are *funds of funds* that invest in shares of other mutual funds
+
+### Asset allocation and flexible funds hold stocks and bonds but may vary their proportions
+
+- The proportions vary based on the portfolio manager’s forecast of the relative performance 
+- Therefore, these funds are engaged in market timing and are not designed to be low-risk (or low-fee) investments
+
+### Index funds try to match the performance of a broad market index
+
+- An index fund buys securities included in a particular index in proportion to each security’s representation in that index
+- For example, the Vanguard 500 Index Fund replicates the composition of the Standard & Poor’s 500 Index
+- Index funds provide a low-cost way for small investors to pursue a passive investment strategy
+- Index funds can be tied to non-equity indexes, too
+
+### U.S. mutual funds by investment classification
+
+![U.S. mutual funds by investment classification [@bodie_investments_2023, Table 4.1]](Figures/table_0401.png){height=50%}
+
+## Costs of Investing in Mutual Funds
+
+### Mutual fund investors should consider fund investment policy and past performance, as well as management fees and other expenses
+
+- Operating expenses are costs incurred by the mutual fund
+- Commission expenses are primarily paid to brokers
+	- Front-end loads are commissions paid when you purchase shares
+	- Back-end loads are redemption or "exit" fees paid when you sell shares (formally known as "contingent deferred sales loads")
+	- 12b-1 charges are fees on 12b-1 funds that cover advertising, reports, and broker commissions
+	- Alternatively, investors may hire fee-only financial managers who charge directly for services instead of collecting commissions
+
+### The mutual fund rate of return is the change in NAV plus income and capital gains distributions, expressed as a fraction of the beginning NAV
+
+$$
+\text{Rate of return} = \frac{\text{NAV}_1 - \text{NAV}_0 + \text{Income and cap.\ gain dist.}}{\text{NAV}_0}
+$$
+
+### Fees can have a big effect on performance!
+
+![Impact of costs on investment performance [@bodie_investments_2023, Table 4.2]](Figures/table_0402.png){height=50%}
+
+## Taxation of Mutual Fund Income
+
+### Mutual funds have "pass-through status", so investors pay taxes instead funds
+
+- Capital gains and dividends pass through to investors
+- This pass-through is a disadvantage
+	- If you manage your portfolio, you can time sales to manage taxes
+	- However, when you invest through mutual funds, you cannot time individual security sales to manage taxes
+- Therefore, mutual funds with high turnover can be "tax inefficient"
+	- Turnover is the ratio of the trading activity to assets 
+	- Capital gains and losses are constantly realized in high-turnover funds
+	- Index funds may have turnover as low as 2%, which is tax-efficient and has low trading costs
+
+## Exchange-Traded Funds
+
+### ETFs let investors trade portfolios just as they trade shares of stock
+
+- The first ETF was the Standard & Poor's Depository Receipt (SPDR), which matches the S&P 500
+- ETFs trade throughout the day at the market price, while mutual funds only trade  at the end of the day at NAV
+- Starting in 2008, the SEC approved actively managed ETFs, often called *smart beta* funds
+- Exchange-traded notes (ETNs) and exchange-traded vehicles (ETVs) provide payoffs linked to indexes but invest in "total return swaps" instead of the underlying assets, providing liquidity to thinly traded (or non-traded) asset classes
+
+### ETFs offer advantages and disadvantages relative to mutual funds
+
+- ETF advantages relative to mutual funds
+	- ETFs trade continuously at a market price
+	- ETFs are tax efficient because redemptions do not trigger capital gains or losses for other investors
+- ETF disadvantages relative to mutual funds
+	- ETF prices may depart from NAV
+	- ETF purchases may involve a broker commission
+
+## Mutual Fund Investment Performance: A First Look
+
+### The asset-weighted average return on U.S. equity mutual funds was below the Wilshire 5000 index fund in 30 of 50 years between 1971 and 2020
+
+![Rates of return on actively managed U.S. equity funds versus Wilshire 5000 index, 1971-2020 [@bodie_investments_2023, Figure 4.4]](Figures/bod12665_0404.png){height=50%}
+
+## Information on Mutual Funds
+
+### Morningstar and Yahoo!\ Finance provide information on mutual funds
+
+![Morningstar report [@bodie_investments_2023, Figure 4.5]](Figures/bod12665_0405.png){height=50%}
+
+### Appendix
+
+#### Summary from @bodie_investments_2023
+
+![](./Figures/summary_04.png){height=75%}
+
+<!-- ### Key equations from @bodie_investments_2023
+
+![](./Figures/key_eq_04.png){height=75%} -->

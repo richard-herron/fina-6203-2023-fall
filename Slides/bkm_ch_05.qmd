@@ -1,0 +1,223 @@
+---
+title: Chapter 5 - Risk, Return, and the Historical Record
+---
+
+## Measuring Returns over Different Holding Periods
+
+### Holding period return (HPR) is the price increase plus income, all divided by the price paid
+
+We calculate HPR as
+$$
+\text{HPR} = \frac{\text{Ending price of a share} - \text{Beginning price} + \text{Cash dividend}}{\text{Beginning price}}
+$$
+
+### We typically express HPRs as effective annual rates (EARs) to simplify comparisons
+
+$$
+r_T = (1 + \text{EAR})^T - 1
+$$
+where $r_T$ is the HPR over $T$ years, so
+$$
+\text{EAR} = (1 + r_T)^{1/T} - 1
+$$
+
+### Rates on short-term investments are often annualized with simple interest instead of compound interest, called annual percentage rate (APR)
+
+$$
+1 + \text{EAR} = \left(1 + \frac{\text{APR}}{n}\right)^n
+$$
+where $n$ is the number of compounding periods per year, so
+$$
+\text{APR} = n \times [(1 + \text{EAR})^{1/n} - 1]
+$$
+
+### If we compound continuously, $n \rightarrow \infty$
+
+The relation between EAR and APR (here $r_{cc}$) becomes
+$$
+1 + \text{EAR} = \exp(r_{cc})
+$$
+so
+$$
+\ln(1 + \text{EAR}) = r_{cc}
+$$
+where $\ln(\cdot)$ is the natural log
+
+<!-- TODO add compounding problems -->
+
+## Interest Rates and Inflation Rates
+
+### The *dollar value* of a bank account grows at the *nominal interest rate*, but its *buying power* grows at the *real interest rate*
+
+$$
+1 + r_{real} = \frac{1 + r_{nom}}{1 + i}
+$$
+where $r_{real}$, $r_{nom}$, and $i$ are the real interest, nominal interest, and inflation rates, so
+$$
+r_{real} = \frac{r_{nom} - i}{1 + i}
+$$
+so, if inflation is low,
+$$
+r_{real} \approx r_{nom} - i
+$$
+
+### Inflation is a tax on savings!
+
+- The real after-tax rate is approximately the after-tax nominal rate minus the inflation rate
+- Therefore, the after-tax real returns fall by the inflation rate times the tax rate
+$$
+r_{nom}(1-t)-i = (r_{real}+i)(1-t)-i=r_{real}(1-t)-it
+$$
+
+### The Fisher equation predicts that the nominal interest rate should track the (expected) inflation rate, leaving the real rate relatively stable
+
+![Statistics for T-bill rates, inflation rates, and real rates, 1927-2021 [@bodie_investments_2023, Table 5.3]](Figures/table_0503.png){height=50%}
+
+## Risk and Risk Premiums
+
+### The realized rate of return depends on price changes and dividends paid
+
+- The realized rate of return is the same as the *holding period return* (HPR) above
+- We calculate HPR as
+$$
+\text{HPR} = \frac{\text{Ending price of a share} - \text{Beginning price} + \text{Cash dividend}}{\text{Beginning price}}
+$$
+
+### The future is uncertain {.allowframebreaks}
+
+- We perform *scenario analysis* to consider HPRs of various economic scenarios and the probabilities of each scenario
+- We measure expected or mean rates of return, $E(r)$, as the *probability-weighted average of the rates returns in each scenario*
+$$
+E(r) = \sum_s p(s)r(s)
+$$
+where $p(s)$ and $r(s)$ are the probability and HPR of each scenario
+- We can measure uncertainty as the variance of returns, which is the average *squared* deviation of actual returns from the mean return
+$$
+\text{Var}(r) = \sigma^2 = \sum_s p(s) [r(s) - E(r)]^2
+$$
+- In practice, we use the square root of the variance of returns (i.e., $\sigma = \sqrt{\sigma^2}$), which is the standard deviation of returns and has the same units are our returns (i.e., % instead of %\textsuperscript{2})
+
+<!-- TODO Add return and risk problems -->
+
+### We compare returns on risky investments to the risk-free rate
+
+- The *risk premium* is the difference between the *expected* rate of return and the risk-free rate
+- The *excess return* is the difference between the *realized* rate of return and the risk-free rate
+- Investors are risk averse and require positive risk premiums to hold risky investments
+- *However, after the fact, excess returns may be negative*
+
+### The Sharpe ratio is a reward-to-volatility ratio
+
+- Investors accept risk for the *potential* to earn returns greater than the risk-free rate
+- Risk premiums are proportional to the risk of expected excess returns, and we measure risk as the standard deviation of *excess* returns
+- The Sharpe ratio is the ratio of the risk premium to the standard deviation of excess returns and is commonly used to evaluate investment manager performance
+$$
+\text{Sharpe ratio} = \frac{\text{Risk premium}}{\text{SD of excess returns}}
+$$
+- We multiply the numerator by $T$ and the denominator by $\sqrt{T}$ to annualize the Sharpe ratio (e.g., $T=12$ for monthly returns, and $T=252$ for daily returns)
+
+## The Normal Distribution
+
+### We typically assume that market returns are normally distributed {.allowframebreaks}
+
+![Frequency distribution of monthly rate of return on the broad market index, 1927-2020 [@bodie_investments_2023, Figure 5.3]](Figures/bod12665_0503.png){height=50%}
+
+![The normal distribution with mean 10% and standard deviation 20% [@bodie_investments_2023, Figure 5.4]](Figures/bod12665_0504.png){height=50%}
+
+### This normally-distributed returns assumption is not perfect (e.g., stocks returns cannot be less than -100%), but it has a few advantages
+
+1. Normal distribution is symmetric
+1. The return on a portfolio of assets with normally distributed returns is also normally distributed
+1. We can fully describe a normal distribution with two parameters: mean and standard deviation
+1. We can fully describe the relation between two normal distributions with one parameter: correlation coefficient
+
+## Deviations from Normality and Tail Risk
+
+### Asset returns are negative-skewed and fat-tailed {.allowframebreaks}
+
+- *Skew* is the average *cubed* deviation from the mean
+$$
+\text{Skew} = \text{Average} \left[ \frac{(r - \bar{r})^3}{\hat{\sigma}^3} \right] = \frac{1}{T} \sum_{t=1}^T \frac{(r_t - \bar{r})^3}{\hat{\sigma}^3} 
+$$
+- Negative skew indicates that extremely bad outcomes are more likely than extremely good outcomes
+- Negative-skewed distributions are left-skewed with left tails that are fatter than right tails
+- *When returns are positively-skewed, SD overestimates risk; when returns are negatively-skewed, SD underestimates risk*
+
+![Normal and skewed distributions (mean = 6%, SD = 17%) [@bodie_investments_2023, Figure 5.5]](Figures/bod12665_0505.png){height=50%}
+
+- *Kurtosis* is the average deviation from the mean *raised to the fourth power*
+$$
+\text{Kurtosis} = \text{Average} \left[ \frac{(r - \bar{r})^4}{\hat{\sigma}^4} \right] - 3 = \frac{1}{T} \sum_{t=1}^T \frac{(r_t - \bar{r})^4}{\hat{\sigma}^4} - 3 
+$$
+- Then subtract 3 because the normal distribution has a kurtosis of 3
+- Kurtosis raises deviations to the fourth power, so kurtosis is more sensitive to outliers than the variance
+- Kurtosis values greater than zero indicate "fat tails", where extreme outcomes are more likely than for normal distributions
+
+
+![Normal and fat-tailed distributions (mean = 10%, SD = 20%) [@bodie_investments_2023, Figure 5.6]](Figures/bod12665_0506.png){height=50%}
+
+### There are four more common measures of downside risk
+
+1. Value at risk (VaR) is the loss corresponding to a low percentile of the return distribution (e.g., we expect 99% of returns to exceed the 1% VaR )
+1. Expected shortfall (ES) is the expected loss given that we find ourselves in a worst-case scenario (e.g., the 1% ES is the average of the worst 1% of all returns)
+1. Lower partial standard deviation (LPSD) is the standard deviation of *negative* excess returns, and the Sortino ratio is the ratio of the mean excess return to the LPSD (i.e., the Sharpe ratio but with the LPSD)
+1. Relative frequency of large, negative 3-sigma returns calculates the percent of returns that fall 3 standard deviations below the mean
+
+## Learning from Historical Records
+
+### Expected returns and the arithmetic average
+
+- When we do *scenario analysis*, we specify scenarios, each with a probability and return
+- When we use *historical data*
+	- We treat each observation as an equally likely scenario, so we use an equal probability of $\frac{1}{n}$ for each $p(s)$
+	- We estimate expected return, $E(r)$, as the arithmetic average of sample returns
+	$$
+	E(r) = \sum_{s=1}^n p(s)r(s) = \frac{1}{n} \sum_{s=1}^n r(s)
+	$$
+
+### Geometric average return versus arithmetic average return
+
+- The *arithmetic* average return is an unbiased estimate of *expected* returns
+- The *geometric* average return is an HPR that would compound to the same terminal value as the historical data
+$$
+\text{Geometric average} = \left[ \prod_{s=1}^n (1+r_s) \right]^{1/n} - 1
+$$
+- The geometric average return is always less than or equal to the arithmetic average return
+- With normally-distributed returns
+$$
+E[\text{Geometric average}] = E[\text{Arithmetic average}] - \frac{\sigma^2}{2}
+$$
+
+### Estimating return variance and standard deviation
+
+- Again, with historical data, we treat each observation as an equally likely scenario, so we use an equal probability of $\frac{1}{n}$ for each $p(s)$
+- This assumption provides $\bar{r}$ as an unbiased estimate of $E(r)$
+- However, this assumption provides downward biased (too low) estimates of $\sigma^2$ because we use one degree of freedom to estimate $\bar{r}$
+- Therefore, we use an equal probability of $\frac{1}{n-1}$ for each $p(s)$
+$$
+\hat{\sigma} = \sqrt{\frac{1}{n-1} \sum_{s=1}^n [r(s) - \bar{r}]^2}
+$$
+
+## Historic Returns on Risky Portfolios 
+
+### Historic returns on risky portfolios {.allowframebreaks}
+
+![Frequency distribution of annual returns on U.S. Treasury bill, Treasury bonds, and common stocks [@bodie_investments_2023, Figure 5.7]](Figures/bod12665_0507.png){height=50%}
+
+![Statistics for monthly excess returns on the market index and four "style" portfolios [@bodie_investments_2023, Table 5.5]](Figures/table_0505.png){height=50%}
+
+## Normality and Long-Term Investments
+
+### Investments in risky portfolios do not become safer in the long run
+
+![Investment risk at different horizons [@bodie_investments_2023, Table 5.6]](Figures/table_0506.png){height=50%}
+
+## Appendix
+
+### Summary from @bodie_investments_2023
+
+![](./Figures/summary_05.png){height=75%}
+
+### Key equations from @bodie_investments_2023
+
+![](./Figures/key_eq_05.png){height=75%}

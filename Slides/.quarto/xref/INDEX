@@ -1,0 +1,40 @@
+{
+  "bkm_ch_01.qmd": {
+    "bkm_ch_01.tex": "5c268ed4",
+    "bkm_ch_01.html": "2873a961"
+  },
+  "bkm_ch_02.qmd": {
+    "bkm_ch_02.tex": "0f947395",
+    "bkm_ch_02.html": "6cc55b13"
+  },
+  "bkm_ch_03.qmd": {
+    "bkm_ch_03.tex": "cef2314a",
+    "bkm_ch_03.html": "9121af5a"
+  },
+  "bkm_ch_04.qmd": {
+    "bkm_ch_04.tex": "18bb741c",
+    "bkm_ch_04.html": "f3775d35"
+  },
+  "bkm_ch_05.qmd": {
+    "bkm_ch_05.tex": "e58b2976",
+    "bkm_ch_05.html": "d55c6903"
+  },
+  "bkm_ch_06.qmd": {
+    "bkm_ch_06.tex": "9e15493c",
+    "bkm_ch_06.html": "dd7773f7"
+  },
+  "bkm_ch_07.qmd": {
+    "bkm_ch_07.tex": "8e4eae95",
+    "bkm_ch_07.html": "7d6694b0"
+  },
+  "index.qmd": {
+    "index.html": "2968794d",
+    "index.tex": "55dff820"
+  },
+  "references.qmd": {
+    "references.tex": "1b321f97"
+  },
+  "bkm_ch_09.qmd": {
+    "bkm_ch_09.tex": "6dcb5d3a"
+  }
+}

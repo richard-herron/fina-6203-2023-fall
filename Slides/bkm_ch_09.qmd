@@ -1,0 +1,246 @@
+---
+title: Chapter 9 - The Capital Asset Pricing Model
+---
+
+## The Capital Asset Pricing Model
+
+
+### The capital asset pricing model (CAPM) is a set of predictions concerning equilibrium expected returns on risky assets
+
+- @markowitz_portfolio_1952 proposed modern portfolio theory
+- 12 years later, @sharpe_capital_1964, @lintner_security_1965, and @mossin_equilibrium_1966 proposed the CAPM
+Individual behavior.
+- The CAPM does not withstand empirical tests but remains central to modern finance because of its keys insight: *only systematic risk is rewarded with a risk premium*
+
+
+### The CAPM is based on two sets of assumptions
+
+1. Individual behavior
+  a. Investors are rational, mean-variance optimizers
+  b. Their common planning horizon is a single period
+  c. Investors all use identical input lists, an assumption often termed homogeneous expectations. Homogeneous expectations are consistent with the assumption that all relevant information is publicly available
+2. Market structure
+  a. All assets are publicly held and trade on public exchanges
+  b. Investors can borrow or lend at a common risk-free rate, and they can take short positions on traded securities
+  c. No taxes
+  d. No trading costs
+
+
+### Suppose that all investors optimize their portfolios using the Markowitz model of efficient diversification
+
+
+- Each investor uses an input list to draw an efficient frontier and identifies risky portfolio $P$ where the CAL is tangent to the efficient frontier
+- Under the CAPM, all investors would find the same efficient frontier, CAL, and risky portfolio $P$
+- The proportion of each stock in $P$ is the market value of each stock divided by the sum of the market values of all stocks
+- Therefore
+  - The CAL must be the CML
+  - The market portfolio $M$ is the optimal tangency portfolio on the efficient frontier
+  - Passive investment is efficient
+
+
+### CAL and CML
+
+![Capital allocation line and capital market line [@bodie_investments_2023, Figure 9.1]](./Figures/bod12665_0901.png){height=75%}
+
+
+### The CAPM predicts the risk premium of the market portfolio
+
+- Recall that each individual investor chooses a proportion $y$ to allocate to the optimal portfolio $M$, such that
+$$
+y = \frac{E(r_M) - r_f}{A \sigma_M^2}
+$$
+where $E(r_M)$ is the expected return of the market, $r_f$ is the risk-free  rate of return, $A$ is the coefficient of risk aversion, and $\sigma_M^2$ is the variance of the market portfolio
+- Net borrowing and lending across all investors must be zero
+- Therefore, the average position in the risky portfolio is 100% and $\overline{y} = 1$
+- Finally, the market risk premium is proportional to its risk and the representative investor’s degree of risk aversion, so
+$$
+E(r_M) - r_f = E(R_M) = \overline{A} \sigma_M^2
+$$
+where $\overline{A}$ is the representative investor’s risk aversion
+
+
+### The CAPM predicts the expected return on an asset depends on its contribution to portfolio risk
+
+- All investors use the same input list, so they all hold the same optimal risky portfolio, and the market portfolio is the optimal risky portfolio
+- Consider GE stock, whose contribution to the risk of the market portfolio is
+$$
+w_{GE} [w_1 \text{Cov}(R_1, R_{GE}) + w_2 \text{Cov}(R_2, R_{GE}) + \cdots + w_{GE} \text{Cov}(R_{GE}, R_{GE}) + \cdots + w_n \text{Cov}(R_n, R_{GE})]
+$$
+- The term in the square brackets simplifies to
+$$
+\sum_{i=1}^n w_i \text{Cov}(R_i, R_{GE}) = \sum_{i=1}^n \text{Cov}(w_i R_i, R_{GE}) = \text{Cov}\left( \sum_{i=1}^n w_i R_i, R_{GE} \right) = \text{Cov}(R_M, R_{GE})
+$$
+because covariances are additive and $\sum_{i=1}^n w_i R_i = R_M$
+- Therefore, GE's contribution to the risk of the portfolio is $w_{GE} \text{Cov}(R_M, R_{GE})$
+- Therefore, GE's reward-to-risk ratio is $\frac{w_{GE} E(R_{GE})}{w_{GE} \text{Cov}(R_{GE}, R_M)} = \frac{E(R_{GE})}{\text{Cov}(R_{GE}, R_M)}$
+- All assets must have the same reward-to-risk ratio, so $\frac{E(R_{GE})}{\text{Cov}(R_{GE}, R_M)} = \frac{E(R_{M})}{\text{Cov}(R_{M}, R_M)}$
+- Therefore
+$$
+E(R_{GE}) = \frac{\text{Cov}(R_{GE}, R_M)}{\sigma_M^2} E(R_M)
+$$
+which is typically written as
+$$
+E(r_{GE}) = r_f + \beta_{GE} [E(r_M) - r_f]
+$$
+where $\beta_{GE} = \frac{\text{Cov}(R_{GE}, R_M)}{\sigma_M^2}$ and $E(R) = E(r) - r_f$
+- Therefore, the risk premium on an asset (here $E(r_{GE}) - r_f$) depends on
+  - $r_f$
+  - $\beta$
+  - $E(r_M) - r_f$
+- An asset's risk premium does not depend on its volatility!
+  - Note that investors do not see risk premiums
+  - Instead, investors infer risk premiums from market prices and expected cash flows
+
+
+### The CAPM works for portfolios, too
+
+- Portfolio beta ($\beta_P$) is the weighted sum of its asset betas ($\beta_i$)
+$$
+\beta_P = \sigma_{i=1}^n w_i \beta_i
+$$
+- The market beta ($\beta_M$) is one by definition because $\beta_M = \frac{\text{Cov}(R_M, R_M)}{\sigma_M^2} = \frac{\sigma_M^2}{\sigma_M^2} = 1$
+- So we can think of $\beta > 1$ as "agressive" and $\beta < 1$ as "defensive"
+
+
+### The security market line (SML) visualizes the CAPM
+
+![The security market line [@bodie_investments_2023, Figure 9.2]](./Figures/bod12665_0902.png){height=75%}
+
+
+### The CML and SML visualize different concepts
+
+- CML
+  - The CML plots the risk premiums of efficient *portfolios* versus portfolio standard deviation
+  - Standard deviation is a valid measure of risk for efficiently-diversified portfolios
+- SML
+  - The SML plots the risk premiums of *individual assets* versus asset risk
+  - Asset contribution to portfolio variance, $\beta$, is the appropriate measure of risk for assets held in a diversified portfolio
+  - *The SML is valid for efficient portfolios and individual assets*
+  - 
+
+
+### Fairly-priced assets plot on the SML, providing expected returns that compensate for their risk
+
+![The SML and a positive-alpha stock. The risk-free rate is 6%, and the market's expected return is 14%, implying a market risk premium of 8% [@bodie_investments_2023, Figure 9.3]](./Figures/bod12665_0903.png){height=75%}
+
+
+## Assumptions and Extensions of the CAPM
+
+
+### The CAPM is an elegant model built on a set of "uncomfortably restrictive" assumptions 
+
+- In this section, we will investigate the implications of relaxing some of these assumptions
+- Throughout, we will maintain the fundamental distinction between systematic and diversifiable risk that is the heart of the CAPM
+
+
+### Identical input lists (assumption 1c)
+
+- This assumption is not unreasonable
+- When most information is public, it would not be surprising for investors to agree on firm prospects
+- Also, wildly differing opinions may offset one another, so prices (and expected risk premiums) reflect consensus expectations
+- There are two doubts about the conclusions of the identical input lists assumption
+  1. Short-selling frictions limit checks on too-high prices; these short-selling frictions are
+    1. Potentially unlimited liabilities on short positions, tying up collateral
+    1. Limited supply of stocks to be borrowed by would-be short sellers
+    1. Many investment companies prohibit short sales, as do some regulations
+  1. Taxes affect the after-tax returns on the same security
+    - Practically, this doubt is minor, and there is little evidence that taxes are a major factor in stock returns
+    
+
+### Risk-free borrowing and the zero-beta model (assumption 2b)
+
+- Restrictions on borrowing create different tangency portfolios for different investors, creating different optimal risky portfolios
+- @merton_analytic_1972 and @roll_critique_1977 show the following characteristics of efficient portfolios
+  1. Any combination of tangency portfolios is on the efficient frontier
+  1. The market portfolio is an aggregation of efficient portfolios
+  1. Every tangency portfolio has a companion zero-beta portfolio on the bottom half of the frontier, so we can rewrite the CAPM as $E(r_i) - E(r_z) = \beta_i [E(r_M) - E(r_z)]$, where $E(r_z)$ is the expected return on the zero-beta portfolio and $E(r_z) > r_f$
+- Also, borrowing limits make it difficult for risk-tolerant investors to leverage up the tangency portfolio, pushing them to tilt their portfolios away from low-beta stocks and toward high-beta stocks, pushing prices up and risk premiums down
+- *These limits on borrowing flatten the SML*
+
+
+### Labor income and other nontraded assets (assumption 2a)
+
+- Many assets are not tradeable (e.g., real estate, private businesses, and human capital)
+- For example, employee compensation counted for 60% of national income for the 5 years ending 2021
+- Therefore, the market portfolio may not be the optimal risky portfolio
+- Also, the optimal risky portfolio should differ based on an investor's human capital
+
+
+### Multiperiod model and hedge portfolios
+
+- Investors should be more concerned with the stream of consumption that wealth can buy for them than about the mean and variance of wealth this period (assumption 1a)
+- This assumption rules out concern with the correlation of asset returns with inflation or prices of important goods and services
+- It also rules out demand for assets that could hedge these "extra-market risks" that would increase prices and decrease risk premiums
+- Similar extra-market risk factors would arise in a multiperiod model instead of the single-period model (assumption 1b)
+- Demand for these hedging assets would violate the CAPM
+- The intertemporal CAPM (ICAPM) is a multiperiod model that addresses these concerns and models investors who continually adapt their consumption and investment decisions to changes in wealth, prices, and investments
+
+
+### Consumption-based CAPM (CCAPM)
+
+- The discussion on the previous slide centers on consumption
+- The CCAPM centers the CAPM directly on consumption so that the utility of an additional dollar of consumption today must equal the utility of the expected future consumption that could be financed by investing that marginal dollar today
+- Investors value additional income more in states of the world where consumption is low
+- Therefore, equilibrium risk premiums will be greater for assets that exhibit higher covariance with consumption growth
+
+
+### Liquidity and the CAPM (assumption 2d)
+
+- Financial costs inhibit trades and are non-zero
+  - Under the CAPM, there is little reason to trade because all investors share the same information and demand the same portfolios of risk assets
+  - In reality, investors trade because they have different expectations
+- Liquidity of an asset is the ease and speed with which it can be sold at the fair market value
+- Illiquidity can be measured in part by the discount from fair market value a seller must accept if the asset is to be sold quickly
+- Illiquidity can also be measured in part by the spread between the bid and ask prices
+
+
+### Firms with greater liquidity risk have higher average returns
+
+![The relationship between illiquidity and average returns [@bodie_investments_2023, Figure 9.4]](./Figures/bod12665_0904.png){height=75%}
+
+
+## Issues in Testing the CAPM
+
+
+### Testing the CAPM is surprisingly difficult!
+
+- We cannot observe all tradable assets, so we cannot pin down the market portfolio
+- As a result, tests of the CAPM have a "joint hypothesis problem"
+- If we test and reject the CAPM, do we reject it because it is the wrong model or because we have the wrong market portfolio (or both)?
+- Alpha and beta, as well as residual variance, are likely time-varying
+- Betas and market risk premiums may not vary *randomly* over time but in response to economic conditions (i.e., similar to the ICAPM and CCAPM)
+- Regarding the ICAPM, we have not found the extra-market risk factors that hedge consumption
+- *Bottom line: some researchers consider the CAPM outdated, but it delivers important insights, and there is no clear replacement*
+
+
+## The CAPM and Investment Industry
+
+
+### Portfolio theory and the CAPM are accepted tools in the practitioner community
+
+- Many professionals think about the distinction between systematic and firm-specific risk and are comfortable with beta as a  measure of systematic risk
+- In the asset management industry, alpha is regularly computed
+- But alpha or other theoretically-appropriate risk-adjusted performance measures are rarely used to compensate portfolio managers
+- We cannot prove that the market index is the most efficiently diversified portfolio
+- But most investors do not beat the market index portfolio
+- Average mutual fund alpha is negative most years, and funds with positive alphas one year have negative alphas the following year
+- Since only a small fraction of professional managers beat the index over ten-year periods, the market index portfolio is efficient for all practical purposes and is used as
+  1. A diversification vehicle to mix with an active portfolio from security analysis
+  1. A benchmark for performance evaluation (and compensation)
+  1. A means to adjudicate lawsuits
+  1. A means to determine proper prices in regulated industries, allowing shareholders to earn a fair rate of return, but no more
+
+
+## Appendix
+
+
+### Summary from @bodie_investments_2023
+
+![](./Figures/summary_09_1.png){height=75%}
+
+![](./Figures/summary_09_2.png){height=75%}
+
+
+### Key equations from @bodie_investments_2023
+
+![](./Figures/key_eq_09.png){height=75%}

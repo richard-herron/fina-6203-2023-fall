@@ -1,0 +1,312 @@
+---
+title: Chapter 13 - Empirical Evidence on Security Returns
+---
+
+### Overview
+
+* CAPM assumes  _beta_  __ __ determines why different securities offer different expected rates of return
+* Nearly impossible to conduct definitive test of CAPM since the true market portfolio is unobservable
+* Recent research suggests the following:
+  * Risk-return relationship might entail multiple sources of systematic risk
+  * Non-risk-related considerations could lead to substantial variation in expected returns
+  * Behavior-finance issues can lead to security mispricing
+
+### The Index Model and the Single-Factor SML
+
+Expected Return-Beta Relationship
+
+Estimating the security characteristic line (SCL)
+
+### Estimating the SCL
+
+* Tests of the expected return beta relationship
+  * __First-pass regression __
+  * Time series regression to estimate the betas of securities or portfolios
+  * __Second-pass regression__
+  * Cross-sectional regression of portfolio returns on betas,
+  * Estimated slope is the measurement of the reward for bearing systematic risk during the period
+
+### Tests of the CAPM
+
+* Early tests performed by Lintner and later replicated by Miller and Scholes
+  * Results are inconsistent with the CAPM
+    * SML is “too flat” and intercept is “too large”
+  * Difficulties with approach employed
+    * Stock returns are extremely volatile, lessening the precision of any tests of average return
+    * Fundamental concerns about the validity of the tests
+      * Market index used is not the “market portfolio” of CAPM
+      * Betas from first-stage are estimated with sampling error
+      * Investors cannot borrow at risk-free rate
+
+### The Market Index: Roll’s Critique
+
+Single testable hypothesis associated with CAPM: market portfolio is mean-variance efficient
+
+All other implications of the model are not independently testable
+
+If betas are calculated against mean-variance efficient portfolios, they will satisfy the SML relation exactly regardless of whether the true market portfolio is mean-variance efficient in the ex-ante sense
+
+Theory is not testable unless all individual assets are included in sample
+
+Using proxy, such as S&P 500, is subject to difficulties
+
+### Measurement Error in Beta
+
+* _Problem_  - If beta is measured with error and appears as a right-hand-side variable in the second-pass regression:
+  * Slope coefficient of the regression equation will be biased downward
+  * Intercept biased upward
+* _Solution_  - Construct  _P_  with large dispersion of beta
+  * By ranking them, they yield insightful tests of the SML
+  * Fama and MacBeth
+
+### Table 13.1 Summary of Fama-MacBeth Study
+
+### Summary of CAPM Tests
+
+* Fama-MacBeth verify the following:
+  * Observed relationship between average excess returns and beta is indeed linear
+  * Nonsystematic risk does not explain average excess returns
+
+### Tests of the Multifactor Models
+
+* Three types of factors likely augment market risk factor in a multifactor SML:
+  * Factors that hedge consumption against uncertainty in prices
+    * For example, housing or energy
+  * Factors that hedge future investment opportunities
+    * For example, interest rates or market volatility
+  * Factors that hedge assets missing from market index
+    * For example, labor income or private business
+
+### Omitted Asset Category Factors
+
+__Heaton and Lucas__
+
+Focus on value of proprietary business
+
+Find that households with higher investments in private business reduce the fraction of total wealth invested in equity
+
+* __Jagannathan__  __ and Wang__
+* Focus on labor income
+* Study shows two important deficiencies in tests of the single-index model:
+  * Many assets are not traded, notably, human capital
+    * Human capital factor may be important in explaining returns
+  * Betas are cyclical
+
+### Table 13.2 Regression Results of Various SML Specifications
+
+### A Macro Factor Model
+
+* Chen, Roll, and Ross identify possible variables that might proxy for systematic factors:
+  * Growth rate in industrial production (IP)
+  * Changes in expected inflation (EI)
+  * Unexpected inflation (UI)
+  * Unexpected changes in risk premiums on bonds (CG)
+  * Unexpected changes in term premium on bonds (GB)
+
+### Table 13.3 Economic Variables and Pricing (% per month × 10), Multivariate Approach
+
+Authors estimate second-pass regression for every month of sample period, re-estimating first-pass factor betas once every 12 months
+
+Source: Modified from Nai-Fu Chen, Richard Roll, and Stephen Ross, “Economic Forces and the Stock Market,”  _Journal of Business _ 59 (1986).
+
+### Fama-French-Type Factor Models
+
+High book to market firms experience higher returns (HML)
+
+Smaller firms experience higher returns (SMB)
+
+Size and value are priced risk factors, consistent with APT
+
+### Figure 13.1 CAPM versus Fama and French Model
+
+__Figure 13.1 __ CAPM versus the Fama and French model. The figure plots the average actual returns versus returns predicted by CAPM and the FF model for 25 size and book-to-market double-sorted portfolios.
+
+[Access the text alternative for slide images.](slide39.xml)
+
+Source: Amit Goyal, “Empirical Cross Sectional Asset Pricing: A Survey,”  _Financial Markets and Portfolio Management _ 26 (2012), pp. 3–38.
+
+### Risk-Based Interpretations
+
+__Petkova__  __ and Zhang__
+
+__Liew__  __ and __  __Vassalou__
+
+* Provide evidence of a countercyclical value beta
+  * Beta of value stocks is less than that of growth stocks during expansion
+  * Beta of value stocks is greater than that of growth stocks during recession
+
+Returns on style portfolios seems to predict GDP growth, and thus may capture some aspects of business cycle risk
+
+### Figure 13.2 Difference in Return to Factor Portfolios
+
+[Access the text alternative for slide images.](slide40.xml)
+
+### Behavioral Explanations
+
+* “Glamour firms”
+  * Recent good performance
+  * High prices
+  * Lower book-to-market ratios
+* Overreaction
+  * High past growth is extrapolated and then impounded in price
+* Extrapolation error
+  * Market ignores evidence that past growth cannot be extrapolated far into the future
+
+### Figure 13.3 Book-to-Market Reflects Past Growth
+
+[Access the text alternative for slide images.](slide40.xml)
+
+### Figure 13.4 Value Minus Growth Returns Surrounding Earnings Announcements
+
+[Access the text alternative for slide images.](slide43.xml)
+
+Source: R. La Porta, J. Lakonishok, A. Shleifer, and R. W. Vishny, “Good News for Value Stocks _,” Journal of Finance 52 _ (1997), pp. 859–74.
+
+### Momentum: A Fourth Factor
+
+* Fourth factor has come to be added to the standard controls for stock return behavior since original FF model
+  * Momentum factor evaluates abnormal performance of a stock portfolio
+* Winners minus losers (WML) — winners/losers based on past returns
+
+### Table 13.4 The Cross Section of Expected Stock Returns
+
+### Table 13.5 Factor Classification
+
+### Liquidity and Asset Pricing 1
+
+* Liquidity involves the following:
+  * Trading costs
+  * Ease of sale
+  * Necessary price concessions to effect a quick transaction
+  * Market depth
+  * Price predictability
+
+* Pástor and Stambaugh
+  * Look for evidence of price reversals, especially following large trades
+  * Original price change was a concession on the part of trade initiators who needed to offer/accept higher/lower purchase prices to complete trade in a timely manner
+
+### Figure 13.6 Alphas of Value-Weighted Portfolios
+
+[Access the text alternative for slide images.](slide44.xml)
+
+Source: L. Pástor and R. F. Stambaugh, “Liquidity Risk and Expected Stock Returns,”  _Journal of Political Economy _ 111 (2003), pp. 642–85, Table 4.
+
+### Liquidity and Asset Pricing 3
+
+* Amihud
+  * Also focuses on large trades and price movements
+  * Measures:
+  * Sadka
+  * Uses trade-by-trade data
+  * Liquidity of firms can wax or wane as prevalence of informationally motivated trades varies.
+
+### Equity Premium Puzzle
+
+* The  _equity premium puzzle _ says:
+  * With such low “systematic” consumption risk, it is hard to justify the large market risk premium historically observed
+  * Unless we assume implausibly high levels of risk aversion
+* Recent research has improved estimation by utilizing consumption-tracking portfolios
+
+### Table 13.6 Annual Excess Returns and Consumption Betas
+
+### Figure 13.7 Cross-Section of Stock Returns: Fama-French 25 Portfolios, 1954 to 2003
+
+[Access the text alternative for slide images.](slide45.xml)
+
+### Fama and French: Expected versus Realized Returns
+
+Found an equity premium only after 1949
+
+Capital gains significantly exceeded the dividend growth rate in modern times
+
+Equity premium may be due to unanticipated capital gains
+
+[Access the text alternative for slide images.](slide45.xml)
+
+### Survivorship Bias
+
+* Upward bias in estimates of expected returns
+  * Result of estimating risk premiums from the experience of the country with the highest average return and ignoring the evidence from stock markets that did not survive for the full sample period
+* High realized equity premium obtained for the United States may not be indicative of  _required_  returns
+
+### Figure 13.8 Survivorship Bias and Global Stock Markets
+
+### Liquidity and the Equity Premium Puzzle
+
+Illiquidity premium may be on the same order of magnitude as the market risk premium
+
+Part of the average excess return is almost certainly compensation for  _liquidity_  risk rather than just the (systematic)  _volatility_  of returns
+
+Equity premium puzzle may be less of a puzzle than it first appears
+
+### Behavioral Explanations of the Equity Premium Puzzle
+
+* Barberis and Huang explain the puzzle as an outcome of irrational investor behavior
+* Premium results from two factors:
+  * Narrow framing – the idea that investors evaluate every risk they face in isolation
+  * Loss aversion
+* Investors focus on total volatility rather than the low correlation of a stock portfolio with other components of wealth
+* Require higher risk premiums than rational models would predict
+
+### End of Main Content
+
+© McGraw Hill LLC. All rights reserved. No reproduction or distribution without the prior written consent of McGraw Hill LLC.
+
+### Accessibility Content: Text Alternatives for Images
+
+### CAPM versus FF Model - Text Alternative
+
+[Return to parent-slide containing images.](slide16.xml)
+
+In Graph A, CAPM Fit, Actual Return (percent per month) is on the vertical axis and Predicted Return from CAPM (percent per month) is on the horizontal. Data points are clustered between 0.4 and 0.8 on the horizontal axis and 0.2 and 1.2 on the vertical. They are heaviest above 0.6 along the vertical axis. In Graph B, Fama and French (1993) Fit, Actual Return (percent per month) is on the vertical axis and Predicted Return from Fama and French Model (percent per month) is on the horizontal. Data points are clustered between 0.4 and 1.1 on the horizontal axis and 0.2 and 1.2 on the vertical. They are heaviest after 0.6 along the horizontal axis.
+
+[Return to parent-slide containing images.](slide16.xml)
+
+### Difference in Return to Factor Portfolios - Text Alternative
+
+[Return to parent-slide containing images.](slide18.xml)
+
+Bar graph compares past year returns for HML and SMB for Australia, Canada, France, Germany, Italy, Japan, Netherlands, Switzerland, the United Kingdom, and the United States. Both portfolios show a strong correlation between higher returns on these portfolios and better GDP growth in the subsequent year.
+
+[Return to parent-slide containing images.](slide18.xml)
+
+### HML Beta in Different Economic States - Text Alternative
+
+[Return to parent-slide containing images.](slide19.xml)
+
+Bar graph illustrates when value beta is less than growth value, peak is negative 0.33 and expansion is negative 0.15. When value beta is more than growth value, recession is 0.05 and trough is negative 0.40.
+
+[Return to parent-slide containing images.](slide19.xml)
+
+### The Book-to-Market Ratio - Text Alternative
+
+[Return to parent-slide containing images.](slide21.xml)
+
+Book to Market Ratio  is on the vertical axis, and growth rate decile is on the horizontal. Median growth rate rises from (1, negative 0.2), crosses at (3, 0), and ends at (10, 0.4). Beginning book to market line starts at (1, 0.6) and slopes up to (10, 0.8). Ending book to market line begins at (1, 1.1) and slopes down to (10, 0.5). All values are approximations.
+
+[Return to parent-slide containing images.](slide21.xml)
+
+### Value Minus Growth Returns Surrounding Earnings Announcements - Text Alternative
+
+[Return to parent-slide containing images.](slide21.xml)
+
+Bar graph has Difference in Returns (percent) along the vertical axis and postformation year along the horizontal. Values for 1 through 5, respectively, are 3.22, 2.79, 2.26, 1.60, and 1.18.
+
+[Return to parent-slide containing images.](slide21.xml)
+
+### Alphas of Value-Weighted Portfolios - Text Alternative
+
+[Return to parent-slide containing images.](slide27.xml)
+
+Bar graph has Alpha (percent per year) on the vertical axis and Illiquidity decile on the horizontal. For deciles 1 through 5, CAPM and FF Alpha are both negative, becoming less negative as they approach decile 5 and CAPM generally 2 points less negative. Both alphas are positive for deciles 6 through 10, all less than two and close in value until the last decile, where CAPM is 1 and FF is 3.
+
+[Return to parent-slide containing images.](slide27.xml)
+
+### Cross-Section of Stock Returns: Fama-French 25 Portfolios, 1954 to 2003 - Text Alternative
+
+[Return to parent-slide containing images.](slide31.xml)
+
+Excess Returns (percent) is on the vertical axis and consumption betas is on the horizontal. Data are clustered between 2 and 6 on the horizontal axis and between 6 and 18 on the vertical.
+
+[Return to parent-slide containing images.](slide31.xml)
+

@@ -1,0 +1,428 @@
+---
+title: Chapter 24 - Portfolio Performance Evaluation
+---
+
+### Overview
+
+If markets are efficient, investors must be able to measure performance of their asset managers.
+
+Discuss methods to evaluate investment performance.
+
+Conventional approaches to risk adjustment.
+
+### Time-Weighted Returns
+
+__Time-weighted average__
+
+Geometric average is a time-weighted average.
+
+Each period’s return has equal weight.
+
+### Dollar-Weighted Returns 1
+
+__Dollar-weighted rate of return __ is the internal rate of return on an investment.
+
+Returns are weighted by the amount invested in each period.
+
+### Time-Weighted and Dollar-Weighted Returns: Example 1
+
+A stock sells for $50. You purchase one share today and one more in one year. At the end of the second year, you sell both shares for $54. Dividends of $2 per share are paid annually at the end of each year (but before shares are sold).
+
+| Time | Outlay |
+| :-: | :-: |
+| 0 | $50 to purchase first share |
+| 1 | $53 to purchase second share a year later |
+|  | Proceeds |
+| 1 | $2 dividend from initially purchased share |
+| 2 | $4 dividend from the 2 shares held in the second year, plus |
+|  | $108 received from selling both shares at $54 each |
+
+The  __time-weighted__  (geometric average) return is 7.81%:
+
+The  __dollar-weighted__  (I R R) return is 7.12%:
+
+### Adjusting Returns for Risk
+
+Simplest and most popular way to adjust for risk is to compare rates of return with those of other investment funds with similar risk characteristics.
+
+__Comparison universe __ is the set of money managers employing similar investment styles, used for assessing the relative performance of a portfolio manager.
+
+### Figure 24.1 Universe Comparison
+
+__Figure 24.1 __ Universe comparison, periods ending December 31, 2028
+
+[Access the text alternative for slide images.](slide41.xml)
+
+### Risk-Adjusted Performance: Sharpe
+
+__Sharpe’s ratio __ divides average portfolio excess return over the sample period by the standard deviation of returns over that period.
+
+Measures reward to (total) volatility trade-off:
+
+### Risk-Adjusted Performance: Treynor
+
+__Treynor’s measure __ is a ratio of excess return to beta, like the Sharpe ratio, but it uses systematic risk instead of total risk.
+
+### Figure 24.3 Treynor Measures of Two Portfolio and the Market Index
+
+|  | Risk-free Asset | Portfolio Q | Portfolio U | Market Index, M |
+| :-: | :-: | :-: | :-: | :-: |
+| Beta | 0 | 1.3 | 0.8 | 1.0 |
+| Average return | 6 | 22.0 | 17.0 | 16.0 |
+| Excess return (%) | 0 | 16.0 | 11.0 | 10.0 |
+| Alpha (%) | 0 | 3.5 | 3.0 | 0.0 |
+
+[Access the text alternative for slide images.](slide42.xml)
+
+### Risk-Adjusted Performance: Jensen
+
+__Jensen’s alpha __ is the average return on the portfolio over and above that predicted by the C A P M, given the portfolio’s beta and the average market return.
+
+### Risk-Adjusted Performance: Information Ratio
+
+__Information ratio __ divides the alpha of the portfolio by the nonsystematic risk of the portfolio, called “tracking error” in the industry.
+
+Measures abnormal return per unit of risk that in principle could be diversified away by holding a market index portfolio.
+
+### M Squared Measure and the Shape Ratio
+
+Focuses on total volatility as a measure of risk, but its risk adjustment leads to an easy-to-interpret differential return relative to the benchmark index.
+
+### Figure 24.2 The M Squared of Portfolio P
+
+of Portfolio  _P _ is negative even though its average return
+
+was greater than that of the market index,  _M._
+
+[Access the text alternative for slide images.](slide43.xml)
+
+### Appropriate Performance Measure
+
+|  |  |  |
+| :-: | :-: | :-: |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+### The Role of Alpha in Performance Measures
+
+* A positive alpha is necessary to outperform the passive market index
+  * Though necessary, it’s not enough to guarantee a portfolio will outperform the index.
+
+Most widely used performance measure
+
+|  |  |  |  |
+| :-: | :-: | :-: | :-: |
+|  |  |  |  |
+|  |  |  |  |
+
+denotes the correlation coefficient between portfolio P and the market, and is less than 1.
+
+### Table 24.3 Performance Statistics: Example
+
+Performance Statistics
+
+|  |  |  |  |
+| :-: | :-: | :-: | :-: |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+### Interpretation of Performance Statistics
+
+If P or Q represents the entire investment, Q is better
+
+because of its higher Sharpe measure and better
+
+If P and Q are potential sub-portfolios, Q also dominates because its Treynor measure is higher.
+
+If we seek an active portfolio to mix with an index portfolio, P is better due to its higher information ratio.
+
+### Realized Returns versus Expected Returns
+
+* Must determine “significance level” of a performance measure to know whether it reliably indicates ability
+  * To estimate the portfolio alpha from the S C L, regress portfolio excess returns on the market index.
+  * Then, to assess whether the alpha estimate reflects true skill and not just luck, compute the  _t_ -statistic of the alpha estimate.
+
+Even moderate levels of statistical noise make performance evaluation extremely difficult.
+
+### Survivorship Bias and Portfolio Evaluation
+
+Regardless of the performance criterion, some funds will outperform their benchmarks in any year, and some will underperform.
+
+Performance in one period is not predictive of future performance.
+
+Limiting a sample of funds to those for which returns are available over an entire sample period introduces  __survivorship bias.__
+
+### Style Analysis
+
+* _Style analysis _ measures the exposures of managed portfolios to asset classes.
+* Introduced by William Sharpe.
+  * Regress fund returns on indexes representing a range of asset classes.
+  * Regression coefficient on each index would then measure the fund’s implicit allocation to that “style”.
+
+of regression would measure percentage of return variability
+
+    * attributable to style choice rather than security selection.
+    * Intercept measures average return from security selection of the fund portfolio.
+
+### Table 24.4 Style Analysis for Fidelity’s Magellan Fund
+
+| Style Portfolio | Regression Coefficient |
+| :-: | :-: |
+| T-bill | 0 |
+| Small cap | 0 |
+| Medium cap | 35 |
+| Large cap | 61 |
+| High P/E (growth) | 5 |
+| Medium P/E | 0 |
+| Low P/E (value) | 0 |
+| Total | 100 |
+| R-square | 97.5 |
+
+Source: Authors' calculations. Return data for Magellan obtained from  __[flnance.yahoo.com/funds ](http://flnance.yahoo.com/funds)__ [and return data for style portfolios obtained from the Web page of Professor Kenneth French: ](http://flnance.yahoo.com/funds) __[mba.tuck.](http://flnance.yahoo.com/funds)__  __dartmouth.edu/pages/faculty/__  __ken.french__  __/data_llbrary.html.__
+
+### Figure 24.4 Fidelity Magellan Fund Cumulative Return Difference
+
+__Figure 24.4 __ Fidelity Magellan Fund cumulative return difference: Fund versus style benchmark and fund versus S M L benchmark
+
+Source: Authors' calculations.
+
+[Access the text alternative for slide images.](slide44.xml)
+
+Source: Authors’ calculations.
+
+### Figure 24.5 Average Tracking Error for 636 Mutual Funds, 19 85 to 19 89
+
+__Figure 24.5 __ Average tracking error for 636 mutual funds, 19 85 to 19 89
+
+Source: William F. Sharpe. "Asset Allocation: Management Style and Performance Evaluation"  _Journal of Portfolio Management_ , Winter 19 92, pp. 7-19.
+
+[Access the text alternative for slide images.](slide45.xml)
+
+### Performance Measurement with Changing Portfolio Composition
+
+* Risk-adjustment techniques assume constant portfolio risk, which isn’t necessarily true.
+* Performance Manipulation and the M R A R.
+  * Managers may try to game the system, given their compensation depends on performance.
+  * Only measure impossible to manipulate is M R A R.
+
+### Figure 24.7 M R A R Scores with and without Manipulation
+
+__Figure 24.7 __ Rankings based on Morningstar’s R A R versus Sharpe ratio
+
+Source: William R Sharpe, "Morningstar Performance Measures" (19 97),  __[www.stanford.edu/-wfsharpe/art/ stars/starsO.htm.](http://www.stanford.edu/-wfsharpe/art/)__
+
+[Access the text alternative for slide images.](slide46.xml)
+
+### Market Timing
+
+In its pure form,  __market timing __ involves shifting funds between a market-index portfolio and a safe asset.
+
+Treynor and Mazuy:
+
+Henriksson and Merton:
+
+### Figure 24.8 Characteristic Lines
+
+__Figure 24.8 __ Characteristic lines.  _Panel A:_  No market timing, beta is constant.
+
+_Panel B: _ Market timing, beta increases with expected market excess return.
+
+_Panel C: _ Market timing with only two values of beta.
+
+[Access the text alternative for slide images.](slide47.xml)
+
+### Table 24.5 Performance of Bills, Equities, and Perfect (Annual) Market Timers
+
+Performance of bills, equities, and perfect (annual) market timers. Initial investment = $1 (December 31, 19 26 to December 31, 2021)
+
+|   | Bills | Equities | Perfect timer |
+| :-: | :-: | :-: | :-: |
+| Terminal value | $21  | $10,546  | $15,12,355  |
+| Arithmetic average | 3.31% | 11.96% | 16.72% |
+| Standard deviation | 3.12% | 19.89% | 13.34% |
+| Geometric average | 3.26% | 10.24% | 16.16% |
+| Maximum | 14.71% | 57.35% | 57.35% |
+| Minimum* | −0.02% | −44.04% | 0.00% |
+| Skew | 1.08 | −0.45 | 0.69 |
+| Kurtosis | 1.09 | 0.11 | −0.14 |
+| LPSD | 0 | 12.80% | 0 |
+
+*A negative rate on 'bills" was observed in 19 40. The Treasury security used in the data series in these early years was actually not a T-bill but a T-bond with 30 days to maturity.
+
+### Valuing Market Timing as a Call Option
+
+Key to valuing market timing ability is to recognize that perfect foresight is equivalent to holding a call option on the equity portfolio – but without having to pay for it!
+
+|  |  |  |
+| :-: | :-: | :-: |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+[Access the text alternative for slide images.](slide48.xml)
+
+### Performance Attribution Procedures 1
+
+* Performance attribution studies attempt to decompose overall performance into discrete components that may be identified with a particular level of the portfolio selection process.
+* A common attribution system decomposes performance into three components:
+  * Broad asset allocation choices across equity, fixed-income, and money markets.
+  * Industry (sector) choice within each market.
+  * Security choice within each sector.
+
+* __Bogey__  is designed to measure the returns the portfolio manager would earn if he or she were to follow a completely passive strategy.
+  * In this context, “passive” has two attributes.
+
+    * It means the allocation of funds across broad asset classes is set in accord with a notion of “usual” allocation across sectors.
+    * It means that  _within_  each asset class, the portfolio manager holds an indexed portfolio.
+
+### Asset Allocation Decisions
+
+* Superior performance relative to the bogey is achieved by:
+  * Overweighting investments in markets that turn out to perform well.
+  * Underweighting investments in poorly performing markets.
+
+Contribution of asset allocation to superior performance equals the sum over all markets of the excess weight in each market times the return of the index for each market.
+
+### Table 24.6 Performance of the Managed Portfolio
+
+| Component | Bogey Performance and Excess Return: Benchmark Weight | Bogey Performance and Excess Return: Return of Index during Month (%) |
+| :-: | :-: | :-: |
+| Equity (S&P 500) | 0.60 | 5.81 |
+| Bonds (Barclays Aggregate Index) | 0.30 | 1.45 |
+| Cash (money market) | 0.10 | 0.48 |
+
+|  |  |
+| :-: | :-: |
+|  |  |
+|  |  |
+|  |  |
+
+### Table 24.7 Performance Attribution
+
+__A. Contribution of asset allocation to performance__
+
+| Market | (1) Actual Weight in Market | (2) Benchmark Weight in Market | (3) Active or Excess Weight | (4) Index Return (%) | (5) = (3) × (4) Contribution to Performance (%) |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Equity | 0.70 | 0.60 | 0.10 | 5.81 | 0.5810 |
+| Fixed-income | 0.07 | 0.30 | −0.23 | 1.45 | −0.3335 |
+| Cash | 0.23 | 0.10 | 0.13 | 0.48 | 0.0624 |
+| Contribution of asset allocation |  |  |  |  | 0.3099 |
+
+__B. Contribution of selection to total performance__
+
+| Market | (1) Portfolio Performance (%) | (2) Index Performance (%) | (3) Excess Performance (%) | (4) Portfolio Weight | (5) = (3) × (4) Contribution (%) |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Equity | 7.28 | 5.81 | 1.47 | 0.70 | 1.03 |
+| Fixed-income | 1.89 | 1.45 | 0.44 | 0.07 | 0.03 |
+| Contribution of selection within markets |  |  |  |  | 1.06 |
+
+### Table 24.8 Sector Selection with the Equity Market
+
+| Sector | (1) Beginning-of-Month Weights (%) Portfolio | (2) Beginning-of-Month Weights (%) S&P 500 | (3) Active Weight (%) | (4) Sector Return (%) | (5) = (3) × (4) Sector Allocation Contribution |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Basic materials | 1.96 | 8.3 | −6.34 | 6.9 | −0.4375 |
+| Business services | 7.84 | 4.1 | 3.74 | 7.0 | 0.2618 |
+| Capital goods | 1.87 | 7.8 | −5.93 | 4.1 | −0.2431 |
+| Consumer cyclical | 8.47 | 12.5 | −4.03 | 8.8 | 0.3546 |
+| Consumer noncyclical | 40.37 | 20.4 | 19.97 | 10.0 | 1.9970 |
+| Credit sensitive | 24.01 | 21.8 | 2.21 | 5.0 | 0.1105 |
+| Energy | 13.53 | 14.2 | −0.67 | 2.6 | −0.0174 |
+| Technology | 1.95 | 10.9 | −8.95 | 0.3 | −0.0269 |
+| Total |  |  |  |  | 1.2898 |
+
+### Table 24.9 Portfolio Attribution: Summary
+
+|  |  | Contribution (basis points) |
+| :-: | :-: | :-: |
+| Asset allocation |  | 31 |
+| Selection |  |  |
+| a. Equity excess return (basis points) |  |  |
+|   1. Sector allocation | 129 |  |
+| 2. Security selection | 18 |  |
+|  | 147 × 0.70 (portfolio weight) = | 102.9 |
+| b. Fixed-Income excess return | 44 × 0.07 (portfolio weight) = | 3.1 |
+| Total excess return of portfolio |  | 137.0 |
+
+Good performance (a positive contribution) derives from overweighting well-performing sectors.
+
+Good performance also derives from underweighting poorly performing sectors.
+
+### End of Main Content
+
+© McGraw Hill LLC. All rights reserved. No reproduction or distribution without the prior written consent of McGraw Hill LLC.
+
+### Accessibility Content: Text Alternatives for Images
+
+### Figure 24.1 Universe Comparison – Text Alternative
+
+[Return to parent-slide containing images.](slide8.xml)
+
+The box plots are shown for 1 quarter, 1 year, 3 years, and 5 years. The vertical axis represents rate of return in percentage ranging from 5 to 30 percent in increments of 5 percent. Two dots in each of the box plots represent the Marko will Group and S and P 500. The data are shown as follows: 1 Quarter: Minimum, 2 percent. Q 1, 5 percent. Q 2, 7 percent. Q 3, 11 percent. Maximum, 13 percent. Marko will Group, 10 percent. S and P 500, 8 percent. 1 Year: Minimum, 5 percent. Q 1, 8 percent. Q 2, 15 percent. Q 3, 20 percent. Maximum, 23 percent. Marko will Group, 9 percent. S and P 500, 16 percent. 3 Years: Minimum, 3 percent. Q 1, 6 percent. Q 2, 11 percent. Q 3, 16 percent. Maximum, 18 percent. Marko will Group, 9 percent. S and P 500, 12 percent. 5 Years: Minimum, 8 percent. Q 1, 10 percent. Q 2, 12 percent. Q 3, 15 percent. Maximum, 17 percent. Marko will Group, 12 percent. S and P 500, 13 percent. All data are approximate.
+
+[Return to parent-slide containing images.](slide8.xml)
+
+### Figure 24.3 Treynor Measures of Two Portfolio and the Market Index – Text Alternative
+
+[Return to parent-slide containing images.](slide11.xml)
+
+"The horizontal axis represents beta ranging from 0.0 to 2.3 in increments of 0.1. The vertical axis represents the rate of return in a percentage ranging from 0.0 to 37.5% in increments of 2.5%. Three lines representing S M L, T sub Q line, and T sub U begin at (0, 6%). The S M L line passes through M at (0.95, 16%). The T sub Q line passes through Q at (1.2, 22%). The vertical distance of Q from S M L is indicated as alpha sub Q equals 3.5%. The T sub U line passes through U at (0.8, 17%). The vertical distance of U from S M L is indicated as alpha sub U equals 3.0%. All data are approximate. "
+
+[Return to parent-slide containing images.](slide11.xml)
+
+### Figure 24.2 The      of Portfolio P – Text Alternative
+
+[Return to parent-slide containing images.](slide15.xml)
+
+The horizontal axis represents standard deviation in percentage ranging from 0 to 60 percent in increments of 10 percent. The vertical axis represents average return in percentage ranging from 0 to 45 percent in increments of 5 percent. Two lines represent C M L and C A L (P) originating from 6 percent of the vertical axis. C M L passes through M at deviation of 30 percent and return of 28 percent. C A L (P) passes through P at deviation of 42 percent and return of 36 percent and through P asterisk at deviation of 30 percent and return of 27 percent. All data are approximate.
+
+[Return to parent-slide containing images.](slide15.xml)
+
+### Figure 24.4 Fidelity Magellan Fund Cumulative Return Difference – Text Alternative
+
+[Return to parent-slide containing images.](slide24.xml)
+
+The horizontal axis represents the months from October 1986 to October 1991. The vertical axis represents cumulative differential performance in percentage ranging from negative 3 to 17 in increments of 5. Two lines representing cumulative residuals from style analysis and cumulative residuals from S M L show an upward trend post December 1987 with the line representing cumulative residuals from style analysis moving mostly above the other line.
+
+[Return to parent-slide containing images.](slide24.xml)
+
+### Figure 24.5 Average Tracking Error for 636 Mutual Funds, 19 85 to 19 89 – Text Alternative
+
+[Return to parent-slide containing images.](slide25.xml)
+
+The horizontal axis represents average tracking error in percentage per month ranging from negative 1.00 to 1.00 in increments of 0.50. The vertical axis ranges from 0 to 90 in increments of 10. The bars of the graph form a bell shape reaching their peak at the center and declining as the bars move away from the center.
+
+[Return to parent-slide containing images.](slide25.xml)
+
+### Figure 24.7 M R A R Scores with and without Manipulation – Text Alternative
+
+[Return to parent-slide containing images.](slide27.xml)
+
+The horizontal axis represents M R A R, percentile in category ranging from 0 to 1 in increments of 0.2. The vertical axis represents Sharpe ratio, percentile in category ranging from 0 to 1 in increments of 0.2. The plots show a positive correlation increasing in Sharpe ratio with increase in M R A R.
+
+[Return to parent-slide containing images.](slide27.xml)
+
+### Figure 24.8 Characteristic Lines – Text Alternative
+
+[Return to parent-slide containing images.](slide29.xml)
+
+In all three panels, the horizontal axis represents r sub M minus r sub f and the vertical axis represents r sub p minus r sub f. In panel A, the line drawn along the plots is linear showing an upward trend with a constant slope of 0.6. In panel B, the line drawn along the plots shows a steadily increasing slope. In panel C, the line shows a slope of b below the origin and a slope of b plus c above the origin.
+
+[Return to parent-slide containing images.](slide29.xml)
+
+### Valuing Market Timing as a Call Option – Text Alternative
+
+[Return to parent-slide containing images.](slide31.xml)
+
+The horizontal axis represents r sub M and the vertical axis represents perfect timer’s return. A solid line from r sub f of the vertical axis runs parallel to the horizontal axis until r sub f of the horizontal axis. The line then increases along the vertical axis as it moves along the horizontal axis. A dotted line is drawn from the origin up to the meeting point of r sub f of the vertical axis and r sub f of the horizontal axis.
+
+[Return to parent-slide containing images.](slide31.xml)
+
