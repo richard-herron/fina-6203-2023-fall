@@ -239,12 +239,11 @@ $$
 
 ![Investment risk for different horizons [@bodie_investments_2023, Table 7.5]](/Figures/table_0705.png){height=50%}
 
-## Appendix
 
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_07.png){height=75%}
 
-### Key equations from @bodie_investments_2023
+### Key equations from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/key_eq_07.png){height=75%}

@@ -204,12 +204,7 @@ $$
 
 ![Morningstar report [@bodie_investments_2023, Figure 4.5]](Figures/bod12665_0405.png){height=50%}
 
-### Appendix
 
-#### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_04.png){height=75%}
-
-<!-- ### Key equations from @bodie_investments_2023
-
-![](./Figures/key_eq_04.png){height=75%} -->

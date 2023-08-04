@@ -231,16 +231,13 @@ $$
   1. A means to determine proper prices in regulated industries, allowing shareholders to earn a fair rate of return, but no more
 
 
-## Appendix
-
-
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_09_1.png){height=75%}
 
 ![](./Figures/summary_09_2.png){height=75%}
 
 
-### Key equations from @bodie_investments_2023
+### Key equations from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/key_eq_09.png){height=75%}

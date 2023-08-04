@@ -2,7 +2,7 @@
 title: Chapter 24 - Portfolio Performance Evaluation
 ---
 
-### Overview
+<!-- ### Overview
 
 If markets are efficient, investors must be able to measure performance of their asset managers.
 
@@ -424,5 +424,14 @@ In all three panels, the horizontal axis represents r sub M minus r sub f and th
 
 The horizontal axis represents r sub M and the vertical axis represents perfect timer’s return. A solid line from r sub f of the vertical axis runs parallel to the horizontal axis until r sub f of the horizontal axis. The line then increases along the vertical axis as it moves along the horizontal axis. A dotted line is drawn from the origin up to the meeting point of r sub f of the vertical axis and r sub f of the horizontal axis.
 
-[Return to parent-slide containing images.](slide31.xml)
+[Return to parent-slide containing images.](slide31.xml) -->
 
+
+### Summary from @bodie_investments_2023 {.appendix}
+
+![](./Figures/summary_24.png){height=75%}
+
+
+### Key equations from @bodie_investments_2023 {.appendix}
+
+![](./Figures/key_eq_24.png){height=75%}

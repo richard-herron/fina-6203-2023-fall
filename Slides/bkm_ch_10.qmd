@@ -145,13 +145,19 @@ where
 
 - The three-factor model predicts an expected return of
 $$
-E(r_X) = r_f + \beta_{X,M}[E(r_M)-r_f] + \beta_{X,SMB}E(r_{SMB}) + \beta_{X,HML}E(r_{HML})\\
-= 2\% + 1.771\times8.8\% + 0.369\times3.0\% + 1.249\times4.2\% \\
-= 23.9\%
+E(r_X) = r_f + \beta_{X,M}[E(r_M)-r_f] + \beta_{X,SMB}E(r_{SMB}) + \beta_{X,HML}E(r_{HML})
+$$
+which is
+$$
+23.9\% = 2\% + 1.771\times8.8\% + 0.369\times3.0\% + 1.249\times4.2\%
 $$
 - In contrast, the CAPM predicts an expected return of
 $$
-E(r_X) = r_f + \beta_{X,M}[E(r_M)-r_f] = 2\% + 2.030\times8.8\% = 19.9\%
+E(r_X) = r_f + \beta_{X,M}[E(r_M)-r_f]
+$$
+which is
+$$
+19/9\% = 2\% + 2.030\times8.8\%
 $$
 - Note that we ignore $\alpha$ estimates in both models because we except $\alpha = 0$ for all stocks in equilibrium
 
@@ -181,12 +187,10 @@ $$
   - Volatility, liquidity, and dividend yield
 
 
-## Appendix
-
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_10.png){height=75%}
 
-### Key equations from @bodie_investments_2023
+### Key equations from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/key_eq_10.png){height=75%}

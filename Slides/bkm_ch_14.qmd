@@ -2,7 +2,7 @@
 title: Chapter 14 - Bond Prices and Yields
 ---
 
-### Chapter Overview
+<!-- ### Chapter Overview
 
 * __Debt__   __securities__  ( _fixed-income_ ) promise either a fixed stream of income or one determined by a specified formula
 * __Bond markets__
@@ -357,5 +357,14 @@ Yield spread (percent) is on the vertical axis and years 1970 to 2021 are on the
 
 Four columns with 1 heading row and 5 data rows. First two columns are untitled while third column reads Senior-Subordinated Tranche Structure and fourth column reads Typical Terms. First row is blank for first and second columns, and third column reads "Senior tranche" while fourth column data reads "70 to 90 percent of notional principal, coupon similar to Aa-Aaa rated bonds." First row is blank for first and second columns, and third column reads "Mezzanine 1"
 
-[Return to parent-slide containing images.](slide43.xml)
+[Return to parent-slide containing images.](slide43.xml) -->
 
+
+### Summary from @bodie_investments_2023 {.appendix}
+
+![](./Figures/summary_14.png){height=75%}
+
+
+### Key equations from @bodie_investments_2023 {.appendix}
+
+![](./Figures/key_eq_14.png){height=75%}

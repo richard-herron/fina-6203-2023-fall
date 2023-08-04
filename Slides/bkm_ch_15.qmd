@@ -2,7 +2,7 @@
 title: Chapter 15 - The Term Structure of Interest Rates
 ---
 
-### Chapter Overview
+<!-- ### Chapter Overview
 
 * Explore pattern of interest rates for different-term assets
   * Identify factors that account for pattern and determine what information may be gleaned from an analysis of the  __term structure of interest rates__
@@ -268,5 +268,14 @@ Interest Rate (percent) is on the vertical axis and 1970 to 2020 is on the horiz
 
 A: Forward rate equals 7.01 percent shows a timeline with $1,000 at time 1 and negative $1,070.10 at time 2. B reads: [[For a General Forward Rate. The short rates in the two periods are r sub 1 (which is observable today) and r sub 2 (which is not). The rate that can be locked in for a one-period-ahead loan is f sub 2.]] The timeline notes the distance from time 0 to time 1 is r sub 1 and from time 1 to time 2 is r sub 1. At time 1 is $1,000. At time 2 is negative $1,000 (1 plus f sub 2).
 
-[Return to parent-slide containing images.](slide27.xml)
+[Return to parent-slide containing images.](slide27.xml) -->
 
+
+### Summary from @bodie_investments_2023 {.appendix}
+
+![](./Figures/summary_15.png){height=75%}
+
+
+### Key equations from @bodie_investments_2023 {.appendix}
+
+![](./Figures/key_eq_15.png){height=75%}

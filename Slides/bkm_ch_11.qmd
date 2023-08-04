@@ -289,13 +289,11 @@ $$
 - Margin of superiority that any professional manager can add is so slight that the statistician will not easily be able to detect it
 
 
-## Appendix
-
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_11.png){height=75%}
 
 
-### Key equations from @bodie_investments_2023
+### Key equations from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/key_eq_11.png){height=75%}

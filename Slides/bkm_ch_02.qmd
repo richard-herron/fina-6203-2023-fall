@@ -138,12 +138,11 @@ $$
 	- A futures contract is an obligation to deliver a specific asset at a specific delivery date (maturity date) at a specific price (futures price)
 	- The long position commits to purchase, and the short position commits to sell
 
-## Appendix
 
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_02.png){height=75%}
 
-### Key equations from @bodie_investments_2023
+### Key equations from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/key_eq_02.png){height=75%}

@@ -124,12 +124,6 @@ title: Chapter 1 - The Investment Environment
 - Plus, your future boss will have it on her bookshelf!
 - We plan to cover most of Parts 1, 2, 3, and 4, plus Chapter 24
 
-## Appendix
-
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_01.png){height=75%}
-
-<!-- ## Key equations from @bodie_investments
-
-![](./Figures/key_eq_01.png){height=75%} -->

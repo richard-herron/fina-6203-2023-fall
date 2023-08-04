@@ -2,403 +2,229 @@
 title: Chapter 12 - Behavioral Finance and Technical Analysis
 ---
 
-### Chapter Overview
+## The Behavioral Critique
 
-- EMH makes two important predictions
-  - Security prices properly reflect whatever information is available to investors
-  - Active traders will find it difficult to outperform passive strategies such as holding market indexes
-- Tests of market efficiency have focused on the performance of active trading strategies
-- Behavioral finance assumes investors are not rational
+### Conventional finance assumes that investors are rational, but behavioral finance does not
 
-### Behavioral Finance
+- The premise of behavioral finance is that conventional finance ignores how real people make decisions and that people make a difference
+- Behavioral finance
+  - Does not assume that investors are always rational
+  - *Requires "limits to arbitrage" so that rational arbitrageurs cannot force prices to match intrinsic values*
+- Conventional finance
+  - Assumes that investors are always rational
+  - Therefore, prices are correct and equal to the intrinsic value
+  - Therefore, resources are allocated efficiently
+  - Consistent with the EMH
 
-__Behavioral Finance__
+### There are two broad categories of irrationalities in behavioral finance
 
-What if investors don’t behave rationally?
+- *Information processing errors:* Investors do not always process information correctly and therefore infer incorrect probability distributions of future returns
+- *Behavioral biases:* Even when given the correct probability distribution of returns, investors may make inconsistent or suboptimal decisions
 
-Arbitrageurs are limited and therefore insufficient to force prices to match intrinsic value
+### Information processing errors: People have limited capacity to process information
 
-__Conventional Finance__
-
-Prices are correct and equal to intrinsic value
-
-Resources are allocated efficiently
-
-Consistent with EMH
-
-### The Behavioral Critique
-
-- Two broad categories of irrationalities
-  - __Information Processing: __ Investors do not always process information correctly and therefore infer incorrect probability distributions of future returns
-  - __Behavioral Biases: __ Even when given a probability distribution of returns, investors may make inconsistent or suboptimal decisions
-
-### Information Processing1
-
-- __Limited attention, Underreaction, and Overreaction__
-  - Reliance on  _heuristics_  due to limited time/attention
-- __Overconfidence__
+- Limited attention, underreaction, and overreaction
+  - People have limited time and attention
+  - Therefore, they rely on _heuristics_  or rules of thumb
+  - Limited information processing capacity may also cause them to
+    - Overreact to salient information
+    - Underreact to less salient information
+- Overconfidence
   - Investors tend to overestimate the precision of their beliefs or forecasts
   - Investors tend to overestimate their abilities
-- __Conservatism__
-- Investors are too slow (too conservative) in updating their beliefs in response to new evidence.
+  - May lead to excessive trading (and lower returns) and poor corporate investments
+- Conservatism
+  - Investors are too slow in updating their beliefs in response to new evidence
+  - May explain underreaction and momentum 
+- Confirmation bias
+  - Tendency to interpret new information so it confirms your prior beliefs and disregard information that challenges prior beliefs
+  - May explain momentum and long-term reversal
+- Extrapolation and pattern recognition
+  - People are good at finding patterns, including patterns that are illusions!
+  - People are also prone to believe these patterns are likely to persist
+  - Representativeness bias:  Act as if a small sample is just as informative as a large sample
+  - May explain momentum
 
-- __Confirmation Bias__
-- Tendency to interpret new information in a way that confirms one’s prior beliefs
-- Disregard information that challenges prior beliefs
-- __Extrapolation and pattern recognition__
-  - __Representativeness bias: __ Act as if small sample is just as informative as a large sample
-  - Individuals are adept at discerning patterns, even perceiving patterns that may be illusory
-  - Overly prone to believe these patterns are likely to persist
+### Behavioral biases: Even with perfect information processing, people tend to make irrational decisions
 
-### Behavioral Biases
+- Framing   
+  - The framing of choices affects decisions
+  - For example, people may choose differently between uncertainty when framed as potential gains from a low baseline and equivalent potential losses from a high baseline
+- Mental accounting
+  - A specific form of framing where people segregate certain decisions
+  - For example, some investors may prefer stocks that pay high cash dividends because they feel free to spend these dividends without "dipping into capital" by selling a few shares of stock that pay low or no cash dividends
+- Regret avoidance
+  - Individuals whose decisions turn out badly have more regret when that decision was more unconventional
+  - For example, losses on blue-chip stocks are less painful than losses on startups because the blue-chip loss can be attributed to bad luck than a bad decision and cause less regret
+- Affect and feelings
+  - Investors tend to choose stocks with high _affect_ (i.e., good feelings), driving up prices while simultaneously driving down returns
+  - For example, affect and feelings may drive the home bias, where people over-invest in geographically nearby stocks relative to efficient diversification
+- Prospect theory
+  - Defines a new utility function, providing a new model for how utility-maximizing investors should behave
+  - The prospect theory utility function is:
+    - Concave (i.e., risk-averse) for gains, as is a conventional utility function
+    - Convex (i.e., risk-*seeking*) for losses
+    - Centered on a reference point that moves as wealth changes, so investors feel *changes* in wealth instead of *levels* of wealth
 
-- __Framing__  __ __
-  - Decisions affected by how choices are described, such as whether uncertainty is posed as potential gains from a low baseline levels, or as losses from a higher baseline value
-- __Mental accounting__
-  - Specific form of framing in which people segregate certain decisions
-- __Regret avoidance__
-  - Individuals who make decisions that turn out badly have more regret when that decision was more unconventional
-- __Affect and feelings__
-  - Investors tend to choose stocks with high  _affect_ , driving up prices while simultaneously driving down returns
 
-### Figure 12.1A Behavioral Biases: Prospect Theory1
+### Prospect theory
 
-Conventional view: Higher wealth provides higher utility, but at a diminishing rate
+![Prospect theory. ***Panel A:*** A conventional utility function is defined in terms of wealth and is concave, resulting in risk aversion. [@bodie_investments_2023, Figure 12.1a]](./Figures/bod12665_1201a.png){height=75%}
 
-[Access the text alternative for slide images.](slide32.xml)
+![Prospect theory. ***Panel B:*** Under loss aversion, the utility function is defined in terms of losses relative to current wealth. It is also convex to the left of the origin, giving rise to risk-seeking behavior in terms of losses. [@bodie_investments_2023, Figure 12.1b]](./Figures/bod12665_1201b.png){height=75%}
 
-Behavioral view: Utility depends on  _changes_  in wealth from current levels, not the  _level_  of wealth. It is convex to the left of the origin  risk-seeking behavior in terms of losses.
 
-[Access the text alternative for slide images.](slide32.xml)
+### Limits to arbitrage are necessary to prevent rational arbitrageurs from fully exploiting the mistakes of behavioral investors and correctly pricing stocks
 
-### Limits to Arbitrage 1
-
-- Behavioral biases would not matter if rational arbitrageurs could fully exploit the mistakes of behavioral investors
-- __Fundamental risk __
-  - “Markets can remain irrational longer than you can remain solvent” -- Keynes
+- Fundamental risk 
+  - "Markets can remain irrational longer than you can remain solvent" -- Keynes
   - Intrinsic value and market value may take too long to converge
-
-- __Implementation Costs__
+  - For example, a mutual fund manager may lose clients (and her job) if short-term performance is poor
+- Implementation costs
+  - It can be costly and difficult to exploit overpricing
   - Transactions costs and restrictions on short-selling can limit arbitrage activity
-- __Model Risk__
-  - What if you have a bad model and the market value actually is correct?
+  - For example, there may be no shares to borrow, or lenders may recall shares with short-notice
+- Model risk
+  - What if you have a bad model and the market value is correct?
 
-### Figure 12.2 Limits to Arbitrage and the Law of One Price 1
+### Regardless of the above, the Law of One Price should always hold, but it does not! {.allowframebreaks}
 
-- “Siamese Twin” Companies: Royal Dutch should sell for 1.5 times Shell
-  - Deviated from parity ratio for extended periods
-  - Example of fundamental risk
+- "Siamese Twin" companies
+  - Royal Dutch should sell for 1.5 times Shell because they are a joint company that splits profits 60/40
+  - However, these shares have deviated from the 1.5 ratio for extended periods
+  - These deviations are an example of fundamental risk because the deviations have grown as large at 17%
 
-[Access the text alternative for slide images.](slide33.xml)
+![Pricing of Royal Dutch relative to Shell (deviation from parity) [@bodie_investments_2023, Figure 12.2]](./Figures/bod12665_1202.png){height=75%}
 
-### Limits to Arbitrage and the Law of One Price 2
-
-- __Equity Carve-Outs__
+- Equity carve-outs
   - Examples: 3Com and Palm
-  - Arbitrage limited by availability of shares for shorting
-  - __Closed-End Funds__
-  - May sell at premium or discount to NAV
-  - Can also be explained by rational return expectations
-
-### Bubbles and Behavioral Economics 1
-
-- Bubbles are easier to spot after they end
-  - Dot-com bubble
-    - 6-year period beginning in 1995
-    - Overconfidence and representativeness biases
-  - Housing bubble
-    - Set off worst financial crisis in 75 years
-
-Rational explanation for stock market bubble using the dividend discount model:
-
-  - S&P 500 is worth $12,883 million if dividend growth rate is 8% (close to actual value in 2000)
-  - S&P 500 is worth $8,589 million if dividend growth rate is 7.4% (close to actual value in 2002)
-
-### Technical Analysis and Behavioral Finance
-
-- Technical analysis attempts to exploit recurring and predictable patterns in stock prices to generate superior investment performance
-  - Prices adjust gradually to a new equilibrium
-  - Market values and intrinsic values converge slowly
-- Disposition effect
-  - Demand for shares depends on price history
-  - Can lead to momentum in stock prices
-
-### Trends and Corrections
-
-- __Momentum and moving averages__
-  - The  _moving average _ is the average price over a given time interval, where the interval updates as time passes
-  - _Bullish signal _ signifies a shift from a falling trend to a rising trend
-  - _Bearish signal _ signifies price series crossing from above the moving average to below it, representative of the beginning of a downward trend in stock prices
-
-### Figure 12.3 Share Price and 25-Day Moving Average for Intel, February 1, 2022
-
-[Access the text alternative for slide images.](slide34.xml)
-
-Source: Yahoo! Finance, January 7, 2019  __(finance.yahoo.com). __
-
-### Figure 12.4 Moving Averages
-
-[Access the text alternative for slide images.](slide34.xml)
-
-Source: Yahoo! Finance, January 7, 2019  __(finance.yahoo.com). __
-
-### Technical Analysis: Relative Strength
-
-- __Relative strength__
-  - Measures the extent to which a security has outperformed or underperformed either the market as a whole or its particular industry
-    - Calculated as the ratio of the price of the security to a price index for the industry
-  - Strength of industry relative to the whole market
-    - Computed by tracking the ratio of the industry price index to the market price index
-
-### Figure 12.5 Technical Analysis: Breadth
-
-- __Breadth__
-  - Measure of the extent to which movement in a market index is reflected widely in the price movements of all the stocks in the market
-  - Most common measure is the spread between the number of stocks that advance and decline in price
-
-[Access the text alternative for slide images.](slide35.xml)
-
-Source:  _The Wall Street Journal Online, _ January 3, 2019.
-
-### Table 12.1 Technical Analysis: Breadth Example
-
-__Example:__  The spread between the number of stocks that advance and decline in price
-
-[Access the text alternative for slide images.](slide35.xml)
-
-Source:  _The Wall Street Journal Online, _ January 3, 2019.
-
-### Technical Analysis: Sentiment Indicators 1
-
-Ratios above 1.0 are bearish, ratios less than 1.0 are bullish
-
-Rising volume in a rising market should not necessarily indicate a larger imbalance of buyers versus sellers
-
-### Trin Statistic: Example
-
-### Technical Analysis: Sentiment Indicators 2
-
-- __Confidence index__
-  - Ratio of the average yield on 10 top-rated corporate bonds divided by the average yield on 10 intermediate-grade corporate bonds
-  - Ratio will always be below 1
-  - Higher values are bullish signals
-
-- __Short interest__
-  - Total number of shares of stock current sold short
-  - Increased short interest reflects negative sentiment and is a warning sign concerning the stock’s prospects
-- __Put/call ratio__
-  - Ratio of outstanding put options to outstanding call options
-  - Rising ratio is taken as a sign of broad investor pessimism and a coming market decline
-
-### Technical Analysis: A Warning
-
-- It is possible to perceive patterns that really don’t exist
-- Figure 12.6A is based on the real data
-  - The graph in panel B was generated using “returns” created by a random-number generator
-- Figure 12.7 shows obvious randomness in the weekly price changes behind the two panels in Figure 12.6
-
-### Figure 12.6: Actual and Simulated Levels for Stock Market Prices of 52 Weeks
-
-[Access the text alternative for slide images.](slide36.xml)
-
-Source: Harry Roberts, “Stock Market ‘Patterns’ and Financial Analysis: Methodological Suggestions,” Journal of Finance 14 (March 1959), pp. 1–10.
-
-### Figure 12.7 Actual and Simulated Changes in Stock Prices for 52 Weeks
-
-[Access the text alternative for slide images.](slide37.xml)
-
-Source: Harry Roberts, “Stock Market ‘Patterns’ and Financial Analysis: Methodological Suggestions,” Journal of Finance 14 (March 1959), pp. 1–10.
-
-### End of Main Content
-
-© McGraw Hill LLC. All rights reserved. No reproduction or distribution without the prior written consent of McGraw Hill LLC.
-
-### Accessibility Content: Text Alternatives for Images
-
-### Behavioral Biases: Prospect Theory - Text Alternative
-
-[Return to parent-slide containing images.](slide8.xml)
-
-Graph A conventional utility function, has utility on the vertical axis and wealth on the horizontal. A curve passes from (2, 0.6) through (5, 1.5) and (10, 2.25) to end at (25, 3.25). All utility values are approximations. Graph B utility function, under prospect theory has utility on the vertical axis and wealth on the horizontal. The curve slopes upward and bows downward in quadrant 3, passes through the origin to quadrant 1, where it continues to slope upward but bows upward.
-
-[Return to parent-slide containing images.](slide8.xml)
-
-### Limits to Arbitrage and the Law of One Price 1 - Text Alternative
-
-[Return to parent-slide containing images.](slide12.xml)
-
-Deviation (percent) is on the vertical axis, and dates from January 1990 to August 2002 are on the horizontal. After spiking to 10 in January 1990, the jagged lines drops to trend around negative 5 until October 1990. Following a ragged upward trend, it peaks at 15 in late 1995, and trends horizontally between 4 and 10 until peaking at 15 again in mid-1998. After August 1998, the lines trends downward, ending at negative 5 in August 2002.
-
-[Return to parent-slide containing images.](slide12.xml)
-
-### Share Price and 50-Day Moving Average for INTC - Text Alternative
-
-[Return to parent-slide containing images.](slide18.xml)
-
-Dates on the horizontal axis range from Oct 14, 2018 through Jan 7, 2019. A jagged line tracks Intel’s price over the period, while the 50-day moving average line tracks the up and down movement as a smooth curve. One point where the two lines cross as the actual price moves above the 50-day moving average is labeled A. This is generally taken as a bullish signal because the price is starting to move above the previous moving average. A second point labeled B, where the actual price line touches the moving average line on the way down, is taken as a negative signal since the actual price is beginning to track below the moving average.
-
-[Return to parent-slide containing images.](slide18.xml)
-
-### Technical Analysis: Breadth - Text Alternative
-
-[Return to parent-slide containing images.](slide21.xml)
-
-The diary shows the number of advancers and decliners for both the New York Stock Exchange and the NASDAQ, in both number of issues and share volume. In the example shown, decliners for the New York Stock Exchange exceeded advancers by 1,742 to 1242 in issues and by 632 million to 310 million in shares traded. The NASDAQ showed similar results.
-
-[Return to parent-slide containing images.](slide21.xml)
-
-### Actual and Simulated Levels for Stock Market Prices of 52 Weeks - Text Alternative
-
-[Return to parent-slide containing images.](slide28.xml)
-
-Both graphs have level on the vertical axis and week on the horizontal. Graph A shows an increase from (5, 470) to (15, 515), then a drop to (20, 480), rise to (30, 520), drop to (35, 480) and a horizontal trend between 470 and 490 for the rest of the period. Graph B shows a more gradual increase from (5, 430) to (25, 270) and drop to (40, 430), with a rise to (45, 450) and trending around 450 for the remainder of the period.
-
-[Return to parent-slide containing images.](slide28.xml)
-
-### Actual and Simulated Changes in Stock Prices for 52 Weeks  - Text Alternative
-
-[Return to parent-slide containing images.](slide29.xml)
-
-Both graphs have change on the vertical axis and week on the horizontal. Graph A trends between negative 20 and 10 over most of the period. Graph B trends between negative 10 and 10 for the whole period.
-
-[Return to parent-slide containing images.](slide29.xml)
-
-
-
-
-<!-- From Chat GPT:
-
-Apologies for the confusion. Here are the corrected slides for Chapter 12 titled "Behavioral Finance and Technical Analysis" from the 13th edition of Bodie, Kane, and Marcus's Investments textbook, formatted in Quarto Markdown:
-
----
-layout: slides
-title: Chapter 12 - Behavioral Finance and Technical Analysis
----
-
-# Chapter 12: Behavioral Finance and Technical Analysis
-
----
-
-## Introduction to Behavioral Finance
-
-- Traditional finance assumes rational behavior and efficient markets
-- Behavioral finance incorporates psychology and cognitive biases into finance theory
-- Investors often make irrational decisions based on emotions, heuristics, and biases
-
----
-
-## Heuristics and Biases
-
-- Heuristics: Mental shortcuts used to make decisions quickly
-- Biases: Systematic errors in judgment and decision-making
-
----
-
-## Representative Heuristic
-
-- Investors judge the probability of an event based on its similarity to a prototype or stereotype
-- Can lead to mispricing in the stock market
-
----
-
-## Availability Heuristic
-
-- Investors judge the probability of an event based on how easily examples come to mind
-- Recent or vivid events can have a disproportionate influence on decision-making
-
----
-
-## Overconfidence Bias
-
-- Investors tend to overestimate their own abilities and underestimate risks
-- Leads to excessive trading and suboptimal investment decisions
-
----
-
-## Anchoring Bias
-
-- Investors rely too heavily on an initial piece of information when making decisions
-- Can lead to anchoring on irrelevant or outdated information
-
----
-
-## Loss Aversion
-
-- Investors feel the pain of losses more strongly than the pleasure of gains
-- Leads to risk aversion and holding onto losing investments for too long
-
----
-
-## Mental Accounting
-
-- Investors mentally compartmentalize their money into different accounts
-- Can lead to irrational decisions such as taking on excessive risk in one account while being overly conservative in another
-
----
-
-## Prospect Theory
-
-- Developed by Kahneman and Tversky
-- Describes how individuals make decisions under uncertainty
-- Losses and gains are valued differently, and individuals are risk-averse in gains and risk-seeking in losses
-
----
-
-## Technical Analysis
-
-- Technical analysis involves using historical price and volume data to predict future price movements
-- Tools and techniques include chart patterns, trend analysis, and moving averages
-- Controversial approach with mixed empirical evidence
-
----
-
-## Chart Patterns
-
-- Chart patterns are graphical representations of historical price data
-- Common patterns include head and shoulders, double tops, and triangles
-- Investors use these patterns to make buy or sell decisions
-
----
-
-## Trend Analysis
-
-- Trend analysis involves identifying and following price trends
-- Investors aim to buy in an uptrend and sell in a downtrend
-- Moving averages are often used to identify trends
-
----
-
-## Moving Averages
-
-- Moving averages smooth out price data over a specific time period
-- Simple moving average (SMA) calculates the average price over a set number of periods
-- Exponential moving average (EMA) assigns greater weight to recent prices
-
----
-
-## Empirical Evidence on Technical Analysis
-
-- Mixed results on the profitability of technical analysis
-- Some studies find evidence of short-term predictability, while others find no significant predictive power
-- Difficulties in implementation, transaction costs, and data mining bias are important considerations
-
----
-
-## Conclusion
-
-- Behavioral finance recognizes that investors are not always rational and markets are not always efficient
-- Heuristics, biases, and emotions play a significant role in decision-making
-- Technical analysis is a popular approach but lacks consistent empirical support
-
----
-
-## Appendix
-
-- Summary of chapter content
-- Key concepts and definitions
-
----
-
-That concludes Chapter 12 on Behavioral Finance and Technical Analysis.
-
-Thank you! -->
+    - In 1999, 3Com spun off its Palm division with an IPO of 5% of Palm
+    - 3Com committed to spin-off the remaining 95% of Palm by giving each 3Com share 1.5 shares of Palm
+    - Therefore, after the Palm spin-off, 3Com share prices should have been *at least* 1.5 times Palm share prices
+    - However, Palm's share price was *higher* that 3Com's share price!
+    - We can estiamte 3Com's *stub value* as 3Com's share price minus Palm's share price
+    - 3Com had assets of $10 per share, so its stub value should have been at least $10
+    - However, 3Com's estimated stub value was *negative* for more than two months!
+    - The limit to arbitrage here was that traders had borrowed and sold short almost all available Palm shares
+- Closed-end funds (CEFs)
+  - CEFs often sell at premiums or discounts to NAV
+  - BKM call this *nearly* a violation of the Law of One Price
+    - Might sell at a discount to NAV because NAV does not reflect the fees and expenses that CEF investors will pay in the coming months and years
+    - Might sell at a premium to NAV because NAV does not reflect future investment decisions of the CEF manager
+  - Deviations are larger for CEFs that are difficult to arbitrage
+  - However, there are rational return expectation explanations, too!
+    - We can use the constant-growth dividend discount model to express the CEF discount as
+    $$
+    \frac{\text{Price} - \text{NAV}}{\text{NAV}} = \frac{\alpha - \varepsilon}{\delta + \varepsilon - \alpha}
+    $$
+    where $\alpha$ is the risk-adjusted return, $\delta$ is the dividend yield, and $\varepsilon$ is the expense ratio
+    - If $\alpha > \varepsilon$, the CEF will *rationally* sell at a premium
+    - Most CEFs trade at discounts to NAV, consistent with most managers not covering their expenses
+
+### Bubbles are easier to spot after they end!
+
+- Dot-com bubble
+  - @cooper_rose_2001 show that adding ".com" to a business name generates abnormal returns!
+  - 6-year period beginning in 1995 where the tech-heavy NASDAQ Index increased its level by a factor of 6
+  - The NASDAQ Index eventually fell 75% from its peak
+  - Can be explained by overconfidence and representativeness biases
+- Housing bubble
+  - Set off the worst financial crisis in 75 years
+  - Again, can be explained by overconfidence and representativeness biases
+- *However,* there are often rational explanations for stock market bubbles using the dividend discount model
+  - S&P 500 is worth $12,883 million if the dividend growth rate is 8% (close to the actual value in 2000)
+  - S&P 500 is worth $8,589 million if the dividend growth rate is 7.4% (close to the actual value in 2002)
+
+### Behavioral finance explanations of efficient market anomalies do not always give guidance on how we can exploit them!
+
+- Still, behavioral finance is important because we rely on market prices to allocate capital
+- Inefficient prices, whether we can exploit them or not, can result in inefficient investment
+- Among financial economists:
+  - Many believe behavioral finance is too unstructured and tries to explain too many anomalies from a long list of psychological biases because it is easy to fit an empirical finding to one of these biases
+  - Many are not convinced it indicts or refutes the EMH because risk-adjusted profits are small and fleeting
+- *Bottom line:* We should not expect risk-adjusted profits from behavioral finance, but it still provides a useful list of common errors we should avoid as investors and managers
+
+## Technical Analysis and Behavioral Finance
+
+
+### Technical analysis attempts to exploit recurring and predictable patterns in stock prices to generate superior investment performance
+
+- Technicians do not deny the usefulness of fundamental analysis
+  - However, they believe that prices adjust gradually to intrinsic values
+  - As a result, they believe they can profit from slow price adjustments when fundamentals change
+- The disposition effect is the tendency of investors to sell winners and hold onto losers
+  - Losses are only "paper losses" that investors can ignore until they sell these losers
+  - As a result, the demand for shares depends on price history
+  - For example, investors holding onto their winners can generate momentum in stock prices
+- *Technical analysis and behavioral finance have a lot of overlap*, and we might think of technical analysis as a playbook for exploiting behavioral biases
+
+### Much of technical analysis tries to discover trends in market prices
+
+- In other words, technical analysis is the search for momentum
+- Moving averages are a popular tool to search for momentum
+  - A moving average is an average price over a given time interval, where the interval updates as time passes
+  - Crossing the moving average from below is a *bullish signal*, signifying a shift from a falling trend to a rising trend
+  - In contrast, crossing the moving average from above is a *bearish signal* 
+- Other populr tools are *Elliot wave theory* and *Kondratieff waves*, which decompose price movements into long-term and short-term trends
+
+![Share price and 25-day moving average for Intel, February 1, 2022 [@bodie_investments_2023, Figure 12.3]](./Figures/bod12665_1203.png){height=75%}
+
+
+### Relative strength measures the extent to which a security has outperformed the market or industry
+
+- Calculated as the ratio of the price of the security to a price index for the market or industry
+- A rising ratio implies outperformance and a signal to buy if we assume outperformance will persist
+
+### Breadth measures the extent to which market movements are reflected widely in the price movements of all the stocks in the market
+
+- The most common breadth measure is the spread between the number of stocks that advance and decline in price
+- Some technicians cumulate breadth each day
+
+![Market Diary [@bodie_investments_2023, Figure 12.5]](./Figures/bod12665_1205.png){height=75%}
+
+![Breadth [@bodie_investments_2023, Table 12.1]](/Figures/table_1201.png){height=75%}
+
+### Machine learning, technical analysis, and Renaissance Technologies (RenTech)
+
+- Machine learning based on past prices and trading data is related to technical analysis
+- One of the most successful hedge funds has been RenTech, which generated before-fee average annual returns of about 66% between 1988 and 2018
+- RenTech's Medallion fund uses machine learning to turn large amounts of data into profitable trades (on average)
+  - Is RenTech's success a violation of EMH?
+  - Unlikely, because they admit that only slightly more than 50% of their trades are profitable
+  - RenTech is very good at finding coins with a slight edge and then repeatedly flipping these coins
+  - With fast trades and low trading costs, a slight edge grows exponentially!
+  - Medallion no longer has outside investors, suggesting that these coins with a slight edge are in limited supply
+
+### *Sentiment* is the general level of optimism
+
+- Trin statistic 
+  - Measures the strength of market rise or fall
+  $$
+  \text{Trin} = \frac{\text{Volume declining/Number declining}}{\text{Voume advancing/Number advancing}} = \frac{\text{Average volume declining}}{\text{Average volume advancing}}
+  $$
+  - Trin ratios greater than 1 are bearish, whereas ratios less than 1 are bullish
+  - However, rising volume in a rising market should not necessarily indicate a larger imbalance of buyers versus sellers because, for every buyer, there is a seller
+- Confidence index 
+  - Measures trends in the *bond* market, which may soon move to the *stock* market
+  - Ratio of the average yield on ten top-rated corporate bonds divided by the average yield on ten intermediate-grade corporate bonds
+  - Ratio will always be less than one because intermediate-grade yields are always greater than top-rated yields
+  - Higher values are bullish signals, and lower values are bearish signals
+- Short interest
+  - Total number of shares of stock currently sold short
+  - Increased short interest reflects negative sentiment and is a warning sign concerning the stock's prospects
+  - However, the bullish interpretation is that traders must eventually cover their shorts, so short interest indicates latent demand
+- Put/call ratio
+  - Ratio of outstanding put options to outstanding call options, which is typically about 65%
+  - Rising put/call ratio is taken as a sign of broad investor pessimism and a coming market decline
+
+
+### With technical analysis, we can find patterns that do not exist! {.allowframebreaks}
+
+![Actual and simulated levels for stock market prices of 52 weeks [@bodie_investments_2023, Figure 12.6]](./Figures/bod12665_1206.png){height=75%}
+
+![Actual and simulated chagnes in weekly stock prices for 52 weeks [@bodie_investments_2023, Figure 12.7]](./Figures/bod12665_1207.png){height=75%}
+
+
+### Summary from @bodie_investments_2023 {.appendix}
+
+![](./Figures/summary_12.png){height=75%}

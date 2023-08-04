@@ -218,12 +218,7 @@ $$
 	- Considerable evidence of leakage
 	- Insider trades earn abnormal returns
 
-## Appendix
 
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_03.png){height=75%}
-
-<!-- ## Key equations from @bodie_investments_2023
-
-![](./Figures/key_eq_03.png){height=75%} -->

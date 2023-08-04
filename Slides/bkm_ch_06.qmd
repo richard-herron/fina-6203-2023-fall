@@ -157,12 +157,11 @@ $$
 A = \frac{0.0887}{0.693 \times 0.2025^2} = 3.12
 $$
 
-## Appendix
 
-### Summary from @bodie_investments_2023
+### Summary from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/summary_06.png){height=75%}
 
-### Key equations from @bodie_investments_2023
+### Key equations from @bodie_investments_2023 {.appendix}
 
 ![](./Figures/key_eq_06.png){height=75%}
