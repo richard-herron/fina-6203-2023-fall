@@ -2,362 +2,292 @@
 title: Chapter 14 - Bond Prices and Yields
 ---
 
-<!-- ### Chapter Overview
+## Bond Characteristics
 
-* __Debt__   __securities__  ( _fixed-income_ ) promise either a fixed stream of income or one determined by a specified formula
-* __Bond markets__
-  * Treasury, corporate and international bonds
-  * Bond pricing and returns
-* Impact of default or credit risk on bond pricing
-  * Fixed-income derivatives
-    * Credit default swaps
-    * Collateralized debt obligations
+### A bond is a security with a legally binding borrowing arrangement
+ 
+- The bond issuer (i.e., borrower) agrees to make specified payments to the bondholder on specified dates
+- Par value (or face value) is the payment to the bondholder on the bond's maturity date
+- Coupon rate is the bond's interest payment per year per dollar of par value
+	- Coupon payments are typically split into two equal semiannual payments
+	- *Coupon rates are typically set to induce investors to pay par value for a bond upon issuance* 
+- Bond indenture is the contract between the issuer and the bondholder
 
-### Bond Characteristics
+### Treasury notes and bonds
 
-* __Bond __
-* Security that is issued with a legally binding borrowing arrangement
-  * Issuer agrees to make specified payments to the bondholder on specified dates
-* __Par value __ ( __Face value__ ) is the payment to the bondholder on the bond’s maturity date
-* __Coupon rate __ is a bond’s interest payments per dollar of par value
-* __Bond indenture __ is the contract between the issuer and the bondholder
+- Maturity:
+	- Treasury notes: 1 to 10 years
+	- Treasury bonds: 10 to 30 years
+- Investors may purchase notes and bonds directly from the Treasury
+- Denominations are as small as $100, but $1,000 is more common
 
-### Treasury Bonds and Notes
+### Investors do not pay the quoted prices for bonds because of accrued interest {.allowframebreaks}
 
-* Maturity
-  * Treasury notes – 1 to 10 years
-  * Treasury bonds – 10 to 30 years
-* Both bonds and notes may be purchased directly from the Treasury
-* Denominations
-  * As small as $100, but $1,000 is more common
+![Prices and Yields of U.S. Treasury Bonds, August 15, 2021 [@bodie_investments_2023, Figure 14.1]](./Figures/bod12665_1401.png){height=50%}
 
-### Figure 14.1 Prices and Yields of U.S. Treasury Bonds, August 15, 2021
+\framebreak
 
-### Corporate Bonds
+- The quoted prices do not include the interest accrued between coupon payment dates
+- If a bond trades between coupon payment dates, the buyer must pay the seller for interest accrued since the last coupon payment
+$$
+\text{Accrued interest} = \frac{\text{Ann. coupon}}{2} \times \frac{\text{Days since last coupon}}{\text{Days separating coupons}}
+$$
+- This practice explains why the price of a maturing bond is par value instead of par value plus one coupon
 
-__Callable bonds __ typically come with a period of call protection
+### Corporations also borrow money by issuing bonds {.allowframebreaks}
 
-__Convertible bonds __ give holders option to exchange each bond for a specified number of shares of the firm’s stock
+![Listing of Corporate Bonds [@bodie_investments_2023, Figure 14.2]](./Figures/bod12665_1402.png){height=50%}
 
-__Put bond __ gives holder option to exchange for par value at some date or to extend for a given number of years
+\framebreak
 
-__Floating-rate bond __ has interest rate that is reset periodically according to a specified market rate
+- There are many combinations of issuer, maturity, coupon rate, seniority, etc., often leading to thin markets
+- Therefore, most corporate bonds trade over the counter instead of on exchanges
 
-### Figure 14.2 Listing of Corporate Bonds
+### Some corporate bonds have additional features {.allowframebreaks}
 
-### Preferred Stock
+- Call provisions allow issuers to repurchase bonds at a specified *call price* before maturity 
+	- Allow firms to call bonds with high coupon rates when interest rates fall
+	- Typically come with a period of call protection
+	- The option to call a bond is valuable *to the firm*, so callable bonds are typically issued with higher coupon rates and promised yields than non-callable bonds
+- Convertible bonds give holders the option to exchange each bond for a specified number of shares of the firm's stock
+	- The option to convert a bond is valuable *to the bondholder*, so convertible bonds typically offer lower coupon rates and yields to maturity than non-convertible bonds
+- Put bonds give the holder the option to exchange the bond for par value at some date or to extend for a given number of years
+	- If a bond's coupon rate is greater than current market yields, the bondholder will extend the bond's life
+	- If a bond's coupon rate is lower than current market yields, the bondholder will retire the bonds and collect its principal
+- Floating-rate bonds pay interest rates that are reset periodically according to a specified market rate
 
-* Considered to be equity, but often included in the fixed-income universe
-  * Like bonds
-  * Promises to pay a specified cash flow stream
-  * Commonly pays a fixed dividend
-  * Rarely gives holders full voting privileges in firm
-  * Unlike bonds
-  * Failure to pay the promised dividend does not result in corporate bankruptcy
-  * Dividends owed cumulate
 
-### International Bonds
+### Preferred stock is a hybrid security that is part equity, part bond
 
-* Issued by a borrower from a country other than the one in which the bond is sold
-* Denominated in the currency of the country in which it is marketed
-  * Samurai bonds
-  * Bulldog bonds
+- Preferred stock is considered equity but often included in the fixed-income universe
+- Like bonds:
+	- Promises to pay a specified cash flow stream
+	- Commonly pays a fixed dividend
+	- Rarely gives holders full voting privileges
+- Unlike bonds:
+	- Failure to pay the promised dividend does not result in corporate bankruptcy
+	- Dividends owed cumulate
 
-* Denominated in one currency, usually that of the issuer, but sold in other national markets
-  * Euroyen bonds
-  * Eurosterling bonds
-* Not regulated by U.S. federal agencies
 
-### Innovation in the Bond Market
+### International bonds are issued in one country by a borrower from a different country 
 
-* __Inverse floaters __ are like floating-rate bonds, except coupon rate  _falls_  when the general level of interest rates  _rises_
-* __Asset-backed bonds __ use income from a specified group of assets to service the debt
-* __Catastrophe bonds’ __ final payment depends on whether there has been a specified catastrophe
-* __Indexed bonds __ make payments that are tied to a general price index or the price of a commodity
-  * Treasury Inflation Protected Securities ( __TIPS__ )
+- *Foreign bonds* are denominated in the currency of the country where issued
+	- Samurai bonds
+	- Bulldog bonds
+- *Eurobonds* are denominated in a currency *other than* the country where issued, usually the currency of the issuer
+	- Euro-yen bonds
+	- Euro-sterling bonds
 
-### Table 14.1 Principal and Interest Payments for TIPS
 
-### Bond Pricing 1
+### Bond issuers often develop bonds with unusual features
 
-First term of right-hand side of equation is the present value of an annuity
+- Most bonds have maturities of 30 years or less, however, some have maturities between 50 and 100 years
+- Inverse floaters are like floating-rate bonds, except coupon rate *falls*  when the general level of interest rates *rises*
+- Asset-backed bonds use income from a specified group of assets to service the debt
+- Catastrophe bonds' final payment depends on whether there has been a specified catastrophe, allowing the issuer to transfer catastrophe risk to the market
+- Indexed bonds make payments tied to a general price index or the price of a commodity (e.g., Treasury Inflation Protected Securities or TIPS)
 
-Second term is the present value of a single amount, the final payment of the bond’s par value
 
-### Example 14.2 Bond Pricing 2
+## Bond Pricing
 
-What is the value of an 8% semiannual coupon, 30-year maturity bond with par value of $1,000 is interest rates are 8%?
+### Bond value is the present value of all payments
 
-Pays 60 semiannual coupon payments of $40.
+$$
+\text{Bond value} = \sum_{t=1}^T \frac{\text{Coupon}}{(1+r)^t} + \frac{\text{Par value}}{(1+r)^T}
+$$
 
-Six-month interest is 4%.
+- The first term on the right-hand side of the equation is the present value of an annuity
+- The second term is the present value of a single amount, the final payment of the bond's par value
 
-The value of the bond can be written as:
 
-The present value of the bond’s 60 semiannual coupon payments of $40 each is $904.94
+### There is an inverse relation between bond values and interest rates {.allowframebreaks}
 
-The $1,000 final payment of par value has a present value of $95.06
+![The inverse relationship between bond values and the interest rate. Value of an 8% coupon bond with 30-year maturity making semiannual payments. [@bodie_investments_2023, Figure 14.3]](./Figures/bod12665_1403.png){height=50%}
 
-### Accrued Interest and Quoted Bond Price
+\framebreak
 
-Quoted price does not include interest that accrues between coupon payments.
+![Bond values at different interest rates (8% coupon bond, coupons paid semiannually) [@bodie_investments_2023, Table 14.2]](./Figures/table_1402.png){height=50%}
 
-Buyer pays seller for accrued interest, the prorated share of the upcoming semiannual coupon:
+### Quoted bond prices do not include interest that accrues between coupon payments
 
-The sale, or invoice, price of the bond would equal the stated price (flat price) plus the accrued interest:
+- The buyer pays the seller for accrued interest, which is the prorated share of the upcoming semiannual coupon:
+$$
+\text{Accrued interest} = \frac{\text{Ann. coupon}}{2} \times \frac{\text{Days since last coupon}}{\text{Days separating coupons}}
+$$
+- The sale, or invoice, price of the bond equals the stated price (flat price) plus the accrued interest:
+$$
+\text{Invoice price} = \text{Flat price} + \text{Accrued interest}
+$$
 
-### Invoice Pricing
 
-What is the invoice price of an 8% semiannual coupon, 30-year maturity bond with par value of $1,000 is interest rates are 8%? Thirty days have passed since the last coupon payment (assume 182 days in each period)
+## Bond Yields
 
-### Bond Prices and Yields
+### Yield to maturity (YTM) is the interest rate that equates the present value of bond payments and market price
 
-Inverse relationship between price and yield is a central feature of fixed-income securities
+- We often interpret the YTM as the average rate of return that we earn if we buy the bond and hold it until maturity
+- The inverse relation between price and yield is a central feature of fixed-income securities
+- Interest rate fluctuations are the main source of risk in the fixed-income market
+- The price curve is convex and flattens at higher interest rates
+- The longer the maturity of the bond, the more sensitive its price is to changes in market interest rates
 
-Interest rate fluctuations represent the main source of risk in the fixed-income market
 
-The price curve is convex and becomes flatter at higher interest rates
+### YTM and current yield are different
 
-The longer the maturity of the bond, the more sensitive the bond’s price to changes in market interest rates
+- Yield to maturity (YTM)
+	- Bond's internal rate of return
+	- The compound rate of return over the life of the bond, assuming all coupons are reinvested at that YTM
+	- Proxy for the average return
+- Current yield
+	- Bond's annual coupon payment divided by its price
+	- Premium bonds:  $\text{Coupon rate} > \text{Current yield} > \text{YTM}$
+	- Discount bonds:  $\text{Coupon rate} < \text{Current yield} < \text{YTM}$
 
-### Figure 14.3 The Inverse Relationship Between Bond Prices and Yields
 
-[Access the text alternative for slide images.](slide46.xml)
+### Yield to call (YTC) and YTM are different {.allowframebreaks}
 
-### Table 14.2 Bond Prices at Different Interest Rates (8% Coupon Semiannual Bond)
+- Except:
+	- The time until *call* replaces the time until *maturity*
+	- The call price replaces par value
+- At *low* interest rates: The price of the callable bond is flat since the risk of a repurchase or call is high
+- At *high* interest rates: The price of the callable bond converges to that of a normal bond since the risk of a call is negligible
 
-### Bond Yields: Yield to Maturity
+\framebreak
 
-* __Yield to maturity (YTM) __ is the interest rate that makes the present value of a bond’s payments equal to its price
-  * Interpreted as a measure of the average rate of return that will be earned on a bond if it is bought now and held until maturity
-* To calculate YTM, solve the bond price equation for the interest rate given the bond’s price
+![Bond values: Callable and straight debt (coupon = 8%; maturity = 30 years; semiannual payments) [@bodie_investments_2023, Figure 14.4]](./Figures/bod12665_1404.png){height=50%}
 
-### Yield to Maturity Example
 
-  * Suppose an 8% coupon (semiannual), 30-year bond is selling for $1,150. What is the YTM?
+### YTM and realized compound return are different {.allowframebreaks}
 
-### Bond Yields: YTM versus Current Yield
+- YTM will equal the rate of return realized over the life of the bond if all coupons are reinvested to earn the bond's YTM
+- Realized compound return is the compound rate of return assuming that coupon payments are reinvested until maturity
+- Forecasting the realized compound yield over various holding periods or investment horizons is *horizon analysis*
 
-* Yield to maturity
-  * Bond’s internal rate of return
-  * Compound rate of return over life of the bond assuming all coupons can be reinvested at that yield
-  * Proxy for average return
-* __Current yield __ is the bond’s annual coupon payment divided by its price
-  * __Premium bonds__ :  _Coupon rate > Current yield > YTM_
-  * __Discount bonds__ :  _Coupon rate < Current yield < YTM_
+\framebreak
 
-### Bond Yields: Yield to Call
+![Growth of invested funds [@bodie_investments_2023, Figure 14.5]](./Figures/bod12665_1405.png){height=50%}
 
-* __Yield to call __ (YTC) is calculated like the yield to maturity except that the time until call replaces time until maturity, and the call price replaces par value.
-* Low interest rates
-  * The price of the callable bond is flat since the risk of repurchase or call is high
-* High interest rates
-  * The price of the callable bond converges to that of a normal bond since the risk of call is negligible
+\framebreak
 
-### Yield to Call Example
+- As interest rates change, bond investors face two offsetting risks
+	1. *Price risk:* When rates rise, bond prices fall
+	1. *Reinvestment rate risk:* When rates rise, reinvestment rates rise
+- Chapter 16 discusses how bond investors manage these risks
 
-  * Suppose an 8% coupon (semiannual), 30-year bond sells for $1,150.  If the call price is $1,100 and the time to call is 10 years, what is the yield to call?
 
-### Bond Prices: Callable and Straight Debt
+## Bond Prices over Time
 
-[Access the text alternative for slide images.](slide47.xml)
+### The relative values of coupon rates and YTMs are useful {.allowframebreaks}
 
-### Bond Yields: Realized Compound Return versus YTM
+- A bond sells at par value when its coupon rate equals its YTM
+	- Here, the coupon payments exactly compensate for the time value of money
+- A bond sells at *a discount* to par value when its coupon rate is *less than* its YTM 
+	- Here, the coupon payments do not compensate for the time value of money, so investors require additional capital gains
+- A bond sells at *a premium* to par value when its coupon rate is *greater than* its YTM 
+	- Here, the coupon payments more than compensate for the time value of money, so investors pay more than the par value
 
-YTM will equal the rate of return realized over the life of the bond if all coupons are reinvested to earn the bond’s YTM
+\framebreak
 
-__Realized compound return __ is the compound rate of return assuming that coupon payments are reinvested until maturity
+![Price path of two 30-year maturity bonds, each selling at a yield to maturity of 8%. Bond price approaches par value as maturity date approaches. [@bodie_investments_2023, Figure 14.6]](./Figures/bod12665_1406.png){height=50%}
 
-Forecasting the realized compound yield over various holding periods or investment horizons is  __horizon analysis__
 
-### Figure 14.5 Growth of Invested Funds
+### YTM and holding period return (HPR) are different
 
-[Access the text alternative for slide images.](slide48.xml)
+- HPR: 
+	- The rate of return over a particular investment period
+	- Depends on the bond's price at the end of the holding period, an unknown future value
+- YTM:
+	- The average rate of return if the bond is held to maturity
+	- Depends on coupon rate, maturity, and par value, which are all known
+- When YTM does not change over a period $\text{YTM}=\text{HPR}$
 
-### Figure 14.6 Bond Prices Over Time
+<!-- TODO: add questions where small changes in YTM create large changes in HPR -->
 
-[Access the text alternative for slide images.](slide49.xml)
 
-### Bond Prices Over Time: YTM versus HPR
+### Zero-coupon bonds sell at a discount and pay "interest" as a "capital gain"
 
-__HPR__
+![The price of a 30-year zero-coupon bond over time at a yield to maturity of 10%. Price equals $\$1,000/(1.10)^T$, where $T$ is time until maturity. [@bodie_investments_2023, Figure 14.7]](./Figures/bod12665_1407.png){height=50%}
 
-Rate of return over a particular investment period
+## Default Risk and Bond Pricing
 
-Depends on the bond’s price at the end of the holding period, an unknown future value
+### Bonds *promise* a fixed flow of income, which is not guaranteed unless the issuer cannot default
 
-__YTM__
+- Credit risk, or default risk, is the risk the bond will not make all promised payments
+- Rating companies: Moody's Investor Service, Standard & Poor's, and Fitch Ratings
+- Rating categories
+	- Highest rating is AAA (or Aaa)
+	- Investment grade bonds are rated BBB/Baa or above
+	- Speculative-grade or junk bonds are rated below BBB/Baa
 
-Average return if the bond is held to maturity
 
-Depends on coupon rate, maturity, and par value
+### Definitions of each bond rating class
 
-All of these are readily observable
+![Definitions of each bond rating class [@bodie_investments_2023, Figure 14.8]](./Figures/bod12665_1408.png){height=50%}
 
-### Price of a 30-Year Zero-Coupon Bond Over Time
 
-__Figure 14.7 __ The price of a 30-year zero-coupon bond over time at a yield to maturity of 10%. Price equals $1,000/(1.10) _T_ , where  _T _ is time until maturity.
+### Bond rating agencies analyze the levels and trends of issuer financial ratios {.allowframebreaks}
 
-[Access the text alternative for slide images.](slide50.xml)
+- Coverage ratios
+- Leverage (e.g., debt-to-equity) ratios
+- Liquidity ratios
+- Profitability ratios
+- Cash flow-to-debt ratio
 
-### Default Risk and Bond Pricing 1
+\framebreak
 
-* __Credit risk__ , or default risk, is the risk the bond will not make all promised payments
-* Rating companies
-  * Moody’s Investor Service, Standard & Poor’s, and Fitch Investor Service
-* Rating categories
-  * Highest rating is AAA (or Aaa)
-  * __Investment grade bonds __ are rated BBB/Baa or above
-  * __Speculative-grade/junk bonds__  are rated below BBB/Baa
+![Financial ratios by rating class [@bodie_investments_2023, Table 14.3]](./Figures/table_1403.png){height=50%}
 
-* Determinants of bond safety
-  * Coverage ratios
-  * Leverage (for example, debt-to-equity) ratios
-  * Liquidity ratios
-  * Profitability ratios
-  * Cash flow-to-debt ratio
+### Edward Altman shows that financial ratios predict bankruptcy {.allowframebreaks}
 
-### Table 14.3 Financial Ratios by Rating Class
+- We calculate a $Z$ score based on firm financial characteristics:
+$$
+Z=3.1\frac{EBIT}{A} + 1.0\frac{Sales}{A} + 0.42\frac{E}{L} + 0.85\frac{RE}{A} + 0.72\frac{WC}{A}
+$$
+- Higher $Z$ scores indicate lower credit risk:
+	- $Z < 1.23$ indicates vulnerability to bankruptcy
+	- $1.23 \leq Z < 2.90$ is a gray area
+	- $2.90 \leq Z$ indicates safety
 
-### Figure 14.9 Discriminant Analysis
+\framebreak
 
-* Can financial ratios can be used to predict default risk?
-* Edward Altman used discriminant analysis to predict bankruptcy
-  * Firm is assigned a score based on its financial characteristics
-  * If score exceeds cut-off value, the firm is deemed creditworthy
+![Discriminant analysis [@bodie_investments_2023, Figure 14.9]](./Figures/bod12665_1409.png){height=50%}
 
-[Access the text alternative for slide images.](slide51.xml)
 
-### Altman Z-Score
+### The bond indenture is the contract between the issuer and bondholders
 
-Z-scores below 1.23 indicate vulnerability to bankruptcy
+- Sinking funds call for the issuer to periodically repurchase some proportion of the outstanding bonds before maturity
+- Subordination clause restricts the amount of additional borrowing by the firm
+- Dividend restrictions limit the payment of dividends by firms (e.g., cumulative dividends cannot exceed cumulative retained earnings)
+- Collateral is a particular asset that the bondholders receive if the firm defaults
+	- Collateralized bonds are generally safer than debenture bonds
 
-Scores between 1.23 and 2.90 are a gray area
+### *Promised* YTM and *expected* YTM are different {.allowframebreaks}
 
-Scores above 2.90 are considered safe
+- Promised YTM will only be realized if the firm meets the obligations of the bond issue
+- Expected YTM must consider the possibility of a default
+- Default premium (also known as a credit spread) is the difference between the promised YTM on a corporate bond and the YTM on an otherwise-identical government bond that is default risk-free
 
-### Bond Indentures
+\framebreak
 
-__Sinking fund __ calls for the issuer to periodically repurchase some proportion of the outstanding bonds prior to maturity
+![Yield spreads between corporate and 10-year Treasury bonds [@bodie_investments_2023, Figure 14.11]](./Figures/bod12665_1411.png){height=50%}
 
-__Subordination clauses __ restrict the amount of additional borrowing by the firm
+### Credit default swaps (CDSs) insure a bond or loan against default
 
-Dividend restrictions limit the payment of dividends by firms
+- Allows lenders to buy protection against default risk
+- Risk structure of interest rates and CDS prices ought to be tightly aligned
+- CDS contracts trade on corporate as well as sovereign debt
+- Natural CDS buyers are large bondholders that want to enhance the creditworthiness of their outstanding loans
+- But, CDS buyers can also use them to speculate on the financial health of an issuer
 
-__Collateral__  is a particular asset that the bondholders receive if the firm defaults
+### Collateralized debt obligations (CDOs) reallocate credit risk {.allowframebreaks}
 
-### Figure 14.10 Apple’s 2015 Bond Issue
+- A structured Investment Vehicle (SIV) is a legally distinct entity that buys debt and resells it as a portfolio
+- Loans are pooled together and split into  _tranches_
+- Each tranche is given a different level of seniority to claims on the underlying loan pool
+- Mortgage-backed CDOs were an investment disaster from 2007 to 2009
 
-### YTM and Default Risk
+\framebreak
 
-* Must distinguish between the bond’s promised YTM and its expected YTM
-  * Promised YTM will be realized only if the firm meets the obligations of the bond issue
-  * Expected YTM must consider the possibility of a default
-* __Default premium __ is a differential in promised yield that compensates the investor for the risk inherent in purchasing a corporate bond that entails some risk of default
-
-### Figure 14.11 Yield Spreads
-
-[Access the text alternative for slide images.](slide52.xml)
-
-Source: Federal Reserve Bank of St. Louis.
-
-### Credit Default Swaps (CDSs)  1
-
-* __Credit default swap (CDS)__
-  * Acts like an insurance policy on the default risk of a bond or loan
-  * Allows lenders to buy protection against default risk
-  * Risk structure of interest rates and CDS prices ought to be tightly aligned
-  * CDS contracts trade on corporate as well as sovereign debt
-
-* Natural buyers of CDSs would be large bondholders or banks that wish to enhance the creditworthiness of their outstanding loans
-* But, CDSs can also be used to speculate on the financial health of particular issuers:
-  * An example of this behavior would be an investor in early 2008 who predicted the imminent financial crisis and purchased CDS contracts on mortgage bonds
-
-### Figure 14.12 Prices of 5-Year Greek Government CDSs
-
-### Credit Risk and Collateralized Debt Obligations (CDOs)
-
-* __Collateralized debt obligations (CDOs)__
-  * Major mechanism to reallocate credit risk in the fixed-income markets
-  * To create a CDO, a legally distinct entity to buy/resell a portfolio of bonds must be established
-    * Structured Investment Vehicle (SIV)
-  * Loans are pooled together and split into  _tranches_
-  * Each tranche is given a different level of seniority to claims on the underlying loan pool
-  * Mortgage-backed CDOs were an investment disaster in 2007 to 2009
-
-### Figure 14.13 Collateralized Debt Obligations
-
-[Access the text alternative for slide images.](slide53.xml)
-
-### End of Main Content
-
-© McGraw Hill LLC. All rights reserved. No reproduction or distribution without the prior written consent of McGraw Hill LLC.
-
-### Accessibility Content: Text Alternatives for Images
-
-### The Inverse Relationship Between Bond Prices and Yields - Text Alternatives
-
-[Return to parent-slide containing images.](slide17.xml)
-
-Bond Price ($) is on the vertical axis and interest rate (percent) is on the horizontal. Curve slopes down from (0, 3,500) through (8, 1,000) and (10, 810.71).
-
-[Return to parent-slide containing images.](slide17.xml)
-
-### Bond Prices: Callable and Straight Debt - Text Alternative
-
-[Return to parent-slide containing images.](slide24.xml)
-
-Prices ($) is on the vertical axis and interest rate (percent) is on the horizontal. Straight bond curve slopes from (3, 1,900) to (13, 600). Callable bond is horizontal at 1,100 until 7 percent, where it curves down to (13, 600).
-
-[Return to parent-slide containing images.](slide24.xml)
-
-### Growth of Invested Funds - Text Alternative
-
-[Return to parent-slide containing images.](slide26.xml)
-
-The top panel of the flow chart shows the results of a 2-year bond selling at par value and paying a 10 percent coupon each year. If the first coupon payment is reinvested, at the end of two years the total value of the bond is $1,210. The second panel shows the same information, but with a reinvestment rate of 8 percent. In the 8 percent scenario the total value of the bond after 2 years is only $1,208.
-
-[Return to parent-slide containing images.](slide26.xml)
-
-### Prices Path of Two 30-Year Maturity Bonds - Text Alternative
-
-[Return to parent-slide containing images.](slide27.xml)
-
-Price (percent of par value) is on the vertical axis and time (years) is on the horizontal. Coupon at 12 percent curves from (0, 142) to (30, 100). Coupon at 4 percent curves from (0, 58) to (30, 100). The 12 percent slopes gently downward over the 30-year life of the bond, while the 4 percent slopes gently upward. At maturity, the prices of both approach par value.
-
-[Return to parent-slide containing images.](slide27.xml)
-
-### Price of a 30-Year Zero-Coupon Bond Over Time - Text Alternative
-
-[Return to parent-slide containing images.](slide29.xml)
-
-Price ($) is on the vertical axis, and time (years) is on the horizontal. The inward-bowed curve slopes from today (0, 50) to maturity date (30, 1,000). The curve illustrates how the bond's price rises exponentially until its maturity.
-
-[Return to parent-slide containing images.](slide29.xml)
-
-### Discriminant Analysis - Text Alternative
-
-[Return to parent-slide containing images.](slide33.xml)
-
-ROE is on the vertical axis and coverage ratio on the horizontal. A line slopes down between unspecified values.  Three circles and one x are above the line, and six x’s and [one](slide33.xml) circle are below the line.
-
-[Return to parent-slide containing images.](slide33.xml)
-
-### Yield Spreads - Text Alternative
-
-[Return to parent-slide containing images.](slide38.xml)
-
-Yield spread (percent) is on the vertical axis and years 1970 to 2021 are on the horizontal. Aaa-rated bonds trend above zero and below 3; a small spike is shown in 2009, but not outside the overall trend. Baa-rated bonds trend above 1 and below 4 over most of the period; in 2009, it spikes above 4, but quickly resumes the previous, lower trend. High yield does not begin until 1997 and trend between 3 and 8 most of the period, with one spike to 16 in 2009.
-
-[Return to parent-slide containing images.](slide38.xml)
-
-### Collateralized Debt Obligations - Text Alternative
-
-[Return to parent-slide containing images.](slide43.xml)
-
-Four columns with 1 heading row and 5 data rows. First two columns are untitled while third column reads Senior-Subordinated Tranche Structure and fourth column reads Typical Terms. First row is blank for first and second columns, and third column reads "Senior tranche" while fourth column data reads "70 to 90 percent of notional principal, coupon similar to Aa-Aaa rated bonds." First row is blank for first and second columns, and third column reads "Mezzanine 1"
-
-[Return to parent-slide containing images.](slide43.xml) -->
+![Collateralized debt obligations [@bodie_investments_2023, Figure 14.13]](./Figures/bod12665_1413.png){height=50%}
 
 
 ### Summary from @bodie_investments_2023 {.appendix}
