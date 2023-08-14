@@ -49,7 +49,7 @@ $$
 ### Stephen Ross's arbitrage pricing theory (APT) predicts a security market line (SML) that links expected returns to risk...
 
 - But the APT takes a different path to this SML than the capital asset pricing model (CAPM)
-- The APT relies on three propositions
+- The APT relies on three propositions:
   1. A factor model can describe security returns
   1. There are sufficient securities to diversify away the idiosyncratic risk
   1. Well-functioning security markets do not allow for the persistence of arbitrage opportunities
@@ -73,11 +73,11 @@ where $E(R_P) = \sum_{i=1}^n w_i E(R_i)$, $\beta_P = \sum_{i=1}^n w_i \beta_i$, 
 $$
 \sigma_P^2 = \beta_P^2 \sigma_F^2 + \sigma^2(e_P)
 $$
-- If this portfolio were equally-weighted, we can rewrite $\sigma^2(e_P)$ as
+- If this portfolio were equally weighted, we can rewrite $\sigma^2(e_P)$ as
 $$
 \sigma^2(e_P) = \sum_{i=1}^n w_i^2 \sigma^2(e_i) = \sum_{i=1}^n \left(\frac{1}{n}\right)^2 \sigma^2(e_i) = \frac{1}{n} \sum_{i=1}^n \frac{\sigma^2(e_i)}{n} = \frac{1}{n} \overline{\sigma}^2(e_i)
 $$
-so the non-systematic variance of the portfolio equals the average non-systematic variance of the stocks, divided by $n$
+so the non-systematic variance of the portfolio equals the average non-systematic variance of the stocks divided by $n$
 - Therefore, non-systematic variance decreases as $n$ increases, which is the effect of diversification
 - For a well-diversified portfolio $e_P$ and $\sigma^2(e_P)$ are effectively zero, and
 $$
@@ -106,7 +106,7 @@ $$
   - Highlight the important distinction between non-diversifiable risk, which requires a reward in the form of a risk premium, and diversifiable risk, which does not
 - However, there are important differences between the CAPM and APT
   - CAPM
-    - Model is based on an inherently unobservable "market" portfolio
+    - Based on an inherently unobservable "market" portfolio
     - Provides unequivocal statement on the expected return-beta relationship for all securities
   - APT
     - Built on the foundation of well-diversified portfolios
@@ -168,8 +168,8 @@ $$
     - The difference between those that performed well last year and those that performed poorly
     - Often called UMD for "up minus down"
   - @fama_five_2015 add a profitability factor and an investment factor
-    - The profitability factor, RMW for "robust minus weak", is the difference in returns between a diversified portfolio with strong versus weak profitability
-    - The investment factor, CMA for "conservative minus aggressive", is the difference in returns between a diversified portfolio with low versus high investment
+    - The profitability factor, RMW for "robust minus weak," is the difference in returns between a diversified portfolio with strong versus weak profitability
+    - The investment factor, CMA for "conservative minus aggressive," is the difference in returns between a diversified portfolio with low versus high investment
 - The overwhelming number of other factors are often called the *factor zoo*
   - Many may be redundant and minor variations on the same theme
   - Many may be spurious and the result of "data snooping"

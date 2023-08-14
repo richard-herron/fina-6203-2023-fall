@@ -8,9 +8,9 @@ title: Chapter 14 - Bond Prices and Yields
  
 - The bond issuer (i.e., borrower) agrees to make specified payments to the bondholder on specified dates
 - Par value (or face value) is the payment to the bondholder on the bond's maturity date
-- Coupon rate is the bond's interest payment per year per dollar of par value
-	- Coupon payments are typically split into two equal semiannual payments
-	- *Coupon rates are typically set to induce investors to pay par value for a bond upon issuance* 
+- The coupon rate is the bond's interest payment per year per dollar of par value
+	- Firms typically split coupon payments into two equal semiannual payments
+	- *Firms typically set coupon rates to induce investors to pay par value for a bond at issue* 
 - Bond indenture is the contract between the issuer and the bondholder
 
 ### Treasury notes and bonds
@@ -25,8 +25,6 @@ title: Chapter 14 - Bond Prices and Yields
 
 ![Prices and Yields of U.S. Treasury Bonds, August 15, 2021 [@bodie_investments_2023, Figure 14.1]](./Figures/bod12665_1401.png){height=50%}
 
-\framebreak
-
 - The quoted prices do not include the interest accrued between coupon payment dates
 - If a bond trades between coupon payment dates, the buyer must pay the seller for interest accrued since the last coupon payment
 $$
@@ -38,8 +36,6 @@ $$
 
 ![Listing of Corporate Bonds [@bodie_investments_2023, Figure 14.2]](./Figures/bod12665_1402.png){height=50%}
 
-\framebreak
-
 - There are many combinations of issuer, maturity, coupon rate, seniority, etc., often leading to thin markets
 - Therefore, most corporate bonds trade over the counter instead of on exchanges
 
@@ -48,10 +44,10 @@ $$
 - Call provisions allow issuers to repurchase bonds at a specified *call price* before maturity 
 	- Allow firms to call bonds with high coupon rates when interest rates fall
 	- Typically come with a period of call protection
-	- The option to call a bond is valuable *to the firm*, so callable bonds are typically issued with higher coupon rates and promised yields than non-callable bonds
+	- The option to call a bond is valuable *to the firm*, so firms typically issue callable bonds with higher coupon rates and promised yields than non-callable bonds
 - Convertible bonds give holders the option to exchange each bond for a specified number of shares of the firm's stock
 	- The option to convert a bond is valuable *to the bondholder*, so convertible bonds typically offer lower coupon rates and yields to maturity than non-convertible bonds
-- Put bonds give the holder the option to exchange the bond for par value at some date or to extend for a given number of years
+- Put bonds give the holder the option to exchange the bond for par value at some date or to extend it for a given number of years
 	- If a bond's coupon rate is greater than current market yields, the bondholder will extend the bond's life
 	- If a bond's coupon rate is lower than current market yields, the bondholder will retire the bonds and collect its principal
 - Floating-rate bonds pay interest rates that are reset periodically according to a specified market rate
@@ -71,21 +67,22 @@ $$
 
 ### International bonds are issued in one country by a borrower from a different country 
 
-- *Foreign bonds* are denominated in the currency of the country where issued
+- Issuers denominate *foreign bonds* in the currency of the country where issued
 	- Samurai bonds
 	- Bulldog bonds
-- *Eurobonds* are denominated in a currency *other than* the country where issued, usually the currency of the issuer
+- Issuers denominate *Eurobonds* in a currency *other than* the country where issued, typically the issuer's home currency
 	- Euro-yen bonds
 	- Euro-sterling bonds
 
 
 ### Bond issuers often develop bonds with unusual features
 
-- Most bonds have maturities of 30 years or less, however, some have maturities between 50 and 100 years
+- Most bonds have maturities of 30 years or less
+- However, some have maturities between 50 and 100 years
 - Inverse floaters are like floating-rate bonds, except coupon rate *falls*  when the general level of interest rates *rises*
 - Asset-backed bonds use income from a specified group of assets to service the debt
 - Catastrophe bonds' final payment depends on whether there has been a specified catastrophe, allowing the issuer to transfer catastrophe risk to the market
-- Indexed bonds make payments tied to a general price index or the price of a commodity (e.g., Treasury Inflation Protected Securities or TIPS)
+- Indexed bonds make payments tied to a general price index or the price of a commodity (e.g., Treasury Inflation-Protected Securities or TIPS)
 
 
 ## Bond Pricing
@@ -103,8 +100,6 @@ $$
 ### There is an inverse relation between bond values and interest rates {.allowframebreaks}
 
 ![The inverse relationship between bond values and the interest rate. Value of an 8% coupon bond with 30-year maturity making semiannual payments. [@bodie_investments_2023, Figure 14.3]](./Figures/bod12665_1403.png){height=50%}
-
-\framebreak
 
 ![Bond values at different interest rates (8% coupon bond, coupons paid semiannually) [@bodie_investments_2023, Table 14.2]](./Figures/table_1402.png){height=50%}
 
@@ -134,11 +129,11 @@ $$
 ### YTM and current yield are different
 
 - Yield to maturity (YTM)
-	- Bond's internal rate of return
-	- The compound rate of return over the life of the bond, assuming all coupons are reinvested at that YTM
+	- The bond's internal rate of return
+	- The compound rate of return over the life of the bond, assuming the bond holder reinvests all coupon payments at the YTM
 	- Proxy for the average return
 - Current yield
-	- Bond's annual coupon payment divided by its price
+	- The bond's annual coupon payment divided by its price
 	- Premium bonds:  $\text{Coupon rate} > \text{Current yield} > \text{YTM}$
 	- Discount bonds:  $\text{Coupon rate} < \text{Current yield} < \text{YTM}$
 
@@ -147,11 +142,9 @@ $$
 
 - Except:
 	- The time until *call* replaces the time until *maturity*
-	- The call price replaces par value
+	- The call price replaces the par value
 - At *low* interest rates: The price of the callable bond is flat since the risk of a repurchase or call is high
 - At *high* interest rates: The price of the callable bond converges to that of a normal bond since the risk of a call is negligible
-
-\framebreak
 
 ![Bond values: Callable and straight debt (coupon = 8%; maturity = 30 years; semiannual payments) [@bodie_investments_2023, Figure 14.4]](./Figures/bod12665_1404.png){height=50%}
 
@@ -162,11 +155,7 @@ $$
 - Realized compound return is the compound rate of return assuming that coupon payments are reinvested until maturity
 - Forecasting the realized compound yield over various holding periods or investment horizons is *horizon analysis*
 
-\framebreak
-
 ![Growth of invested funds [@bodie_investments_2023, Figure 14.5]](./Figures/bod12665_1405.png){height=50%}
-
-\framebreak
 
 - As interest rates change, bond investors face two offsetting risks
 	1. *Price risk:* When rates rise, bond prices fall
@@ -184,8 +173,6 @@ $$
 	- Here, the coupon payments do not compensate for the time value of money, so investors require additional capital gains
 - A bond sells at *a premium* to par value when its coupon rate is *greater than* its YTM 
 	- Here, the coupon payments more than compensate for the time value of money, so investors pay more than the par value
-
-\framebreak
 
 ![Price path of two 30-year maturity bonds, each selling at a yield to maturity of 8%. Bond price approaches par value as maturity date approaches. [@bodie_investments_2023, Figure 14.6]](./Figures/bod12665_1406.png){height=50%}
 
@@ -232,8 +219,6 @@ $$
 - Profitability ratios
 - Cash flow-to-debt ratio
 
-\framebreak
-
 ![Financial ratios by rating class [@bodie_investments_2023, Table 14.3]](./Figures/table_1403.png){height=50%}
 
 ### Edward Altman shows that financial ratios predict bankruptcy {.allowframebreaks}
@@ -247,15 +232,13 @@ $$
 	- $1.23 \leq Z < 2.90$ is a gray area
 	- $2.90 \leq Z$ indicates safety
 
-\framebreak
-
 ![Discriminant analysis [@bodie_investments_2023, Figure 14.9]](./Figures/bod12665_1409.png){height=50%}
 
 
 ### The bond indenture is the contract between the issuer and bondholders
 
 - Sinking funds call for the issuer to periodically repurchase some proportion of the outstanding bonds before maturity
-- Subordination clause restricts the amount of additional borrowing by the firm
+- The subordination clause restricts the amount of additional borrowing by the firm
 - Dividend restrictions limit the payment of dividends by firms (e.g., cumulative dividends cannot exceed cumulative retained earnings)
 - Collateral is a particular asset that the bondholders receive if the firm defaults
 	- Collateralized bonds are generally safer than debenture bonds
@@ -266,14 +249,12 @@ $$
 - Expected YTM must consider the possibility of a default
 - Default premium (also known as a credit spread) is the difference between the promised YTM on a corporate bond and the YTM on an otherwise-identical government bond that is default risk-free
 
-\framebreak
-
 ![Yield spreads between corporate and 10-year Treasury bonds [@bodie_investments_2023, Figure 14.11]](./Figures/bod12665_1411.png){height=50%}
 
 ### Credit default swaps (CDSs) insure a bond or loan against default
 
 - Allows lenders to buy protection against default risk
-- Risk structure of interest rates and CDS prices ought to be tightly aligned
+- The risk structure of interest rates and CDS prices ought to be tightly aligned
 - CDS contracts trade on corporate as well as sovereign debt
 - Natural CDS buyers are large bondholders that want to enhance the creditworthiness of their outstanding loans
 - But, CDS buyers can also use them to speculate on the financial health of an issuer
@@ -284,8 +265,6 @@ $$
 - Loans are pooled together and split into  _tranches_
 - Each tranche is given a different level of seniority to claims on the underlying loan pool
 - Mortgage-backed CDOs were an investment disaster from 2007 to 2009
-
-\framebreak
 
 ![Collateralized debt obligations [@bodie_investments_2023, Figure 14.13]](./Figures/bod12665_1413.png){height=50%}
 

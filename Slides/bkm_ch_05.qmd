@@ -13,20 +13,23 @@ $$
 
 ### We typically express HPRs as effective annual rates (EARs) to simplify comparisons
 
+- The HPR $r_T$ over $T$ years is:
 $$
 r_T = (1 + \text{EAR})^T - 1
 $$
-where $r_T$ is the HPR over $T$ years, so
+- Therefore:
 $$
 \text{EAR} = (1 + r_T)^{1/T} - 1
 $$
 
 ### Rates on short-term investments are often annualized with simple interest instead of compound interest, called annual percentage rate (APR)
 
+- The relation between EAR and PAR is:
 $$
 1 + \text{EAR} = \left(1 + \frac{\text{APR}}{n}\right)^n
 $$
-where $n$ is the number of compounding periods per year, so
+where $n$ is the number of compounding periods per year
+- Therefore:
 $$
 \text{APR} = n \times [(1 + \text{EAR})^{1/n} - 1]
 $$
@@ -86,7 +89,7 @@ $$
 ### The future is uncertain {.allowframebreaks}
 
 - We perform *scenario analysis* to consider HPRs of various economic scenarios and the probabilities of each scenario
-- We measure expected or mean rates of return, $E(r)$, as the *probability-weighted average of the rates returns in each scenario*
+- We measure expected or mean rates of return $E(r)$ as the *probability-weighted average of the rates returns in each scenario*
 $$
 E(r) = \sum_s p(s)r(s)
 $$
@@ -133,15 +136,15 @@ $$
 
 ## Deviations from Normality and Tail Risk
 
-### Asset returns are negative-skewed and fat-tailed {.allowframebreaks}
+### Asset returns are negative skewed and fat tailed {.allowframebreaks}
 
 - *Skew* is the average *cubed* deviation from the mean
 $$
 \text{Skew} = \text{Average} \left[ \frac{(r - \bar{r})^3}{\hat{\sigma}^3} \right] = \frac{1}{T} \sum_{t=1}^T \frac{(r_t - \bar{r})^3}{\hat{\sigma}^3} 
 $$
 - Negative skew indicates that extremely bad outcomes are more likely than extremely good outcomes
-- Negative-skewed distributions are left-skewed with left tails that are fatter than right tails
-- *When returns are positively-skewed, SD overestimates risk; when returns are negatively-skewed, SD underestimates risk*
+- Negative-skewed distributions are left skewed with left tails that are fatter than right tails
+- *When returns are positively skewed, SD overestimates risk; when returns are negatively skewed, SD underestimates risk*
 
 ![Normal and skewed distributions (mean = 6%, SD = 17%) [@bodie_investments_2023, Figure 5.5]](Figures/bod12665_0505.png){height=50%}
 
@@ -151,7 +154,7 @@ $$
 $$
 - Then subtract 3 because the normal distribution has a kurtosis of 3
 - Kurtosis raises deviations to the fourth power, so kurtosis is more sensitive to outliers than the variance
-- Kurtosis values greater than zero indicate "fat tails", where extreme outcomes are more likely than for normal distributions
+- Kurtosis values greater than zero indicate "fat tails," where extreme outcomes are more likely than for normal distributions
 
 
 ![Normal and fat-tailed distributions (mean = 10%, SD = 20%) [@bodie_investments_2023, Figure 5.6]](Figures/bod12665_0506.png){height=50%}
@@ -170,7 +173,7 @@ $$
 - When we do *scenario analysis*, we specify scenarios, each with a probability and return
 - When we use *historical data*
 	- We treat each observation as an equally likely scenario, so we use an equal probability of $\frac{1}{n}$ for each $p(s)$
-	- We estimate expected return, $E(r)$, as the arithmetic average of sample returns
+	- We estimate expected return $E(r)$ as the arithmetic average of sample returns
 	$$
 	E(r) = \sum_{s=1}^n p(s)r(s) = \frac{1}{n} \sum_{s=1}^n r(s)
 	$$
@@ -202,7 +205,7 @@ $$
 
 ### Historic returns on risky portfolios {.allowframebreaks}
 
-![Frequency distribution of annual returns on U.S. Treasury bill, Treasury bonds, and common stocks [@bodie_investments_2023, Figure 5.7]](Figures/bod12665_0507.png){height=50%}
+![Frequency distribution of annual returns on U.S. Treasury bills, Treasury bonds, and common stocks [@bodie_investments_2023, Figure 5.7]](Figures/bod12665_0507.png){height=50%}
 
 ![Statistics for monthly excess returns on the market index and four "style" portfolios [@bodie_investments_2023, Table 5.5]](Figures/table_0505.png){height=50%}
 

@@ -16,7 +16,7 @@ title: Chapter 6 - Capital Allocation to Risky Assets
 	- Consider only risk-free investments or risky investments with positive risk premiums
 - We characterize risk aversion with a "utility function"
 	- A commonly-used utility function is $U = E(r) - \frac{1}{2}A\sigma^2$
-	- Here, $A$ is a risk-aversion coefficient, and risk aversion increases as $A$ increases
+	- Here $A$ is a risk-aversion coefficient, and risk aversion increases as $A$ increases
 
 ### An investment is more attractive when its expected return is higher and its risk is lower {.allowframebreaks}
 
@@ -67,7 +67,7 @@ with at least one strict inequality
 ### The capital allocation line (CAL) plots all available risk-return combinations {.allowframebreaks}
 
 - Consider a portfolio of one risky asset and one risk-free asset
-- Allocate $y$ to risky asset $P$ and $1-y$ to risk-free asset $F$
+- Allocate $y$ to risky asset $P$ and $1-y$ to the risk-free asset $F$
 - The return on our complete portfolio $C$ is
 $$
 r_C = yr_P + (1-y)r_f

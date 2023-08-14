@@ -29,7 +29,7 @@ Individual behavior.
 ### Suppose that all investors optimize their portfolios using the Markowitz model of efficient diversification
 
 
-- Each investor uses an input list to draw an efficient frontier and identifies risky portfolio $P$ where the CAL is tangent to the efficient frontier
+- Each investor uses an input list to draw an efficient frontier and identify a risky portfolio $P$ where the CAL is tangent to the efficient frontier
 - Under the CAPM, all investors would find the same efficient frontier, CAL, and risky portfolio $P$
 - The proportion of each stock in $P$ is the market value of each stock divided by the sum of the market values of all stocks
 - Therefore
@@ -45,7 +45,7 @@ Individual behavior.
 
 ### The CAPM predicts the risk premium of the market portfolio
 
-- Recall that each individual investor chooses a proportion $y$ to allocate to the optimal portfolio $M$, such that
+- Recall that each investor chooses a proportion $y$ to allocate to the optimal portfolio $M$ such that:
 $$
 y = \frac{E(r_M) - r_f}{A \sigma_M^2}
 $$
@@ -78,7 +78,7 @@ because covariances are additive and $\sum_{i=1}^n w_i R_i = R_M$
 $$
 E(R_{GE}) = \frac{\text{Cov}(R_{GE}, R_M)}{\sigma_M^2} E(R_M)
 $$
-which is typically written as
+which we typically write as:
 $$
 E(r_{GE}) = r_f + \beta_{GE} [E(r_M) - r_f]
 $$
@@ -99,7 +99,7 @@ $$
 \beta_P = \sigma_{i=1}^n w_i \beta_i
 $$
 - The market beta ($\beta_M$) is one by definition because $\beta_M = \frac{\text{Cov}(R_M, R_M)}{\sigma_M^2} = \frac{\sigma_M^2}{\sigma_M^2} = 1$
-- So we can think of $\beta > 1$ as "agressive" and $\beta < 1$ as "defensive"
+- So we can think of $\beta > 1$ as "aggressive" and $\beta < 1$ as "defensive"
 
 
 ### The security market line (SML) visualizes the CAPM
@@ -114,7 +114,7 @@ $$
   - Standard deviation is a valid measure of risk for efficiently-diversified portfolios
 - SML
   - The SML plots the risk premiums of *individual assets* versus asset risk
-  - Asset contribution to portfolio variance, $\beta$, is the appropriate measure of risk for assets held in a diversified portfolio
+  - Asset contribution to portfolio variance $\beta$ is the appropriate measure of risk for assets held in a diversified portfolio
   - *The SML is valid for efficient portfolios and individual assets*
   - 
 
@@ -141,7 +141,7 @@ $$
 - There are two doubts about the conclusions of the identical input lists assumption
   1. Short-selling frictions limit checks on too-high prices; these short-selling frictions are
     1. Potentially unlimited liabilities on short positions, tying up collateral
-    1. Limited supply of stocks to be borrowed by would-be short sellers
+    1. A limited supply of stocks to be borrowed by would-be short sellers
     1. Many investment companies prohibit short sales, as do some regulations
   1. Taxes affect the after-tax returns on the same security
     - Practically, this doubt is minor, and there is little evidence that taxes are a major factor in stock returns
@@ -168,7 +168,7 @@ $$
 
 ### Multiperiod model and hedge portfolios
 
-- Investors should be more concerned with the stream of consumption that wealth can buy for them than about the mean and variance of wealth this period (assumption 1a)
+- Investors should be more concerned with the stream of consumption that wealth can buy for them than about the mean and variance of wealth during this period (assumption 1a)
 - This assumption rules out concern with the correlation of asset returns with inflation or prices of important goods and services
 - It also rules out demand for assets that could hedge these "extra-market risks" that would increase prices and decrease risk premiums
 - Similar extra-market risk factors would arise in a multiperiod model instead of the single-period model (assumption 1b)
@@ -179,7 +179,7 @@ $$
 ### Consumption-based CAPM (CCAPM)
 
 - The discussion on the previous slide centers on consumption
-- The CCAPM centers the CAPM directly on consumption so that the utility of an additional dollar of consumption today must equal the utility of the expected future consumption that could be financed by investing that marginal dollar today
+- The CCAPM centers the CAPM directly on consumption so that the utility of an additional dollar of consumption today must equal the utility of the expected future consumption financed by investing that marginal dollar today
 - Investors value additional income more in states of the world where consumption is low
 - Therefore, equilibrium risk premiums will be greater for assets that exhibit higher covariance with consumption growth
 
@@ -189,8 +189,8 @@ $$
 - Financial costs inhibit trades and are non-zero
   - Under the CAPM, there is little reason to trade because all investors share the same information and demand the same portfolios of risk assets
   - In reality, investors trade because they have different expectations
-- Liquidity of an asset is the ease and speed with which it can be sold at the fair market value
-- Illiquidity can be measured in part by the discount from fair market value a seller must accept if the asset is to be sold quickly
+- Liquidity of an asset is the ease and speed with which investors can sell it at the fair market value
+- Illiquidity can be measured in part by the discount from the fair market value a seller must accept if she must quickly sell the asset
 - Illiquidity can also be measured in part by the spread between the bid and ask prices
 
 

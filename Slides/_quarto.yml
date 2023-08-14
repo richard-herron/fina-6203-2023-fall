@@ -1,72 +1,73 @@
 author: Richard Herron
+institute: D'Amore-McKim School of Business, Northeastern University
 bibliography: references.bib
+cite-method: biblatex
+biblio-style: authoryear
+biblio-title: References
 
-# project:
-#   type: book
+
 project:
-  render: 
-    - bkm_ch_01.qmd
-    - bkm_ch_02.qmd
-    - bkm_ch_03.qmd
-    - bkm_ch_04.qmd
-    - bkm_ch_05.qmd
-    - bkm_ch_06.qmd
-    - bkm_ch_07.qmd
-    - bkm_ch_09.qmd
-    - bkm_ch_10.qmd
-    - bkm_ch_11.qmd
-    - bkm_ch_12.qmd
-    - bkm_ch_13.qmd
-    - bkm_ch_14.qmd
-    - bkm_ch_15.qmd
-    - bkm_ch_24.qmd
+  type: book
+  # type: default
+  # render: 
+  #   - bkm_ch_01.qmd
+  #   - bkm_ch_02.qmd
+  #   - bkm_ch_03.qmd
+  #   - bkm_ch_04.qmd
+  #   - bkm_ch_05.qmd
+  #   - bkm_ch_06.qmd
+  #   - bkm_ch_07.qmd
+  #   - bkm_ch_09.qmd
+  #   - bkm_ch_10.qmd
+  #   - bkm_ch_11.qmd
+  #   - bkm_ch_12.qmd
+  #   - bkm_ch_13.qmd
+  #   - bkm_ch_14.qmd
+  #   - bkm_ch_15.qmd
+  #   - bkm_ch_24.qmd
 
 
-# book:
-#   title: FINA 6203
-#   subtitle: Investment Analysis
-#   output-file: fina-6203
-#   chapters:
-#     - index.qmd
-#     - part: Part I - Introduction
-#       chapters:
-#         - bkm_ch_01.qmd
-#         - bkm_ch_02.qmd
-#         - bkm_ch_03.qmd
-#         - bkm_ch_04.qmd
-#     - part: Part II - Portfolio Theory and Practice
-#       chapters:
-#       - bkm_ch_05.qmd
-#       - bkm_ch_06.qmd
-#       - bkm_ch_07.qmd
-#     - part: Part III - Equilibrium in Capital Markets
-#       chapters:
-#       - bkm_ch_09.qmd
-#       - bkm_ch_10.qmd
-#       - bkm_ch_11.qmd
-#       - bkm_ch_12.qmd
-#       - bkm_ch_13.qmd
-#     - part: Part IV - Fixed-Income Securities
-#       chapters:
-#       - bkm_ch_14.qmd
-#       - bkm_ch_15.qmd
-#     - part: Part VII - Applied Portfolio Management
-#       chapters:
-#       - bkm_ch_24.qmd
-#   appendices:
-#     - references.qmd
+book:
+  title: FINA 6203
+  subtitle: Investment Analysis
+  output-file: fina-6203
+  chapters:
+    - index.qmd
+    - part: Part I - Introduction
+      chapters:
+        - bkm_ch_01.qmd
+        - bkm_ch_02.qmd
+        - bkm_ch_03.qmd
+        - bkm_ch_04.qmd
+    - part: Part II - Portfolio Theory and Practice
+      chapters:
+      - bkm_ch_05.qmd
+      - bkm_ch_06.qmd
+      - bkm_ch_07.qmd
+    - part: Part III - Equilibrium in Capital Markets
+      chapters:
+      - bkm_ch_09.qmd
+      - bkm_ch_10.qmd
+      - bkm_ch_11.qmd
+      - bkm_ch_12.qmd
+      - bkm_ch_13.qmd
+    - part: Part IV - Fixed-Income Securities
+      chapters:
+      - bkm_ch_14.qmd
+      - bkm_ch_15.qmd
+    - part: Part VII - Applied Portfolio Management
+      chapters:
+      - bkm_ch_24.qmd
+  appendices:
+    - references.qmd
 
 format:
   pdf:
     number-depth: -2
     toc-depth: 2
   beamer:
-    institute: D'Amore-McKim School of Business, Northeastern University
-    slide-level: 3
     section-titles: false
     innertheme: circles
-    cite-method: biblatex
-    biblio-style: authoryear
-    biblio-title: References
+    slide-level: 3
 
 

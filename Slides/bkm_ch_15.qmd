@@ -9,18 +9,17 @@ title: Chapter 15 - The Term Structure of Interest Rates
 - The yield curve is central to bond valuation
 - It allows investors to gauge their expectations for future interest rates against those of the market
 
-\framebreak
-
 ![Treasury yield curves [@bodie_investments_2023, Figure 15.1]](./Figures/bod12665_1501.png){height=50%}
 
 
 ### The yields on different maturity bonds are not equal
 
 - Consider each bond cash flow as a stand-alone zero-coupon bond
-- Bond value should be the sum of the values of each bond cash flow
+- The bond value should be the sum of the values of each bond cash flow
 - Bond stripping and bond reconstitution offer arbitrage  opportunities
 
 <!-- TODO: Add a yield curve exercise -->
+
 
 ### In practice, there are two yield curves
 
@@ -44,8 +43,6 @@ title: Chapter 15 - The Term Structure of Interest Rates
 $$
 (1+y_2)^2 = (1+r_1) \times (1+r_2)
 $$
-
-\framebreak
 
 ![Short rates versus spot rates [@bodie_investments_2023, Figure 15.3]](./Figures/bod12665_1503.png){height=50%}
 
@@ -76,7 +73,7 @@ $$
 
 ### The term structure is harder to interpret when future interest rates are uncertain
 
-- A one-year investor requires a *liquidity premium* to buy the two-year bond instead of the one-year bond because she faces price risk when she sells the two-year bond in one year
+- A one-year investor requires a *liquidity premium* to buy the two-year bond instead of the one-year bond because she faces price rIsk when she sells the two-year bond in one year
 - Conversely, a two-year investor requires a liquidity premium to buy the one-year bond instead of the two-year because she faces rate uncertainty when she rolls over from the first one-year bond to the second one-year bond
 
 
@@ -84,7 +81,7 @@ $$
 
 ### Expectations hypothesis theory: Forward rate equals the consensus expectation of the future short rate
 
-- Simplest theory of the term structure
+- The simplest theory of the term structure
 - If the forward rate equals the market consensus expectation of future short interest rate
 - Then $f_2 = E(r_2)$ and liquidity premiums are zero
 - Therefore, the yields on long-term bonds depend only on expectations of future short rates so
@@ -99,8 +96,6 @@ and an upward-sloping yield curve indicates that investors expect interest rates
 - Long-term bonds are more risky than short-term bonds for short-term investors because long-term bonds have short-term price risk
 - Therefore, short-term investors require a positive *liquidity premium* to bear this price risk
 - The liquidity premium is $f_2 - E(r_2)$, so liquidity preference theory predicts $f_2 > E(r_2)$ and an upward-sloping yield curve indicates the liquidity premium
-
-\framebreak
 
 ![Constant expected short rate. Constant liquidity premium. Result: a rising yield curve. [@bodie_investments_2023, Figure 15.4 Panel A]](./Figures/bod12665_1504a.png){height=50%}
 
@@ -121,7 +116,7 @@ and an upward-sloping yield curve indicates that investors expect interest rates
 
 ## Interpreting the Term Structure
 
-### Yield curve reflects expectations of future short rates, but also other factors such as liquidity premiums {.allowframebreaks}
+### Yield curve reflects expectations of future short rates and other factors, such as liquidity premiums {.allowframebreaks}
 
 - When future rates are uncertain:
 $$
@@ -129,14 +124,11 @@ $$
 $$
 so $f_{n+1} > y_n$ for an upward-sloping yield curve
 - An upward-sloping yield curve has two interpretations:
-  - Investors expect rates to rise (i.e., $E(r_n)$ is high)
-  - ***and/or***
+  - Investors expect rates to rise (i.e., $E(r_n)$ is high) ***and/or***
   - Investors require large liquidity premiums to hold long-term bonds (i.e., $f_n = E(r_n) + \underbrace{\text{Liquidity premium}}_{> 0}$)
 - The yield curve is a good predictor of the business cycle
   - An upward-sloping yield curve may indicate expansion when long-term rates tend to rise
   - An inverted yield curve may indicate recession when interest rates tend to fall 
-
-\framebreak
 
 ![Term spread: Yields on 10-year versus 90-day Treasury securities [@bodie_investments_2023, Figure 15.6]](./Figures/bod12665_1506.png){height=50%}
 

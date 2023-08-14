@@ -58,18 +58,18 @@ title: Chapter 1 - The Investment Environment
 - Security selection chooses among specific investments within asset classes: Apple common stock, 30-year Treasuries, commercial real estate in Boston, gold, etc.
 - Portfolio construction approaches
 	- Top-down: allocate assets first, then select securities
-	- Bottom-up: select attractively-priced securities first, with or without a asset allocation target
+	- Bottom-up: select attractively-priced securities first, with or without an asset allocation target
 
 ## Markets Are Competitive
 
-### Markets are competitive! @bodie_investments_2023 call this the "no-free-lunch rule", which has two implications
+### Markets are competitive! @bodie_investments_2023 call this the "no-free-lunch rule," which has two implications
 
 1.  Risk-return trade-off
 	- All else equal, investors want low risk and high expected returns
 	- However, if low-risk and high-expected-return assets existed, investors would buy them, pushing up prices until expected returns fell
 	- *Therefore, higher-risk assets offer higher expected returns than lower-risk assets*
 2.  Informationally efficient markets
-	- Security markets are typically "informationally efficient", and market prices quickly incorporate new information
+	- Security markets are typically "informationally efficient," and market prices quickly incorporate new information
 	- *Therefore, market prices are consensus estimates of security values*
 
 ### However, the @grossman_impossibility_1980 paradox highlights that perfectly efficient markets are impossible

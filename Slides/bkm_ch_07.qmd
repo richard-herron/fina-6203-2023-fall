@@ -7,7 +7,7 @@ title: Chapter 7 - Efficient Diversification
 ### There are two broad sources of uncertainty: Market risk and firm-specific risk
 
 - Market risk
-  - Attributable to market-wide risk factors
+  - Attributable to marketwide risk factors
   - Remains after diversification
   - Also called non-diversifiable risk or systematic risk
 - Firm-specific risk
@@ -16,7 +16,7 @@ title: Chapter 7 - Efficient Diversification
 
 ### Portfolio risk decreases as we increase the number of (diversified) stocks in the portfolio
 
-![Portfolio risk as a function of the number of stocks in the portfolio. *Panel A:* All risk is firm-specific. *Panel B:* Some risk is systematic of marketwide [@bodie_investments_2023, Figure 7.1]](./Figures/bod12665_0701.png){height=50%}
+![Portfolio risk as a function of the number of stocks in the portfolio. *Panel A:* All risk is firm-specific. *Panel B:* Some risk is systematic, or marketwide [@bodie_investments_2023, Figure 7.1]](./Figures/bod12665_0701.png){height=50%}
 
 ### The *insurance principle* reduces risk by spreading exposure across many independent risk sources
 
@@ -104,7 +104,7 @@ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 
 ![The opportunity set of the debt and equity funds and two feasible CALs [@bodie_investments_2023, Figure 7.6]](./Figures/bod12665_0706.png){height=50%}
 
-![The opportunity set of the debt and equity funds with the optimial CAL and the optimal risky portfolio [@bodie_investments_2023, Figure 7.7]](./Figures/bod12665_0707.png){height=50%}
+![The opportunity set of the debt and equity funds with the optimal CAL and the optimal risky portfolio [@bodie_investments_2023, Figure 7.7]](./Figures/bod12665_0707.png){height=50%}
 
 - With two risky assets
 $$
@@ -224,7 +224,7 @@ $$
 
 ### Risk sharing complements risk pooling
 
-- An insurance company that sells $n$ identical fire insurance policies, each with random payoff $x$ with variance $\sigma^2$, has total payoff of $n$ policies is $\sum_{i=1}^n x_i$
+- An insurance company that sells $n$ identical fire insurance policies, each with random payoff $x$ with variance $\sigma^2$, has a total payoff of $\sum_{i=1}^n x_i$
 - The variance of total payoff increases as $n$ increases because 
 $$
 \text{Var}\left( \sum_{i=1}^n x_i \right) = n \sigma^2

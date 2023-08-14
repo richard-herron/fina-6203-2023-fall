@@ -36,7 +36,7 @@ title: Chapter 2 - Asset Classes and Financial Instruments
 	- Corporate Bonds
 	- Mortgage and Asset-Backed Securities
 
-### T-bond & T-note quotes are per \textdollar100 of face, and yields are 2\texttimes\ the semiannual yield
+### T-bond & T-note quotes are per $100 of face, and yields are twice the semiannual yield
 
 ![Listing of Treasury bonds and notes [@bodie_investments_2023, Figure 2.3]](./Figures/bod12665_0203.png){height=50%}
 

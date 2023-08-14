@@ -8,7 +8,7 @@ title: Chapter 13 - Empirical Evidence on Security Returns
 
 - It is difficult to definitively test the CAPM since we cannot observe the true market portfolio
 - The most common tests use a two-pass approach
-	1. Use time-series returns to estimate systematic risk ($\beta$)
+	1. Use time-series returns to estimate the systematic risk ($\beta$)
 	2. Use a cross-section of returns to test if riskier assets have higher returns on average
 
 ### Testing the single-factor SML
@@ -44,7 +44,7 @@ $$
 - The CAPM predicts:
 	- $\gamma_0 = 0$
 	- $\gamma_1 = \overline{r_M - r_f}$
-- We we add $\sigma^2(e_i)$ and estimate:
+- We add $\sigma^2(e_i)$ and estimate:
 $$
 \overline{r_i - r_f} = \gamma_0 + \gamma_1 b_i + \gamma_2 \sigma^2(e_i)
 $$
@@ -69,7 +69,7 @@ $$
 1. The CAPM has a single testable hypothesis: the market portfolio is mean-variance efficient
 1. All other CAPM implications (e.g., a linear relation between expected return and beta) are not independently testable
 1. If we estimate betas against mean-variance efficient portfolios, they will satisfy the SML relation exactly *ex post* regardless of whether the true market portfolio is mean-variance efficient *ex ante*
-1. The CAPM is not testable unless *all assets* are included in the sample
+1. The CAPM is not testable unless we include *all assets* in the sample
 1. Using  a market index proxy is subject to two difficulties:
 	1. The proxy may be mean-variance efficient even when the true market portfolio is not
 	1. Most proxies are correlated, but different proxies can lead to different conclusions
@@ -106,7 +106,7 @@ $$
 	1. Factors that hedge consumption against uncertainty in prices (e.g., housing or energy)
 	1. Factors that hedge future investment opportunities (e.g., interest rates or market volatility)
 	1. Factors that hedge assets missing from the market index (e.g., labor income or private business)
-- Merton's ICAPM suggests that these extra-market sources of risk will command a risk-premium if investors demand to hedge them
+- Merton's ICAPM suggests that these extra-market sources of risk will command a risk premium if investors demand to hedge them
 
 
 ## Fama-French-Type Factor Models
@@ -118,7 +118,7 @@ $$
 	- Smaller firms experience higher returns (SMB)
 - They find that value and size are priced risk factors, consistent with the APT
 
-![CAPM versus the Fama and French model. The figure plots the average actual returns versus returns predicted by the CAPM and the FF model for the 25 size and book-to-market double-sorted portfolios. [@bodie_investments_2023, Figure 1]](./Figures/bod12665_1301.png){height=50%}
+![CAPM versus the Fama and French model. The figure plots the average actual returns versus returns predicted by the CAPM and the FF model for the 25 size and book-to-market double-sorted portfolios. [@bodie_investments_2023, Figure 13.1]](./Figures/bod12665_1301.png){height=50%}
 
 ### Relations between fundamental sources of asset risk and SMB and HML strengthens their case
 
@@ -135,16 +135,10 @@ $$
 - Overreaction
 	- High *past* growth is extrapolated and then impounded in price
 
-\framebreak
-
 ![The book-to-market ratio reflects past growth, but not future growth prospects. B/M tends to fall with income growth experiences at the *end* of a five-year period, but actually increases slightly with future income growth rates. [@bodie_investments_2023, Figure 13.3]](./Figures/bod12665_1303.png){height=50%}
-
-\framebreak
 
 - Extrapolation error
 	- Investors ignore evidence that they cannot extrapolate past growth far into the future
-
-\framebreak
 
 ![Value minus growth returns surrounding earnings announcements, 1971--1992. Announcement effects are measured for each of four years following classification as a value versus growth firm. [@bodie_investments_2023, Figure 13.4]](./Figures/bod12665_1304.png){height=50%}
 
@@ -179,23 +173,23 @@ $$
 
 - Pastor and Stambaugh:
 	- Look for evidence of price reversals, especially following large trades
-	- Original price change was a concession on the part of trade initiators who needed to offer/accept higher/lower purchase prices to complete their trade promptly
+	- The original price change was a concession on the part of trade initiators who needed to offer/accept higher/lower purchase prices to complete their trade promptly
 - Amihud:
-	- Also focuses on large trades and price movements
+	- Focuses on large trades and price movements
 	- Defined as:
 	$$
 	\text{ILLIQ} = \text{Monthly average of daily} \left( \frac{|\text{Stock return}|}{\text{Dollar volume}} \right)
 	$$
 - Sadka
 	- Uses trade-by-trade data
-	- Liquidity of firms can vary as the prevalence of informationally motivated trades varies
+	- The liquidity of firms can vary as the prevalence of informationally motivated trades varies
 
 ![Alphas of value-weighted portfolios sorted on liquidity betas [@bodie_investments_2023, Figure 13.6]](./Figures/bod12665_1306.png){height=50%}
 
 
 ## Consumption-Based Asset Pricing and the Equity Premium Puzzle
 
-### The *equity premium puzzle* is that returns are too high given that consumption varies so little
+### *Equity premium puzzle:* Returns are too high given that consumption varies so little
  
  - The *equity premium puzzle* is:
 	- "Systematic" consumption risk is too low to justify the observed market excess returns
@@ -216,9 +210,9 @@ $$
 
 ### Liquidity may explain the equity premium puzzle
 
-- The illiquidity premium may the same order of magnitude as the market risk premium
+- The illiquidity premium may be the same order of magnitude as the market risk premium
 - Part of the average excess return is likely compensation for  *liquidity*  risk rather than just the (systematic) *volatility* of returns
-- Equity premium puzzle may be less of a puzzle than it first appears
+- The equity premium puzzle may be less of a puzzle than it first appears
 
 
 ### There are behavioral explanations for the equity premium puzzle

@@ -163,7 +163,7 @@ $$
 
 ## Taxation of Mutual Fund Income
 
-### Mutual funds have "pass-through status", so investors pay taxes instead funds
+### Mutual funds have "pass-through status," so investors pay taxes instead funds
 
 - Capital gains and dividends pass through to investors
 - This pass-through is a disadvantage

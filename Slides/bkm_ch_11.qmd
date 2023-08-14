@@ -8,7 +8,7 @@ title: Chapter 11 - The Efficient Market Hypothesis
 
 - Prices were as likely to go up as to go down on any particular day, regardless of past performance
 - At first, this finding was shocking!
-- But, Eugene Fama's Ph.D. dissertation highlighted that any information that could predict stock prices should already be reflected in stock prices
+- But, Eugene Fama's Ph.D. dissertation highlighted that stock prices should already reflect any information that could predict stock prices
 - For example, as soon as any information indicates that a stock is underpriced, investors flock to buy the stock and immediately bid up its price to a fair level
 - From this fair level, we only expect ordinary rates of return that compensate for the risk of the stock
 
@@ -29,7 +29,7 @@ title: Chapter 11 - The Efficient Market Hypothesis
   - In Chapter 7, an efficient portfolio is one with the highest expected return for a given level of risk
 - There is ample empirical evidence that U.S. equity markets are informationally efficient
 
-### In most takeover attempts, the acquiring firm offers a large premium to the market price of the target firm, and target firm price jumps on the announcement
+### In most takeover attempts, the acquiring firm offers a large premium to the market price of the target firm, and the target firm's price jumps on the announcement
 
 ![Cumulative abnormal returns before takeover attempts [@bodie_investments_2023, Figure 11.1]](./Figures/bod12665_1101.png){height=75%}
 
@@ -67,7 +67,7 @@ title: Chapter 11 - The Efficient Market Hypothesis
 ### Fundamental analysis uses the prospects of the firm to determine proper stock prices
 
 - Focuses on such determinants as earnings and dividends prospects, expectations for future interest rates, and risk evaluation
-- Seeks to find firms that are *mispriced*
+- Seeks to find firms with *mispriced* stocks
 - Semistrong-form EMH predicts that *most* fundamental analysis should be fruitless and only *unique* insights will be rewarded
 - The trick is not to identify *good* firms but firms that are *better* than everyone else's estimates because market prices already reflect commonly known information
 
@@ -142,7 +142,7 @@ $$
 
 - Magnitude issue
   - Only managers of large portfolios earn enough trading profits to make exploiting minor mispricing worth the effort
-  - Still, the increases in performance from their efforts are likely swamped by market volatility
+  - Still, market volatility likely swamps any increases in performance from their efforts
   - "How efficient are markets?" is a better question than "are markets efficient?"
 - Selection bias issue
   - Only unsuccessful (or partially successful) investment schemes are made public; good schemes remain private
@@ -157,7 +157,7 @@ $$
 
 - Returns over *short*  horizons
   - The *momentum effect* is the tendency of poorly performing stocks and well-performing stocks in one period to continue that abnormal performance in the following periods
-  - Observed for portfolios for 3-month to 12-month holding periods, but not for single stocks
+  - Observed for portfolios for 3-month to 12-month holding periods but not for single stocks
 - Returns over *long*  horizons
   - The *reversal effect* is the tendency of poorly performing stocks and well-performing stocks in one period to experience *reversals* in the following periods
   - Overreaction followed by correction causes prices to fluctuate around fair value, making market values more volatile than intrinsic values
@@ -179,7 +179,7 @@ $$
 
 ### Semistrong-form tests of EMH
 
-- Fundamental analysis uses a wider range of information to create portfolios than does technical analysis
+- Fundamental analysis uses a wider range of information to create portfolios than technical analysis
 - Several easily available pieces of information seem to predict abnormal or risk-adjusted returns
 - These findings seem to contradict the EMH and are often called "anomalies"
 
@@ -201,7 +201,7 @@ $$
 
 ### Other anomalies
 
-- P/E effect: Portfolios of low-P/E ratio stocks have provided higher returns than high P/E portfolios
+- P/E effect: Portfolios of low-P/E stocks have provided higher returns than high-P/E portfolios
 - Neglected-firm effect: Investments in stock of less well-known firms have generated abnormal returns
 - Liquidity effect: Illiquid stocks have a strong tendency to exhibit abnormally high returns
 - Volatility: Negatively associated with returns
@@ -253,7 +253,7 @@ $$
 
 ### Can skilled investors make consistent abnormal trading profits?
 
-- This is the definition of market efficiency we care about!
+- This definition of market efficiency is the one we care about!
 - We will consider the evidence of
   - Stock market analyst recommendations
   - Mutual fund managers
@@ -284,9 +284,9 @@ $$
 
 ### So, Are Markets Efficient?
 
-- Enough anomalies exist in the empirical evidence to justify the search for underpriced securities that takes place
+- Enough anomalies exist in the empirical evidence to continue the search for underpriced securities
 - However, the market is competitive enough that only differentially superior information or insight will earn money
-- Margin of superiority that any professional manager can add is so slight that the statistician will not easily be able to detect it
+- The margin of superiority that any professional manager adds is so slight that the statistician will not easily be able to detect it
 
 
 ### Summary from @bodie_investments_2023 {.appendix}

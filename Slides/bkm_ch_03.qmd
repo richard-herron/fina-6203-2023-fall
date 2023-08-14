@@ -6,7 +6,7 @@ title: Chapter 3 - How Securities Are Traded
 
 ### Firms raise funds by borrowing money or selling ownership shares
 
-- Primary market: First offers new securities to the public, and funds flow from buyers to firms
+- Primary market: Offers new securities to the public, and funds flow from buyers to firms
 - Secondary market: Trades existing securities, and funds flow from buyers to sellers
 
 ### Privately held firms: A small number of managers and investors hold all shares, which do not trade in public markets
@@ -83,7 +83,7 @@ title: Chapter 3 - How Securities Are Traded
 
 ### Limit order books are collections of limit orders waiting to execute
 
-![A portion of the limit order book for MSFT on th CBOE Gloval Markets, August 4, 2021 [@bodie_investments_2023, Figure 3.4]](./Figures/bod12665_0304.png){height=50%}
+![A portion of the limit order book for MSFT on the CBOE Global Markets, August 4, 2021 [@bodie_investments_2023, Figure 3.4]](./Figures/bod12665_0304.png){height=50%}
 
 ### Investors buy and sell shares via brokers, who execute trades on one of several market types
 
@@ -179,7 +179,7 @@ $$
 
 ### Short sales let an investor profit from security price declines by selling high and *then* buying low 
 
-- Investor borrows a stock from a broker then sells it, expecting to repurchase it at a lower price
+- Investor borrows a stock from a broker and then sells it, expecting to repurchase it at a lower price
 - Short sale proceeds must be kept on account with the broker, per exchange rules
 - Investor "covers the short position" by purchasing a share and returning it (plus any dividends paid during the short sale)
 
