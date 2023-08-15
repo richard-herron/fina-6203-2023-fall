@@ -100,12 +100,15 @@ title: Chapter 3 - How Securities Are Traded
 
 ## The Rise of Electronic Trading
 
-### ECNs are the dominant market type...
+### ECNs are the dominant market type and have steadily increased their share in the U.S. {.allowframebreaks}
 
 - New regulations allowed brokers to compete, broke the hold of dealers on price information, forced market integration, and allowed smaller price increments (tick sizes)
 - Technology enabled rapid price comparison and directed trades to markets with the best prices, leading to competition between markets and lower trade execution costs
 - The SEC's Regulation National Market System (NMS) facilitated the electronic linkage of exchanges, creating an integrated electronic market
 - Trading today is predominantly electronic, especially for stocks, with the share of electronic trading increasing significantly
+
+![Market share of trading in NYSE-listed shares [@bodie_investments_2023, Figure 3.6]](./Figures/bod12665_0306.png){height=50%}
+
 
 <!-- ## U.S. Markets
 
@@ -123,9 +126,6 @@ title: Chapter 3 - How Securities Are Traded
 	- Cross-market links allow high-frequency traders to exploit price discrepancies
 	- Latency times are crucial, with speed being a competitive factor -->
 
-### ...and have steadily increased their share in the U.S.
-
-![Market share of trading in NYSE-listed shares [@bodie_investments_2023, Figure 3.6]](./Figures/bod12665_0306.png){height=50%}
 
 ## New Trading Strategies
 

@@ -27,16 +27,16 @@ title: Chapter 7 - Efficient Diversification
 
 ### Consider a portfolio of two risky assets
 
-- The return on a portfolio is the weighted average return on its risky assets
+- The return on a portfolio is the weighted average return on its risky assets is:
 $$
 r_P = w_D r_D + w_E r_E
 $$
 where $w$s are weights, $r$s are returns, and subscripts $D$ and $E$ indicate debt and equity
-- This portfolio's expected return is
+- This portfolio's expected return is:
 $$
 E(r_P) = w_D E(r_D) + w_E E(r_E)
 $$
-and its variance is
+and its variance is:
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
@@ -56,7 +56,7 @@ which is a *border-multiplied* covariance matrix
 
 ### The *border-multiplied* covariance matrix version is easily applied to three or more assets
 
-![Computation of portfolio variance from the covariance matrix [@bodie_investments_2023, Table 7.2]](./Figures/table_0702.png){height=75%}
+![Computation of portfolio variance from the covariance matrix [@bodie_investments_2023, Table 7.2]](./Figures/table_0702.png){height=50%}
 
 ### We can rewrite $\sigma_P^2$ in terms of correlations
 
@@ -106,7 +106,7 @@ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 
 ![The opportunity set of the debt and equity funds with the optimal CAL and the optimal risky portfolio [@bodie_investments_2023, Figure 7.7]](./Figures/bod12665_0707.png){height=50%}
 
-- With two risky assets
+- With two risky assets:
 $$
 E(r_P) = w_D E(r_D) + w_E E(r_E)
 $$
@@ -114,7 +114,7 @@ and
 $$
 \sigma_P = \sqrt{w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)}
 $$
-- The investor solves
+- The investor solves:
 $$
 \max_{w} S_P = \frac{r_P - r_f}{\sigma_P}\
 $$
@@ -122,7 +122,7 @@ subject to
 $$
 w_D + w_E = 1
 $$
-- The solution to this maximization problem is
+- The solution to this maximization problem is:
 $$
 w_D = \frac{E(R_D)\sigma_E^2 - E(R_E)\text{Cov}(R_D,R_E)}{E(R_D)\sigma_E^2 + E(R_E)\sigma_D^2 - [E(R_D) + E(R_E)]\text{Cov}(R_D,R_E)}
 $$
@@ -159,11 +159,11 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
 - Therefore, portfolios of one risky asset are inefficient because diversification lets us build portfolios with lower standard deviations
 - The bottom portion of the minimum-variance frontier is inefficient because the portfolios directly above it have the same standard deviations but higher expected returns
 - The *efficient frontier* of risky assets is the portion of the minimum-variance frontier above the *global minimum-variance portfolio*
-- We can find the portfolio expected return as
+- We can find the portfolio expected return as:
 $$
 E(r_P) = \sum_{i=1}^n w_i E(r_i)
 $$
-and portfolio variance as
+and portfolio variance as:
 $$
 \sigma_p^2 = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \text{Cov}(r_i, r_j)
 $$
@@ -179,7 +179,7 @@ $$
 
 ### All investors choose their appropriate complete portfolios as before
 
-- Recall
+- Recall:
 $$
 y^* = \frac{E(r_P) - r_f}{A \sigma_P^2}
 $$
@@ -195,26 +195,26 @@ $$
 
 ### The risk of a highly diversified portfolio depends on the covariance of asset returns {.allowframebreaks}
 
-- Portfolio variance is
+- Portfolio variance is:
 $$
 \sigma_p^2 = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \text{Cov}(r_i, r_j)
 $$
-- For an equally-weighted portfolio, portfolio variance is
+- For an equally-weighted portfolio, portfolio variance is:
 $$
 \sigma_p^2 = \sum_{i=1}^n \frac{1}{n^2} \sigma_i^2 + \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \frac{1}{n^2} \text{Cov}(r_i, r_j)
 $$
-- We can simplify the variance term as 
+- We can simplify the variance term as:
 $$\overline{\sigma}^2 = \frac{1}{n} \sum_{i=1}^n \sigma_i^2$$
 and the covariance term as
 $$\overline{\text{Cov}} = \frac{1}{n(n-1)} \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \text{Cov}(r_i, r_j)$$
-- So, for an equally-weighted portfolio, portfolio variance is
+- So, for an equally-weighted portfolio, portfolio variance is:
 $$
 \sigma_p^2 = \frac{1}{n} \overline{\sigma}^2 + \frac{n-1}{n} \overline{\text{Cov}}
 $$
 - These simplifications highlight the importance of the covariance of asset returns
   - If $\overline{\text{Cov}} = 0$, $\sigma_p^2 \rightarrow 0$ as $n \rightarrow \infty$
   - If $\overline{\text{Cov}} > 0$, $\frac{1}{n} \overline{\sigma}^2 \rightarrow 0$ but $\frac{n-1}{n} \overline{\text{Cov}} \rightarrow \overline{\text{Cov}}$ as $n \rightarrow 0$
-  - If all assets have standard deviation $\sigma$ and all asset-pairs have correlation $\rho$, we can express portfolio variance as 
+  - If all assets have standard deviation $\sigma$ and all asset-pairs have correlation $\rho$, we can express portfolio variance as:
   $$
   \sigma_p^2 = \frac{1}{n} \sigma^2 + \frac{n-1}{n} \rho \sigma^2
   $$

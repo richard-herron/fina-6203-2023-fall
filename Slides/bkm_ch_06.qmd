@@ -18,7 +18,7 @@ title: Chapter 6 - Capital Allocation to Risky Assets
 	- A commonly-used utility function is $U = E(r) - \frac{1}{2}A\sigma^2$
 	- Here $A$ is a risk-aversion coefficient, and risk aversion increases as $A$ increases
 
-### An investment is more attractive when its expected return is higher and its risk is lower {.allowframebreaks}
+### An investment is more attractive when its expected return is higher and its risk is lower
 
 ![Available risky portfolios (risk-free rate = 2%) [@bodie_investments_2023, Table 6.1]](Figures/table_0601.png){height=50%}
 
@@ -30,7 +30,7 @@ title: Chapter 6 - Capital Allocation to Risky Assets
 - Risk-neutral investors ($A = 0$) ignore risk and consider only the expected return
 - Risk-loving investors ($A < 0$) accept lower expected returns on risky portfolios with higher amounts of risk 
 
-### The mean-variance (M-V) criterion can help us rank portfolios {.allowframebreaks}
+### The mean-variance (M-V) criterion helps us rank portfolios {.allowframebreaks}
 
 The M-V criterion says that portfolio $A$ dominates $B$ if 
 $$
@@ -68,15 +68,15 @@ with at least one strict inequality
 
 - Consider a portfolio of one risky asset and one risk-free asset
 - Allocate $y$ to risky asset $P$ and $1-y$ to the risk-free asset $F$
-- The return on our complete portfolio $C$ is
+- The return on our complete portfolio $C$ is:
 $$
 r_C = yr_P + (1-y)r_f
 $$
-- Therefore, the expected return on the complete portfolio $C$ is
+- Therefore, the expected return on the complete portfolio $C$ is:
 $$
 E(r_C) = yE(r_p) + (1-y)r_f = r_f + y[E(r_P)-r_f]
 $$
-and its volatility is
+and its volatility is:
 $$
 \sigma_C = y\sigma_P
 $$
@@ -85,11 +85,11 @@ $$
 
 ### The slope of the CAL is the Sharpe ratio
 
-- The slope $S$ of the CAL is
+- The slope $S$ of the CAL is:
 $$
 S = \frac{\text{rise}}{\text{run}} = \frac{E(r_P) - r_f}{\sigma_P - 0} = \frac{E(r_P) - r_f}{\sigma_P}
 $$
-- So we can write the CAL as
+- So we can write the CAL as:
 $$
 E(r_P) = r_f + S\sigma_C = r_f + \frac{E(r_P) - r_f}{\sigma_P}\sigma_C
 $$
@@ -144,15 +144,15 @@ $$
 
 ### We can use these historical data to estimate $A$!
 
-- Investors solve
+- Investors solve:
 $$
 y^* = \frac{E(r_M)- r_f}{A\sigma_M^2}
 $$
-so
+so:
 $$
 A = \frac{E(r_M)-r_f}{y^*\sigma_M^2}
 $$
-- About 69.3% of household net worth is invested in risky assets, so
+- About 69.3% of household net worth is invested in risky assets, so:
 $$
 A = \frac{0.0887}{0.693 \times 0.2025^2} = 3.12
 $$

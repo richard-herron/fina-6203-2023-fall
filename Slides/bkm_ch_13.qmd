@@ -134,11 +134,10 @@ $$
 	- Therefore, they tend to underperform value firms
 - Overreaction
 	- High *past* growth is extrapolated and then impounded in price
-
-![The book-to-market ratio reflects past growth, but not future growth prospects. B/M tends to fall with income growth experiences at the *end* of a five-year period, but actually increases slightly with future income growth rates. [@bodie_investments_2023, Figure 13.3]](./Figures/bod12665_1303.png){height=50%}
-
 - Extrapolation error
 	- Investors ignore evidence that they cannot extrapolate past growth far into the future
+
+![The book-to-market ratio reflects past growth, but not future growth prospects. B/M tends to fall with income growth experiences at the *end* of a five-year period, but actually increases slightly with future income growth rates. [@bodie_investments_2023, Figure 13.3]](./Figures/bod12665_1303.png){height=50%}
 
 ![Value minus growth returns surrounding earnings announcements, 1971--1992. Announcement effects are measured for each of four years following classification as a value versus growth firm. [@bodie_investments_2023, Figure 13.4]](./Figures/bod12665_1304.png){height=50%}
 

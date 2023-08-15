@@ -11,7 +11,7 @@ title: Chapter 10 - Arbitrage Pricing Theory and Multifactor Models of Risk and 
 - Firm-specific risk is also known as non-systematic risk, diversifiable risk, or idiosyncratic risk
 - However, risk premiums may depend on correlations with extra-market risk factors (e.g., inflation, interest rates, and volatility)
 
-### *Single-factor*  models allow two sources of uncertainty in asset returns
+### *Single-factor*  models allow two sources of uncertainty in asset returns {.allowframebreaks}
 
 - These two sources of uncertainty in asset returns are
   - Common or macroeconomic surprises
@@ -29,7 +29,7 @@ where
 - If $F=0$ (i.e., no macroeconomic surprises), then $R_i = E(R_i) + e_i$ so the return on stock $i$ is its expected return plus the firm-specific surprise
 
 
-### *Multifactor* models can better describe uncertainty in asset returns by allowing two or more systematic risk factors, as well as firm-specific surprises
+### *Multifactor* models can better describe uncertainty in asset returns by allowing two or more systematic risk factors, as well as firm-specific surprises {.allowframebreaks}
 
 - BKM propose a two-factor model where the systematic risk factors are 
   - Unexpected growth in gross domestic product (GDP)
@@ -62,7 +62,7 @@ $$
 - If they observe a violation, they will engage in *arbitrage activity* by simultaneously buying the cheap asset and selling the expensive asset
 - These trades bid up (down) the price where it is low (high) until the arbitrage opportunity goes away
 
-### In a well-diversified portfolio, the firm-specific risk becomes negligible so that only factor risk remains
+### In a well-diversified portfolio, the firm-specific risk becomes negligible so that only factor risk remains {.allowframebreaks}
 
 - Consider the excess return $R_P$ on an $n$-stock portfolio with weights $w_i$ where $\sum_{i=1}^n w_i = 1$
 $$
@@ -85,16 +85,16 @@ R_P = E(R_P) + \beta_P F
 $$
 - *A well-diversified portfolio* is one with each weight small enough that, for practical purposes, the non-systematic variance is negligible
 
-![Excess returns as a function of the systematic factor: Panel A, Well-diversified portfolio A; Panel B, Single stock S[@bodie_investments_2023, Figure 10.2]](./Figures/bod12665_1002.png){height=75%}
+![Excess returns as a function of the systematic factor: Panel A, Well-diversified portfolio A; Panel B, Single stock S[@bodie_investments_2023, Figure 10.2]](./Figures/bod12665_1002.png){height=50%}
 
 
 ## Only systematic or factor risk should be related to portfolio expected returns
 
-![Returns as a function of the systematic factor: An arbitrage opportunity [@bodie_investments_2023, Figure 10.3]](./Figures/bod12665_1003.png){height=75%}
+![Returns as a function of the systematic factor: An arbitrage opportunity [@bodie_investments_2023, Figure 10.3]](./Figures/bod12665_1003.png){height=50%}
 
 ## Risk premiums must be proportional to betas
 
-![An arbitrage opportunity [@bodie_investments_2023, Figure 10.4]](./Figures/bod12665_1004.png){height=75%}
+![An arbitrage opportunity [@bodie_investments_2023, Figure 10.4]](./Figures/bod12665_1004.png){height=50%}
 
 
 ## APT and CAPM
@@ -139,9 +139,9 @@ where
 - @fama_common_1993 chose SMB and HML because size (market capitalization) and the book-to-market ratio (book value per share divided by stock price) predict deviations of average stock returns from levels consistent with the CAPM
 - SMB and HML are not obvious candidates for risk factors, but @fama_common_1993 argue that they may proxy hard-to-measure fundamental variables
 
-### Estimating and implementing a three-factor SML for U.S. Steel
+### Estimating and implementing a three-factor SML for U.S. Steel {.allowframebreaks}
 
-![Estimates of single-index and three-factor Fama-French regressions for U.S. Steel, monthly data, 5 years ending in 2021 [@bodie_investments_2023, Table 10.1]](./Figures/table_1001.png){height=75%}
+![Estimates of single-index and three-factor Fama-French regressions for U.S. Steel, monthly data, 5 years ending in 2021 [@bodie_investments_2023, Table 10.1]](./Figures/table_1001.png){height=50%}
 
 - The three-factor model predicts an expected return of
 $$
@@ -161,7 +161,7 @@ $$
 $$
 - Note that we ignore $\alpha$ estimates in both models because we except $\alpha = 0$ for all stocks in equilibrium
 
-### Researchers have added *many*, *many* factors to the FF three-factor model
+### Researchers have added *many*, *many* factors to the FF three-factor model {.allowframbreaks}
 
 - The two most widely-accepted additions to the three-factor model are:
   - @carhart_persistence_1997 adds a momentum factor

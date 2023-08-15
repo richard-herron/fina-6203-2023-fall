@@ -40,10 +40,10 @@ Individual behavior.
 
 ### CAL and CML
 
-![Capital allocation line and capital market line [@bodie_investments_2023, Figure 9.1]](./Figures/bod12665_0901.png){height=75%}
+![Capital allocation line and capital market line [@bodie_investments_2023, Figure 9.1]](./Figures/bod12665_0901.png){height=50%}
 
 
-### The CAPM predicts the risk premium of the market portfolio
+### The CAPM predicts the risk premium of the market portfolio {.allowframebreaks}
 
 - Recall that each investor chooses a proportion $y$ to allocate to the optimal portfolio $M$ such that:
 $$
@@ -59,7 +59,7 @@ $$
 where $\overline{A}$ is the representative investor’s risk aversion
 
 
-### The CAPM predicts the expected return on an asset depends on its contribution to portfolio risk
+### The CAPM predicts the expected return on an asset depends on its contribution to portfolio risk {.allowframebreaks}
 
 - All investors use the same input list, so they all hold the same optimal risky portfolio, and the market portfolio is the optimal risky portfolio
 - Consider GE stock, whose contribution to the risk of the market portfolio is
@@ -104,7 +104,7 @@ $$
 
 ### The security market line (SML) visualizes the CAPM
 
-![The security market line [@bodie_investments_2023, Figure 9.2]](./Figures/bod12665_0902.png){height=75%}
+![The security market line [@bodie_investments_2023, Figure 9.2]](./Figures/bod12665_0902.png){height=50%}
 
 
 ### The CML and SML visualize different concepts
@@ -121,7 +121,7 @@ $$
 
 ### Fairly-priced assets plot on the SML, providing expected returns that compensate for their risk
 
-![The SML and a positive-alpha stock. The risk-free rate is 6%, and the market's expected return is 14%, implying a market risk premium of 8% [@bodie_investments_2023, Figure 9.3]](./Figures/bod12665_0903.png){height=75%}
+![The SML and a positive-alpha stock. The risk-free rate is 6%, and the market's expected return is 14%, implying a market risk premium of 8% [@bodie_investments_2023, Figure 9.3]](./Figures/bod12665_0903.png){height=50%}
 
 
 ## Assumptions and Extensions of the CAPM
@@ -139,18 +139,17 @@ $$
 - When most information is public, it would not be surprising for investors to agree on firm prospects
 - Also, wildly differing opinions may offset one another, so prices (and expected risk premiums) reflect consensus expectations
 - There are two doubts about the conclusions of the identical input lists assumption
-  1. Short-selling frictions limit checks on too-high prices; these short-selling frictions are
-    1. Potentially unlimited liabilities on short positions, tying up collateral
-    1. A limited supply of stocks to be borrowed by would-be short sellers
-    1. Many investment companies prohibit short sales, as do some regulations
+  1. Short-selling frictions limit checks on too-high prices; these short-selling frictions are:
+    - Potentially unlimited liabilities on short positions, tying up collateral
+    - A limited supply of stocks to be borrowed by would-be short sellers
+    - Many investment companies prohibit short sales, as do some regulations
   1. Taxes affect the after-tax returns on the same security
-    - Practically, this doubt is minor, and there is little evidence that taxes are a major factor in stock returns
     
 
-### Risk-free borrowing and the zero-beta model (assumption 2b)
+### Risk-free borrowing and the zero-beta model (assumption 2b) {.allowframebreaks}
 
 - Restrictions on borrowing create different tangency portfolios for different investors, creating different optimal risky portfolios
-- @merton_analytic_1972 and @roll_critique_1977 show the following characteristics of efficient portfolios
+- @merton_analytic_1972 and @roll_critique_1977 show the following characteristics of efficient portfolios:
   1. Any combination of tangency portfolios is on the efficient frontier
   1. The market portfolio is an aggregation of efficient portfolios
   1. Every tangency portfolio has a companion zero-beta portfolio on the bottom half of the frontier, so we can rewrite the CAPM as $E(r_i) - E(r_z) = \beta_i [E(r_M) - E(r_z)]$, where $E(r_z)$ is the expected return on the zero-beta portfolio and $E(r_z) > r_f$
@@ -196,7 +195,7 @@ $$
 
 ### Firms with greater liquidity risk have higher average returns
 
-![The relationship between illiquidity and average returns [@bodie_investments_2023, Figure 9.4]](./Figures/bod12665_0904.png){height=75%}
+![The relationship between illiquidity and average returns [@bodie_investments_2023, Figure 9.4]](./Figures/bod12665_0904.png){height=50%}
 
 
 ## Issues in Testing the CAPM
@@ -216,7 +215,7 @@ $$
 ## The CAPM and Investment Industry
 
 
-### Portfolio theory and the CAPM are accepted tools in the practitioner community
+### Portfolio theory and the CAPM are accepted tools in the practitioner community {.allowframebreaks}
 
 - Many professionals think about the distinction between systematic and firm-specific risk and are comfortable with beta as a  measure of systematic risk
 - In the asset management industry, alpha is regularly computed

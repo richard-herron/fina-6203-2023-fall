@@ -6,7 +6,6 @@ title: Chapter 5 - Risk, Return, and the Historical Record
 
 ### Holding period return (HPR) is the price increase plus income, all divided by the price paid
 
-We calculate HPR as
 $$
 \text{HPR} = \frac{\text{Ending price of a share} - \text{Beginning price} + \text{Cash dividend}}{\text{Beginning price}}
 $$
@@ -24,23 +23,22 @@ $$
 
 ### Rates on short-term investments are often annualized with simple interest instead of compound interest, called annual percentage rate (APR)
 
-- The relation between EAR and PAR is:
+The relation between EAR and PAR is:
 $$
 1 + \text{EAR} = \left(1 + \frac{\text{APR}}{n}\right)^n
 $$
-where $n$ is the number of compounding periods per year
-- Therefore:
+where $n$ is the number of compounding periods per year, so:
 $$
 \text{APR} = n \times [(1 + \text{EAR})^{1/n} - 1]
 $$
 
 ### If we compound continuously, $n \rightarrow \infty$
 
-The relation between EAR and APR (here $r_{cc}$) becomes
+The relation between EAR and APR (here $r_{cc}$) is:
 $$
 1 + \text{EAR} = \exp(r_{cc})
 $$
-so
+so:
 $$
 \ln(1 + \text{EAR}) = r_{cc}
 $$
@@ -52,22 +50,24 @@ where $\ln(\cdot)$ is the natural log
 
 ### The *dollar value* of a bank account grows at the *nominal interest rate*, but its *buying power* grows at the *real interest rate*
 
+The Fisher equation is:
 $$
 1 + r_{real} = \frac{1 + r_{nom}}{1 + i}
 $$
-where $r_{real}$, $r_{nom}$, and $i$ are the real interest, nominal interest, and inflation rates, so
+where $r_{real}$, $r_{nom}$, and $i$ are the real interest, nominal interest, and inflation rates, so:
 $$
 r_{real} = \frac{r_{nom} - i}{1 + i}
 $$
-so, if inflation is low,
+so, if inflation is low:
 $$
 r_{real} \approx r_{nom} - i
 $$
 
+
 ### Inflation is a tax on savings!
 
 - The real after-tax rate is approximately the after-tax nominal rate minus the inflation rate
-- Therefore, the after-tax real returns fall by the inflation rate times the tax rate
+- Therefore, the after-tax real returns fall by the inflation rate times the tax rate:
 $$
 r_{nom}(1-t)-i = (r_{real}+i)(1-t)-i=r_{real}(1-t)-it
 $$
@@ -80,8 +80,8 @@ $$
 
 ### The realized rate of return depends on price changes and dividends paid
 
-- The realized rate of return is the same as the *holding period return* (HPR) above
-- We calculate HPR as
+- The realized rate of return is the *holding period return* (HPR) above
+- Recall we calculate HPR as:
 $$
 \text{HPR} = \frac{\text{Ending price of a share} - \text{Beginning price} + \text{Cash dividend}}{\text{Beginning price}}
 $$
@@ -89,12 +89,12 @@ $$
 ### The future is uncertain {.allowframebreaks}
 
 - We perform *scenario analysis* to consider HPRs of various economic scenarios and the probabilities of each scenario
-- We measure expected or mean rates of return $E(r)$ as the *probability-weighted average of the rates returns in each scenario*
+- We measure expected or mean rates of return $E(r)$ as the *probability-weighted average of the rates returns in each scenario*:
 $$
 E(r) = \sum_s p(s)r(s)
 $$
 where $p(s)$ and $r(s)$ are the probability and HPR of each scenario
-- We can measure uncertainty as the variance of returns, which is the average *squared* deviation of actual returns from the mean return
+- We can measure uncertainty as the variance of returns, which is the average *squared* deviation of actual returns from the mean return:
 $$
 \text{Var}(r) = \sigma^2 = \sum_s p(s) [r(s) - E(r)]^2
 $$
@@ -112,8 +112,8 @@ $$
 ### The Sharpe ratio is a reward-to-volatility ratio
 
 - Investors accept risk for the *potential* to earn returns greater than the risk-free rate
-- Risk premiums are proportional to the risk of expected excess returns, and we measure risk as the standard deviation of *excess* returns
-- The Sharpe ratio is the ratio of the risk premium to the standard deviation of excess returns and is commonly used to evaluate investment manager performance
+- Risk premiums are proportional to risk, and we measure risk as the standard deviation of *excess* returns
+- The Sharpe ratio is commonly used to evaluate investment manager performance:
 $$
 \text{Sharpe ratio} = \frac{\text{Risk premium}}{\text{SD of excess returns}}
 $$
@@ -178,15 +178,15 @@ $$
 	E(r) = \sum_{s=1}^n p(s)r(s) = \frac{1}{n} \sum_{s=1}^n r(s)
 	$$
 
-### Geometric average return versus arithmetic average return
+### Geometric average versus arithmetic average 
 
-- The *arithmetic* average return is an unbiased estimate of *expected* returns
-- The *geometric* average return is an HPR that would compound to the same terminal value as the historical data
+- The *arithmetic* average is an unbiased estimate of *expected* returns
+- The *geometric* average is an HPR that would compound to the same terminal value as the historical data:
 $$
 \text{Geometric average} = \left[ \prod_{s=1}^n (1+r_s) \right]^{1/n} - 1
 $$
-- The geometric average return is always less than or equal to the arithmetic average return
-- With normally-distributed returns
+- The geometric average is always less than or equal to the arithmetic average
+- With normally-distributed returns:
 $$
 E[\text{Geometric average}] = E[\text{Arithmetic average}] - \frac{\sigma^2}{2}
 $$
@@ -196,7 +196,7 @@ $$
 - Again, with historical data, we treat each observation as an equally likely scenario, so we use an equal probability of $\frac{1}{n}$ for each $p(s)$
 - This assumption provides $\bar{r}$ as an unbiased estimate of $E(r)$
 - However, this assumption provides downward biased (too low) estimates of $\sigma^2$ because we use one degree of freedom to estimate $\bar{r}$
-- Therefore, we use an equal probability of $\frac{1}{n-1}$ for each $p(s)$
+- Therefore, we use an equal probability of $\frac{1}{n-1}$ for each $p(s)$:
 $$
 \hat{\sigma} = \sqrt{\frac{1}{n-1} \sum_{s=1}^n [r(s) - \bar{r}]^2}
 $$

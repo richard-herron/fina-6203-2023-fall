@@ -23,18 +23,17 @@ title: Chapter 14 - Bond Prices and Yields
 
 ### Investors do not pay the quoted prices for bonds because of accrued interest {.allowframebreaks}
 
-![Prices and Yields of U.S. Treasury Bonds, August 15, 2021 [@bodie_investments_2023, Figure 14.1]](./Figures/bod12665_1401.png){height=50%}
-
 - The quoted prices do not include the interest accrued between coupon payment dates
-- If a bond trades between coupon payment dates, the buyer must pay the seller for interest accrued since the last coupon payment
+- If a bond trades between coupon payment dates, the buyer must pay the seller for interest accrued since the last coupon payment:
 $$
 \text{Accrued interest} = \frac{\text{Ann. coupon}}{2} \times \frac{\text{Days since last coupon}}{\text{Days separating coupons}}
 $$
-- This practice explains why the price of a maturing bond is par value instead of par value plus one coupon
+
+![Prices and Yields of U.S. Treasury Bonds, August 15, 2021 [@bodie_investments_2023, Figure 14.1]](./Figures/bod12665_1401.png){height=50%}
 
 ### Corporations also borrow money by issuing bonds {.allowframebreaks}
 
-![Listing of Corporate Bonds [@bodie_investments_2023, Figure 14.2]](./Figures/bod12665_1402.png){height=50%}
+<!-- ![Listing of Corporate Bonds [@bodie_investments_2023, Figure 14.2]](./Figures/bod12665_1402.png){height=50%} -->
 
 - There are many combinations of issuer, maturity, coupon rate, seniority, etc., often leading to thin markets
 - Therefore, most corporate bonds trade over the counter instead of on exchanges
@@ -43,8 +42,7 @@ $$
 
 - Call provisions allow issuers to repurchase bonds at a specified *call price* before maturity 
 	- Allow firms to call bonds with high coupon rates when interest rates fall
-	- Typically come with a period of call protection
-	- The option to call a bond is valuable *to the firm*, so firms typically issue callable bonds with higher coupon rates and promised yields than non-callable bonds
+	- The option to call a bond is valuable *to the firm*, so callable bonds typically offer higher coupon rates and promised yields than non-callable bonds
 - Convertible bonds give holders the option to exchange each bond for a specified number of shares of the firm's stock
 	- The option to convert a bond is valuable *to the bondholder*, so convertible bonds typically offer lower coupon rates and yields to maturity than non-convertible bonds
 - Put bonds give the holder the option to exchange the bond for par value at some date or to extend it for a given number of years
@@ -138,7 +136,7 @@ $$
 	- Discount bonds:  $\text{Coupon rate} < \text{Current yield} < \text{YTM}$
 
 
-### Yield to call (YTC) and YTM are different {.allowframebreaks}
+### YTM and yield to call (YTC) are different {.allowframebreaks}
 
 - Except:
 	- The time until *call* replaces the time until *maturity*
@@ -151,17 +149,17 @@ $$
 
 ### YTM and realized compound return are different {.allowframebreaks}
 
-- YTM will equal the rate of return realized over the life of the bond if all coupons are reinvested to earn the bond's YTM
-- Realized compound return is the compound rate of return assuming that coupon payments are reinvested until maturity
+- YTM will equal the rate of return realized over the life of the bond if all coupons are reinvested and earn the YTM
+- Realized compound return is the compound rate of return assuming that coupon payments are reinvested at market rates until maturity 
 - Forecasting the realized compound yield over various holding periods or investment horizons is *horizon analysis*
-
-![Growth of invested funds [@bodie_investments_2023, Figure 14.5]](./Figures/bod12665_1405.png){height=50%}
-
 - As interest rates change, bond investors face two offsetting risks
 	1. *Price risk:* When rates rise, bond prices fall
 	1. *Reinvestment rate risk:* When rates rise, reinvestment rates rise
 - Chapter 16 discusses how bond investors manage these risks
 
+<!-- TODO: Add an example problem and double-check this slide -->
+
+<!-- ![Growth of invested funds [@bodie_investments_2023, Figure 14.5]](./Figures/bod12665_1405.png){height=50%} -->
 
 ## Bond Prices over Time
 

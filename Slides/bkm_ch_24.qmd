@@ -56,14 +56,11 @@ $$
 - **Comparison universe:** 
   - The set of money managers with similar investment styles used to assess the relative performance of a manager
   - For example, a 90\textsuperscript{th} percentile manager provides higher returns than 90% of managers in her comparison universe
-
-![Universe comparison, periods ending December 31, 2028 [@bodie_investments_2023, Figure 24.1]](./Figures/bod12665_2401.png){height=50%}
-
-- Comparison universes are simple and intuitive
-- But have the following shortcomings:
+- Comparison universes are simple and intuitive, but have the following shortcomings:
   - Managers concentrate in subgroups within their comparison universe
   - Comparison universes are not investable (e.g., we cannot invest in the median manager)
 
+![Universe comparison, periods ending December 31, 2028 [@bodie_investments_2023, Figure 24.1]](./Figures/bod12665_2401.png){height=50%}
 
 ### There are several popular risk-adjusted performance measures
 
