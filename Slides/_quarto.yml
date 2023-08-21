@@ -4,6 +4,7 @@ bibliography: references.bib
 cite-method: biblatex
 biblio-style: authoryear
 biblio-title: References
+lang: en
 
 profile:
   group: 

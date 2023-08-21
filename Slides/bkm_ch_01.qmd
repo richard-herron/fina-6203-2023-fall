@@ -15,6 +15,7 @@ title: Chapter 1 - The Investment Environment
 	- Do not directly goods and services
 	- Examples: Stocks and bonds
 
+
 ## Financial Assets
 
 ### There are three broad types of financial assets: fixed income, equity, and derivatives
@@ -25,6 +26,7 @@ title: Chapter 1 - The Investment Environment
 - Other financial markets:
 	- Currencies
 	- Commodities
+
 
 ## Financial Markets and the Economy
 
@@ -43,12 +45,14 @@ title: Chapter 1 - The Investment Environment
 	- Owners hire managers to run firms, leading to principal-agent conflicts
 	- Principal-agent conflicts are when agents pursue their interests instead of those of the principals
 
+
 ### We can mitigate agency conflicts but not eliminate them
 
 - Executive compensation plans align manager wealth and owner wealth
 - Boards of directors monitor managers
 - Investors and analysts monitor managers
 - New investors take over poor-performing firms
+
 
 ## The Investment Process
 
@@ -59,6 +63,7 @@ title: Chapter 1 - The Investment Environment
 - Portfolio construction approaches
 	- Top-down: Allocate assets first, then select securities
 	- Bottom-up: Select attractively-priced securities first, with or without an asset allocation target
+
 
 ## Markets Are Competitive
 
@@ -72,6 +77,7 @@ title: Chapter 1 - The Investment Environment
 	- Security markets are typically "informationally efficient," and market prices quickly incorporate new information
 	- *Therefore, market prices are consensus estimates of intrinsic values*
 
+
 ### However, the @grossman_impossibility_1980 paradox highlights that perfectly efficient markets are impossible
 
 - If prices perfectly reflected all information, collecting and trading on information would not be profitable
@@ -81,6 +87,7 @@ title: Chapter 1 - The Investment Environment
 	- Active: Searches for mispriced securities
 	- Passive: Holds a highly diversified portfolio instead of searching for mispriced securities
 
+
 ## The Players
 
 ### There are three major players in financial markets: firms, households, and governments
@@ -89,11 +96,13 @@ title: Chapter 1 - The Investment Environment
 - Households: Typically net suppliers of capital, which they invest in firms and governments
 - Governments: Borrowers or lenders of capital, depending on the timing
 
+
 ### Financial intermediaries connect capital suppliers and demanders
 
 - Balance sheets of financial intermediaries are largely financial assets
 - Examples: Investment companies, insurance companies, and credit unions
 - Advantages: Pool investor resources, diversify assets, and achieve economies of scale
+
 
 ### There are several other participants in financial markets
 
@@ -118,6 +127,7 @@ title: Chapter 1 - The Investment Environment
 - Plus, your future boss will have it on her bookshelf!
 - We plan to cover most of Parts 1, 2, 3, and 4, plus Chapter 24
 
+
 ### Summary from @bodie_investments_2023 {.appendix}
 
-![](./Figures/summary_01.png){height=75%, fig-align="center"}
+![](./Figures/summary_01.png){height=75%}
