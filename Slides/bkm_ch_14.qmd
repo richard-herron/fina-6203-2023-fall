@@ -5,21 +5,23 @@ title: Chapter 14 - Bond Prices and Yields
 ## Bond Characteristics
 
 ### A bond is a security with a legally binding borrowing arrangement
- 
-- The bond issuer (i.e., borrower) agrees to make specified payments to the bondholder on specified dates
+
+- The bond issuer (i.e., the borrower) agrees to make specified payments to the bondholder on specified dates
 - Par value (or face value) is the payment to the bondholder on the bond's maturity date
 - The coupon rate is the bond's interest payment per year per dollar of par value
 	- Firms typically split coupon payments into two equal semiannual payments
 	- *Firms typically set coupon rates to induce investors to pay par value for a bond at issue* 
-- Bond indenture is the contract between the issuer and the bondholder
+- The bond indenture is the contract between the issuer and the bondholder
+
 
 ### Treasury notes and bonds
 
-- Maturity:
+- Maturity
 	- Treasury notes: 1 to 10 years
 	- Treasury bonds: 10 to 30 years
 - Investors may purchase notes and bonds directly from the Treasury
-- Denominations are as small as $100, but $1,000 is more common
+- Denominations are as small as $100, but $1,000 is most common
+
 
 ### Investors do not pay the quoted prices for bonds because of accrued interest {.allowframebreaks}
 
@@ -31,12 +33,14 @@ $$
 
 ![Prices and Yields of U.S. Treasury Bonds, August 15, 2021 [@bodie_investments_2023, Figure 14.1]](./Figures/bod12665_1401.png){height=50%}
 
+
 ### Corporations also borrow money by issuing bonds {.allowframebreaks}
 
 <!-- ![Listing of Corporate Bonds [@bodie_investments_2023, Figure 14.2]](./Figures/bod12665_1402.png){height=50%} -->
 
 - There are many combinations of issuer, maturity, coupon rate, seniority, etc., often leading to thin markets
 - Therefore, most corporate bonds trade over the counter instead of on exchanges
+
 
 ### Some corporate bonds have additional features {.allowframebreaks}
 
@@ -54,13 +58,13 @@ $$
 ### Preferred stock is a hybrid security that is part equity, part bond
 
 - Preferred stock is considered equity but often included in the fixed-income universe
-- Like bonds:
+- Like bonds
 	- Promises to pay a specified cash flow stream
 	- Commonly pays a fixed dividend
 	- Rarely gives holders full voting privileges
-- Unlike bonds:
+- Unlike bonds
 	- Failure to pay the promised dividend does not result in corporate bankruptcy
-	- Dividends owed cumulate
+	- Dividends owed typically cumulate
 
 
 ### International bonds are issued in one country by a borrower from a different country 
@@ -79,7 +83,7 @@ $$
 - However, some have maturities between 50 and 100 years
 - Inverse floaters are like floating-rate bonds, except coupon rate *falls*  when the general level of interest rates *rises*
 - Asset-backed bonds use income from a specified group of assets to service the debt
-- Catastrophe bonds' final payment depends on whether there has been a specified catastrophe, allowing the issuer to transfer catastrophe risk to the market
+- Catastrophe bond final payments depend on whether there has been a specified catastrophe, allowing the issuer to transfer catastrophe risk to the market
 - Indexed bonds make payments tied to a general price index or the price of a commodity (e.g., Treasury Inflation-Protected Securities or TIPS)
 
 
@@ -101,13 +105,14 @@ $$
 
 ![Bond values at different interest rates (8% coupon bond, coupons paid semiannually) [@bodie_investments_2023, Table 14.2]](./Figures/table_1402.png){height=50%}
 
+
 ### Quoted bond prices do not include interest that accrues between coupon payments
 
 - The buyer pays the seller for accrued interest, which is the prorated share of the upcoming semiannual coupon:
 $$
 \text{Accrued interest} = \frac{\text{Ann. coupon}}{2} \times \frac{\text{Days since last coupon}}{\text{Days separating coupons}}
 $$
-- The sale, or invoice, price of the bond equals the stated price (flat price) plus the accrued interest:
+- The sale price (invoice price) of the bond equals the stated price (flat price) plus the accrued interest:
 $$
 \text{Invoice price} = \text{Flat price} + \text{Accrued interest}
 $$
@@ -138,7 +143,7 @@ $$
 
 ### YTM and yield to call (YTC) are different {.allowframebreaks}
 
-- Except:
+- YTC is similar to YTM except:
 	- The time until *call* replaces the time until *maturity*
 	- The call price replaces the par value
 - At *low* interest rates: The price of the callable bond is flat since the risk of a repurchase or call is high
@@ -153,13 +158,14 @@ $$
 - Realized compound return is the compound rate of return assuming that coupon payments are reinvested at market rates until maturity 
 - Forecasting the realized compound yield over various holding periods or investment horizons is *horizon analysis*
 - As interest rates change, bond investors face two offsetting risks
-	1. *Price risk:* When rates rise, bond prices fall
-	1. *Reinvestment rate risk:* When rates rise, reinvestment rates rise
+	1. Price risk: When rates rise, bond prices fall
+	1. Reinvestment rate risk: When rates rise, reinvestment rates rise
 - Chapter 16 discusses how bond investors manage these risks
 
 <!-- TODO: Add an example problem and double-check this slide -->
 
 <!-- ![Growth of invested funds [@bodie_investments_2023, Figure 14.5]](./Figures/bod12665_1405.png){height=50%} -->
+
 
 ## Bond Prices over Time
 
@@ -177,10 +183,10 @@ $$
 
 ### YTM and holding period return (HPR) are different
 
-- HPR: 
+- HPR 
 	- The rate of return over a particular investment period
-	- Depends on the bond's price at the end of the holding period, an unknown future value
-- YTM:
+	- Depends on the bond's price at the end of the holding period, which is an unknown future value
+- YTM
 	- The average rate of return if the bond is held to maturity
 	- Depends on coupon rate, maturity, and par value, which are all known
 - When YTM does not change over a period $\text{YTM}=\text{HPR}$
@@ -188,9 +194,10 @@ $$
 <!-- TODO: add questions where small changes in YTM create large changes in HPR -->
 
 
-### Zero-coupon bonds sell at a discount and pay "interest" as a "capital gain"
+### Zero-coupon bonds sell at a discount and pay interest as capital gains
 
 ![The price of a 30-year zero-coupon bond over time at a yield to maturity of 10%. Price equals $\$1,000/(1.10)^T$, where $T$ is time until maturity. [@bodie_investments_2023, Figure 14.7]](./Figures/bod12665_1407.png){height=50%}
+
 
 ## Default Risk and Bond Pricing
 
@@ -219,13 +226,14 @@ $$
 
 ![Financial ratios by rating class [@bodie_investments_2023, Table 14.3]](./Figures/table_1403.png){height=50%}
 
-### Edward Altman shows that financial ratios predict bankruptcy {.allowframebreaks}
+
+### Financial ratios predict bankruptcy {.allowframebreaks}
 
 - We calculate a $Z$ score based on firm financial characteristics:
 $$
 Z=3.1\frac{EBIT}{A} + 1.0\frac{Sales}{A} + 0.42\frac{E}{L} + 0.85\frac{RE}{A} + 0.72\frac{WC}{A}
 $$
-- Higher $Z$ scores indicate lower credit risk:
+- Higher $Z$ scores indicate lower credit risk
 	- $Z < 1.23$ indicates vulnerability to bankruptcy
 	- $1.23 \leq Z < 2.90$ is a gray area
 	- $2.90 \leq Z$ indicates safety
@@ -238,8 +246,8 @@ $$
 - Sinking funds call for the issuer to periodically repurchase some proportion of the outstanding bonds before maturity
 - The subordination clause restricts the amount of additional borrowing by the firm
 - Dividend restrictions limit the payment of dividends by firms (e.g., cumulative dividends cannot exceed cumulative retained earnings)
-- Collateral is a particular asset that the bondholders receive if the firm defaults
-	- Collateralized bonds are generally safer than debenture bonds
+- Collateral is a particular asset that the bondholders receive if the firm defaults, making collateralized bonds generally safer than debenture bonds
+
 
 ### *Promised* YTM and *expected* YTM are different {.allowframebreaks}
 
@@ -249,20 +257,23 @@ $$
 
 ![Yield spreads between corporate and 10-year Treasury bonds [@bodie_investments_2023, Figure 14.11]](./Figures/bod12665_1411.png){height=50%}
 
+
 ### Credit default swaps (CDSs) insure a bond or loan against default
 
-- Allows lenders to buy protection against default risk
+- Allows lenders to insure against default
 - The risk structure of interest rates and CDS prices ought to be tightly aligned
-- CDS contracts trade on corporate as well as sovereign debt
+- CDS contracts trade on corporate and sovereign debt
 - Natural CDS buyers are large bondholders that want to enhance the creditworthiness of their outstanding loans
-- But, CDS buyers can also use them to speculate on the financial health of an issuer
+- CDS buyers can also use them to speculate on the financial health of an issuer
+
 
 ### Collateralized debt obligations (CDOs) reallocate credit risk {.allowframebreaks}
 
 - A structured Investment Vehicle (SIV) is a legally distinct entity that buys debt and resells it as a portfolio
 - Loans are pooled together and split into  _tranches_
 - Each tranche is given a different level of seniority to claims on the underlying loan pool
-- Mortgage-backed CDOs were an investment disaster from 2007 to 2009
+- Mortgage-backed CDOs were an investment disaster during 2007 to 2009
+
 
 ![Collateralized debt obligations [@bodie_investments_2023, Figure 14.13]](./Figures/bod12665_1413.png){height=50%}
 

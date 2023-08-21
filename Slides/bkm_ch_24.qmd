@@ -4,7 +4,7 @@ title: Chapter 24 - Portfolio Performance Evaluation
 
 ## The Conventional Theory of Performance Evaluation
 
-### The difference between *arithmetic* and *geometric* averages
+### *Arithmetic* average and *geometric* average are different
 
 - Suppose we evaluate the performance of a portfolio over a 20-year holding period
 - The *arithmetic average* is the sum of the 20 annual returns divided by 20:
@@ -19,9 +19,6 @@ $$
 
 ### The difference between time-weighted and dollar-weighted averages {.allowframebreaks}
 
-- The *time-weighted* average weights each period's return the same, which is the *geometric average*
-- The *dollar-weighted* average weights each period's return by the amount invested in that period, with is the internal rate of return (IRR)
-
 **Example:**
 A stock sells for $50.
 You purchase one share today and one more in one year.
@@ -30,14 +27,14 @@ Dividends of $2 per share are paid annually at the end of each year (but before 
 
 | **Time** | **Outlays** |
 | :-: | :-- |
-| 0 | $50 to purchase the first share |
-| 1 | $53 to purchase a second share a year later |
-|   | **Proceeds** |
-| 1 | $2 dividend from initially purchased share |
-| 2 | $4 dividend from the 2 shares held in the second year, plus |
-|   | $108 received from selling both shares at $54 each |
+| 0   | $50 to purchase the first share |
+| 1   | $53 to purchase a second share a year later |
+|     | **Proceeds** |
+| 1   | $2 dividend from initially purchased share |
+| 2   | $4 dividend from the 2 shares held in the second year, plus |
+|     | $108 received from selling both shares at $54 each |
 
-- The **time-weighted** average (geometric average) is 7.81%:
+- The *time-weighted* average weights each period's return the same, which is the *geometric average*
 $$
 \begin{aligned}
 r_1 &= \frac{53+2-50}{50}=0.1 \\
@@ -45,10 +42,11 @@ r_2 &= \frac{54+2-53}=0.0566 \\
 r_G &= (1.10 \times 1.0566)^{1/2}-1 \implies r_G=0.0781
 \end{aligned}
 $$
-- The **dollar-weighted** average (IRR) is 7.12%:
+- The *dollar-weighted* average weights each period's return by the amount invested in that period, with is the internal rate of return (IRR)
 $$
 0 = -50 + \frac{-53 + 2}{1+r} + \frac{112}{(1+r)^2} \implies r=0.0712
 $$
+
 
 ### We must risk-adjust returns to compare them {.allowframebreaks}
 
@@ -64,10 +62,10 @@ $$
 
 ### There are several popular risk-adjusted performance measures
 
-- **Sharpe ratio** $\left( \frac{\overline{r}_P - \overline{r}_f}{\sigma_P} \right)$ measures the reward to total risk trade-off
-- **Treynor ratio** $\left( \frac{\overline{r}_P - \overline{r}_f}{\beta_P} \right)$ measures the reward to systematic risk trade-off
-- **Jensen's alpha** $\left( \alpha_P = \overline{r}_P - \left[ \overline{r}_f + \beta_P \left( \overline{r}_M - \overline{r}_f \right) \right] \right)$ is the average return on the portfolio over the CAPM-predicted return, given the portfolio's beta and the average market return
-- **Information ratio** $\left( \frac{\alpha_P}{\sigma(e_P)} \right)$ divides portfolio alpha by its nonsystematic risk, so it measures abnormal return per unit of diversifiable risk
+- **Sharpe ratio** $\left( \frac{\overline{r}_P - \overline{r}_f}{\sigma_P} \right)$: Measures the reward to total risk trade-off
+- **Treynor ratio** $\left( \frac{\overline{r}_P - \overline{r}_f}{\beta_P} \right)$: Measures the reward to systematic risk trade-off
+- **Jensen's alpha** $\left( \alpha_P = \overline{r}_P - \left[ \overline{r}_f + \beta_P \left( \overline{r}_M - \overline{r}_f \right) \right] \right)$: The average return on the portfolio over the CAPM-predicted return, given the portfolio's beta and the average market return
+- **Information ratio** $\left( \frac{\alpha_P}{\sigma(e_P)} \right)$: Divides portfolio alpha by its nonsystematic risk, so it measures abnormal return per unit of diversifiable risk
 
 
 ### The $M^2$ performance measure presents the Sharpe ratio as an excess return
@@ -110,35 +108,37 @@ $$
 
 ### How does alpha relate to each risk-adjusted performance measure?
 
-| | **Treynor** | **Sharpe** | **Information Ratio** |
-| :-- | :-- | :--- | :-- |
-| Relation to alpha | $\frac{E(r_P)-r_f}{\beta_P} = \frac{\alpha_p}{\beta_P} + T_M$ | $\frac{E(r_P)-r_f}{\sigma_P} = \frac{\alpha_p}{\sigma_P} + \rho S_M$ | $\frac{\alpha_P}{\sigma(e_p)}$ |
-| Improvement compared to the market | $T_P - T_M = \frac{\alpha_p}{\beta_P}$ | $S_P - S_M = \frac{\alpha_p}{\sigma_P} - (1-\rho) S_M$ | $\frac{\alpha_P}{\sigma(e_p)}$ |
+| | **Sharpe** | **Treynor** | **Information Ratio** |
+| :-- | :--- | :-- | :-- |
+| Relation to alpha | $\frac{E(r_P)-r_f}{\sigma_P} = \frac{\alpha_p}{\sigma_P} + \rho S_M$ | $\frac{E(r_P)-r_f}{\beta_P} = \frac{\alpha_p}{\beta_P} + T_M$ | $\frac{\alpha_P}{\sigma(e_p)}$ |
+| Improvement compared to the market | $S_P - S_M = \frac{\alpha_p}{\sigma_P} - (1-\rho) S_M$ | $T_P - T_M = \frac{\alpha_p}{\beta_P}$ | $\frac{\alpha_P}{\sigma(e_p)}$ |
+
 
 ### An application of risk-adjusted performance measures {.allowframebreaks}
 
-![Excess returns for portfolios $P$ and $Q$ and the market index $M$ over 12 months [@bodie_investments_2023, Table 24.2]](./Figures/table_2402.png){height=50%}
+![Excess returns for portfolios $P$ and $Q$ and the market index $M$ over 12 months [@bodie_investments_2023, Table 24.2]](./Figures/table_2402.png){height=75%}
 
-![Performance statistics [@bodie_investments_2023, Table 24.3]](./Figures/table_2403.png){height=50%}
+![Performance statistics [@bodie_investments_2023, Table 24.3]](./Figures/table_2403.png){height=75%}
+
 
 - If $P$ or $Q$ represents the entire investment, $Q$ is better because of its higher Sharpe ratio
 - If $P$ and $Q$ are potential sub-portfolios, $Q$ remains better because of its higher Treynor ratio
 - However, if we seek an active portfolio to mix with an index portfolio, $P$ is better because of its higher information ratio
 
+
 ### Realized returns versus expected returns
 
-- We must determine the statistical "significance level" of a performance measure to determine whether it reliably indicates any ability
+- We must determine the statistical significance level of a performance measure to determine whether it reliably indicates ability
 - Even moderate levels of statistical noise make it difficult to evaluate performance 
 
 <!-- TODO: Add example calculation of N given sigma -->
 
 
-### Regardless of the performance criterion, some funds will outperform their benchmarks in any year, and some will underperform {.allowframebreaks}
+### Regardless of the performance measure, some funds will outperform their benchmarks in any year, and some will underperform {.allowframebreaks}
 
-- Performance in one period does not predict future performance
-- Limiting a sample of funds to those with available returns over an entire sample period introduces **survivorship bias**
+- Past performance does not predict future performance
+- Limiting a sample of funds to those with available returns over an entire sample period introduces *survivorship bias*
 
-![](https://imgs.xkcd.com/comics/survivorship_bias.png){height=50%}
 
 ## Style Analysis
 
@@ -146,7 +146,7 @@ $$
 
 - Introduced by William Sharpe
 - Regress fund returns on indexes representing a range of asset classes
-  - The coefficient on each index measures the fund's implicit allocation to each "style"
+  - The coefficient on each index measures the fund's implicit allocation to each style
   - The intercept coefficient measures the average return from security selection
   - $R^2$ measures the percentage of return variability attributable to style choice instead of security selection
 
@@ -184,7 +184,6 @@ $$
 
 ## Market Timing
 
-
 ### Market timing is shifting funds between a risky portfolio and a safe asset, depending on expected returns {.allowframebreaks}
 
 ![Characteristic lines. *Panel A:* No market timing, beta is constant. *Panel B:* Market timing, beta increases with expected market excess return. *Panel C:* Market timing with only two values of beta. [@bodie_investments_2023, Figure 24.8]](./Figures/bod12665_2408.png){height=50%}
@@ -198,13 +197,13 @@ $$
 r_p - r_f = a + b(r_M -r_f) + c(r_M - r_f)D + e_p
 $$
 where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets and $b+c$ in bull markets
-- A $c>0$ indicates market-timing ability for both models, but neither model has found evidence of market-timing ability among managers
+- For both models, $c>0$ indicates market-timing ability, but neither authors found evidence of market-timing ability among managers
 
 ![](./Figures/table_2403_2.png){height=50%}
 
-### What is the potential of perfect market timing?^[Performance of bills, equities, and perfect (annual) market timers. Initial investment = $1 (December 31, 1926 to December 31, 2021)]
+### What is the potential of perfect market timing?^[Performance of T-bills, equities, and perfect (annual) market timers. Initial investment = $1 (December 31, 1926 to December 31, 2021)]
 
-|  | **Bills** | **Equities** | **Perfect Timer** |
+|  | **T-Bills** | **Equities** | **Perfect Timer** |
 | :---- | --: | --: | --: |
 | Terminal value | $21 | $10,546  | $15,12,355  |
 | Arithmetic average | 3.31% | 11.96% | 16.72% |
@@ -239,18 +238,18 @@ where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets an
 
 ### Performance attribution decomposes overall performance into discrete components {.allowframebreaks}
 
-- One common attribution approach decomposes performance into three components:
+- One common attribution approach decomposes performance into three components
 	1. Broad asset allocation choices across equity, fixed-income, and money markets
-	1. Industry (sector) choice within each market
+	1. Industry (sector) choice within each asset class
 	1. Security choice within each sector
-- This attribution approach explains the difference between a managed portfolio $P$ and a benchmark portfolio $B$
-	- Portfolio $B$, or **bogey**, measures the returns on a completely passive strategy, removing *asset allocation* and *security selection* decisions
+- This decomposition explains the difference between a managed portfolio $P$ and a benchmark portfolio $B$
+	- Portfolio $B$ measures the returns on a completely passive strategy, removing *asset allocation* and *security selection* decisions
 	- Therefore, asset allocation and security selection explain all differences between portfolios $P$ and $B$
 
 ![Performance of the managed portfolio [@bodie_investments_2023, Table 24.6]](./Figures/table_2406.png){height=50%}
 
 
-### Contributions of asset allocation and selection
+### Contributions of *asset allocation* and *selection*
 
 ![Performance attribution [@bodie_investments_2023, Table 24.7]](./Figures/table_2407.png){height=50%}
 

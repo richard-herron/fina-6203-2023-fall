@@ -4,10 +4,7 @@ title: Chapter 15 - The Term Structure of Interest Rates
 
 ## The Yield Curve
 
-### The yield curve plots yield to maturity as a function of time to maturity {.allowframebreaks}
-
-- The yield curve is central to bond valuation
-- It allows investors to gauge their expectations for future interest rates against those of the market
+### The yield curve plots yield to maturity as a function of time to maturity 
 
 ![Treasury yield curves [@bodie_investments_2023, Figure 15.1]](./Figures/bod12665_1501.png){height=50%}
 
@@ -25,21 +22,20 @@ title: Chapter 15 - The Term Structure of Interest Rates
 
 - Pure yield curve: Based on stripped or zero-coupon Treasuries
 - On-the-Run yield curve: Based on recently issued coupon bonds selling at or near par value
-- These yield curves may differ significantly, and the financial press typically prefers the on-the-run yield curve because on-the-run Treasuries are more liquid than zero-coupon Treasuries
+- These yield curves may differ significantly, and the financial press prefers the on-the-run yield curve because on-the-run Treasuries are more liquid than zero-coupon Treasuries
 
 
 ## The Yield Curve and Future Interest Rates
 
-
 ### In a world without uncertainty, all investors know all future interest rates {.allowframebreaks}
 
-- Spot rate:
+- Spot rate
 	- The rate that prevails _today_ for a period corresponding to the zero's maturity
 	- For example, $y_2$ is the spot rate for the 2-year zero
-- Short rate:
-	- The rate that applies for a given time interval (e.g., one year)
+- Short rate
+	- The rate that applies for a given time interval 
 	- For example, $r_1$ and $r_2$ are the short rates that apply to years 1 and 2, respectively
-- By the Law of One Price, the multiyear cumulative returns on competing bonds must be similar:
+- By the Law of One Price, the cumulative returns on competing bonds must be similar:
 $$
 (1+y_2)^2 = (1+r_1) \times (1+r_2)
 $$
@@ -49,23 +45,23 @@ $$
 
 ### We can generalize the relation between spot and short rates
 
-- For any maturity $n$, the relation between spot rates for $n-1$ and $n$ and short rates in year $n$ is:
+For any maturity $n$, the relation between spot rates for years $n-1$ and $n$ and short rates in year $n$ is:
 $$
 (1+y_n)^n = (1+y_{n-1})^{n-1} \times (1+r_n)
 $$
-- Therefore:
+so:
 $$
 1+r_n = \frac{(1+y_n)^2}{(1+y_{n-1})^{n-1}}
 $$
 
+
 ### In our world with uncertainty, future short rates are uncertain
 
-- The forward interest rate $f_n$ is a forecast of a future short rate $r_n$
-- Therefore:
+- The forward interest rate $f_n$ is a forecast of a future short rate $r_n$, so:
 $$
 1+f_n = \frac{(1+y_n)^2}{(1+y_{n-1})^{n-1}}
 $$
-- The forward rate is the "break-even" interest rate that equates the return on an $n$-period zero-coupon bond to that of an $(n-1)$-period zero-coupon bond rolling over into a 1-year bond in year $n$
+- The forward rate is the break-even interest rate that equates the return on an $n$-period zero-coupon bond to that of an $(n-1)$-period zero-coupon bond rolling over into a 1-year bond in year $n$
 - *When we get to year $n$, we may find $r_n \neq f_n$*
 
 
@@ -73,8 +69,8 @@ $$
 
 ### The term structure is harder to interpret when future interest rates are uncertain
 
-- A one-year investor requires a *liquidity premium* to buy the two-year bond instead of the one-year bond because she faces price rIsk when she sells the two-year bond in one year
-- Conversely, a two-year investor requires a liquidity premium to buy the one-year bond instead of the two-year because she faces rate uncertainty when she rolls over from the first one-year bond to the second one-year bond
+- A one-year investor requires a *liquidity premium* to buy the two-year bond instead of the one-year bond because she faces price risk when she sells the two-year bond in one year
+- Conversely, a two-year investor requires a *liquidity premium* to buy the one-year bond instead of the two-year because she faces rate uncertainty when she rolls over from the first one-year bond to the second one-year bond
 
 
 ## Theories of the Term Structure
@@ -82,16 +78,15 @@ $$
 ### Expectations hypothesis theory: Forward rate equals the consensus expectation of the future short rate
 
 - The simplest theory of the term structure
-- If the forward rate equals the market consensus expectation of future short interest rate
-- Then $f_2 = E(r_2)$ and liquidity premiums are zero
-- Therefore, the yields on long-term bonds depend only on expectations of future short rates so
+- The forward rate equals the market consensus expectation of future short interest rate, so $f_2 = E(r_2)$ and liquidity premiums are zero
+- Therefore, the yields on long-term bonds depend only on expectations of future short rates, so:
 $$
 (1+y_2)^2 = (1+r_1) \times [1+E(r_n)]
 $$
 and an upward-sloping yield curve indicates that investors expect interest rates to increase
 
 
-### Liquidity preference theory: Short-term investors determine market prices, so the liquidity premium is generally positive {.allowframebreaks}
+### Liquidity preference theory: Short-term investors determine market prices, so the liquidity premium is mostly positive {.allowframebreaks}
 
 - Long-term bonds are more risky than short-term bonds for short-term investors because long-term bonds have short-term price risk
 - Therefore, short-term investors require a positive *liquidity premium* to bear this price risk
@@ -110,7 +105,7 @@ and an upward-sloping yield curve indicates that investors expect interest rates
 
 - Each segmented market finds its equilibrium independently
 - These segmented markets determine the yield curve
-- This theory is less common today:
+- This theory is less common today
   - Investors must compare long and short rates as well as expectations of future rates before deciding where to invest
   - If the liquidity premium were too positive or too negative, investors would rush to the same segment
 
@@ -134,7 +129,6 @@ so $f_{n+1} > y_n$ for an upward-sloping yield curve
 
 
 ## Forward Rates as Forward Contracts
-
 
 ### We can derive forward rates from the yield curve
 

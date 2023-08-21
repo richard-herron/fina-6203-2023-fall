@@ -7,21 +7,21 @@ title: Chapter 7 - Efficient Diversification
 ### There are two broad sources of uncertainty: Market risk and firm-specific risk
 
 - Market risk
-  - Attributable to marketwide risk factors
   - Remains after diversification
   - Also called non-diversifiable risk or systematic risk
 - Firm-specific risk
   - Eliminated by diversification
   - Also called idiosyncratic risk, diversifiable risk, or nonsystematic risk
 
-### Portfolio risk decreases as we increase the number of (diversified) stocks in the portfolio
+### Portfolio risk decreases as we increase the number of (diversified) stocks in a portfolio
 
 ![Portfolio risk as a function of the number of stocks in the portfolio. *Panel A:* All risk is firm-specific. *Panel B:* Some risk is systematic, or marketwide [@bodie_investments_2023, Figure 7.1]](./Figures/bod12665_0701.png){height=50%}
 
 ### The *insurance principle* reduces risk by spreading exposure across many independent risk sources
 
-- "An insurance company depends on such diversification when it writes many policies insuring against many uncorrelated sources of risk, each policy being a small part of the company's overall portfolio."
-- We will revisit this concept later
+@bodie_investments_2023 [page 202]:
+
+> An insurance company depends on such diversification when it writes many policies insuring against many uncorrelated sources of risk, each policy being a small part of the company's overall portfolio.
 
 ## Portfolios of Two Risky Assets
 
@@ -32,51 +32,47 @@ $$
 r_P = w_D r_D + w_E r_E
 $$
 where $w$s are weights, $r$s are returns, and subscripts $D$ and $E$ indicate debt and equity
-- This portfolio's expected return is:
+- Portfolio expected return is:
 $$
 E(r_P) = w_D E(r_D) + w_E E(r_E)
 $$
-and its variance is:
+and variance is:
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
 
-### We can rewrite $\sigma_P^2$ as a *border-multiplied* covariance matrix
+### We can rewrite $\sigma_P^2$ as a *border-multiplied* covariance matrix {.allowframebreaks}
 
-- $\text{Cov}(r_D, r_D)= \sigma_D^2$
-- So we can rewrite
+$\text{Cov}(r_D, r_D)= \sigma_D^2$, so we can rewrite
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
-as
+as:
 $$
 \sigma_P^2 = w_D^2 \text{Cov}(r_D, r_D) + w_E^2 \text{Cov}(r_E, r_E) + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
 which is a *border-multiplied* covariance matrix
 
-### The *border-multiplied* covariance matrix version is easily applied to three or more assets
-
 ![Computation of portfolio variance from the covariance matrix [@bodie_investments_2023, Table 7.2]](./Figures/table_0702.png){height=50%}
 
 ### We can rewrite $\sigma_P^2$ in terms of correlations
 
-- $\rho_{D,E} = \frac{\text{Cov}(r_D, r_E)}{\sigma_D \sigma_E} \Rightarrow \text{Cov}(r_D, r_E) = \rho_{D,E} \sigma_D \sigma_E$
-- So we can rewrite
+$\rho_{D,E} = \frac{\text{Cov}(r_D, r_E)}{\sigma_D \sigma_E}$, so we can rewrite:
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
-as
+as:
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \rho_{D,E} \sigma_D \sigma_E
 $$
 
 ### Correlations fall between -1 and +1 (inclusive), making them easier to interpret than covariances
 
-- When $\rho = 1$
+- When $\rho_{D,E} = 1$
 $$
 \sigma_P^2 = (w_D \sigma_D + w_E \sigma_E)^2
 $$
-so $\sigma_P = \text{Absolute value}(w_D \sigma_D + w_E \sigma_E)$
+so $\sigma_P = | w_D \sigma_D + w_E \sigma_E |$
 - When $\rho < 1$, we reduce risk through *diversification*
 - When $\rho < 0$, we *substantially* reduce risk through *hedging*
 - When $\rho = -1$
@@ -98,7 +94,7 @@ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 
 ### When allocating capital between risky and risk-free portfolios, investors want the risky portfolio with the highest Sharpe ratio {.allowframebreaks}
 
-- The higher the Sharpe ratio, the higher the expected return corresponding to any level of volatility
+- The higher the Sharpe ratio, the higher the expected return for any level of volatility
 - Recall the Sharpe ratio is the slope of the capital allocation line (CAL)
 - The steepest CAL intersects that optimal risky portfolio
 
@@ -110,7 +106,7 @@ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 $$
 E(r_P) = w_D E(r_D) + w_E E(r_E)
 $$
-and
+and:
 $$
 \sigma_P = \sqrt{w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)}
 $$
@@ -118,7 +114,7 @@ $$
 $$
 \max_{w} S_P = \frac{r_P - r_f}{\sigma_P}\
 $$
-subject to
+subject to:
 $$
 w_D + w_E = 1
 $$
@@ -140,7 +136,7 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
   - Calculate the optimal risky portfolio $P$
   - Calculate its properties
 3. Allocate funds between the risky portfolio and the risk-free asset (capital allocation)
-  - Calculate the fraction of the complete portfolio allocated to $P$
+  - Calculate the fraction $y$ of the complete portfolio allocated to $P$
   - Calculate the share of the complete portfolio invested in each risky and risk-free asset
 
 ## The Markowitz Portfolio Optimization Model
@@ -159,7 +155,7 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
 - Therefore, portfolios of one risky asset are inefficient because diversification lets us build portfolios with lower standard deviations
 - The bottom portion of the minimum-variance frontier is inefficient because the portfolios directly above it have the same standard deviations but higher expected returns
 - The *efficient frontier* of risky assets is the portion of the minimum-variance frontier above the *global minimum-variance portfolio*
-- We can find the portfolio expected return as:
+- We calculate the portfolio expected return as:
 $$
 E(r_P) = \sum_{i=1}^n w_i E(r_i)
 $$
@@ -179,13 +175,13 @@ $$
 
 ### All investors choose their appropriate complete portfolios as before
 
-- Recall:
+Recall:
 $$
 y^* = \frac{E(r_P) - r_f}{A \sigma_P^2}
 $$
-- Here $y^*$ is the optimal weight on the optimal risky portfolio and $A$ is the risk aversion index
+where $y^*$ is the optimal weight on the optimal risky portfolio and $A$ is the risk aversion index
 
-### All investors choose the same optimal risky portfolio, *P*, regardless of their risk aversion
+### All investors choose the same optimal risky portfolio *P*, regardless of their risk aversion $A$
 
 - Risk aversion affects capital allocation, which is choosing $y$
 - Risk aversion *does not* affect finding the optimal risky portfolio, which is choosing $w_i$s
@@ -213,7 +209,7 @@ $$
 $$
 - These simplifications highlight the importance of the covariance of asset returns
   - If $\overline{\text{Cov}} = 0$, $\sigma_p^2 \rightarrow 0$ as $n \rightarrow \infty$
-  - If $\overline{\text{Cov}} > 0$, $\frac{1}{n} \overline{\sigma}^2 \rightarrow 0$ but $\frac{n-1}{n} \overline{\text{Cov}} \rightarrow \overline{\text{Cov}}$ as $n \rightarrow 0$
+  - If $\overline{\text{Cov}} > 0$, $\frac{1}{n} \overline{\sigma}^2 \rightarrow 0$ and $\frac{n-1}{n} \overline{\text{Cov}} \rightarrow \overline{\text{Cov}}$ as $n \rightarrow 0$
   - If all assets have standard deviation $\sigma$ and all asset-pairs have correlation $\rho$, we can express portfolio variance as:
   $$
   \sigma_p^2 = \frac{1}{n} \sigma^2 + \frac{n-1}{n} \rho \sigma^2

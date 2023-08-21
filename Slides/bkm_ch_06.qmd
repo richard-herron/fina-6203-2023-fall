@@ -9,16 +9,16 @@ title: Chapter 6 - Capital Allocation to Risky Assets
 - Speculation is accepting risk because we perceive a favorable risk-return trade-off
 - Gambling is accepting risk because we enjoy it
 
-### Historical data clearly show risky assets earn a risk premium and most investors are risk averse
+### Historical data show risky assets earn a risk premium and most investors are risk averse
 
 - Risk-averse investors 
-	- Reject *fair games* or worse, where fair games are risky investments with zero risk premiums
+	- Reject *fair games*, where fair games are risky investments with zero risk premiums
 	- Consider only risk-free investments or risky investments with positive risk premiums
-- We characterize risk aversion with a "utility function"
+- We characterize risk aversion with a utility function
 	- A commonly-used utility function is $U = E(r) - \frac{1}{2}A\sigma^2$
-	- Here $A$ is a risk-aversion coefficient, and risk aversion increases as $A$ increases
+	- $A$ is a risk-aversion coefficient, and risk aversion increases as $A$ increases
 
-### An investment is more attractive when its expected return is higher and its risk is lower
+### An investment is more attractive when its expected return is high and its risk is low
 
 ![Available risky portfolios (risk-free rate = 2%) [@bodie_investments_2023, Table 6.1]](Figures/table_0601.png){height=50%}
 
@@ -26,11 +26,11 @@ title: Chapter 6 - Capital Allocation to Risky Assets
 
 ### There are three investor types concerning risk
 
-- Risk-averse investors ($A > 0$) consider risky portfolios only if they have a risk premium
-- Risk-neutral investors ($A = 0$) ignore risk and consider only the expected return
-- Risk-loving investors ($A < 0$) accept lower expected returns on risky portfolios with higher amounts of risk 
+- Risk-averse investors ($A > 0$) only consider risky portfolios if they have risk premiums
+- Risk-neutral investors ($A = 0$) ignore risk and only consider expected returns
+- Risk-loving investors ($A < 0$) accept lower expected returns on risky portfolios with higher risk 
 
-### The mean-variance (M-V) criterion helps us rank portfolios {.allowframebreaks}
+### The mean-variance (M-V) criterion ranks portfolios {.allowframebreaks}
 
 The M-V criterion says that portfolio $A$ dominates $B$ if 
 $$
@@ -54,21 +54,21 @@ with at least one strict inequality
 
 ## Portfolios of One Risky Asset and a Risk-Free Asset
 
-### The most basic asset allocation choice is between risk-free and risky assets
+### The most basic asset allocation choice is between risky and risk-free assets
 
-- We can control risk by changing the portfolio weights on risk-free and risky assets (i.e., $1-y$ and $y$)
+- We can control risk by changing the portfolio weights on risky and risk-free assets (i.e., $y$ and $1-y$)
 - Only governments can issue default-free bonds
 	- A security is risk-free with a guaranteed real return only if
 		1. its price is inflation-indexed and
 		1. its maturity equals the investor's holding period
 	- Still, we view U.S. Treasury bills as "the" risk-free asset
-	- Also, a broad range of money market instruments are effectively risk-free
+	- Many money market instruments are effectively risk-free, too
 
 ### The capital allocation line (CAL) plots all available risk-return combinations {.allowframebreaks}
 
 - Consider a portfolio of one risky asset and one risk-free asset
 - Allocate $y$ to risky asset $P$ and $1-y$ to the risk-free asset $F$
-- The return on our complete portfolio $C$ is:
+- The return on complete portfolio $C$ is:
 $$
 r_C = yr_P + (1-y)r_f
 $$
@@ -85,36 +85,36 @@ $$
 
 ### The slope of the CAL is the Sharpe ratio
 
-- The slope $S$ of the CAL is:
+The slope $S$ of the CAL is:
 $$
 S = \frac{\text{rise}}{\text{run}} = \frac{E(r_P) - r_f}{\sigma_P - 0} = \frac{E(r_P) - r_f}{\sigma_P}
 $$
-- So we can write the CAL as:
+so:
 $$
 E(r_P) = r_f + S\sigma_C = r_f + \frac{E(r_P) - r_f}{\sigma_P}\sigma_C
 $$
 
-### We need to borrow to earn $E(r_C) > E(r_P)$ {.allowframebreaks}
+### We borrow to earn $E(r_C) > E(r_P)$ {.allowframebreaks}
 
 - $E(r_C) > E(r_P)$ requires $y > 0$
 - $y > 0$ requires $1-y < 0$
 - $1-y < 0$ is a short position in $F$ (i.e., borrowing or using leverage)
 - The CAL is straight if we borrow at $r_f$ (shown above)
-- However, only the government borrows at $r_f$
-- Instead, investors borrow at $r_f^B > r_f$, so the CAL has a kink at $y=1$ (shown below)
+- Only the government borrows at $r_f$
+- Instead, investors borrow at $r_f^B > r_f$, so the CAL has a kink at $y=1$
 
 ![The investment opportunity set with different borrowing and lending rates [@bodie_investments_2023, Figure 6.4]](Figures/bod12665_0604.png){height=50%}
 
 ## Risk Tolerance and Asset Allocation
 
-### An investor chooses $y$ to maximize her utility {.allowframebreaks}
+### An investor chooses $y$ to maximize utility {.allowframebreaks}
 
-- Recall utility is $U = E(r_C) - \frac{1}{2}A\sigma_C^2$
-- To maximize her utility, the investor solves the following maximization problem
+- Recall $U = E(r_C) - \frac{1}{2}A\sigma_C^2$
+- To maximize utility, the investor solves the following maximization problem:
 $$
 \max_y U =  E(r_C) - \frac{1}{2}A\sigma_C^2 = r_f + y[E(r_P) - r_f] - \frac{1}{2}Ay^2\sigma_P^2
 $$
-and finds
+so:
 $$
 y^* = \frac{E(r_P)- r_f}{A\sigma_P^2}
 $$
@@ -123,9 +123,9 @@ $$
 
 ![Finding the optimal complete portfolio by using indifference curves [@bodie_investments_2023, Figure 6.7]](Figures/bod12665_0607.png){height=50%}
 
-### Our analysis above assumes normality by treating standard deviation as the only measure of risk
+### The normality assumption treats standard deviation as the only measure of risk
 
-- Our analysis above is standard
+- The analysis above is standard
 - Still, we might want also to consider
 	- VaR and ES to estimate exposure to extreme losses
 	- "Black swan" events (i.e., rare but high-impact events)
@@ -134,11 +134,10 @@ $$
 
 ### The capital market line (CML) plots the opportunity set of *passive* strategies {.allowframebreaks}
 
-- The CML is the CAL based on T-bills and a broad index of common stocks
-- We typically use the value-weighted portfolio of all U.S. common stocks as this broad index
+- The CML is the CAL based on T-bills and a broad index of common stocks, typically the value-weighted portfolio of all U.S. common stocks
 - Why are passive strategies reasonable?
-	1. Active strategies require costly research to find and maintain the optimal portfolio, while passive strategies require very little research and trading
-	1. Passive strategies free ride on the research and trading of active strategies, which keep most securities fairly priced
+	1. Active strategies require costly research and trading to find and maintain the optimal portfolio
+	1. Passive strategies free ride on the research and trading of active strategies, which keep securities fairly priced
 
 ![Average annual return on stocks and 1-month T-bills; standard deviation and Sharpe ratio of stocks over time [@bodie_investments_2023, Table 6.7]](Figures/table_0607.png){height=50%}
 
