@@ -15,7 +15,6 @@ title: Chapter 1 - The Investment Environment
 	- Do not directly goods and services
 	- Examples: Stocks and bonds
 
-
 ## Financial Assets
 
 ### There are three broad types of financial assets: fixed income, equity, and derivatives

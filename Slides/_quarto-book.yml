@@ -39,3 +39,6 @@ format:
   pdf:
     number-depth: -2
     toc-depth: 2
+    include-in-header: 
+      text: |
+        \newcommand\framebreak{}
