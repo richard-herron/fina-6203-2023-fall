@@ -9,6 +9,7 @@ title: Chapter 6 - Capital Allocation to Risky Assets
 - Speculation is accepting risk because we perceive a favorable risk-return trade-off
 - Gambling is accepting risk because we enjoy it
 
+
 ### Historical data show risky assets earn a risk premium and most investors are risk averse
 
 - Risk-averse investors 
@@ -18,17 +19,20 @@ title: Chapter 6 - Capital Allocation to Risky Assets
 	- A commonly-used utility function is $U = E(r) - \frac{1}{2}A\sigma^2$
 	- $A$ is a risk-aversion coefficient, and risk aversion increases as $A$ increases
 
+
 ### An investment is more attractive when its expected return is high and its risk is low
 
 ![Available risky portfolios (risk-free rate = 2%) [@bodie_investments_2023, Table 6.1]](Figures/table_0601.png){height=50%}
 
 ![Utility scores of alternative portfolios for investors with varying degrees of risk aversion [@bodie_investments_2023, Table 6.2]](Figures/table_0602.png){height=50%}
 
+
 ### There are three investor types concerning risk
 
 - Risk-averse investors ($A > 0$) only consider risky portfolios if they have risk premiums
 - Risk-neutral investors ($A = 0$) ignore risk and only consider expected returns
 - Risk-loving investors ($A < 0$) accept lower expected returns on risky portfolios with higher risk 
+
 
 ### The mean-variance (M-V) criterion ranks portfolios {.allowframebreaks}
 
@@ -40,17 +44,36 @@ and
 $$\sigma_A \leq \sigma_B$$
 with at least one strict inequality
 
+\framebreak
+
 ![The trade-off between risk and return of a potential investment portfolio, $P$ [@bodie_investments_2023, Figure 6.1]](Figures/bod12665_0601.png){height=50%}
+
 
 ### An *indifference curve* connects all portfolios with the same utility
 
-<!-- TODO keep figures in sections/slides -->
-
 ![The indifference curve [@bodie_investments_2023, Figure 6.2]](Figures/bod12665_0602.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_06_01.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_06_03.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_06_06.png){height=50%}
+
 
 <!-- ## Capital Allocation across Risky and Risk-Free Portfolios -->
 
+
 <!-- ## The Risk-Free Asset -->
+
 
 ## Portfolios of One Risky Asset and a Risk-Free Asset
 
@@ -63,6 +86,7 @@ with at least one strict inequality
 		1. its maturity equals the investor's holding period
 	- Still, we view U.S. Treasury bills as "the" risk-free asset
 	- Many money market instruments are effectively risk-free, too
+
 
 ### The capital allocation line (CAL) plots all available risk-return combinations {.allowframebreaks}
 
@@ -83,6 +107,7 @@ $$
 
 ![The investment opportunity set with a risk asset and risk-free asset in the expected return-standard deviation plane [@bodie_investments_2023, Figure 6.3]](Figures/bod12665_0603.png){height=50%}
 
+
 ### The slope of the CAL is the Sharpe ratio
 
 The slope $S$ of the CAL is:
@@ -94,6 +119,7 @@ $$
 E(r_P) = r_f + S\sigma_C = r_f + \frac{E(r_P) - r_f}{\sigma_P}\sigma_C
 $$
 
+
 ### We borrow to earn $E(r_C) > E(r_P)$ {.allowframebreaks}
 
 - $E(r_C) > E(r_P)$ requires $y > 0$
@@ -104,6 +130,17 @@ $$
 - Instead, investors borrow at $r_f^B > r_f$, so the CAL has a kink at $y=1$
 
 ![The investment opportunity set with different borrowing and lending rates [@bodie_investments_2023, Figure 6.4]](Figures/bod12665_0604.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_06_09.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_06_10.png){height=50%}
+
 
 ## Risk Tolerance and Asset Allocation
 
@@ -123,12 +160,14 @@ $$
 
 ![Finding the optimal complete portfolio by using indifference curves [@bodie_investments_2023, Figure 6.7]](Figures/bod12665_0607.png){height=50%}
 
+
 ### The normality assumption treats standard deviation as the only measure of risk
 
 - The analysis above is standard
 - Still, we might want also to consider
 	- VaR and ES to estimate exposure to extreme losses
 	- "Black swan" events (i.e., rare but high-impact events)
+
 
 ## Passive Strategies: The Capital Market Line
 
@@ -140,6 +179,7 @@ $$
 	1. Passive strategies free ride on the research and trading of active strategies, which keep securities fairly priced
 
 ![Average annual return on stocks and 1-month T-bills; standard deviation and Sharpe ratio of stocks over time [@bodie_investments_2023, Table 6.7]](Figures/table_0607.png){height=50%}
+
 
 ### We can use these historical data to estimate $A$!
 
@@ -157,10 +197,23 @@ A = \frac{0.0887}{0.693 \times 0.2025^2} = 3.12
 $$
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_06.png){height=75%}
+![](./Questions/bkm_ch_06_14.png){height=50%}
 
-### Key equations from @bodie_investments_2023 {.appendix}
 
-![](./Figures/key_eq_06.png){height=75%}
+###
+
+![](./Questions/bkm_ch_06_15.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_06_16.png){height=50%}
+
+
+## Summary and Key Equations {.allowframebreaks}
+
+![Chapter 6 summary from @bodie_investments_2023](./Figures/summary_06.png){height=75%}
+
+![Chapter 6 key equations from @bodie_investments_2023](./Figures/key_eq_06.png){height=75%}

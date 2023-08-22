@@ -11,6 +11,7 @@ title: Chapter 11 - The Efficient Market Hypothesis
 	- For example, as soon as any information indicates that a stock is underpriced, investors flock to buy the stock and immediately bid up its price to a fair level
 	- From this fair level, we only expect ordinary rates of return that compensate for the risk of the stock
 
+
 ### Stock prices should follow a *random walk*
 
 - If stock prices are immediately bid to fair levels that reflect available information, stock prices must only respond to *new* information
@@ -53,6 +54,11 @@ title: Chapter 11 - The Efficient Market Hypothesis
 - Semistrong-form: Stock prices reflect all publicly available information, implying that fundamental analysis is not useful
 - Strong-form: Stock prices reflect all relevant information, including insider information, implying that insider trading is not profitable
 - Under the EMH, prices are correct on average but can be too high or too low in *hindsight*
+
+
+###
+
+![](./Questions/bkm_ch_11_02.png){height=50%}
 
 
 ## Implications of the EMH
@@ -103,6 +109,11 @@ title: Chapter 11 - The Efficient Market Hypothesis
 - However, an efficient market does not have perfect foresight because "available information" is still incomplete information, and the future is not perfectly predictable
 
 
+###
+
+![](./Questions/bkm_ch_11_05.png){height=50%}
+
+
 ## Event Studies
 
 ### An event study is a technique to measure the impact of an event on stock returns
@@ -136,6 +147,16 @@ $$
 ![Cumulative abnormal returns before takeover attempts [@bodie_investments_2023, Figure 11.1]](./Figures/bod12665_1101.png){height=50%}
 
 
+###
+
+![](./Questions/bkm_ch_11_12.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_11_15.png){height=50%}
+
+
 ## Are Markets Efficient?
 
 ### Three issues that keep alive the debate over the EMH
@@ -160,7 +181,11 @@ $$
   - The *reversal effect* is the tendency of poorly performing stocks and well-performing stocks in one period to experience *reversals* in the following periods
   - Overreaction followed by correction causes prices to fluctuate around fair value, making market values more volatile than intrinsic values
 
+\framebreak
+
 ![Real (inflation-adjusted) value of the S&P 500 and two estimates of intrinsic value obtained by discounting future dividends plus terminal value in 2013 based on a constant-growth dividend discount model. Discount rate equals 7.6%, the historical average of real market return since 1871 [@bodie_investments_2023, Figure 11.3]](./Figures/bod12665_1103.png){height=50%}
+
+\framebreak
 
 - An alternative interpretation of Figure 11.3 is that the market risk premium varies over time
 - Therefore, overshooting and correction are rational responses to changes in discount rates
@@ -288,11 +313,13 @@ $$
 - The margin of superiority that any professional manager adds is so slight that the statistician will not easily be able to detect it
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_11.png){height=75%}
+![](./Questions/bkm_ch_11_13.png){height=50%}
 
 
-### Key equations from @bodie_investments_2023 {.appendix}
+## Summary and Key Equations {.allowframebreaks}
 
-![](./Figures/key_eq_11.png){height=75%}
+![Chapter 11 summary from @bodie_investments_2023](./Figures/summary_11.png){height=75%}
+
+![Chapter 11 key equations from @bodie_investments_2023](./Figures/key_eq_11.png){height=75%}

@@ -134,6 +134,21 @@ $$
 ![The SML and a positive-alpha stock. The risk-free rate is 6%, and the market's expected return is 14%, implying a market risk premium of 8% [@bodie_investments_2023, Figure 9.3]](./Figures/bod12665_0903.png){height=50%}
 
 
+###
+
+![](./Questions/bkm_ch_09_01.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_09_05.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_09_07.png){height=50%}
+
+
 ## Assumptions and Extensions of the CAPM
 
 
@@ -208,6 +223,16 @@ $$
 ![The relationship between illiquidity and average returns [@bodie_investments_2023, Figure 9.4]](./Figures/bod12665_0904.png){height=50%}
 
 
+###
+
+![](./Questions/bkm_ch_09_09.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_09_10.png){height=50%}
+
+
 ## Issues in Testing the CAPM
 
 ### Testing the CAPM is surprisingly difficult!
@@ -237,13 +262,20 @@ $$
   1. A means to determine proper prices in regulated industries, allowing shareholders to earn a fair rate of return, but no more
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_09_1.png){height=75%}
-
-![](./Figures/summary_09_2.png){height=75%}
+![](./Questions/bkm_ch_09_13.png){height=50%}
 
 
-### Key equations from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/key_eq_09.png){height=75%}
+![](./Questions/bkm_ch_09_14.png){height=50%}
+
+
+## Summary and Key Equations {.allowframebreaks}
+
+![Chapter 9 summary (1/2) from @bodie_investments_2023](./Figures/summary_09_1.png){height=75%}
+
+![Chapter 9 summary (2/2) from @bodie_investments_2023](./Figures/summary_09_2.png){height=75%}
+
+![Chapter 9 key equations from @bodie_investments_2023](./Figures/key_eq_09.png){height=75%}

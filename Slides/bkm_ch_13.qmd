@@ -103,6 +103,16 @@ $$
 - *There is more to the risk-return relation than the CAPM captures*
 
 
+###
+
+![](./Questions/bkm_ch_13_04.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_13_05.png){height=50%}
+
+
 ## Tests of the Multifactor Models
 
 ### Three types of factors are likely to augment the market risk factor in a multifactor SML
@@ -122,6 +132,8 @@ $$
 	- Higher book-to-market firms experience higher returns (HML)
 	- Smaller firms experience higher returns (SMB)
 - They find that value and size are priced risk factors
+
+\framebreak
 
 ![CAPM versus the Fama and French model. The figure plots the average actual returns versus returns predicted by the CAPM and the FF model for the 25 size and book-to-market double-sorted portfolios. [@bodie_investments_2023, Figure 13.1]](./Figures/bod12665_1301.png){height=50%}
 
@@ -163,6 +175,11 @@ $$
 ### Now we have a "factor zoo"!
 
 ![Published risk factors appear in the finance literature [@bodie_investments_2023, Figure 13.5]](./Figures/bod12665_1305.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_13_01.png)
 
 
 ## Liquidity and Asset Pricing 
@@ -237,11 +254,13 @@ $$
 - Require higher risk premiums than rational models would predict
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_13.png){height=50%}
+![](./Questions/bkm_ch_13_01.png)
 
 
-### Key equations from @bodie_investments_2023 {.appendix}
+## Summary and Key Equations {.allowframebreaks}
 
-![](./Figures/key_eq_13.png){height=50%}
+![Chapter 13 summary from @bodie_investments_2023](./Figures/summary_13.png){height=75%}
+
+![Chapter 13 key equations @bodie_investments_2023](./Figures/key_eq_13.png){height=75%}

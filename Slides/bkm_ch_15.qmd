@@ -25,6 +25,16 @@ title: Chapter 15 - The Term Structure of Interest Rates
 - These yield curves may differ significantly, and the financial press prefers the on-the-run yield curve because on-the-run Treasuries are more liquid than zero-coupon Treasuries
 
 
+###
+
+![](./Questions/bkm_ch_15_01.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_15_02.png){height=50%}
+
+
 ## The Yield Curve and Future Interest Rates
 
 ### In a world without uncertainty, all investors know all future interest rates {.allowframebreaks}
@@ -63,6 +73,16 @@ $$
 $$
 - The forward rate is the break-even interest rate that equates the return on an $n$-period zero-coupon bond to that of an $(n-1)$-period zero-coupon bond rolling over into a 1-year bond in year $n$
 - *When we get to year $n$, we may find $r_n \neq f_n$*
+
+
+###
+
+![](./Questions/bkm_ch_15_09.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_15_10.png){height=50%}
 
 
 ## Interest Rate Uncertainty and Forward Rates
@@ -109,6 +129,7 @@ and an upward-sloping yield curve indicates that investors expect interest rates
   - Investors must compare long and short rates as well as expectations of future rates before deciding where to invest
   - If the liquidity premium were too positive or too negative, investors would rush to the same segment
 
+
 ## Interpreting the Term Structure
 
 ### Yield curve reflects expectations of future short rates and other factors, such as liquidity premiums {.allowframebreaks}
@@ -137,14 +158,24 @@ so $f_{n+1} > y_n$ for an upward-sloping yield curve
   - Nor are forward rates even today's expectation of what the short rate will be
 - Still, the forward rate is a market rate and an important consideration when making decisions, such as locking in loan rates
 
-<!-- TODO: Add a synthetic forward loan problem -->
+
+###
+
+![](./Questions/bkm_ch_15_13.png){height=50%}
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_15.png){height=75%}
+![](./Questions/bkm_ch_15_14.png){height=50%}
 
 
-### Key equations from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/key_eq_15.png){height=75%}
+![](./Questions/bkm_ch_15_15.png){height=50%}
+
+
+## Summary and Key Equations {.allowframebreaks}
+
+![Chapter 15 summary from @bodie_investments_2023](./Figures/summary_15.png){height=75%}
+
+![Chapter 15 key equations from @bodie_investments_2023](./Figures/key_eq_15.png){height=75%}

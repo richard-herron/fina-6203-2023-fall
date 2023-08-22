@@ -18,6 +18,10 @@ project:
 
 format:
   beamer:
+    cite-method: biblatex
+    biblio-style: authoryear
+    biblio-title: References
     section-titles: false
-    innertheme: circles
     slide-level: 3
+    innertheme: circles
+    # fig-cap-location: margin

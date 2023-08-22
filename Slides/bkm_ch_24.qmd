@@ -60,6 +60,7 @@ $$
 
 ![Universe comparison, periods ending December 31, 2028 [@bodie_investments_2023, Figure 24.1]](./Figures/bod12665_2401.png){height=50%}
 
+
 ### There are several popular risk-adjusted performance measures
 
 - **Sharpe ratio** $\left( \frac{\overline{r}_P - \overline{r}_f}{\sigma_P} \right)$: Measures the reward to total risk trade-off
@@ -98,6 +99,7 @@ $$
 S_P^2 = S_M^2 + \left[ \frac{\alpha_H}{\sigma(e_H)} \right]^2
 $$
 
+
 ### When should we apply each risk-adjusted performance measure?
 
 | **Performance Measure** | **Definition**  | **Application**  |
@@ -105,6 +107,7 @@ $$
 | Sharpe | $\frac{\overline{r}_P - \overline{r}_f}{\sigma_P}$ | When choosing among portfolios competing for the overall risky portfolio |
 | Treynor | $\frac{\overline{r}_P - \overline{r}_f}{\beta_P}$ | When ranking many portfolios that will be mixed to form the overall risky portfolio |
 | Information ratio | $\frac{\alpha_P}{\sigma(e_P)}$ | When evaluating a portfolio to be mixed with a diversified benchmark portfolio |
+
 
 ### How does alpha relate to each risk-adjusted performance measure?
 
@@ -116,10 +119,11 @@ $$
 
 ### An application of risk-adjusted performance measures {.allowframebreaks}
 
-![Excess returns for portfolios $P$ and $Q$ and the market index $M$ over 12 months [@bodie_investments_2023, Table 24.2]](./Figures/table_2402.png){height=75%}
+![Excess returns for portfolios $P$ and $Q$ and the market index $M$ over 12 months [@bodie_investments_2023, Table 24.2]](./Figures/table_2402.png){height=50%}
 
-![Performance statistics [@bodie_investments_2023, Table 24.3]](./Figures/table_2403.png){height=75%}
+![Performance statistics [@bodie_investments_2023, Table 24.3]](./Figures/table_2403.png){height=50%}
 
+\framebreak
 
 - If $P$ or $Q$ represents the entire investment, $Q$ is better because of its higher Sharpe ratio
 - If $P$ and $Q$ are potential sub-portfolios, $Q$ remains better because of its higher Treynor ratio
@@ -140,6 +144,36 @@ $$
 - Limiting a sample of funds to those with available returns over an entire sample period introduces *survivorship bias*
 
 
+###
+
+![](./Questions/bkm_ch_24_10.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_24_11.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_24_12.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_24_13.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_24_14.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_24_15.png){height=50%}
+
+
 ## Style Analysis
 
 ### *Style analysis* measures the exposures of managed portfolios to asset classes {.allowframebreaks}
@@ -155,6 +189,7 @@ $$
 ![Fidelity Magellan Fund cumulative return difference: Fund versus style benchmark and fund versus SML benchmark [@bodie_investments_2023, Figure 24.4]](./Figures/bod12665_2404.png){height=50%}
 
 ![Average tracking error for 636 mutual funds, 1985--1989 [@bodie_investments_2023, Figure 24.5]](./Figures/bod12665_2405.png){height=50%}
+
 
 ## Performance Measurement with Changing Portfolio Composition
 
@@ -182,6 +217,7 @@ $$
 
 ![Rankings based on Morningstar's RAR versus Sharpe ratio [@bodie_investments_2023, Figure 24.7]](./Figures/bod12665_2407.png){height=50%}
 
+
 ## Market Timing
 
 ### Market timing is shifting funds between a risky portfolio and a safe asset, depending on expected returns {.allowframebreaks}
@@ -200,6 +236,7 @@ where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets an
 - For both models, $c>0$ indicates market-timing ability, but neither authors found evidence of market-timing ability among managers
 
 ![](./Figures/table_2403_2.png){height=50%}
+
 
 ### What is the potential of perfect market timing?^[Performance of T-bills, equities, and perfect (annual) market timers. Initial investment = $1 (December 31, 1926 to December 31, 2021)]
 
@@ -264,11 +301,23 @@ where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets an
 ![Portfolio attribution: summary [@bodie_investments_2023, Table 24.9]](./Figures/table_2409.png){height=50%}
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_24.png){height=75%}
+![](./Questions/bkm_ch_24_21.png){height=50%}
 
 
-### Key equations from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/key_eq_24.png){height=75%}
+![](./Questions/bkm_ch_24_22.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_24_17.png){height=50%}
+
+
+## Summary and Key Equations {.allowframebreaks}
+
+![Chapter 24 summary from @bodie_investments_2023](./Figures/summary_24.png){height=75%}
+
+![Chapter 24 key equations from @bodie_investments_2023](./Figures/key_eq_24.png){height=75%}

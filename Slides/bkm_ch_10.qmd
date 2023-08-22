@@ -4,18 +4,15 @@ title: Chapter 10 - Arbitrage Pricing Theory and Multifactor Models of Risk and 
 
 ## Multifactor Models: A Preview
 
-
 ### We can decompose stock variability into two sources: market and firm-specific
 
 - Market risk is also known as systematic risk or non-diversifiable risk
 - Firm-specific risk is also known as non-systematic risk, diversifiable risk, or idiosyncratic risk
 - However, risk premiums may depend on correlations with extra-market risk factors (e.g., inflation, interest rates, and volatility)
 
-### *Single-factor*  models allow two sources of uncertainty in asset returns {.allowframebreaks}
 
-- These two sources of uncertainty in asset returns are
-	- Common or macroeconomic surprises
-	- Firm-specific surprises
+### *Single-factor* models allow two sources of uncertainty in asset returns
+
 - *Single-factor* models of excess returns have the form:
 $$
 R_i = E(R_i) + \beta_i F + e_i
@@ -51,6 +48,7 @@ where $\beta_{i\text{GDP}}$ and $\beta_{i\text{IR}}$ are the *factor loadings* o
   1. A factor model can describe security returns
   1. There are sufficient securities to diversify away the idiosyncratic risk
   1. Well-functioning security markets do not allow for the persistence of arbitrage opportunities
+
 
 ###  An arbitrage opportunity exists when an investor can earn a riskless profit without making a net investment
 
@@ -88,17 +86,34 @@ $$
 R_P = E(R_P) + \beta_P F
 $$
 
+\framebreak
 
 ![Excess returns as a function of the systematic factor: Panel A, Well-diversified portfolio A; Panel B, Single stock S [@bodie_investments_2023, Figure 10.2]](./Figures/bod12665_1002.png){height=50%}
 
 
-## Only systematic or factor risk should be related to portfolio expected returns
+### Only systematic or factor risk should be related to portfolio expected returns
 
 ![Returns as a function of the systematic factor: An arbitrage opportunity [@bodie_investments_2023, Figure 10.3]](./Figures/bod12665_1003.png){height=50%}
 
-## Risk premiums must be proportional to betas
+
+### Risk premiums must be proportional to betas
 
 ![An arbitrage opportunity [@bodie_investments_2023, Figure 10.4]](./Figures/bod12665_1004.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_10_01.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_10_02.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_10_03.png){height=50%}
 
 
 ## APT and CAPM
@@ -117,6 +132,21 @@ $$
 		- Cannot rule out a violation of the expected return-beta relationship for any particular asset
 		- Does not assume investors are mean-variance optimizers
 		- Uses an observable market index
+
+
+###
+
+![](./Questions/bkm_ch_10_06.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_10_08.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_10_09.png){height=50%}
 
 
 ## A Multifactor APT
@@ -145,9 +175,12 @@ where:
 - @fama_common_1993 chose SMB and HML because size and the book-to-market ratio predict deviations of average stock returns from CAPM levels
 - SMB and HML are not obvious candidates for risk factors, but may proxy hard-to-measure fundamental variables
 
+
 ### Estimating and implementing a three-factor SML for U.S. Steel {.allowframebreaks}
 
 ![Estimates of single-index and three-factor Fama-French regressions for U.S. Steel, monthly data, 5 years ending in 2021 [@bodie_investments_2023, Table 10.1]](./Figures/table_1001.png){height=50%}
+
+\framebreak
 
 - The three-factor model predicts:
 $$
@@ -183,10 +216,23 @@ $$
 	- Volatility, liquidity, and dividend yield
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_10.png){height=75%}
+![](./Questions/bkm_ch_10_10.png){height=50%}
 
-### Key equations from @bodie_investments_2023 {.appendix}
 
-![](./Figures/key_eq_10.png){height=75%}
+###
+
+![](./Questions/bkm_ch_10_11.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_10_12.png){height=50%}
+
+
+## Summary and Key Equations {.allowframebreaks}
+
+![Chapter 10 summary from @bodie_investments_2023](./Figures/summary_10.png){height=75%}
+
+![Chapter 10 key equations from @bodie_investments_2023](./Figures/key_eq_10.png){height=75%}

@@ -13,15 +13,33 @@ title: Chapter 7 - Efficient Diversification
   - Eliminated by diversification
   - Also called idiosyncratic risk, diversifiable risk, or nonsystematic risk
 
+
 ### Portfolio risk decreases as we increase the number of (diversified) stocks in a portfolio
 
 ![Portfolio risk as a function of the number of stocks in the portfolio. *Panel A:* All risk is firm-specific. *Panel B:* Some risk is systematic, or marketwide [@bodie_investments_2023, Figure 7.1]](./Figures/bod12665_0701.png){height=50%}
+
 
 ### The *insurance principle* reduces risk by spreading exposure across many independent risk sources
 
 @bodie_investments_2023 [page 202]:
 
 > An insurance company depends on such diversification when it writes many policies insuring against many uncorrelated sources of risk, each policy being a small part of the company's overall portfolio.
+
+
+###
+
+![](./Questions/bkm_ch_07_02.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_03.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_04.png){height=50%}
+
 
 ## Portfolios of Two Risky Assets
 
@@ -41,6 +59,7 @@ $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
 
+
 ### We can rewrite $\sigma_P^2$ as a *border-multiplied* covariance matrix {.allowframebreaks}
 
 $\text{Cov}(r_D, r_D)= \sigma_D^2$, so we can rewrite
@@ -55,6 +74,7 @@ which is a *border-multiplied* covariance matrix
 
 ![Computation of portfolio variance from the covariance matrix [@bodie_investments_2023, Table 7.2]](./Figures/table_0702.png){height=50%}
 
+
 ### We can rewrite $\sigma_P^2$ in terms of correlations
 
 $\rho_{D,E} = \frac{\text{Cov}(r_D, r_E)}{\sigma_D \sigma_E}$, so we can rewrite:
@@ -65,6 +85,7 @@ as:
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \rho_{D,E} \sigma_D \sigma_E
 $$
+
 
 ### Correlations fall between -1 and +1 (inclusive), making them easier to interpret than covariances
 
@@ -89,6 +110,27 @@ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 ![Portfolio standard deviation as a function of investment proportions [@bodie_investments_2023, Figure 7.4]](./Figures/bod12665_0704.png){height=50%}
 
 ![Portfolio expected return as a function of standard deviation [@bodie_investments_2023, Figure 7.5]](./Figures/bod12665_0705.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_06.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_07.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_08.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_12.png){height=50%}
+
 
 ## Asset Allocation with Stocks, Bonds, and Bills
 
@@ -120,6 +162,7 @@ w_D + w_E = 1
 $$
 - The solution to this maximization problem is:
 $$
+\scriptstyle
 w_D = \frac{E(R_D)\sigma_E^2 - E(R_E)\text{Cov}(R_D,R_E)}{E(R_D)\sigma_E^2 + E(R_E)\sigma_D^2 - [E(R_D) + E(R_E)]\text{Cov}(R_D,R_E)}
 $$
 where $R$s indicate *excess* returns and $w_E=1-w_D$
@@ -128,6 +171,7 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
 ### The optimal *complete* portfolio, given the optimal *risky* portfolio and its CAL, depends on investor risk aversion
 
 ![Determination of the optimal complete portfolio [@bodie_investments_2023, Figure 7.9]](./Figures/bod12665_0708.png){height=50%}
+
 
 ### Putting it all together: How to find the complete portfolio
 
@@ -139,6 +183,27 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
   - Calculate the fraction $y$ of the complete portfolio allocated to $P$
   - Calculate the share of the complete portfolio invested in each risky and risk-free asset
 
+
+###
+
+![](./Questions/bkm_ch_07_18.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_19.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_20.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_07_25.png){height=50%}
+
+
 ## The Markowitz Portfolio Optimization Model
 
 ### Markowitz provides a more general solution to finding the complete portfolio
@@ -146,6 +211,7 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
 1. Find the risk-return combinations of the risky assets
 1. Find the optimal risky portfolio, which has the steepest CAL
 1. Find the appropriate complete portfolio by mixing the risk-free asset with the optimal risky portfolio
+
 
 ### The *minimum-variance frontier* of risky assets plots the portfolio with the lowest variance for a given expected return {.allowframebreaks}
 
@@ -168,6 +234,7 @@ $$
   - $n$ forecasts of $\text{Var}(r_i)$
   - $\frac{n^2 - n}{2}$ forecasts of $\text{Cov}(r_i, r_j)$
 
+
 ### The CAL with the optimal portfolio *P* is tangent to the efficient frontier {.allowframebreaks}
 
 ![The efficient frontier of risky assets with the optimal CAL [@bodie_investments_2023, Figure 7.11]](/Figures/bod12665_0711.png){height=50%}
@@ -181,6 +248,7 @@ y^* = \frac{E(r_P) - r_f}{A \sigma_P^2}
 $$
 where $y^*$ is the optimal weight on the optimal risky portfolio and $A$ is the risk aversion index
 
+
 ### All investors choose the same optimal risky portfolio *P*, regardless of their risk aversion $A$
 
 - Risk aversion affects capital allocation, which is choosing $y$
@@ -188,6 +256,7 @@ where $y^*$ is the optimal weight on the optimal risky portfolio and $A$ is the 
 - This result is a *separation property*, which separates the portfolio choice into two *independent* tasks
   1. Find the optimal risky portfolio, which is the same, regardless of risk aversion
   1. Allocate capital, which depends on risk aversion
+
 
 ### The risk of a highly diversified portfolio depends on the covariance of asset returns {.allowframebreaks}
 
@@ -216,6 +285,7 @@ $$
   $$
   and draw the same conclusions
 
+
 ## Risk Pooling, Risk Sharing, and Time Diversification
 
 ### Risk sharing complements risk pooling
@@ -231,15 +301,14 @@ $$
 $$
 - Therefore, true diversification requires allocating a given investment budget across a large number of different assets, limiting exposure to any one asset
 
+
 ### Longer horizons alone do not reduce risk
 
 ![Investment risk for different horizons [@bodie_investments_2023, Table 7.5]](/Figures/table_0705.png){height=50%}
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+## Summary and Key Equations {.allowframebreaks}
 
-![](./Figures/summary_07.png){height=75%}
+![Chapter 7 summary from @bodie_investments_2023](./Figures/summary_07.png){height=75%}
 
-### Key equations from @bodie_investments_2023 {.appendix}
-
-![](./Figures/key_eq_07.png){height=75%}
+![Chapter 7 key equations from @bodie_investments_2023](./Figures/key_eq_07.png){height=75%}

@@ -118,6 +118,16 @@ $$
 $$
 
 
+###
+
+![](./Questions/bkm_ch_14_09.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_14_10.png){height=50%}
+
+
 ## Bond Yields
 
 ### Yield to maturity (YTM) is the interest rate that equates the present value of bond payments and market price
@@ -162,9 +172,13 @@ $$
 	1. Reinvestment rate risk: When rates rise, reinvestment rates rise
 - Chapter 16 discusses how bond investors manage these risks
 
-<!-- TODO: Add an example problem and double-check this slide -->
 
 <!-- ![Growth of invested funds [@bodie_investments_2023, Figure 14.5]](./Figures/bod12665_1405.png){height=50%} -->
+
+
+###
+
+![](./Questions/bkm_ch_14_12.png){height=50%}
 
 
 ## Bond Prices over Time
@@ -199,6 +213,16 @@ $$
 ![The price of a 30-year zero-coupon bond over time at a yield to maturity of 10%. Price equals $\$1,000/(1.10)^T$, where $T$ is time until maturity. [@bodie_investments_2023, Figure 14.7]](./Figures/bod12665_1407.png){height=50%}
 
 
+###
+
+![](./Questions/bkm_ch_14_14.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_14_15.png){height=50%}
+
+
 ## Default Risk and Bond Pricing
 
 ### Bonds *promise* a fixed flow of income, which is not guaranteed unless the issuer cannot default
@@ -216,13 +240,7 @@ $$
 ![Definitions of each bond rating class [@bodie_investments_2023, Figure 14.8]](./Figures/bod12665_1408.png){height=50%}
 
 
-### Bond rating agencies analyze the levels and trends of issuer financial ratios {.allowframebreaks}
-
-- Coverage ratios
-- Leverage (e.g., debt-to-equity) ratios
-- Liquidity ratios
-- Profitability ratios
-- Cash flow-to-debt ratio
+### Bond rating agencies analyze the levels and trends of issuer financial ratios 
 
 ![Financial ratios by rating class [@bodie_investments_2023, Table 14.3]](./Figures/table_1403.png){height=50%}
 
@@ -278,11 +296,23 @@ $$
 ![Collateralized debt obligations [@bodie_investments_2023, Figure 14.13]](./Figures/bod12665_1413.png){height=50%}
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_14.png){height=75%}
+![](./Questions/bkm_ch_14_21.png){height=50%}
 
 
-### Key equations from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/key_eq_14.png){height=75%}
+![](./Questions/bkm_ch_14_22.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_14_25.png){height=50%}
+
+
+## Summary and Key Equations {.allowframebreaks}
+
+![Chapter 14 summary from @bodie_investments_2023](./Figures/summary_14.png){height=75%}
+
+![Chapter 14 key equations from @bodie_investments_2023](./Figures/key_eq_14.png){height=75%}

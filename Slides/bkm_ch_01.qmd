@@ -26,6 +26,14 @@ title: Chapter 1 - The Investment Environment
 	- Currencies
 	- Commodities
 
+###
+
+![](./Questions/bkm_ch_01_04.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_01_05.png){height=50%}
+
 
 ## Financial Markets and the Economy
 
@@ -86,6 +94,13 @@ title: Chapter 1 - The Investment Environment
 	- Active: Searches for mispriced securities
 	- Passive: Holds a highly diversified portfolio instead of searching for mispriced securities
 
+###
+
+![](./Questions/bkm_ch_01_09.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_01_10.png){height=50%}
 
 ## The Players
 
@@ -127,6 +142,6 @@ title: Chapter 1 - The Investment Environment
 - We plan to cover most of Parts 1, 2, 3, and 4, plus Chapter 24
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+## Summary
 
-![](./Figures/summary_01.png){height=75%}
+![Chapter 1 summary from @bodie_investments_2023](./Figures/summary_01.png){height=75%}

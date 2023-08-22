@@ -32,13 +32,13 @@ book:
     - part: Part VII - Applied Portfolio Management
       chapters:
       - bkm_ch_24.qmd
-  # appendices:
-  #   - references.qmd
+    - references.qmd
 
 format:
   pdf:
     number-depth: -2
     toc-depth: 2
+    fig-cap-location: margin
     include-in-header: 
       text: |
         \newcommand\framebreak{}

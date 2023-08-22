@@ -16,9 +16,16 @@ title: Chapter 2 - Asset Classes and Financial Instruments
 - Brokers' Calls
 - London Interbank Offered Rate (LIBOR), which the Secured Overnight Financing Rate (SOFR) will replace in the U.S.
 
+
 ### Money market securities are low-risk but not risk-free, so they have higher yields than T-bills
 
 ![Spread between federal funds rate and T-bill rate [@bodie_investments_2023, Figure 2.2]](./Figures/bod12665_0202.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_02_13.png){height=50%}
+
 
 ## The Bond Market
 
@@ -36,9 +43,11 @@ title: Chapter 2 - Asset Classes and Financial Instruments
 	- Corporate bonds
 	- Mortgage and asset-backed securities
 
+
 ### T-bond & T-note quotes are per $100 of face and yields are twice the semiannual yield
 
 ![Listing of Treasury bonds and notes [@bodie_investments_2023, Figure 2.3]](./Figures/bod12665_0203.png){height=50%}
+
 
 ### Municipal bond interest income is tax-exempt in the U.S., so investors accept lower yields
 
@@ -52,9 +61,21 @@ $$
 t = 1 - \frac{r_{muni}}{r_{taxable}}
 $$
 
+
 ### The ratio of yields on municipal to Baa-rated corporate bonds varies over time
 
 ![Ratio of yields on municipal debt to corporate Baa-rated debt [@bodie_investments_2023, Figure 2.5]](./Figures/bod12665_0205.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_02_03.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_02_06.png){height=50%}
+
 
 ## Equity Securities
 
@@ -66,6 +87,7 @@ $$
 	- The board motivates and monitors these managers to act in the best interest of owners
 - Owners share proportionally in corporate profits via dividends
 
+
 ### Common stock is a residual claim on the corporation with limited liability
 
 - "Residual claim" means that stockholders are last in line to claim
@@ -75,9 +97,11 @@ $$
 - "Limited liability" means that stockholders cannot lose more than their initial investment
 	- Limited liability is in contrast to owners of unincorporated firms, whose creditors can claim owner personal assets
 
+
 ### Common stock quotes are per share and provide other salient information
 
 ![Listing of stocks traded on the New York Stock Exchange [@bodie_investments_2023, Figure 2.8]](./Figures/bod12665_0208.png){height=50%}
+
 
 ### Preferred stock is a hybrid security with features similar to bonds and equity
 
@@ -90,10 +114,12 @@ $$
 	- Preferred dividends are not a tax-deductible expense for the paying firm
 	- Preferred dividends are a partially tax-deductible income for the receiving firm
 
+
 ### American Depositary Receipts (ADRs) trade in the U.S. and represent shares of a foreign corporation
 
 - ADRs make it easier for foreign corporations to meet U.S. security registration requirements
 - ADRs are the most common way for U.S. investors to invest in shares of foreign corporations directly
+
 
 ## Stock and Bond Market Indexes
 
@@ -106,6 +132,7 @@ $$
 - The DJIA is no longer the average share price to avoid jumps in the index following stock splits, large dividends, and new stocks
 - Instead, the DJIA is the sum of prices divided by a divisor, adjusted after events to keep the same index level
 
+
 ### The S&P 500 stock index is a market-value-weighted index of 500 large stocks
 
 - The S&P 500 provides 2 advantages over the DJIA
@@ -117,6 +144,7 @@ $$
 	- Market-value-weighted: Portfolio of investment in each stock proportional to market capitalization
 	- *Neither is a total return index that accounts for dividends*
 
+
 ### There are many other indexes!
 
 - Russell Indexes are market-value-weighted indexes of several slices of the 4,000 largest stocks by market capitalization
@@ -126,6 +154,17 @@ $$
 	- However, equal-weighted indexes must rebalance every period to get back to equal portfolio weights (i.e., $\frac{1}{N}$)
 - Foreign and international stock market indexes
 - Bond indexes, although bond indexes are difficult to calculate because bonds trade less frequently than stocks
+
+
+###
+
+![](./Questions/bkm_ch_02_10.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_02_11.png){height=50%}
+
 
 ## Derivatives Markets
 
@@ -139,10 +178,9 @@ $$
 	- A futures contract is an obligation to deliver a specific asset at a specific delivery date (maturity date) at a specific price (futures price)
 	- The long position commits to purchase, and the short position commits to sell
 
-### Summary from @bodie_investments_2023 {.appendix}
 
-![](./Figures/summary_02.png){height=75%, fig-align="center"}
+## Summary and Key Equations {.allowframebreaks}
 
-### Key equations from @bodie_investments_2023 {.appendix}
+![Chapter 2 summary from @bodie_investments_2023](./Figures/summary_02.png){height=75%}
 
-![](./Figures/key_eq_02.png){height=75%, fig-align="center"}
+![Chapter 2 key equations from @bodie_investments_2023](./Figures/key_eq_02.png){height=75%}

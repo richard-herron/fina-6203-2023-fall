@@ -16,6 +16,17 @@ $$
 \text{Net asset value} = \frac{\text{Market value of assets} - \text{Liabilities}}{\text{Shares outstanding}}
 $$
 
+
+###
+
+![](./Questions/bkm_ch_04_07.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_04_08.png){height=50%}
+
+
 ## Types of Investment Companies
 
 ### Unit investment trusts are pools of money invested in a portfolio that is fixed for the life of the fund
@@ -27,11 +38,13 @@ $$
 - Investors may sell their shares back to the trust at NAV
 - Unmanaged funds have steadily lost market share to managed funds over the past few decades
 
+
 ### There are two types of managed funds: Closed-end and open-end
 
 - Shareholders elect a board of directors, who hire a management company
 - Management fees range from 0.2% to 1.25% of assets
 - For example, Fidelity Management and Research Corporation sponsors many Fidelity mutual funds and is responsible for managing the portfolios
+
 
 ### Open-end and closed-end funds have different structures
 
@@ -41,9 +54,11 @@ $$
 	- Do not redeem or issue shares
 	- Instead, shares trade on stock exchanges like other stocks
 
+
 ### Closed-end fund prices may trade at a premium or discount to NAV
 
 ![Closed-end mutual funds [@bodie_investments_2023, Figure 4.1]](Figures/bod12665_0401.png){height=50%}
+
 
 ### Exchange-traded funds (ETFs) combine features of open-end and closed-end funds
 
@@ -52,6 +67,7 @@ $$
 - Since 1993, unmanaged ETFs have tracked indexes, providing exposure to particular markets or sectors
 - Since 2008, managed ETFs have been available
 - ETFs have gained popularity due to their low costs and flexibility for investors
+
 
 ### Other investment companies include commingled funds, real estate investment trusts (REITs), and hedge funds
 
@@ -66,12 +82,14 @@ $$
 	- Hedge funds have more flexibility in investment strategies and can use leverage and derivatives
 	- Hedge funds often charge returns-based performance fees
 
+
 ## Mutual Funds
 
 ### Mutual funds are the common name for open-end funds and account for about 80% of investment company assets
 
 - Each mutual fund has a specified investment policy
 - Management companies often manage a family of mutual funds, making it easy for investors to allocate assets across market sectors and move assets across funds while benefiting from centralized record keeping
+
 
 ### Mutual funds are commonly classified by investment policy
 
@@ -84,6 +102,7 @@ $$
 - Asset allocation and flexible funds
 - Index funds
 
+
 ### Money market funds invest in money market securities, such as Treasury bills, commercial paper, repurchase agreements, and CDs
 
 - Average maturity of these investments is about one month
@@ -92,6 +111,7 @@ $$
 	- Prime funds hold commercial paper or bank CDs
 	- Government funds hold short-term U.S. Treasury or agency securities
 
+
 ### Equity funds invest primarily in stock but may also hold fixed-income or other types of securities
 
 - For example, equity funds typically hold a small fraction of assets in money market securities to provide liquidity to meet share redemptions
@@ -99,9 +119,11 @@ $$
 	- *Income funds* hold shares of firms with consistently high dividend yields
 	- *Growth funds* focus on capital gains and are typically riskier than income funds
 
+
 ### *Sector funds* focus on an industry or country
 
 For example, Fidelity has many "select funds" that invest in a specific industry, such as biotechnology, utilities, energy, or telecommunications
+
 
 ### Bonds funds specialize in the fixed-income sector
 
@@ -109,12 +131,14 @@ For example, Fidelity has many "select funds" that invest in a specific industry
 - Some municipal bond funds invest only in bonds of a particular state or city!
 - Other funds specialize by maturity or credit risk
 
+
 ### International funds invest outside the U.S.
 
 - International funds invest in securities of firms located outside the U.S.
 - Global funds invest in securities worldwide, including the U.S.
 - Regional funds invest in a particular part of the world
 - Emerging market funds invest in companies of developing nations
+
 
 ### Balanced funds are designed to be a complete investment portfolio
 
@@ -124,10 +148,12 @@ For example, Fidelity has many "select funds" that invest in a specific industry
 	- Targeted-maturity funds gradually become more conservative as the investor ages
 - Many balanced funds are *funds of funds* that invest in shares of other mutual funds
 
+
 ### Asset allocation and flexible funds hold stocks and bonds but may vary their proportions
 
 - The proportions vary based on forecasts of relative performance 
 - Therefore, these funds are engaged in market timing and are not designed to be low-risk (or low-fee) investments
+
 
 ### Index funds try to match the performance of a broad market index
 
@@ -136,9 +162,11 @@ For example, Fidelity has many "select funds" that invest in a specific industry
 - Index funds provide a low-cost way for small investors to pursue a passive investment strategy
 - Index funds can be tied to non-equity indexes, too
 
+
 ### U.S. mutual funds by investment classification
 
 ![U.S. mutual funds by investment classification [@bodie_investments_2023, Table 4.1]](Figures/table_0401.png){height=50%}
+
 
 ## Costs of Investing in Mutual Funds
 
@@ -151,15 +179,26 @@ For example, Fidelity has many "select funds" that invest in a specific industry
 	- 12b-1 charges are fees on 12b-1 funds that cover advertising, reports, and broker commissions
 	- Alternatively, investors may hire fee-only financial managers who charge directly for services instead of collecting commissions
 
+
 ### The mutual fund rate of return is the change in NAV plus income and capital gains distributions, expressed as a fraction of the beginning NAV
 
 $$
 \text{Rate of return} = \frac{\text{NAV}_1 - \text{NAV}_0 + \text{Inc.\ and cap.\ gain dist.}}{\text{NAV}_0}
 $$
 
+
 ### Fees can have a big effect on performance!
 
 ![Impact of costs on investment performance [@bodie_investments_2023, Table 4.2]](Figures/table_0402.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_04_09.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_04_12.png){height=50%}
+
 
 ## Taxation of Mutual Fund Income
 
@@ -174,6 +213,7 @@ $$
 	- Capital gains and losses are constantly realized in high-turnover funds
 	- Index funds may have turnover as low as 2%, which is tax-efficient and has low trading costs
 
+
 ## Exchange-Traded Funds
 
 ### ETFs let investors trade portfolios as they would shares of stock
@@ -182,6 +222,7 @@ $$
 - ETFs trade throughout the day at market prices, while mutual funds only trade  at the end of the day at NAVs
 - Starting in 2008, the SEC approved actively managed ETFs, often called *smart beta* funds
 - Exchange-traded notes (ETNs) and exchange-traded vehicles (ETVs) provide payoffs linked to indexes but invest in "total return swaps" instead of the underlying assets, providing liquidity to thinly traded asset classes
+
 
 ### ETFs offer advantages and disadvantages relative to mutual funds
 
@@ -192,11 +233,18 @@ $$
 	- Prices may depart from NAVs
 	- Purchases may involve a broker commission
 
+
+###
+
+![](./Questions/bkm_ch_04_04.png){height=50%}
+
+
 ## Mutual Fund Investment Performance: A First Look
 
 ### The asset-weighted average return on U.S. equity mutual funds was below the Wilshire 5000 index fund in 30 of 50 years between 1971 and 2020
 
 ![Rates of return on actively managed U.S. equity funds versus Wilshire 5000 index, 1971-2020 [@bodie_investments_2023, Figure 4.4]](Figures/bod12665_0404.png){height=50%}
+
 
 ## Information on Mutual Funds
 
@@ -204,6 +252,17 @@ $$
 
 ![Morningstar report [@bodie_investments_2023, Figure 4.5]](Figures/bod12665_0405.png){height=50%}
 
-### Summary from @bodie_investments_2023 {.appendix}
 
-![](./Figures/summary_04.png){height=75%, fig-align="center"}
+###
+
+![](./Questions/bkm_ch_04_13.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_04_14.png){height=50%}
+
+
+## Summary
+
+![Chapter 4 summary from @bodie_investments_2023](./Figures/summary_04.png){height=75%}

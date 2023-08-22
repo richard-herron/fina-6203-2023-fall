@@ -22,6 +22,7 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 - Information processing errors: Investors do not always process information correctly and, therefore, infer incorrect probability distributions of future returns
 - Behavioral biases: Even when given the correct probability distribution of returns, investors may make inconsistent or suboptimal decisions
 
+
 ### Information processing errors: People have limited capacity to process information {.allowframebreaks}
 
 - Limited attention, underreaction, and overreaction
@@ -42,6 +43,7 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 	- People are good at finding patterns, including patterns that are not these
 	- Representativeness bias:  Act as if a small sample is just as informative as a large sample
 	- May explain momentum
+
 
 ### Behavioral biases: Even with perfect information processing, people tend to make irrational decisions {.allowframebreaks}
 
@@ -146,6 +148,16 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 - Bottom line: We should not expect risk-adjusted profits from behavioral finance, but it still provides a useful list of common errors we should avoid as investors and managers
 
 
+###
+
+![](./Questions/bkm_ch_12_01.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_12_04.png){height=50%}
+
+
 ## Technical Analysis and Behavioral Finance
 
 ### Technical analysis attempts to exploit predictable patterns in stock prices
@@ -196,6 +208,7 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 	- With fast trades and low trading costs, a slight edge grows exponentially!
 	- Medallion no longer has outside investors, suggesting that these coins with a slight edge are in limited supply
 
+
 ### *Sentiment* is the general level of optimism {.allowframebreaks}
 
 - Trin statistic 
@@ -226,6 +239,31 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 ![Actual and simulated changes in weekly stock prices for 52 weeks [@bodie_investments_2023, Figure 12.7]](./Figures/bod12665_1207.png){height=50%}
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+###
 
-![](./Figures/summary_12.png){height=75%}
+![](./Questions/bkm_ch_12_12.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_12_13.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_12_14.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_12_15.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_12_15.png){height=50%}
+
+
+## Summary
+
+![Chapter 12 summary from @bodie_investments_2023](./Figures/summary_12.png){height=75%}

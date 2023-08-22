@@ -10,6 +10,7 @@ $$
 \text{HPR} = \frac{\text{Ending price of a share} - \text{Beginning price} + \text{Cash dividend}}{\text{Beginning price}}
 $$
 
+
 ### We typically express HPRs as effective annual rates (EARs) to simplify comparisons
 
 The HPR $r_T$ over $T$ years is:
@@ -21,6 +22,7 @@ $$
 \text{EAR} = (1 + r_T)^{1/T} - 1
 $$
 
+
 ### Rates on short-term investments are often annualized with simple interest instead of compound interest, called annual percentage rate (APR)
 
 The relation between EAR and APR is:
@@ -31,6 +33,7 @@ where $n$ is the number of compounding periods per year, so:
 $$
 \text{APR} = n \times [(1 + \text{EAR})^{1/n} - 1]
 $$
+
 
 ### If we compound continuously, $n \rightarrow \infty$
 
@@ -44,7 +47,11 @@ $$
 $$
 where $\ln(\cdot)$ is the natural log
 
-<!-- TODO add compounding problems -->
+
+###
+
+![](./Questions/bkm_ch_05_05.png){height=50%}
+
 
 ## Interest Rates and Inflation Rates
 
@@ -72,9 +79,21 @@ $$
 r_{nom}(1-t)-i \approx (r_{real}+i)(1-t)-i=r_{real}(1-t)-it
 $$
 
+
+###
+
+![](./Questions/bkm_ch_05_02.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_05_03.png){height=50%}
+
+
 ### The Fisher equation predicts that the nominal interest rate should track the (expected) inflation rate, leaving the real rate relatively stable
 
 ![Statistics for T-bill rates, inflation rates, and real rates, 1927-2021 [@bodie_investments_2023, Table 5.3]](Figures/table_0503.png){height=50%}
+
 
 ## Risk and Risk Premiums
 
@@ -84,6 +103,7 @@ Recall:
 $$
 \text{HPR} = \frac{\text{Ending price of a share} - \text{Beginning price} + \text{Cash dividend}}{\text{Beginning price}}
 $$
+
 
 ### The future is uncertain {.allowframebreaks}
 
@@ -99,7 +119,6 @@ $$
 $$
 - In practice, we use the square root of the variance of returns (i.e., $\sigma = \sqrt{\sigma^2}$), which is the standard deviation of returns and has the same units as returns (i.e., % instead of %\textsuperscript{2})
 
-<!-- TODO Add return and risk problems -->
 
 ### We compare risky investment returns to the risk-free rate
 
@@ -107,6 +126,7 @@ $$
 - The *excess return* is the difference between the *realized* rate of return and the risk-free rate
 - Investors are risk averse and require positive risk premiums to hold risky investments
 - *However, after the fact, excess returns may be negative*
+
 
 ### The Sharpe ratio is a reward-to-volatility ratio
 
@@ -118,6 +138,23 @@ $$
 $$
 - We multiply the numerator by $T$ and the denominator by $\sqrt{T}$ to annualize the Sharpe ratio (e.g., $T=12$ for monthly returns, and $T=252$ for daily returns)
 
+
+###
+
+![](./Questions/bkm_ch_05_11.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_05_13.png){height=50%}
+
+
+## The Normal Distribution
+###
+
+![](./Questions/bkm_ch_05_20.png){height=50%}
+
+
 ## The Normal Distribution
 
 ### We typically assume that market returns are normally distributed {.allowframebreaks}
@@ -125,6 +162,7 @@ $$
 ![Frequency distribution of monthly rate of return on the broad market index, 1927-2020 [@bodie_investments_2023, Figure 5.3]](Figures/bod12665_0503.png){height=50%}
 
 ![The normal distribution with mean 10% and standard deviation 20% [@bodie_investments_2023, Figure 5.4]](Figures/bod12665_0504.png){height=50%}
+
 
 ### This normally-distributed returns assumption is not perfect, but it has a few advantages
 
@@ -157,8 +195,8 @@ $$
 - Kurtosis values greater than zero indicate "fat tails," where extreme outcomes are more likely than for normal distributions
 - Kurtosis raises deviations to the fourth power, so kurtosis is more sensitive to outliers than the variance
 
-
 ![Normal and fat-tailed distributions (mean = 10%, SD = 20%) [@bodie_investments_2023, Figure 5.6]](Figures/bod12665_0506.png){height=50%}
+
 
 ### There are four common measures of downside risk
 
@@ -167,6 +205,7 @@ $$
 1. Lower partial standard deviation (LPSD) is the standard deviation of *negative* excess returns
 	- The Sortino ratio is the ratio of the mean excess return to the LPSD (i.e., the Sharpe ratio with the LPSD instead of the SD)
 1. Relative frequency of large, negative 3-sigma returns calculates the percent of returns more than 3 SDs below the mean
+
 
 ## Learning from Historical Records
 
@@ -182,6 +221,7 @@ E(r) = \sum_{s=1}^n p(s)r(s) = \frac{1}{n} \sum_{s=1}^n r(s)
 $$
 which is the *arithmetic* average
 
+
 ### Arithmetic average versus geometric average 
 
 - The *arithmetic* average is an unbiased estimate of the *expected* return
@@ -195,6 +235,7 @@ $$
 E[\text{Geometric average}] = E[\text{Arithmetic average}] - \frac{\sigma^2}{2}
 $$
 
+
 ### Estimating return variance and standard deviation
 
 - With historical data, we treat each observation as an equally likely scenario, so we use an equal probability of $p(s) = \frac{1}{n}$ for each scenario $s$
@@ -205,6 +246,27 @@ $$
 \hat{\sigma} = \sqrt{\frac{1}{n-1} \sum_{s=1}^n [r(s) - \bar{r}]^2}
 $$
 
+
+###
+
+![](./Questions/bkm_ch_05_19.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_05_21.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_05_22.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_05_23.png){height=50%}
+
+
 ## Historic Returns on Risky Portfolios 
 
 ### Historic returns on risky portfolios {.allowframebreaks}
@@ -213,6 +275,7 @@ $$
 
 ![Statistics for monthly excess returns on the market index and four "style" portfolios [@bodie_investments_2023, Table 5.5]](Figures/table_0505.png){height=50%}
 
+
 ## Normality and Long-Term Investments
 
 ### Investments in risky portfolios do not become safer in the long run
@@ -220,10 +283,8 @@ $$
 ![Investment risk at different horizons [@bodie_investments_2023, Table 5.6]](Figures/table_0506.png){height=50%}
 
 
-### Summary from @bodie_investments_2023 {.appendix}
+## Summary and Key Equations {.allowframebreaks}
 
-![](./Figures/summary_05.png){height=75%, fig-align="center"}
+![Chapter 5 summary from @bodie_investments_2023](./Figures/summary_05.png){height=75%}
 
-### Key equations from @bodie_investments_2023 {.appendix}
-
-![](./Figures/key_eq_05.png){height=75%, fig-align="center"}
+![Chapter 5 key equations from @bodie_investments_2023](./Figures/key_eq_05.png){height=75%}

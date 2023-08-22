@@ -9,6 +9,7 @@ title: Chapter 3 - How Securities Are Traded
 - Primary market: Offers new securities to the public, and funds flow from buyers to firms
 - Secondary market: Trades existing securities, and funds flow from buyers to sellers
 
+
 ### Privately held firms: A small number of managers and investors hold all shares, which do not trade in public markets
 
 - Pros
@@ -19,10 +20,12 @@ title: Chapter 3 - How Securities Are Traded
 	- Private placements do not trade in public markets, reducing liquidity and valuations
 	- Previously limited to 499 shareholders, but the JOBS Act of 2012 increased this limit to 1999 shareholders
 
+
 ### Liquidity is the ability to trade an asset in the desired quantity and time at a fair price
 
 - Liquid stocks can be traded in large volumes on short notice without substantially changing their prices
 - Illiquid stocks may be difficult to buy or sell without causing price volatility
+
 
 ### Publicly-traded companies: Shares continually trade in public markets
 
@@ -33,11 +36,13 @@ title: Chapter 3 - How Securities Are Traded
 	- Register the offering with the SEC
 	- Firm-commitment underwriting: Investment bankers purchase all securities at a discount, compensating the underwriters and eliminating risk for the firm
 
+
 ### "Shelf registrations" let public firms issue securities on short notice with little additional paperwork
 
 - SEC Rule 415 for seasoned offerings lets already publicly traded firms register securities and gradually sell them to the public over the next three years
 - These securities are "on the shelf" and ready for issue
 - Shelf registrations let public firms sell securities in small amounts on short notice with little additional paperwork and low flotation costs
+
 
 ### IPOs are a lengthy process for underwriters, who typically bear the risk
 
@@ -46,10 +51,12 @@ title: Chapter 3 - How Securities Are Traded
 - Estimate investor demand (i.e., price and quantity) by "book building"
 - Allocate security to investors, in part based on their expressed interest
 
+
 ### IPOs are often underpriced compared to their market prices
 
 - However, some IPO prices are too high and do not fully sell
 - Firm-commitment underwriters bear this risk
+
 
 ## How Securities Are Traded
 
@@ -67,6 +74,7 @@ title: Chapter 3 - How Securities Are Traded
 	- Designated market makers (DMM) maintain orderly markets
 	- Examples: New York Stock Exchange (NYSE)
 
+
 ### There are two broad types of orders: Market and price-contingent
 
 - Market orders execute immediately at the best available price
@@ -81,9 +89,11 @@ title: Chapter 3 - How Securities Are Traded
 		- Buy stop orders: Become market orders when the price rises to or exceeds the specified price
 		- Sell stop orders: Become market orders when the price falls to or below the specified price
 
+
 ### Limit order books are collections of limit orders waiting to execute
 
 ![A portion of the limit order book for MSFT on the CBOE Global Markets, August 4, 2021 [@bodie_investments_2023, Figure 3.4]](./Figures/bod12665_0304.png){height=50%}
+
 
 ### Investors buy and sell shares via brokers, who execute trades on one of several market types
 
@@ -97,6 +107,23 @@ title: Chapter 3 - How Securities Are Traded
 - Specialist markets (largely replaced by ECNs)
 	- Exchanges assign specialists to manage each security
 	- Specialists maintain the limit order book, execute trades, provide liquidity, and maintain a fair and orderly market
+
+
+###
+
+![](./Questions/bkm_ch_03_05.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_03_06.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_03_07.png){height=50%}
+
+
 
 ## The Rise of Electronic Trading
 
@@ -142,11 +169,13 @@ title: Chapter 3 - How Securities Are Traded
 	- Controversial due to market fragmentation and liquidity impact
 - Bond trading still occurs primarily in the OTC market among bond dealers
 
+
 ## Globalization of Stock Markets
 
 ### U.S. stock markets have about half of the worldwide stock market capitalization, but many markets have international allegiances
 
 ![The biggest stock markets in the world by domestic market capitalization [@bodie_investments_2023, Figure 3.7]](./Figures/bod12665_0307.png){height=50%}
+
 
 ## Trading Costs
 
@@ -159,6 +188,7 @@ title: Chapter 3 - How Securities Are Traded
 	- Bid-ask spreads compensate for providing liquidity and facing adverse selection
 	- Spreads are wider for stocks with smaller market capitalization, lower liquidity, and fewer analysts
 	- To trade large orders, buyers and sellers may need to accept less attractive prices
+
 
 ## Buying on Margin
 
@@ -175,6 +205,22 @@ $$
 
 <!-- TODO Add several margin problems -->
 
+
+###
+
+![](./Questions/bkm_ch_03_10.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_03_11.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_03_12.png){height=50%}
+
+
 ## Short Sales
 
 ### Short sales let an investor profit from security price declines by selling high and *then* buying low 
@@ -183,11 +229,30 @@ $$
 - Short sale proceeds must be kept on account with the broker, per exchange rules
 - Investor "covers the short position" by purchasing a share and returning it (plus any dividends paid during the short sale)
 
+
 ### Comparison of cash flows from long and short positions
 
 ![Cash flows from purchasing versus short-selling shares of stock [@bodie_investments_2023, Table 3.2]](./Figures/table_0302.png){height=50%}
 
 <!-- TODO Add several short sale problems -->
+
+
+###
+
+![](./Questions/bkm_ch_03_13.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_03_14.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_03_16.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_03_17.png){height=50%}
+
 
 ## Regulation of Securities Markets
 
@@ -210,6 +275,7 @@ $$
 	- Financial Industry Regulatory Authority (FINRA)
 	- Chartered Financial Analyst (CFA) Institute
 
+
 ### Regulations prohibit trading on inside information
 
 - Officers, directors, and major stockholders must report all inside transactions
@@ -218,6 +284,7 @@ $$
 	- Considerable evidence of leakage
 	- Insider trades earn abnormal returns
 
-### Summary from @bodie_investments_2023 {.appendix}
 
-![](./Figures/summary_03.png){height=75%, fig-align="center"}
+## Summary
+
+![Chapter 3 summary from @bodie_investments_2023](./Figures/summary_03.png){height=75%}
