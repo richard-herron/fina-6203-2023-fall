@@ -235,4 +235,6 @@ $$
 
 ![Chapter 10 summary from @bodie_investments_2023](./Figures/summary_10.png){height=75%}
 
+\framebreak
+
 ![Chapter 10 key equations from @bodie_investments_2023](./Figures/key_eq_10.png){height=75%}

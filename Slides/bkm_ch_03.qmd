@@ -134,6 +134,8 @@ title: Chapter 3 - How Securities Are Traded
 - The SEC's Regulation National Market System (NMS) facilitated the electronic linkage of exchanges, creating an integrated electronic market
 - Trading today is predominantly electronic, especially for stocks, with the share of electronic trading increasing significantly
 
+\framebreak
+
 ![Market share of trading in NYSE-listed shares [@bodie_investments_2023, Figure 3.6]](./Figures/bod12665_0306.png){height=50%}
 
 
@@ -233,8 +235,6 @@ $$
 ### Comparison of cash flows from long and short positions
 
 ![Cash flows from purchasing versus short-selling shares of stock [@bodie_investments_2023, Table 3.2]](./Figures/table_0302.png){height=50%}
-
-<!-- TODO Add several short sale problems -->
 
 
 ###

@@ -191,9 +191,11 @@ $$
 
 ![Impact of costs on investment performance [@bodie_investments_2023, Table 4.2]](Figures/table_0402.png){height=50%}
 
+
 ###
 
 ![](./Questions/bkm_ch_04_09.png){height=50%}
+
 
 ###
 

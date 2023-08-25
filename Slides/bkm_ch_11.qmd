@@ -294,7 +294,11 @@ $$
 
 ![Consistency of Investments Results [@bodie_investments_2023, Table 11.1]](./Figures/table_1101.png){height=50%}
 
+\framebreak
+
 ![Mutual fund alphas computed using a four-factor model of expected return, 1993--2007. (The best and worst 2.5% of observations are excluded from this distribution.) [@bodie_investments_2023, Figure 11.8]](./Figures/bod12665_1108.png){height=50%}
+
+\framebreak
 
 ![Risk-adjusted performance in ranking quarter and following quarter [@bodie_investments_2023, Figure 11.9]](./Figures/bod12665_1109.png){height=50%}
 
@@ -321,5 +325,7 @@ $$
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 11 summary from @bodie_investments_2023](./Figures/summary_11.png){height=75%}
+
+\framebreak
 
 ![Chapter 11 key equations from @bodie_investments_2023](./Figures/key_eq_11.png){height=75%}

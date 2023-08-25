@@ -103,6 +103,8 @@ $$
 
 ![The inverse relationship between bond values and the interest rate. Value of an 8% coupon bond with 30-year maturity making semiannual payments. [@bodie_investments_2023, Figure 14.3]](./Figures/bod12665_1403.png){height=50%}
 
+\framebreak
+
 ![Bond values at different interest rates (8% coupon bond, coupons paid semiannually) [@bodie_investments_2023, Table 14.2]](./Figures/table_1402.png){height=50%}
 
 
@@ -159,6 +161,8 @@ $$
 - At *low* interest rates: The price of the callable bond is flat since the risk of a repurchase or call is high
 - At *high* interest rates: The price of the callable bond converges to that of a normal bond since the risk of a call is negligible
 
+\framebreak
+
 ![Bond values: Callable and straight debt (coupon = 8%; maturity = 30 years; semiannual payments) [@bodie_investments_2023, Figure 14.4]](./Figures/bod12665_1404.png){height=50%}
 
 
@@ -191,6 +195,8 @@ $$
 	- Here, the coupon payments do not compensate for the time value of money, so investors require additional capital gains
 - A bond sells at *a premium* to par value when its coupon rate is *greater than* its YTM 
 	- Here, the coupon payments more than compensate for the time value of money, so investors pay more than the par value
+
+\framebreak
 
 ![Price path of two 30-year maturity bonds, each selling at a yield to maturity of 8%. Bond price approaches par value as maturity date approaches. [@bodie_investments_2023, Figure 14.6]](./Figures/bod12665_1406.png){height=50%}
 
@@ -256,6 +262,8 @@ $$
 	- $1.23 \leq Z < 2.90$ is a gray area
 	- $2.90 \leq Z$ indicates safety
 
+\framebreak
+
 ![Discriminant analysis [@bodie_investments_2023, Figure 14.9]](./Figures/bod12665_1409.png){height=50%}
 
 
@@ -272,6 +280,8 @@ $$
 - Promised YTM will only be realized if the firm meets the obligations of the bond issue
 - Expected YTM must consider the possibility of a default
 - Default premium (also known as a credit spread) is the difference between the promised YTM on a corporate bond and the YTM on an otherwise-identical government bond that is default risk-free
+
+\framebreak
 
 ![Yield spreads between corporate and 10-year Treasury bonds [@bodie_investments_2023, Figure 14.11]](./Figures/bod12665_1411.png){height=50%}
 
@@ -292,6 +302,7 @@ $$
 - Each tranche is given a different level of seniority to claims on the underlying loan pool
 - Mortgage-backed CDOs were an investment disaster during 2007 to 2009
 
+\framebreak
 
 ![Collateralized debt obligations [@bodie_investments_2023, Figure 14.13]](./Figures/bod12665_1413.png){height=50%}
 
@@ -314,5 +325,7 @@ $$
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 14 summary from @bodie_investments_2023](./Figures/summary_14.png){height=75%}
+
+\framebreak
 
 ![Chapter 14 key equations from @bodie_investments_2023](./Figures/key_eq_14.png){height=75%}

@@ -161,6 +161,8 @@ $$
 
 ![Frequency distribution of monthly rate of return on the broad market index, 1927-2020 [@bodie_investments_2023, Figure 5.3]](Figures/bod12665_0503.png){height=50%}
 
+\framebreak
+
 ![The normal distribution with mean 10% and standard deviation 20% [@bodie_investments_2023, Figure 5.4]](Figures/bod12665_0504.png){height=50%}
 
 
@@ -185,7 +187,11 @@ $$
 	- Positively skewed, SD overestimates risk
 	- Negatively skewed, SD underestimates risk
 
+\framebreak
+
 ![Normal and skewed distributions (mean = 6%, SD = 17%) [@bodie_investments_2023, Figure 5.5]](Figures/bod12665_0505.png){height=50%}
+
+\framebreak
 
 - *Kurtosis* is the average deviation from the mean *raised to the fourth power*
 $$
@@ -194,6 +200,8 @@ $$
 - We subtract 3 because the normal distribution has a kurtosis of 3
 - Kurtosis values greater than zero indicate "fat tails," where extreme outcomes are more likely than for normal distributions
 - Kurtosis raises deviations to the fourth power, so kurtosis is more sensitive to outliers than the variance
+
+\framebreak
 
 ![Normal and fat-tailed distributions (mean = 10%, SD = 20%) [@bodie_investments_2023, Figure 5.6]](Figures/bod12665_0506.png){height=50%}
 
@@ -273,6 +281,8 @@ $$
 
 ![Frequency distribution of annual returns on U.S. Treasury bills, Treasury bonds, and common stocks [@bodie_investments_2023, Figure 5.7]](Figures/bod12665_0507.png){height=50%}
 
+\framebreak
+
 ![Statistics for monthly excess returns on the market index and four "style" portfolios [@bodie_investments_2023, Table 5.5]](Figures/table_0505.png){height=50%}
 
 
@@ -286,5 +296,7 @@ $$
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 5 summary from @bodie_investments_2023](./Figures/summary_05.png){height=75%}
+
+\framebreak
 
 ![Chapter 5 key equations from @bodie_investments_2023](./Figures/key_eq_05.png){height=75%}

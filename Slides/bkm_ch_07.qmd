@@ -72,6 +72,8 @@ $$
 $$
 which is a *border-multiplied* covariance matrix
 
+\framebreak
+
 ![Computation of portfolio variance from the covariance matrix [@bodie_investments_2023, Table 7.2]](./Figures/table_0702.png){height=50%}
 
 
@@ -107,7 +109,11 @@ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 
 ![Portfolio expected return as a function of investment proportions [@bodie_investments_2023, Figure 7.3]](./Figures/bod12665_0703.png){height=50%}
 
+\framebreak
+
 ![Portfolio standard deviation as a function of investment proportions [@bodie_investments_2023, Figure 7.4]](./Figures/bod12665_0704.png){height=50%}
+
+\framebreak
 
 ![Portfolio expected return as a function of standard deviation [@bodie_investments_2023, Figure 7.5]](./Figures/bod12665_0705.png){height=50%}
 
@@ -140,9 +146,15 @@ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 - Recall the Sharpe ratio is the slope of the capital allocation line (CAL)
 - The steepest CAL intersects that optimal risky portfolio
 
+\framebreak
+
 ![The opportunity set of the debt and equity funds and two feasible CALs [@bodie_investments_2023, Figure 7.6]](./Figures/bod12665_0706.png){height=50%}
 
+\framebreak
+
 ![The opportunity set of the debt and equity funds with the optimal CAL and the optimal risky portfolio [@bodie_investments_2023, Figure 7.7]](./Figures/bod12665_0707.png){height=50%}
+
+\framebreak
 
 - With two risky assets:
 $$
@@ -216,6 +228,8 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
 ### The *minimum-variance frontier* of risky assets plots the portfolio with the lowest variance for a given expected return {.allowframebreaks}
 
 ![The minimum-variance frontier of risky-assets [@bodie_investments_2023, Figure 7.10]](./Figures/bod12665_0710.png){height=50%}
+
+\framebreak
 
 - All individual risky assets plot inside the minimum-variance frontier (if we allow short sales)
 - Therefore, portfolios of one risky asset are inefficient because diversification lets us build portfolios with lower standard deviations
@@ -310,5 +324,7 @@ $$
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 7 summary from @bodie_investments_2023](./Figures/summary_07.png){height=75%}
+
+\framebreak
 
 ![Chapter 7 key equations from @bodie_investments_2023](./Figures/key_eq_07.png){height=75%}

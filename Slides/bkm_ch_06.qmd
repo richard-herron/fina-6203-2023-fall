@@ -105,6 +105,8 @@ $$
 \sigma_C = y\sigma_P
 $$
 
+\framebreak
+
 ![The investment opportunity set with a risk asset and risk-free asset in the expected return-standard deviation plane [@bodie_investments_2023, Figure 6.3]](Figures/bod12665_0603.png){height=50%}
 
 
@@ -128,6 +130,8 @@ $$
 - The CAL is straight if we borrow at $r_f$ (shown above)
 - Only the government borrows at $r_f$
 - Instead, investors borrow at $r_f^B > r_f$, so the CAL has a kink at $y=1$
+
+\framebreak
 
 ![The investment opportunity set with different borrowing and lending rates [@bodie_investments_2023, Figure 6.4]](Figures/bod12665_0604.png){height=50%}
 
@@ -156,7 +160,11 @@ $$
 y^* = \frac{E(r_P)- r_f}{A\sigma_P^2}
 $$
 
+\framebreak
+
 ![Utility as a function of allocation to the risky asset, $y$ [@bodie_investments_2023, Figure 6.5]](Figures/bod12665_0605.png){height=50%}
+
+\framebreak
 
 ![Finding the optimal complete portfolio by using indifference curves [@bodie_investments_2023, Figure 6.7]](Figures/bod12665_0607.png){height=50%}
 
@@ -177,6 +185,8 @@ $$
 - Why are passive strategies reasonable?
 	1. Active strategies require costly research and trading to find and maintain the optimal portfolio
 	1. Passive strategies free ride on the research and trading of active strategies, which keep securities fairly priced
+
+\framebreak
 
 ![Average annual return on stocks and 1-month T-bills; standard deviation and Sharpe ratio of stocks over time [@bodie_investments_2023, Table 6.7]](Figures/table_0607.png){height=50%}
 
@@ -215,5 +225,7 @@ $$
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 6 summary from @bodie_investments_2023](./Figures/summary_06.png){height=75%}
+
+\framebreak
 
 ![Chapter 6 key equations from @bodie_investments_2023](./Figures/key_eq_06.png){height=75%}

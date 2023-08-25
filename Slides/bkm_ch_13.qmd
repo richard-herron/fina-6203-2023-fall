@@ -155,7 +155,11 @@ $$
 - Extrapolation error
 	- Investors ignore evidence that they cannot extrapolate past growth far into the future
 
+\framebreak
+
 ![The book-to-market ratio reflects past growth, but not future growth prospects. B/M tends to fall with income growth experiences at the *end* of a five-year period, but actually increases slightly with future income growth rates. [@bodie_investments_2023, Figure 13.3]](./Figures/bod12665_1303.png){height=50%}
+
+\framebreak
 
 ![Value minus growth returns surrounding earnings announcements, 1971--1992. Announcement effects are measured for each of four years following classification as a value versus growth firm. [@bodie_investments_2023, Figure 13.4]](./Figures/bod12665_1304.png){height=50%}
 
@@ -210,6 +214,8 @@ $$
 	- Uses trade-by-trade data
 	- The liquidity of firms can vary as the prevalence of informationally motivated trades varies
 
+\framebreak
+
 ![Alphas of value-weighted portfolios sorted on liquidity betas [@bodie_investments_2023, Figure 13.6]](./Figures/bod12665_1306.png){height=50%}
 
 
@@ -262,5 +268,7 @@ $$
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 13 summary from @bodie_investments_2023](./Figures/summary_13.png){height=75%}
+
+\framebreak
 
 ![Chapter 13 key equations @bodie_investments_2023](./Figures/key_eq_13.png){height=75%}

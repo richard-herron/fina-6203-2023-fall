@@ -71,6 +71,8 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 
 ![Prospect theory. ***Panel A:*** A conventional utility function is defined in terms of wealth and is concave, resulting in risk aversion. [@bodie_investments_2023, Figure 12.1a]](./Figures/bod12665_1201a.png){height=50%}
 
+\framebreak
+
 ![Prospect theory. ***Panel B:*** Under loss aversion, the utility function is defined in terms of losses relative to current wealth. It is also convex to the left of the origin, giving rise to risk-seeking behavior in terms of losses. [@bodie_investments_2023, Figure 12.1b]](./Figures/bod12665_1201b.png){height=50%}
 
 
@@ -92,6 +94,8 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 - Royal Dutch should sell for 1.5 times Shell because they are a joint company that splits profits 60/40
 - However, these shares have deviated from the 1.5 ratio for extended periods
 - These deviations are an example of fundamental risk because the deviations have grown as large at 17%
+
+\framebreak
 
 ![Pricing of Royal Dutch relative to Shell (deviation from parity) [@bodie_investments_2023, Figure 12.2]](./Figures/bod12665_1202.png){height=50%}
 
@@ -181,6 +185,8 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 	- In contrast, crossing the moving average from above is a *bearish signal* 
 - Other populr tools are *Elliot wave theory* and *Kondratieff waves*, which decompose price movements into long-term and short-term trends
 
+\framebreak
+
 ![Share price and 25-day moving average for Intel, February 1, 2022 [@bodie_investments_2023, Figure 12.3]](./Figures/bod12665_1203.png){height=50%}
 
 
@@ -193,6 +199,8 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 ### Breadth measures the extent to which market movements are reflected widely in the price movements of all the stocks in the market {.allowframebreaks}
 
 ![Market Diary [@bodie_investments_2023, Figure 12.5]](./Figures/bod12665_1205.png){height=50%}
+
+\framebreak
 
 ![Breadth [@bodie_investments_2023, Table 12.1]](/Figures/table_1201.png){height=50%}
 
@@ -235,6 +243,8 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 ### With technical analysis, we can find patterns that do not exist! {.allowframebreaks}
 
 ![Actual and simulated levels for stock market prices of 52 weeks [@bodie_investments_2023, Figure 12.6]](./Figures/bod12665_1206.png){height=50%}
+
+\framebreak
 
 ![Actual and simulated changes in weekly stock prices for 52 weeks [@bodie_investments_2023, Figure 12.7]](./Figures/bod12665_1207.png){height=50%}
 

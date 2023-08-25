@@ -15,8 +15,6 @@ title: Chapter 15 - The Term Structure of Interest Rates
 - The bond value should be the sum of the values of each bond cash flow
 - Bond stripping and bond reconstitution offer arbitrage  opportunities
 
-<!-- TODO: Add a yield curve exercise -->
-
 
 ### In practice, there are two yield curves
 
@@ -49,6 +47,8 @@ title: Chapter 15 - The Term Structure of Interest Rates
 $$
 (1+y_2)^2 = (1+r_1) \times (1+r_2)
 $$
+
+\framebreak
 
 ![Short rates versus spot rates [@bodie_investments_2023, Figure 15.3]](./Figures/bod12665_1503.png){height=50%}
 
@@ -112,11 +112,19 @@ and an upward-sloping yield curve indicates that investors expect interest rates
 - Therefore, short-term investors require a positive *liquidity premium* to bear this price risk
 - The liquidity premium is $f_2 - E(r_2)$, so liquidity preference theory predicts $f_2 > E(r_2)$ and an upward-sloping yield curve indicates the liquidity premium
 
+\framebreak
+
 ![Constant expected short rate. Constant liquidity premium. Result: a rising yield curve. [@bodie_investments_2023, Figure 15.4 Panel A]](./Figures/bod12665_1504a.png){height=50%}
+
+\framebreak
 
 ![Declining expected short rates. Increasing liquidity premium. Result: a rising yield curve despite falling expected interest rates. [@bodie_investments_2023, Figure 15.4 Panel B]](./Figures/bod12665_1504b.png){height=50%}
 
+\framebreak
+
 ![Declining expected short rates. Constant liquidity premium. Result: a hump-shaped yield curve. [@bodie_investments_2023, Figure 15.4 Panel C]](./Figures/bod12665_1504c.png){height=50%}
+
+\framebreak
 
 ![Increasing expected short rates. Increasing liquidity premiums. Result: a sharply rising yield curve. [@bodie_investments_2023, Figure 15.4 Panel D]](./Figures/bod12665_1504d.png){height=50%}
 
@@ -145,6 +153,8 @@ so $f_{n+1} > y_n$ for an upward-sloping yield curve
 - The yield curve is a good predictor of the business cycle
   - An upward-sloping yield curve may indicate expansion when long-term rates tend to rise
   - An inverted yield curve may indicate recession when interest rates tend to fall 
+
+\framebreak
 
 ![Term spread: Yields on 10-year versus 90-day Treasury securities [@bodie_investments_2023, Figure 15.6]](./Figures/bod12665_1506.png){height=50%}
 
@@ -177,5 +187,7 @@ so $f_{n+1} > y_n$ for an upward-sloping yield curve
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 15 summary from @bodie_investments_2023](./Figures/summary_15.png){height=75%}
+
+\framebreak
 
 ![Chapter 15 key equations from @bodie_investments_2023](./Figures/key_eq_15.png){height=75%}

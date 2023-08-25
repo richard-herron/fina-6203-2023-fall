@@ -58,6 +58,8 @@ $$
   - Managers concentrate in subgroups within their comparison universe
   - Comparison universes are not investable (e.g., we cannot invest in the median manager)
 
+\framebreak
+
 ![Universe comparison, periods ending December 31, 2028 [@bodie_investments_2023, Figure 24.1]](./Figures/bod12665_2401.png){height=50%}
 
 
@@ -87,6 +89,8 @@ $$
 ### The Treynor ratio considers *systematic* risk, so it is useful for assembling a diversified fund-of-funds {.allowframebreaks}
 
 ![Portfolio performance [@bodie_investments_2023, Table 24.1]](./Figures/table_2401.png){height=50%}
+
+\framebreak
 
 ![Treynor measures of two portfolios and the market index [@bodie_investments_2023, Figure 24.3]](./Figures/bod12665_2403.png){height=50%}
 
@@ -120,6 +124,8 @@ $$
 ### An application of risk-adjusted performance measures {.allowframebreaks}
 
 ![Excess returns for portfolios $P$ and $Q$ and the market index $M$ over 12 months [@bodie_investments_2023, Table 24.2]](./Figures/table_2402.png){height=50%}
+
+\framebreak
 
 ![Performance statistics [@bodie_investments_2023, Table 24.3]](./Figures/table_2403.png){height=50%}
 
@@ -184,9 +190,15 @@ $$
   - The intercept coefficient measures the average return from security selection
   - $R^2$ measures the percentage of return variability attributable to style choice instead of security selection
 
+\framebreak
+
 ![Style analysis for Fidelity's Magellan Fund [@bodie_investments_2023, Table 24.4]](./Figures/table_2404.png){height=50%}
 
+\framebreak
+
 ![Fidelity Magellan Fund cumulative return difference: Fund versus style benchmark and fund versus SML benchmark [@bodie_investments_2023, Figure 24.4]](./Figures/bod12665_2404.png){height=50%}
+
+\framebreak
 
 ![Average tracking error for 636 mutual funds, 1985--1989 [@bodie_investments_2023, Figure 24.5]](./Figures/bod12665_2405.png){height=50%}
 
@@ -215,6 +227,8 @@ $$
 $$
 - MRAR and Sharpe ratio rankings are similar
 
+\framebreak
+
 ![Rankings based on Morningstar's RAR versus Sharpe ratio [@bodie_investments_2023, Figure 24.7]](./Figures/bod12665_2407.png){height=50%}
 
 
@@ -223,6 +237,8 @@ $$
 ### Market timing is shifting funds between a risky portfolio and a safe asset, depending on expected returns {.allowframebreaks}
 
 ![Characteristic lines. *Panel A:* No market timing, beta is constant. *Panel B:* Market timing, beta increases with expected market excess return. *Panel C:* Market timing with only two values of beta. [@bodie_investments_2023, Figure 24.8]](./Figures/bod12665_2408.png){height=50%}
+
+\framebreak
 
 - Tryenor and Mazuy estimate this regression:
 $$
@@ -257,11 +273,15 @@ where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets an
 
 ![Rate of return of a perfect market timer as function of the rate of return on the market index [@bodie_investments_2023, Figure 24.9]](./Figures/bod12665_2409.png){height=50%}
 
+\framebreak
+
 | | $S_T < X$ | $S_T \geq X$ |
 |:-- | :-: | :-: |
 | Bills | $S_0(1+r_f)$ | $S_0(1+r_f)$ |
 | Call | $0$ | $S_T-X$ |
 | **Total** | $S_0(1+r_f)$ | $S_T$ |
+
+\framebreak
 
 - The table on the previous slide gives the payoff of this call option
 - $X$ is the strike price, and $X=S_0(1+r_f)$
@@ -282,6 +302,8 @@ where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets an
 - This decomposition explains the difference between a managed portfolio $P$ and a benchmark portfolio $B$
 	- Portfolio $B$ measures the returns on a completely passive strategy, removing *asset allocation* and *security selection* decisions
 	- Therefore, asset allocation and security selection explain all differences between portfolios $P$ and $B$
+
+\framebreak
 
 ![Performance of the managed portfolio [@bodie_investments_2023, Table 24.6]](./Figures/table_2406.png){height=50%}
 
@@ -319,5 +341,7 @@ where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets an
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 24 summary from @bodie_investments_2023](./Figures/summary_24.png){height=75%}
+
+\framebreak
 
 ![Chapter 24 key equations from @bodie_investments_2023](./Figures/key_eq_24.png){height=75%}

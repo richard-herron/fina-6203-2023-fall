@@ -276,6 +276,10 @@ $$
 
 ![Chapter 9 summary (1/2) from @bodie_investments_2023](./Figures/summary_09_1.png){height=75%}
 
+\framebreak
+
 ![Chapter 9 summary (2/2) from @bodie_investments_2023](./Figures/summary_09_2.png){height=75%}
+
+\framebreak
 
 ![Chapter 9 key equations from @bodie_investments_2023](./Figures/key_eq_09.png){height=75%}

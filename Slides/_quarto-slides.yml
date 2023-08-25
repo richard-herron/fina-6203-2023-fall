@@ -24,4 +24,4 @@ format:
     section-titles: false
     slide-level: 3
     innertheme: circles
-    # fig-cap-location: margin
+    aspectratio: 169
