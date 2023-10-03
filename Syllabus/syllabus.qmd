@@ -1,0 +1,215 @@
+---
+title: FINA 6203 -- 2023 Fall
+subtitle: D'Amore-McKim School of Business, Northeastern University
+author: Richard Herron
+bibliography: references.bib
+cite-method: biblatex
+biblio-style: authoryear
+biblio-title: References
+format:
+  pdf:
+    number-sections: true
+---    
+
+# Instructor Information
+
+| **Email:** <r.herron@northeastern.edu>
+| **Office Location:** Hayden Hall 409c
+| **Office Hours:** MWF 9-10 AM on Microsoft Teams
+
+
+# Course Description
+
+> FINA 6203. Investment Analysis. (3 Hours)
+> 
+> Familiarizes students with domestic and international financial markets and the securities traded therein. Discusses a variety of techniques for valuation of financial assets and relies heavily on quantitative methods. Critically analyzes such qualitative concepts as market efficiency, intrinsic value, and risk. The contents of this course, descriptive, theoretical, and applied, should provide students with the ability to build unique valuation models to suit the particular investment alternative they wish to scrutinize. Also provides students with an understanding of how investment theory and investment practice relate.
+
+More here: <https://catalog.northeastern.edu/course-descriptions/fina>
+
+
+# Course Materials
+
+
+## Textbook
+
+We will use @bodie_investments_2023 [*Investments* 13e].
+We will not use our textbook's homework manager (Connect), so you may buy a used or international edition.
+Our textbook is excellent, and I suggest you buy it instead of borrowing it or renting it.
+
+
+## Homework Manager
+
+We will use the Accepi homework manager, which costs about \$10 per course per semester.
+You can join Accepi by selecting our first assignment on Canvas.
+
+More here: <https://www.accepi.com>
+
+
+## Calculator
+
+I will typically solve problems in class with the TI BA II Plus.
+I suggest you use the TI BA II Plus for quizzes and homework, and you may not use an internet-connected device for quizzes.
+
+
+## Laptop
+
+I suggest you take notes by hand, but you may use your laptop.
+
+
+## Business News
+
+I suggest you read *The Wall Street Journal* daily to be familiar with current business topics, and the Northeastern University library provides free access.
+I will post an article, typically from the *WSJ*, to Microsoft Teams each week.
+We will briefly discuss each article at the start of class.
+
+
+# Course Grades
+
+I will assign course grades according to the following schedule:
+
+| Component                         | Weight |
+|-----------------------------------|--------|
+| In-Class Quizzes                  | 75%    |
+| Team Project                      | 10%    |
+| Team Reviews                      | 5%     |
+| Homework                          | 5%     |
+| Participation and Professionalism | 5%     |
+| Total                             | 100%   |
+
+I will assign letter grades according to the following schedule: 93.00 and above is an A, 90.00 to 92.99 is an A-, 87.00 to 89.99 is a B+, 83.00 to 86.99 is a B, and so on.
+I will curve course grades up to meet the D'Amore-McKim School of Business (DMSB) guidelines.
+These guidelines are: for graduate courses, no more than 50% of students receive an A or A-; for undergraduate courses, course grade point averages (GPAs) fall between 3.2 and 3.4.
+The DMSB forbids extra credit.
+
+
+## In-Class Quizzes
+
+You will take about eight in-class quizzes.
+I will drop your two lowest quiz scores, and I will not give makeup quizzes.
+Quizzes will be:
+
+1. Handwritten
+2. In-class at the end of class
+3. About 20 minutes long
+4. Based on recent homework and class examples
+5. You may use a one-page formula sheet (front and back)
+6. You may use a calculator
+7. You may not use internet-connected devices
+
+
+## Team Project
+
+You will complete one project in self-selected teams of four students.
+The project will be a written report, and I will provide details early in the semester after you select teams.
+If you do not select a team, I will randomly assign you to one.
+
+
+## Team Reviews
+
+You will review your teammates on Teammates and assign your median peer review score.
+I will invite you to Teammates after you self-select teams early in the semester.
+
+More here: <https://Teammatesv4.appspot.com>
+
+
+## Homework
+
+You will complete about one homework assignment per chapter, and I will drop your two lowest homework scores.
+You will complete homework assignments individually and submit them by 11:59 PM Friday, one week after we discuss each chapter in class.
+
+Accepi is much cheaper than our textbook's homework manager (Connect) because Accepi does not provide advanced features, such as multiple due dates and fine-tuned point values.
+Therefore, all sections have the same due dates, and homework assignments may have different point values.
+I will drop your two lowest homework scores to account for these limitations.
+
+
+## Participation and Professionalism
+
+Active class participation helps you and your peers learn.
+Here are my expectations:
+
+1. Participation
+	a. Preparedness: Read assigned materials, ready to discuss in class
+	a. Engagement: Contribute to class discussions
+	a. Group Work: Collaborate with peers during group activities
+1. Professionalism
+	a. Timeliness: Arrive to class on time and stay engaged until the end
+	a. Respect: Actively listen when others speak and do not interrupt
+	a. Communication: Use professional language in class discussions and course communications
+
+
+# Remote Attendance and Lecture Recording
+
+I do not plan to allow remote attendance because we will learn much more together in the classroom.
+Also, this course is traditional and in-person, and I will not jeopardize the immigration status of international students.
+I will record lectures and post them to Microsoft Teams.
+However, these lecture recordings are for reference only and are not substitutes for active class participation and professionalism.
+
+
+# Artificial Intelligence
+
+I encourage you to use artificial intelligence (AI, such as ChatGPT), including on our team project.
+AI can be your tutor and help you better understand our lecture notes and textbook.
+However, you cannot use AI on in-class quizzes, and AI alone may not earn you a good grade on our team project.
+
+
+# My Expectations and Recommendations
+
+1. Before class, complete the assigned reading
+2. During class, take notes, ask questions, and complete the in-class practice exercises
+3. After class, review your notes, ask questions, and complete the homework assignments
+4. The regular-semester guidance is to spend about eight to ten hours per week studying outside of class
+5. Seek my help early and often!
+	a. I will respond to email questions as best I can. However, complex questions require discussions, so I may ask you to visit me during office hours to discuss them.
+	b.  If your question is not personal, please ask it on Microsoft Teams instead of email. My answer may help other students. Also, other students may answer your questions before I can.
+6. The DMSB forbids extra credit, so I will not respond to emails asking for extra credit.
+
+
+# Academic Honesty
+
+Northeastern University is committed to the principles of intellectual honesty and integrity.
+I expect you not to copy others' work, collaborate when not allowed, or use unauthorized aids.
+I will not tolerate cheating.
+I will assign an "F" for any assignment I catch you cheating on and may exclude it from any "drop lowest scores" rules.
+I will also report you to the Office of Student Conduct and Conflict Resolution (OSCCR).
+
+More here: <https://osccr.sites.northeastern.edu/academic-integrity-policy/>
+
+
+# Students with Disabilities
+
+Students needing disability accommodations should visit the Northeastern University Disability Resource Center (DRC).
+
+
+# Title IX
+
+Title IX of the Education Amendments of 1972 protects individuals from sex or gender-based discrimination, including discrimination based on gender identity, in educational programs and activities that receive federal financial assistance.
+Faculty members are "responsible employees" at Northeastern University, meaning they must report all sex or gender-based discrimination allegations to the Title IX Coordinator.
+
+More here: <http://www.northeastern.edu/ouec/>
+
+
+# Schedule
+
+Here is our tentative schedule:
+
+| Week | Monday Date | Chapter | Quiz  | Footnote |
+|------|-------------|---------|-------|----------|
+| 1    | Sep 4       | 1 & 2   |       |          |
+| 2    | Sep 11      | 3       | 1     |          |
+| 3    | Sep 18      | 4       |       |          |
+| 4    | Sep 25      | 5       | 2     |          |
+| 5    | Oct 2       | 6       |       |          |
+| 6    | Oct 9       | 7       | 3     |          |
+| 7    | Oct 16      | 9       |       |          |
+| 8    | Oct 23      | 10      | 4     |          |
+| 9    | Oct 30      | 11 & 12 |       |          |
+| 10   | Nov 6       | 13      | 5     |          |
+| 11   | Nov 13      | 24      |       | [^1]     |
+| 12   | Nov 20      |         |       | [^2]     |
+| 13   | Nov 27      | 14      | 6     |          |
+| 14   | Dec 4       | 15      |       |          |
+| 15   | Dec 11      |         | 7 & 8 | [^3]     |
+
+[^1]: We will not meet for class because I will be at a research conference. Instead, I will pre-record a lecture.
+[^2]: We will not meet for class because of the Thanksgiving holiday.
+[^3]: We will meet for class to take two quizzes, but I will not lecture. Our team project and team reviews are due on Tuesday at 11:59 PM.
