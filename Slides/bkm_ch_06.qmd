@@ -118,14 +118,14 @@ S = \frac{\text{rise}}{\text{run}} = \frac{E(r_P) - r_f}{\sigma_P - 0} = \frac{E
 $$
 so:
 $$
-E(r_P) = r_f + S\sigma_C = r_f + \frac{E(r_P) - r_f}{\sigma_P}\sigma_C
+E(r_C) = r_f + S\sigma_C = r_f + \frac{E(r_P) - r_f}{\sigma_P}\sigma_C
 $$
 
 
 ### We borrow to earn $E(r_C) > E(r_P)$ {.allowframebreaks}
 
-- $E(r_C) > E(r_P)$ requires $y > 0$
-- $y > 0$ requires $1-y < 0$
+- $E(r_C) > E(r_P)$ requires $y > 1$
+- $y > 1$ requires $1-y < 0$
 - $1-y < 0$ is a short position in $F$ (i.e., borrowing or using leverage)
 - The CAL is straight if we borrow at $r_f$ (shown above)
 - Only the government borrows at $r_f$
