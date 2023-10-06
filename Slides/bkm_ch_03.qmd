@@ -21,10 +21,10 @@ title: Chapter 3 - How Securities Are Traded
 	- Previously limited to 499 shareholders, but the JOBS Act of 2012 increased this limit to 1999 shareholders
 
 
-### Liquidity is the ability to trade an asset in the desired quantity and time at a fair price
+<!-- ### Liquidity is the ability to trade an asset in the desired quantity and time at a fair price
 
 - Liquid stocks can be traded in large volumes on short notice without substantially changing their prices
-- Illiquid stocks may be difficult to buy or sell without causing price volatility
+- Illiquid stocks may be difficult to buy or sell without causing price volatility -->
 
 
 ### Publicly-traded companies: Shares continually trade in public markets
@@ -37,11 +37,11 @@ title: Chapter 3 - How Securities Are Traded
 	- Firm-commitment underwriting: Investment bankers purchase all securities at a discount, compensating the underwriters and eliminating risk for the firm
 
 
-### "Shelf registrations" let public firms issue securities on short notice with little additional paperwork
+<!-- ### "Shelf registrations" let public firms issue securities on short notice with little additional paperwork
 
 - SEC Rule 415 for seasoned offerings lets already publicly traded firms register securities and gradually sell them to the public over the next three years
 - These securities are "on the shelf" and ready for issue
-- Shelf registrations let public firms sell securities in small amounts on short notice with little additional paperwork and low flotation costs
+- Shelf registrations let public firms sell securities in small amounts on short notice with little additional paperwork and low flotation costs -->
 
 
 ### IPOs are a lengthy process for underwriters, who typically bear the risk
@@ -172,11 +172,11 @@ title: Chapter 3 - How Securities Are Traded
 - Bond trading still occurs primarily in the OTC market among bond dealers
 
 
-## Globalization of Stock Markets
+<!-- ## Globalization of Stock Markets
 
 ### U.S. stock markets have about half of the worldwide stock market capitalization, but many markets have international allegiances
 
-![The biggest stock markets in the world by domestic market capitalization [@bodie_investments_2023, Figure 3.7]](./Figures/bod12665_0307.png){height=50%}
+![The biggest stock markets in the world by domestic market capitalization [@bodie_investments_2023, Figure 3.7]](./Figures/bod12665_0307.png){height=50%} -->
 
 
 ## Trading Costs
@@ -276,13 +276,13 @@ $$
 	- Chartered Financial Analyst (CFA) Institute
 
 
-### Regulations prohibit trading on inside information
+<!-- ### Regulations prohibit trading on inside information
 
 - Officers, directors, and major stockholders must report all inside transactions
 - Still, we have evidence that insiders exploit their knowledge
 	- Well-publicized convictions of inside traders
 	- Considerable evidence of leakage
-	- Insider trades earn abnormal returns
+	- Insider trades earn abnormal returns -->
 
 
 ## Summary

@@ -90,9 +90,9 @@ $$
 ![](./Questions/bkm_ch_05_03.png){height=50%}
 
 
-### The Fisher equation predicts that the nominal interest rate should track the (expected) inflation rate, leaving the real rate relatively stable
+<!-- ### The Fisher equation predicts that the nominal interest rate should track the (expected) inflation rate, leaving the real rate relatively stable
 
-![Statistics for T-bill rates, inflation rates, and real rates, 1927-2021 [@bodie_investments_2023, Table 5.3]](Figures/table_0503.png){height=50%}
+![Statistics for T-bill rates, inflation rates, and real rates, 1927-2021 [@bodie_investments_2023, Table 5.3]](Figures/table_0503.png){height=50%} -->
 
 
 ## Risk and Risk Premiums
@@ -105,19 +105,19 @@ $$
 $$
 
 
-### The future is uncertain {.allowframebreaks}
+### The future is uncertain
 
-- We perform *scenario analysis* to consider the HPRs of various economic scenarios and the probabilities of each scenario
-- We measure expected or mean rates of return $E(r)$ as the *probability-weighted average of the rates returns in each scenario*:
+- *Scenario analysis* considers the returns and probabilities of various economic scenarios
+- Expected or mean returns $E(r)$ are the *probability-weighted average of the returns in each scenario*:
 $$
 E(r) = \sum_s p(s)r(s)
 $$
-where $p(s)$ and $r(s)$ are the probability and HPR of each scenario $s$
-- We can measure uncertainty as the variance of returns, which is the average *squared* deviation of actual returns from the mean return:
+where $p(s)$ and $r(s)$ are the probability and return of each scenario $s$
+- The variance of returns, a measure of uncertainty, is the average *squared* deviation of each scenario return from the expected return:
 $$
 \text{Var}(r) = \sigma^2 = \sum_s p(s) \left[r(s) - E(r)\right]^2
 $$
-- In practice, we use the square root of the variance of returns (i.e., $\sigma = \sqrt{\sigma^2}$), which is the standard deviation of returns and has the same units as returns (i.e., % instead of %\textsuperscript{2})
+- In practice, we use the standard deviation of returns $\sigma$, which is the square root of the variance of returns (i.e., $\sigma = \sqrt{\sigma^2}$)
 
 
 ### We compare risky investment returns to the risk-free rate

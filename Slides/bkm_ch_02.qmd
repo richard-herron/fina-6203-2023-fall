@@ -17,10 +17,10 @@ title: Chapter 2 - Asset Classes and Financial Instruments
 - London Interbank Offered Rate (LIBOR), which the Secured Overnight Financing Rate (SOFR) will replace in the U.S.
 
 
-### Money market securities are low-risk but not risk-free, so they have higher yields than T-bills
+<!-- ### Money market securities are low-risk but not risk-free, so they have higher yields than T-bills
 
 ![Spread between federal funds rate and T-bill rate [@bodie_investments_2023, Figure 2.2]](./Figures/bod12665_0202.png){height=50%}
-
+ -->
 
 ###
 
