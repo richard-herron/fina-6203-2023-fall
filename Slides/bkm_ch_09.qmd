@@ -36,9 +36,9 @@ title: Chapter 9 - The Capital Asset Pricing Model
   - Passive investment is efficient
 
 
-### CAL and CML
+<!-- ### CAL and CML
 
-![Capital allocation line and capital market line [@bodie_investments_2023, Figure 9.1]](./Figures/bod12665_0901.png){height=50%}
+![Capital allocation line and capital market line [@bodie_investments_2023, Figure 9.1]](./Figures/bod12665_0901.png){height=50%} -->
 
 
 ### The CAPM predicts the risk premium of the market portfolio {.allowframebreaks}
@@ -59,26 +59,26 @@ where $\overline{A}$ is the representative investor’s risk aversion
 ### The CAPM predicts the expected return on an asset depends on its contribution to portfolio risk {.allowframebreaks}
 
 - All investors use the same input list, so they all hold the same optimal risky portfolio, and the market portfolio is the optimal risky portfolio
-- Consider GE stock, whose contribution to the risk of the market portfolio is
+- Consider GE stock, whose contribution to the risk of the market portfolio from the border-multiplied covariance matrix is:
 $$
-\scriptscriptstyle
+\scriptstyle
 w_{GE} [w_1 \text{Cov}(R_1, R_{GE}) + w_2 \text{Cov}(R_2, R_{GE}) + \cdots + w_{GE} \text{Cov}(R_{GE}, R_{GE}) + \cdots + w_n \text{Cov}(R_n, R_{GE})]
 $$
-- The term in the square brackets simplifies to
+- The term in the square brackets simplifies to:
 $$
-\scriptscriptstyle
+\scriptstyle
 \sum_{i=1}^n w_i \text{Cov}(R_i, R_{GE}) = \sum_{i=1}^n \text{Cov}(w_i R_i, R_{GE}) = \text{Cov}\left( \sum_{i=1}^n w_i R_i, R_{GE} \right) = \text{Cov}(R_M, R_{GE})
 $$
 because covariances are additive and $\sum_{i=1}^n w_i R_i = R_M$
-- So, GE's contribution to the risk of the portfolio is:
+- GE's contribution to the risk of the portfolio is:
 $$
 w_{GE} \text{Cov}(R_M, R_{GE})
 $$
-- So, GE's reward-to-risk ratio is: 
+- GE's reward-to-risk ratio is: 
 $$
 \frac{w_{GE} E(R_{GE})}{w_{GE} \text{Cov}(R_{GE}, R_M)} = \frac{E(R_{GE})}{\text{Cov}(R_{GE}, R_M)}
 $$
-- All assets must have the same reward-to-risk ratio, so:
+- All assets must have the same reward-to-risk ratio:
 $$
 \frac{E(R_{GE})}{\text{Cov}(R_{GE}, R_M)} = \frac{E(R_{M})}{\text{Cov}(R_{M}, R_M)}
 $$
@@ -90,21 +90,20 @@ which we typically write as:
 $$
 E(r_{GE}) = r_f + \beta_{GE} [E(r_M) - r_f]
 $$
-where $\beta_{GE} = \frac{\text{Cov}(R_{GE}, R_M)}{\sigma_M^2}$ and $E(R) = E(r) - r_f$
-- So, the risk premium on an asset (here $E(r_{GE}) - r_f$) depends on:
+because $E(R) = E(r) - r_f$ and $\beta_{GE} = \frac{\text{Cov}(R_{GE}, R_M)}{\sigma_M^2}$
+- So, asset risk premiums depend on:
   - $r_f$
   - $\beta$
   - $E(r_M) - r_f$
-- So, asset risk premiums do not depend on volatility!
-  - Note that investors do not see risk premiums
-  - Instead, investors infer risk premiums from market prices and expected cash flows
+- *So, asset risk premiums do not depend on volatility!*
+- Note that investors do not see risk premiums and must infer them from market prices and expected cash flows
 
 
 ### The CAPM works for portfolios, too
 
 - Portfolio beta $\beta_P$ is the weighted sum of asset betas $\beta_i$:
 $$
-\beta_P = \sigma_{i=1}^n w_i \beta_i
+\beta_P = \sum_{i=1}^n w_i \beta_i
 $$
 - The market beta ($\beta_M$) is one by definition because:
 $$
@@ -193,6 +192,7 @@ $$
 
 ### Multiperiod model and hedge portfolios
 
+<!-- TODO: Improve discussion of the ICAPM -->
 - Investors should be more concerned with the stream of consumption that wealth can buy than with the mean and variance of wealth this period (assumption 1a)
 - This assumption rules out concerns about the correlation of asset returns with inflation or prices of important goods and services
 - It also rules out demand for assets that could hedge these "extra-market risks" that would increase prices and decrease risk premiums
@@ -203,6 +203,7 @@ $$
 
 ### Consumption-based CAPM (CCAPM)
 
+<!-- TODO: Improve discussion of the CCAPM -->
 - The CCAPM centers the CAPM on consumption so that the utility of an additional dollar of consumption today must equal the utility of the expected future consumption financed by investing that marginal dollar today
 - Investors value additional income more in states of the world where consumption is low
 - Therefore, equilibrium risk premiums will be greater for assets that exhibit higher covariance with consumption growth
@@ -282,4 +283,4 @@ $$
 
 \framebreak
 
-![Chapter 9 key equations from @bodie_investments_2023](./Figures/key_eq_09.png){height=75%}
+![Chapter 9 key equations from @bodie_investments_2023](./Figures/key_eq_09.png){height=70%}

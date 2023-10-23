@@ -19,11 +19,11 @@ title: Chapter 7 - Efficient Diversification
 ![Portfolio risk as a function of the number of stocks in the portfolio. *Panel A:* All risk is firm-specific. *Panel B:* Some risk is systematic, or marketwide [@bodie_investments_2023, Figure 7.1]](./Figures/bod12665_0701.png){height=50%}
 
 
-### The *insurance principle* reduces risk by spreading exposure across many independent risk sources
+<!-- ### The *insurance principle* reduces risk by spreading exposure across many independent risk sources
 
 @bodie_investments_2023 [page 202]:
 
-> An insurance company depends on such diversification when it writes many policies insuring against many uncorrelated sources of risk, each policy being a small part of the company's overall portfolio.
+> An insurance company depends on such diversification when it writes many policies insuring against many uncorrelated sources of risk, each policy being a small part of the company's overall portfolio. -->
 
 
 ###
@@ -62,7 +62,7 @@ $$
 
 ### We can rewrite $\sigma_P^2$ as a *border-multiplied* covariance matrix {.allowframebreaks}
 
-$\text{Cov}(r_D, r_D)= \sigma_D^2$, so we can rewrite
+$\text{Cov}(r_D, r_D)= \sigma_D^2$, so we can rewrite:
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
@@ -79,7 +79,7 @@ which is a *border-multiplied* covariance matrix
 
 ### We can rewrite $\sigma_P^2$ in terms of correlations
 
-$\rho_{D,E} = \frac{\text{Cov}(r_D, r_E)}{\sigma_D \sigma_E}$, so we can rewrite:
+$\rho_{D,E} = \frac{\text{Cov}(r_D, r_E)}{\sigma_D \sigma_E} \implies \text{Cov}(r_D, r_E) = \rho_{D,E} \sigma_D \sigma_E$, so we can rewrite:
 $$
 \sigma_P^2 = w_D^2 \sigma_D^2 + w_E^2 \sigma_E^2 + 2 w_D w_E \text{Cov}(r_D, r_E)
 $$
@@ -89,20 +89,12 @@ $$
 $$
 
 
-### Correlations fall between -1 and +1 (inclusive), making them easier to interpret than covariances
+### Correlations fall between -1 and +1, making them easier to interpret than covariances
 
-- When $\rho_{D,E} = 1$
-$$
-\sigma_P^2 = (w_D \sigma_D + w_E \sigma_E)^2
-$$
-so $\sigma_P = | w_D \sigma_D + w_E \sigma_E |$
-- When $\rho < 1$, we reduce risk through *diversification*
-- When $\rho < 0$, we *substantially* reduce risk through *hedging*
-- When $\rho = -1$
-$$
-\sigma_P^2 = (w_D \sigma_D - w_E \sigma_E)^2
-$$
-so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
+- When $\rho_{D,E} = 1$: $$\sigma_P^2 = (w_D \sigma_D + w_E \sigma_E)^2$$ so $\sigma_P = | w_D \sigma_D + w_E \sigma_E |$
+- When $\rho < 1$: We reduce risk through *diversification*
+- When $\rho < 0$: We *substantially* reduce risk through *hedging*
+- When $\rho = -1$: $$\sigma_P^2 = (w_D \sigma_D - w_E \sigma_E)^2$$ so $\sigma_P = 0$ when $w_D \sigma_d - w_E \sigma_E = 0$
 
 
 ### Portfolio expected return is the weighted average of asset expected returns, but the same is *not* true of portfolio standard deviation {.allowframebreaks}
@@ -174,7 +166,7 @@ w_D + w_E = 1
 $$
 - The solution to this maximization problem is:
 $$
-\scriptstyle
+% \scriptstyle
 w_D = \frac{E(R_D)\sigma_E^2 - E(R_E)\text{Cov}(R_D,R_E)}{E(R_D)\sigma_E^2 + E(R_E)\sigma_D^2 - [E(R_D) + E(R_E)]\text{Cov}(R_D,R_E)}
 $$
 where $R$s indicate *excess* returns and $w_E=1-w_D$
@@ -235,7 +227,7 @@ where $R$s indicate *excess* returns and $w_E=1-w_D$
 - Therefore, portfolios of one risky asset are inefficient because diversification lets us build portfolios with lower standard deviations
 - The bottom portion of the minimum-variance frontier is inefficient because the portfolios directly above it have the same standard deviations but higher expected returns
 - The *efficient frontier* of risky assets is the portion of the minimum-variance frontier above the *global minimum-variance portfolio*
-- We calculate the portfolio expected return as:
+- We calculate portfolio expected return as:
 $$
 E(r_P) = \sum_{i=1}^n w_i E(r_i)
 $$
@@ -243,7 +235,7 @@ and portfolio variance as:
 $$
 \sigma_p^2 = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \text{Cov}(r_i, r_j)
 $$
-- Therefore, to find the minimum-variance frontier of $n$ risky assets, we need 
+- Therefore, to find the minimum-variance frontier of $n$ risky assets, we need:
   - $n$ forecasts of $E(r_i)$
   - $n$ forecasts of $\text{Var}(r_i)$
   - $\frac{n^2 - n}{2}$ forecasts of $\text{Cov}(r_i, r_j)$
@@ -278,14 +270,14 @@ where $y^*$ is the optimal weight on the optimal risky portfolio and $A$ is the 
 $$
 \sigma_p^2 = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \text{Cov}(r_i, r_j)
 $$
-- For an equally-weighted portfolio, portfolio variance is:
+- For an equally-weighted portfolio, $w_i = \frac{1}{n}$ for all $i$, and portfolio variance is:
 $$
 \sigma_p^2 = \sum_{i=1}^n \frac{1}{n^2} \sigma_i^2 + \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \frac{1}{n^2} \text{Cov}(r_i, r_j)
 $$
 - We can simplify the variance term as:
 $$\overline{\sigma}^2 = \frac{1}{n} \sum_{i=1}^n \sigma_i^2$$
-and the covariance term as
-$$\overline{\text{Cov}} = \frac{1}{n(n-1)} \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \text{Cov}(r_i, r_j)$$
+and the covariance term as:
+$$\overline{\text{Cov}} = \frac{1}{n^2 - n} \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \text{Cov}(r_i, r_j)$$
 - So, for an equally-weighted portfolio, portfolio variance is:
 $$
 \sigma_p^2 = \frac{1}{n} \overline{\sigma}^2 + \frac{n-1}{n} \overline{\text{Cov}}
