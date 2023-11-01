@@ -67,7 +67,7 @@ $$
 where
 $E(R_P) = \sum_{i=1}^n w_i E(R_i)$,
 $\beta_P = \sum_{i=1}^n w_i \beta_i$,
-$e_P = \sum_{i=1}^n e_i$,
+$e_P = \sum_{i=1}^n w_i e_i$,
 and 
 $\sum_{i=1}^n w_i = 1$
 - $F$ and $e_P$ are two uncorrelated random variables, so portfolio variance $\sigma_P^2$ is:
@@ -76,7 +76,7 @@ $$
 $$
 - If this portfolio were equally weighted, we could rewrite $\sigma^2(e_P)$ as:
 $$
-\scriptstyle
+% \scriptstyle
 \sigma^2(e_P) = \sum_{i=1}^n w_i^2 \sigma^2(e_i) = \sum_{i=1}^n \left(\frac{1}{n}\right)^2 \sigma^2(e_i) = \frac{1}{n} \sum_{i=1}^n \frac{\sigma^2(e_i)}{n} = \frac{1}{n} \overline{\sigma}^2(e_i)
 $$
 so the non-systematic variance of the portfolio equals the average non-systematic variance of the stocks divided by $n$
@@ -100,6 +100,17 @@ $$
 
 ![An arbitrage opportunity [@bodie_investments_2023, Figure 10.4]](./Figures/bod12665_1004.png){height=50%}
 
+### If a market index portfolio is well-diversified, its returns will perfectly reflect the macro factor $F$
+
+- So, for a well-diversified portfolio $P$:
+$$
+R_P = \alpha_P + \beta_P R_M
+$$
+and:
+$$
+E(R_P) = \beta_P E(R_M)
+$$
+- This relation holds for *almost all* securities, too
 
 ###
 
