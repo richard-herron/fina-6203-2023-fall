@@ -35,7 +35,7 @@ title: Chapter 11 - The Efficient Market Hypothesis
 
 ### Intraday price changes provide more evidence of market efficiency
 
-![Stock price reaction to CNBC reports. The figure shows the reach of stock prices to on-air stock reports during the "Midday Call" segment on CNBC. The chart plots cumulative returns beginning 15 minutes before the stock report [@bodie_investments_2023, Figure 11.2]](./Figures/bod12665_1102.png){height=50%}
+![Stock price reaction to CNBC reports. The figure shows the reaction of stock prices to on-air stock reports during the "Midday Call" segment on CNBC. The chart plots cumulative returns beginning 15 minutes before the stock report [@bodie_investments_2023, Figure 11.2]](./Figures/bod12665_1102.png){height=50%}
 
 
 ### Competition is the source of market efficiency
@@ -260,7 +260,7 @@ $$
     - Anomalies are more persistent for stocks that are difficult to arbitrage (i.e., small, illiquid, and risky stocks)
 
 
-### Are tulip mania, the South Sea Bubble, and the dot-com boom and bust show that prices are arbitrary?
+### Do tulip mania, the South Sea Bubble, and the dot-com boom and bust show that prices are arbitrary?
 
 - Probably not, and obvious trading opportunities are not abundant
 - Most bubbles are obvious only in retrospect, and price run-ups typically have reasonable explanations

@@ -40,7 +40,7 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 	- Tendency to interpret new information so it confirms your prior beliefs and disregard information that challenges prior beliefs
 	- May explain momentum and long-term reversal
 - Extrapolation and pattern recognition
-	- People are good at finding patterns, including patterns that are not these
+	- People are good at finding patterns, including patterns that are not there
 	- Representativeness bias:  Act as if a small sample is just as informative as a large sample
 	- May explain momentum
 
@@ -222,8 +222,7 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 - Trin statistic 
 	- Measures the strength of market rise or fall
   $$
-  \scriptstyle
-  \text{Trin} = \frac{\text{Volume declining/Number declining}}{\text{Voume advancing/Number advancing}} = \frac{\text{Average volume declining}}{\text{Average volume advancing}}
+  \text{Trin} = \frac{\text{Volume declining/Number declining}}{\text{Volume advancing/Number advancing}} = \frac{\text{Average volume declining}}{\text{Average volume advancing}}
   $$
 	- Trin ratios greater than 1 are bearish, whereas ratios less than 1 are bullish
 	- However, rising volume in a rising market deos not necessarily indicate a buyer-seller imbalance because, for every buyer, there is a seller
@@ -262,11 +261,6 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 ###
 
 ![](./Questions/bkm_ch_12_14.png){height=50%}
-
-
-###
-
-![](./Questions/bkm_ch_12_15.png){height=50%}
 
 
 ###
