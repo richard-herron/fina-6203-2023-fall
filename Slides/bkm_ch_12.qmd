@@ -138,8 +138,8 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 	- Set off the worst financial crisis in 75 years
 	- Again, can be explained by overconfidence and representativeness biases
 - *However,* there are often rational explanations for stock market bubbles using the dividend discount model
-	- S&P 500 is worth $12,883 million if the dividend growth rate is 8% (close to the actual value in 2000)
-	- S&P 500 is worth $8,589 million if the dividend growth rate is 7.4% (close to the actual value in 2002)
+	- S&P 500 is worth $12,883 billion if the dividend growth rate is 8% (close to the actual value in 2000)
+	- S&P 500 is worth $8,589 billion if the dividend growth rate is 7.4% (close to the actual value in 2002)
 
 
 ### Behavioral finance explanations of efficient market anomalies do not always guide how to exploit them!
@@ -183,7 +183,7 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 	- A moving average is an average price over a given time interval, where the interval updates as time passes
 	- Crossing the moving average from below is a *bullish signal*, signifying a shift from a falling trend to a rising trend
 	- In contrast, crossing the moving average from above is a *bearish signal* 
-- Other populr tools are *Elliot wave theory* and *Kondratieff waves*, which decompose price movements into long-term and short-term trends
+- Other popular tools are *Elliot Wave Theory* and *Kondratieff waves*, which decompose price movements into long-term and short-term trends
 
 \framebreak
 
@@ -214,7 +214,7 @@ title: Chapter 12 - Behavioral Finance and Technical Analysis
 	- Unlikely because they admit that only slightly more than 50% of their trades are profitable
 	- RenTech is very good at finding coins with a slight edge and then repeatedly flipping these coins
 	- With fast trades and low trading costs, a slight edge grows exponentially!
-	- Medallion no longer has outside investors, suggesting that these coins with a slight edge are in limited supply
+	- Medallion no longer has outside investors, suggesting that RenTech has a limited supply of these coins
 
 
 ### *Sentiment* is the general level of optimism {.allowframebreaks}

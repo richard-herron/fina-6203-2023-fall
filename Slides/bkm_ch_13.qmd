@@ -260,11 +260,6 @@ $$
 - Require higher risk premiums than rational models would predict
 
 
-###
-
-![](./Questions/bkm_ch_13_01.png)
-
-
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 13 summary from @bodie_investments_2023](./Figures/summary_13.png){height=75%}

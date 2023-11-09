@@ -8,15 +8,15 @@ title: Chapter 11 - The Efficient Market Hypothesis
 
 - Prices were as likely to go up as to go down on any particular day, regardless of past performance
 - But, Eugene Fama's Ph.D. dissertation highlighted that stock prices should reflect any information that could predict stock prices
-	- For example, as soon as any information indicates that a stock is underpriced, investors flock to buy the stock and immediately bid up its price to a fair level
+	- For example, as soon as any information indicates that a stock is underpriced, investors flock to buy the stock and quickly bid up its price to a fair level
 	- From this fair level, we only expect ordinary rates of return that compensate for the risk of the stock
 
 
 ### Stock prices should follow a *random walk*
 
-- If stock prices are immediately bid to fair levels that reflect available information, stock prices must only respond to *new* information
+- If stock prices are quickly bid to fair levels that reflect available information, stock prices must only respond to *new* information
 - By definition, new information is unpredictable
-- Therefore, stock prices that change in response to new information must also move unpredictability and follow a *random walk*^[Strictly speaking, stock prices follow a submartingale, and the expected price change can be positive to compensate for the time value of money and systematic risk. A random walk is more restrictive—successive stock returns are independent and identically distributed.]
+- Therefore, stock prices that change in response to new information must also move unpredictably and follow a *random walk*^[Strictly speaking, stock prices follow a submartingale, and the expected price change can be positive to compensate for the time value of money and systematic risk. A random walk is more restrictive—successive stock returns are independent and identically distributed.]
 
 
 ### The efficient markets hypothesis (EMH) is the notion that stock prices reflect available information
@@ -50,9 +50,9 @@ title: Chapter 11 - The Efficient Market Hypothesis
 
 ### We typically distinguish three versions of the EMH
 
-- Weak-form: Stock prices reflect all information contained in the history of past prices, implying that technical analysis is not useful
-- Semistrong-form: Stock prices reflect all publicly available information, implying that fundamental analysis is not useful
-- Strong-form: Stock prices reflect all relevant information, including insider information, implying that insider trading is not profitable
+- Weak-form EMH: Stock prices reflect all information contained in the history of past prices, implying that technical analysis is not useful
+- Semistrong-form EMH: Stock prices reflect all publicly available information, implying that fundamental analysis is not useful
+- Strong-form EMH: Stock prices reflect all relevant information, including insider information, implying that insider trading is not profitable
 - Under the EMH, prices are correct on average but can be too high or too low in *hindsight*
 
 
@@ -132,14 +132,14 @@ title: Chapter 11 - The Efficient Market Hypothesis
 $$
 r_t = a + br_{Mt} + e_t 
 $$
-so the abnormal returns is:
+so the abnormal return is:
 $$
 e_t = r_t - (a + b r_{Mt})
 $$
 - We should estimate $a$ and $b$ using data not influenced by the event (i.e., before the event)
 - Often, there is "leakage" where some investors are aware of the event in advance and profit from it (see Figure 11.1 above)
 - To avoid these concerns, some researchers use a size-matched benchmark portfolios instead of estimating $a$ and $b$
-- A cumulative abnormal return (CAR) sums abnormal returns $e_t$ over a period to capture the total firm-specific price change
+- A cumulative abnormal return sums abnormal returns $e_t$ over a period to capture the total firm-specific price change (i.e., $CAR = \sum_t e_t$)
 
 
 ### Revisit Figure 11.1 with our understanding of event studies
