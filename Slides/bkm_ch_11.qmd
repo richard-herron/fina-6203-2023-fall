@@ -322,6 +322,15 @@ $$
 ![](./Questions/bkm_ch_11_13.png){height=50%}
 
 
+###
+
+![](./Questions/bkm_ch_11_11.png){height=50%}
+
+###
+
+![](./Questions/bkm_ch_11_14.png){height=50%}
+
+
 ## Summary and Key Equations {.allowframebreaks}
 
 ![Chapter 11 summary from @bodie_investments_2023](./Figures/summary_11.png){height=75%}
