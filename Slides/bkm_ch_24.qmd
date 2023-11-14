@@ -38,7 +38,7 @@ Dividends of $2 per share are paid annually at the end of each year (but before 
 $$
 \begin{aligned}
 r_1 &= \frac{53+2-50}{50}=0.1 \\
-r_2 &= \frac{54+2-53}=0.0566 \\
+r_2 &= \frac{54+2-53}{53}=0.0566 \\
 r_G &= (1.10 \times 1.0566)^{1/2}-1 \implies r_G=0.0781
 \end{aligned}
 $$
@@ -98,7 +98,7 @@ $$
 ### The information ratio measures the trade-off between alpha and diversifiable risk
 
 - So, the information ratio is useful for adding an active portfolio to a passive portfolio
-- For example, *optimally() combining active fund $H$ with market index $M$ improves the Sharpe ratio as follows:
+- For example, *optimally* combining active fund $H$ with market index $M$ improves the Sharpe ratio as follows:
 $$
 S_P^2 = S_M^2 + \left[ \frac{\alpha_H}{\sigma(e_H)} \right]^2
 $$
@@ -116,7 +116,7 @@ $$
 ### How does alpha relate to each risk-adjusted performance measure?
 
 | | **Sharpe** | **Treynor** | **Information Ratio** |
-| :-- | :--- | :-- | :-- |
+| :-- | :---- | :---- | :-- |
 | Relation to alpha | $\frac{E(r_P)-r_f}{\sigma_P} = \frac{\alpha_p}{\sigma_P} + \rho S_M$ | $\frac{E(r_P)-r_f}{\beta_P} = \frac{\alpha_p}{\beta_P} + T_M$ | $\frac{\alpha_P}{\sigma(e_p)}$ |
 | Improvement compared to the market | $S_P - S_M = \frac{\alpha_p}{\sigma_P} - (1-\rho) S_M$ | $T_P - T_M = \frac{\alpha_p}{\beta_P}$ | $\frac{\alpha_P}{\sigma(e_p)}$ |
 
@@ -144,10 +144,20 @@ $$
 <!-- TODO: Add example calculation of N given sigma -->
 
 
-### Regardless of the performance measure, some funds will outperform their benchmarks in any year, and some will underperform {.allowframebreaks}
+### Regardless of the performance measure, some funds will outperform their benchmarks in any year, and some will underperform
 
 - Past performance does not predict future performance
 - Limiting a sample of funds to those with available returns over an entire sample period introduces *survivorship bias*
+
+
+###
+
+![](./Questions/bkm_ch_24_22.png){height=50%}
+
+
+###
+
+![](./Questions/bkm_ch_24_17.png){height=50%}
 
 
 ###
@@ -240,7 +250,7 @@ $$
 
 \framebreak
 
-- Tryenor and Mazuy estimate this regression:
+- Treynor and Mazuy estimate this regression:
 $$
 r_p - r_f = a + b(r_M -r_f) + c(r_M - r_f)^2 + e_p
 $$
@@ -328,14 +338,6 @@ where $D=1$ if $r_M>r_f$ else $D=0$, so portfolio beta is $b$ in bear markets an
 ![](./Questions/bkm_ch_24_21.png){height=50%}
 
 
-###
-
-![](./Questions/bkm_ch_24_22.png){height=50%}
-
-
-###
-
-![](./Questions/bkm_ch_24_17.png){height=50%}
 
 
 ## Summary and Key Equations {.allowframebreaks}
