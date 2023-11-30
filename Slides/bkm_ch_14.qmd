@@ -14,7 +14,7 @@ title: Chapter 14 - Bond Prices and Yields
 - The bond indenture is the contract between the issuer and the bondholder
 
 
-### Treasury notes and bonds
+### Treasury notes and bonds {.allowframebreaks}
 
 - Maturity
 	- Treasury notes: 1 to 10 years
@@ -22,8 +22,12 @@ title: Chapter 14 - Bond Prices and Yields
 - Investors may purchase notes and bonds directly from the Treasury
 - Denominations are as small as $100, but $1,000 is most common
 
+\framebreak
 
-### Investors do not pay the quoted prices for bonds because of accrued interest {.allowframebreaks}
+![Prices and Yields of U.S. Treasury Bonds, August 15, 2021 [@bodie_investments_2023, Figure 14.1]](./Figures/bod12665_1401.png){height=50%}
+
+
+### Investors do not pay the quoted prices for bonds because of accrued interest
 
 - The quoted prices do not include the interest accrued between coupon payment dates
 - If a bond trades between coupon payment dates, the buyer must pay the seller for interest accrued since the last coupon payment:
@@ -31,15 +35,17 @@ $$
 \text{Accrued interest} = \frac{\text{Ann. coupon}}{2} \times \frac{\text{Days since last coupon}}{\text{Days separating coupons}}
 $$
 
-![Prices and Yields of U.S. Treasury Bonds, August 15, 2021 [@bodie_investments_2023, Figure 14.1]](./Figures/bod12665_1401.png){height=50%}
 
 
 ### Corporations also borrow money by issuing bonds {.allowframebreaks}
 
-<!-- ![Listing of Corporate Bonds [@bodie_investments_2023, Figure 14.2]](./Figures/bod12665_1402.png){height=50%} -->
 
 - There are many combinations of issuer, maturity, coupon rate, seniority, etc., often leading to thin markets
 - Therefore, most corporate bonds trade over the counter instead of on exchanges
+
+\framebreak
+
+![Listing of Corporate Bonds [@bodie_investments_2023, Figure 14.2]](./Figures/bod12665_1402.png){height=50%}
 
 
 ### Some corporate bonds have additional features {.allowframebreaks}
