@@ -61,7 +61,7 @@ $$
 $$
 so:
 $$
-1+r_n = \frac{(1+y_n)^2}{(1+y_{n-1})^{n-1}}
+1+r_n = \frac{(1+y_n)^n}{(1+y_{n-1})^{n-1}}
 $$
 
 
@@ -69,10 +69,10 @@ $$
 
 - The forward interest rate $f_n$ is a forecast of a future short rate $r_n$, so:
 $$
-1+f_n = \frac{(1+y_n)^2}{(1+y_{n-1})^{n-1}}
+1+f_n = \frac{(1+y_n)^n}{(1+y_{n-1})^{n-1}}
 $$
 - The forward rate is the break-even interest rate that equates the return on an $n$-period zero-coupon bond to that of an $(n-1)$-period zero-coupon bond rolling over into a 1-year bond in year $n$
-- *When we get to year $n$, we may find $r_n \neq f_n$*
+- *When we get to year $n-1$, we may find $r_n \neq f_n$*
 
 
 ###
@@ -101,7 +101,7 @@ $$
 - The forward rate equals the market consensus expectation of future short interest rate, so $f_2 = E(r_2)$ and liquidity premiums are zero
 - Therefore, the yields on long-term bonds depend only on expectations of future short rates, so:
 $$
-(1+y_2)^2 = (1+r_1) \times [1+E(r_n)]
+(1+y_2)^2 = (1+r_1) \times [1+E(r_2)]
 $$
 and an upward-sloping yield curve indicates that investors expect interest rates to increase
 
